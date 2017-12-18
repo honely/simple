@@ -1,0 +1,36 @@
+body {
+	background: #ebebeb;
+}
+
+.cont {
+	background: #FFFFFF;
+	width: 26.16rem;
+	display: block;
+	margin: 0 auto;
+	margin-top: 1rem;
+	padding: 0.7rem;
+	border-radius:0.5rem ;
+}
+
+.cont p {
+	color: #363636;
+	font-size: 1rem;
+	line-height: 2.48rem;
+}
+
+.cont p span {
+	display: inline-flex;
+    width: 20rem;
+}
+
+.imgwu{
+	width: 7.85rem;
+	display: block;
+	margin: 2.7rem auto 1.2rem;
+}
+
+.pp{
+	color: #c9c9c9;
+	font-size: 1rem;
+	text-align: center;
+}

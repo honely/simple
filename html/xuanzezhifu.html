@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta http-equiv="Cache-Control" content="no-transform" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<title>选择支付</title>
+		<link rel="stylesheet" type="text/css" href="css/html5.css"/>
+		<link rel="stylesheet" type="text/css" href="css/mian.css"/>
+		<script src="js/jquery-1.10.2.min.js" type="text/javascript" charset="utf-8"></script>
+		<script>
+			(function(doc, win) {
+				var docEl = doc.documentElement,
+					resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+					recalc = function() {
+						var clientWidth = docEl.clientWidth;
+						if(!clientWidth) return;
+						docEl.style.fontSize = 25 * (clientWidth / 720) + 'px';
+					};
+				if(!doc.addEventListener) return;
+				win.addEventListener(resizeEvt, recalc, false);
+				doc.addEventListener('DOMContentLoaded', recalc, false);
+			})(document, window);
+		</script>
+	</head>
+	<body>
+		<style type="text/css">
+			body{background: #fff;}
+		</style>
+		<div class="zf_head">
+			<h4>简异思维</h4>
+			<h5>¥2563.00</h5>
+			<p class="c">
+				<i>购买内容：</i>
+				<span>【人才留不住，领袖之道，统帅人心文化力】视频专题(共10集)</span>
+			</p>
+		</div>
+		<div class="zf_ct">
+			<form action="" method="post">
+				<div class="form_radio">
+					<i></i>
+					<p>奖学金支付</p>
+					<em>（现有金额：¥200）</em>
+					<strong><input type="radio" name="pay"/></strong>
+				</div>
+				<div class="form_radio">
+					<i></i>
+					<p>微信支付</p>
+					<strong><input type="radio" name="pay"/></strong>
+				</div>
+				<div class="form_but">
+					<input class="but" type="submit" value="确定支付"/>
+				</div>
+			</form>
+		</div>
+	</body>
+</html>

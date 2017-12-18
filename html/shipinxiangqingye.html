@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta http-equiv="Cache-Control" content="no-transform" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<title>视频详情页</title>
+		<link rel="stylesheet" type="text/css" href="font/iconfont.css">
+		<link rel="stylesheet" type="text/css" href="css/html5.css"/>
+		<script src="js/jquery-1.10.2.min.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" href="//g.alicdn.com/de/prismplayer/1.9.9/skins/default/index.css" />
+		<script type="text/javascript" src="//g.alicdn.com/de/prismplayer/1.9.9/prism-min.js"></script>
+		<script>
+			(function(doc, win) {
+				var docEl = doc.documentElement,
+					resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+					recalc = function() {
+						var clientWidth = docEl.clientWidth;
+						if(!clientWidth) return;
+						docEl.style.fontSize = 25 * (clientWidth / 720) + 'px';
+					};
+				if(!doc.addEventListener) return;
+				win.addEventListener(resizeEvt, recalc, false);
+				doc.addEventListener('DOMContentLoaded', recalc, false);
+			})(document, window);
+		</script>
+	</head>
+	<body>
+		<style type="text/css">
+			body{background: #fff;}
+		</style>
+		<div class="vide_box">
+			<div  class="prism-player" id="J_prismPlayer" style="position: absolute;left:0%; top: 0;"></div>
+			<div class="music_link">
+				<a href="#">
+					<i class="iconfont icon-1"></i>
+					<em>音频</em>
+				</a>
+			</div>
+		</div>
+		<div class="vide_text xqy c">
+			<div class="left">
+				<p>如何经营环境，让团队自主自发,才能更成功</p>
+			</div>
+			<div class="right c" >
+				<span>
+					<i class="iconfont icon-shijian"></i>
+					<em>15分30秒</em>
+				</span>
+				<span>
+					<i class="iconfont icon-yueduliang"></i>
+					<em>256</em>
+				</span>
+				<strong onclick="shoucang(this);">
+					<i class="iconfont icon-xing1"></i>
+				</strong>
+			</div>
+		</div>
+		<div class="tuiguang">
+			<table border="0">
+				<tr>
+					<td>
+						<p class="text">简异思维   全年至少100节视频大课等着你</p>
+					</td>
+					<td>
+						<span class="but">订阅专题</span>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="xuanjibofang">
+			<h4>选集播放</h4>
+			<div class="lb">
+				<ul>
+					<li class="url first link" onclick="loadurl(this);" data="//common.qupai.me/player/qupai.mp4">
+						<p>第一集：人才留不住，领袖之道，统帅人心的领导力</p>
+						<span>
+							<i class="iconfont icon-shijian"></i>
+							<em>15分30秒</em>
+						</span>
+					</li>
+					<li class="url" onclick="loadurl(this);" data="http://1251132611.vod2.myqcloud.com/4126dd3evodtransgzp1251132611/8a592f8b9031868222950257296/f0.f40.mp4">
+						<p>第二集：人才留不住，领袖之道，统帅人心的领导力</p>
+						<span>
+							<i class="iconfont icon-shijian"></i>
+							<em>15分30秒</em>
+						</span>
+					</li>
+					<li class="url" onclick="loadurl(this);" data="http://1251132611.vod2.myqcloud.com/4126dd3evodtransgzp1251132611/8a592f8b9031868222950257296/f0.f40.mp4">
+						<p>第3集：人才留不住，领袖之道，统帅人心的领导力</p>
+						<span>
+							<i class="iconfont icon-shijian"></i>
+							<em>15分30秒</em>
+						</span>
+					</li>
+					<li class="url" onclick="loadurl(this);" data="http://1251132611.vod2.myqcloud.com/4126dd3evodtransgzp1251132611/8a592f8b9031868222950257296/f0.f40.mp4">
+						<p>第4集：人才留不住，领袖之道，统帅人心的领导力</p>
+						<span>
+							<i class="iconfont icon-shijian"></i>
+							<em>15分30秒</em>
+						</span>
+					</li>
+					<li class="url" onclick="loadurl(this);" data="http://1251132611.vod2.myqcloud.com/4126dd3evodtransgzp1251132611/8a592f8b9031868222950257296/f0.f40.mp4">
+						<p>第5集：人才留不住，领袖之道，统帅人心的领导力</p>
+						<span>
+							<i class="iconfont "></i>
+							<em>15分30秒</em>
+						</span>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="ivde_tab">
+			<div class="nav c">
+				<span class="link"><em>简介</em></span>
+				<span><em>互动</em></span>
+			</div>
+			<div class="center">
+				<div class="center_box">
+					<div class="jianji">
+						<h4>
+							<em>介绍</em>
+							<i class="iconfont icon-xiangxiajiantou"></i>
+						</h4>
+						<p>默认显示一行默认显示一行默认显示一行默认显示一行默认显示一行默认显示一行默认显示一行默认显示一行默认显示一行默认显示一行默认显示一行,点击可以展开。内容包括，视频简介，老师介绍，教学大纲，事实举例，适宜人群等等。</p>
+					</div>
+					<div class="twlb_box pd_lr06">
+						<h4 class="cnxh">猜你喜欢</h4>
+						<div class="ct">
+							<dl class="twlb c">
+								<dt>
+									<a href="">
+										<img src="images/twlb_img.jpg"/>
+									</a>
+								</dt>
+								<dd>
+									<div class="top">
+										<a href="#">
+											<h4>
+												人才留不住，领袖之道，统帅人心文化力
+												<span>NEW</span>
+											</h4>
+										</a>
+									</div>
+									<div class="ct">
+										<div class="left">
+											<span>￥299/年</span>
+										</div>
+										<div class="right">
+											<em>立即试看</em>
+										</div>
+									</div>
+									<div class="ct_1">
+										<div class="left">
+											<span>
+												<a href="">
+													<i class="iconfont icon-shipin1"></i>
+													<em>看视频</em>
+												</a>
+												<a href="">
+													<i class="iconfont icon-headset"></i>
+													<em>听音频</em>
+												</a>
+											</span>
+										</div>
+										<div class="right">
+											<span>3656356订阅</span>
+										</div>
+									</div>
+								</dd>
+							</dl>
+							<dl class="twlb c">
+								<dt>
+									<a href="">
+										<img src="images/twlb_img.jpg"/>
+									</a>
+								</dt>
+								<dd>
+									<div class="top">
+										<a href="#">
+											<h4>
+												人才留不住，领袖之道，统帅人心文化力
+												<span>NEW</span>
+											</h4>
+										</a>
+									</div>
+									<div class="ct">
+										<div class="left">
+											<span>￥299/年</span>
+										</div>
+										<div class="right">
+											<em>立即试看</em>
+										</div>
+									</div>
+									<div class="ct_1">
+										<div class="left">
+											<span>
+												<a href="">
+													<i class="iconfont icon-shipin1"></i>
+													<em>看视频</em>
+												</a>
+												<a href="">
+													<i class="iconfont icon-headset"></i>
+													<em>听音频</em>
+												</a>
+											</span>
+										</div>
+										<div class="right">
+											<span>3656356订阅</span>
+										</div>
+									</div>
+								</dd>
+							</dl>
+						</div>
+					</div>
+					<div class="button_box pd_lr06" style="background: #fff;">
+						<a class="but mg_b10 mg_t10" href="">入学</a>
+					</div>
+				</div>
+				<div class="center_box">
+					<div class="hudong_box">
+						<h4 class="but" onclick="pinglu();">我来说两句</h4>
+						<dl class="pinglun">
+							<dt><img src="images/touxiang.jpg"/></dt>
+							<dd>
+								<div class="top">
+									<h4>大大横</h4>
+									<span>20分钟前</span>
+								</div>
+								<div class="ct">
+									<p>
+										嘉宾讲的好，提问的好，兑换质量高，嘉宾讲的好，提
+										问的好，兑换质量高，嘉宾讲的好，提问的好，兑换质
+										量高，嘉宾讲的好，提问的好，兑换质量高，嘉宾讲的
+										好，提问的好，兑换质量高，嘉宾讲的好，提问的好，
+										兑换质量高，
+									</p>
+								</div>
+								<div class="bottom">
+									<span>
+										<i class="iconfont icon-zan"></i>
+										<em>2563</em>
+									</span>
+									<span>
+										<i class="iconfont icon-xiaoxi1"></i>
+										<em>256</em>
+									</span>
+								</div>
+								<div class="huifu">
+									<dl class="pinglun">
+										<dt><img src="images/touxiang.jpg"/></dt>
+										<dd>
+											<div class="top">
+												<h4>大大横</h4>
+												<span>20分钟前</span>
+											</div>
+											<div class="ct">
+												<p>
+													嘉宾讲的好，提问的好，兑换质量高，嘉宾讲的好，提
+													问的好，兑换质量高，嘉宾讲的好，提问的好，兑换质
+												</p>
+											</div>
+										</dd>
+									</dl>	
+									<dl class="pinglun">
+										<dt><img src="images/touxiang.jpg"/></dt>
+										<dd>
+											<div class="top">
+												<h4>大大横</h4>
+												<span>20分钟前</span>
+											</div>
+											<div class="ct">
+												<p>
+													嘉宾讲的好，提问的好，兑换质量高，嘉宾讲的好，提
+													问的好，兑换质量高，嘉宾讲的好，提问的好，兑换质
+												</p>
+											</div>
+										</dd>
+									</dl>	
+								</div>
+							</dd>
+						</dl>	
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="textarea_box" style="display:none;">
+			<div class="form_textarea c">
+				<form class="c" action="" method="post">
+					<textarea placeholder="请输入内容"></textarea>
+					<button class="but">发表</button>
+				</form>
+			</div>
+		</div>
+	</body>
+</html>
+<script src="js/layer/layer.js" type="text/javascript"></script>
+<script type="text/javascript">
+		var _length=$(".xuanjibofang .lb ul li").length;//li个数
+		var _width=$(".xuanjibofang .lb ul li").outerWidth()+15;
+		$(".xuanjibofang .lb ul").outerWidth(_width*_length);
+		
+		var thisobj=$(".first");//当前播放li对象
+ 		var videoUrl="//common.qupai.me/player/qupai.mp4";
+	    var player = new prismplayer({
+	    	 id: "J_prismPlayer",
+	         autoplay: false,//播放器是否自动播放
+	         isLive:false,  //播放内容是否为直播
+	         playsinline:true,//H5是否内置播放
+	         width:"100%",
+	         height:"200px",
+	         showBuffer:true,
+	         showBarTime:"2000",
+	         controlBarVisibility:"hover",//控制控制面板的现实
+	         useH5Prism:false, //指定使用H5播放器
+	         useFlashPrism:false, //指定使用Flash播放器
+	         source:videoUrl,//视频播放地址url
+	         cover:"002.jpg",//播放器默认封面图片
+	         skinLayout:[{"name":"bigPlayButton","align":"cc"},
+	                {"name":"controlBar","align":"blabs","x":0,"y":0,"children":[{"name":"progress","align":"tlabs","x":0,"y":0},
+	                {"name":"playButton","align":"tl","x":15,"y":26},
+	                {"name":"fullScreenButton","align":"tr","x":20,"y":25},
+	                {"name":"timeDisplay","align":"tl","x":10,"y":24},
+	                {"name":"setButton","align":"tr","x":20,"y":25}]},
+	                {"name":"fullControlBar","align":"tlabs","x":0,"y":0,"children":[{"name":"fullTitle","align":"tl","x":25,"y":6},
+	                {"name":"fullNormalScreenButton","align":"tr","x":24,"y":13},
+	                {"name":"fullTimeDisplay","align":"tr","x":10,"y":12},
+	                {"name":"fullZoom","align":"cc"}
+	                ]}]
+		});
+		/*player.on("pause", function(){
+	        console.log(player.getCurrentTime());
+	    });*/
+		player.on("ended", function() {
+	        //console.log("xiayige");
+	        var nextobj=$(thisobj).next();
+	        if($(nextobj).length){
+	        	loadurl(nextobj);
+	       }
+	   	}); 
+	   
+	   	function loadurl(obj){
+		   	thisobj=obj;
+		   	//console.log(thisobj);
+		   	var url=$(obj).attr("data");
+		   	player.loadByUrl(url,0);
+		   	player.play();
+		   	var _left=$(obj).index();
+		   	$(obj).addClass('link').siblings().removeClass('link');
+		   	$(".lb").scrollLeft(_left*_width);
+	   	};
+	   	function pinglu(){//评论弹出
+	   		var html=$("#textarea_box").html();
+			layer.open({
+				type: 1,
+				content: html,
+				anim: 'up',
+				style: 'position:fixed; bottom:0; left:0; width: 100%;  padding:0; border:none; background:none;'
+			});
+	   	}
+	   	function shoucang(obj){
+	   		$(obj).addClass('link');
+	   		layer.open({
+			    content: '收藏成功',
+			    skin: 'msg',
+			    time: 2 //2秒后自动关闭
+			});
+	   	}
+
+	   
+	   	$(function(){
+	   		$(".ivde_tab .center .center_box").eq(0).show();
+	   		$(".ivde_tab .nav span").click(function(){
+	   			var _index=$(this).index();
+	   			$(this).addClass('link').siblings().removeClass('link');
+	   			$(".ivde_tab .center .center_box").eq(_index).show().siblings().hide();
+	   		});
+	   		$('.jianji h4').click(function(){
+	   			$('.jianji p').toggleClass('link');
+	   		});
+	   	})
+	   
+</script>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta http-equiv="Cache-Control" content="no-transform" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<title>选择支付</title>
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/home/css/html5.css"/>
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/home/css/mian.css"/>
+		<script src="__PUBLIC__/home/js/jquery-1.10.2.min.js" type="text/javascript" charset="utf-8"></script>
+		<script>
+			(function(doc, win) {
+				var docEl = doc.documentElement,
+					resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+					recalc = function() {
+						var clientWidth = docEl.clientWidth;
+						if(!clientWidth) return;
+						docEl.style.fontSize = 25 * (clientWidth / 720) + 'px';
+					};
+				if(!doc.addEventListener) return;
+				win.addEventListener(resizeEvt, recalc, false);
+				doc.addEventListener('DOMContentLoaded', recalc, false);
+			})(document, window);
+		</script>
+	</head>
+	<body>
+		<style type="text/css">
+			body{background: #fff;}
+		</style>
+		<div class="zf_head">
+			<h4>简异思维</h4>
+			<h5>¥{$lesson_money}</h5>
+			<p class="c">
+				<i>购买内容：</i>
+				<span>{$lessoninfo['lesson_name']}</span>
+			</p>
+		</div>
+		<div class="zf_ct">
+				<div class="form_radio">
+					<i></i>
+					<p>奖学金支付</p>
+					<if condition="$userinfo['money'] lt $lesson_money" >
+					<em>（余额不足，¥{$userinfo['money']}）</em>
+					<else/>
+					<em>（现有金额：¥{$userinfo['money']}）</em>
+					<strong><input type="radio" name="pay" value='3' /></strong>
+					</if>
+				</div>
+				<div class="form_radio">
+					<i></i>
+					<p>微信支付</p>
+					<strong><input type="radio" name="pay" value='1' /></strong>
+				</div>
+				<div class="form_but">
+					<input class="but" type="button" value="确定支付" onclick="zhifu('{$lessoninfo['lesson_id']}','{$lesson_money}');"/>
+				</div>
+		</div>
+	</body>
+	<script>
+	    function zhifu(lesson_id,lesson_money){ 
+			//获取单选框的值
+			var pay_type=$('input:radio:checked').val(); 
+            if(pay_type=='1'){
+				//微信支付
+				location.href="{:U('lessonalone/weixinpayorder')}&lesson_id="+lesson_id;
+			}else if(pay_type=='3'){
+                //奖学金支付,验证余额是否充足  
+				var jiangxuejin = "{$userinfo['money']}";
+				var money_1 = parseFloat(jiangxuejin);  
+				//购买费用
+				var lesson_money = "{$lesson_money}";
+				var money_2 = parseFloat(lesson_money);  
+
+				if((money_1 < money_2) || (money_1 <= 0)) {
+					alert("余额不足，请使用其他支付方式");
+					return false;
+				} else {
+					$.ajax({
+						type: "post",
+						url: "{:U('lessonalone/paycourse')}",
+						data: {
+							"lesson_id": lesson_id,"money_2":money_2
+						},
+						success: function(data) { 
+							console.log(data);
+							if(data.flag==1){
+								alert("购买专题成功");
+								window.location.href="{:U('lessonalone/video')}&lesson_id="+lesson_id;
+							}else{
+								alert("购买专题失败");
+								window.location.href="{:U('lessonalone/video')}&lesson_id="+lesson_id;
+							}
+						},
+						error: function(data) {
+							//console.log(data)
+							alert("网络请求失败");
+							window.location.href="{:U('lessonalone/video')}&lesson_id="+lesson_id;
+						}
+					})	
+				}
+			}else{
+                alert('请选择支付方式');		
+				return false;				
+			}
+		}
+	</script>
+	
+</html>

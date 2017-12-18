@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>直播预约管理</title>
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/admin/css/html5.css"/>
+		<link rel="stylesheet" type="text/css"  href="__PUBLIC__/admin/font/iconfont.css">
+		<link rel="stylesheet" type="text/css"  href="__PUBLIC__/admin/font/css/font-awesome.css">
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/admin/css/index.css"/>
+		<script src="__PUBLIC__/admin/js/jquery-1.10.2.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript" src="__PUBLIC__/My97DatePicker/WdatePicker.js"></script>
+	</head>
+	<body>
+		<div class="right_min">
+			<div class="crumbs_nav">
+				<i class="iconfont icon-shouye"></i>
+				<ul>
+					<li><a href="{:U('index/welcome')}">首页</a></li>
+					<li> > </li>
+					<li><a>学员管理</a></li>
+					<if condition="$live_id neq '' ">
+					<li> > </li>
+					<li><a href="{:U('liveinfo/index')}">视频直播管理</a></li>
+					</if>
+					<li> > </li>
+					<li><a href="javascript:void(0);">直播预约管理</a></li>
+				</ul>
+			</div>
+			<div class="min">
+				<!--查询-->
+				<div class="query">
+					<form name="seachform" id="seachform" action="{:U('liveorder/index',array('live_id'=>$live_id))}"  method="post" class="form">
+					
+						<div class="form_input mg_trb">
+							<label class="text">快速检索</label>
+							<input type="text" name="info[keyword]" id="keyword" value="{$keyword}" placeholder="搜索编号/学员/标题/电话" maxlength="50"/>
+						</div>
+						<div class="form_input mg_trb form-date">
+							<label class="text">预约时间</label>
+							<input type="text" class="laydate-icon layer-date" name="info[starttime]"  value="{$starttime}"  id="start" placeholder="开始时间" readonly/>
+							<span>--</span>
+							<input type="text" class="laydate-icon layer-date" name="info[endtime]"  value="{$endtime}"  id="end" placeholder="结束时间" readonly/>
+						</div>
+						<div class="button mg_trb">
+							<i class="fa fa-refresh ico"></i>
+							<input type="button" value="重置" class="but chongzhi" onclick="location.href='{:U('liveorder/index',array('live_id'=>$live_id))}'"/>
+						</div>
+						<div class="button mg_trb">
+							<i class="fa fa-search ico"></i>
+							<input type="submit" value="查询" class="but chaxun"/>
+						</div>
+					</form>
+				</div>
+				<div class="table_box">
+					<table class="table" border="" cellspacing="" cellpadding="">
+						<colgroup>
+							<col width="200">
+							<col width="200">
+							<col width="200">
+							<col width="200">
+							<col width="200">
+							<col width="200">
+						</colgroup>
+						<thead>
+							<tr>
+								<th>编号</th>
+								<th>直播标题</th>
+								<th>学员</th>
+								<th>电话号码</th>
+								<th>预约时间</th>
+								<th>操作</th>
+							</tr>
+						</thead>
+						<tbody>
+							<volist name="listinfo" id="content">
+							<tr>
+								<td>{$content.order_id}</td>
+								<td>{$content.live_title}</td>
+								<td>{$content.nickname}</td>
+								<td>{$content.phone}</td>	
+								<td>{$content.order_addtime|date='Y-m-d H:i:s',###}</td>
+								<td>
+									<a href="{:U('liveorder/delliveorder',array('order_id'=>$content['order_id'],'live_id'=>$content['live_ids']))}" onclick="{if(confirm('确认删除?')){return true;}return false;}"  class="but chongzhi">
+										<i class="fa fa-trash-o"></i>
+										删除
+									</a>
+								</td>
+							</tr> 
+							</volist>
+						</tbody>
+					</table>
+				</div>
+				{$pageshow}
+			</div>
+		</div>
+	</body>
+</html>
+<script src="__PUBLIC__/admin/js/laydate/laydate.js"></script>
+<script type="text/javascript">
+	$(function(){
+		$(".right_min").height($(window).height());
+	});
+
+	var start = {
+		elem: "#start",
+		format: "YYYY-MM-DD",
+		min: "2000-01-01",
+		max: "2100-01-01",
+		istime: false,
+		istoday: false,
+		choose: function (datas) {
+			end.min = datas;
+			end.start = datas
+		}
+	};
+	var end = {
+		elem: "#end",
+		format: "YYYY-MM-DD",
+		min: "2000-01-01",
+		max: "2100-01-01",
+		istime: false,
+		istoday: false,
+		choose: function (datas) {
+			start.max = datas
+		}
+	};
+	laydate(start);
+	laydate(end);
+</script>

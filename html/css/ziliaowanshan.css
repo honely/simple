@@ -1,0 +1,48 @@
+body {
+	background: #ebebeb;
+	min-height: 100%;
+}
+
+.cont {
+	width: 27.56rem;
+	display: block;
+	margin: 0.8rem auto 5rem;
+	padding-bottom: 1rem;
+	background: #FFFFFF;
+	border-radius: 0.4rem;
+}
+
+.cont ul {
+	padding: 0.8rem 0;
+}
+
+.cont ul li {
+	height: 2.96rem;
+	padding: 0 1.7rem;
+	border-bottom: 1px solid #fafafa;
+	margin: 0 0.5rem;
+}
+.cont ul li i{display: block; float: left; width:4.5rem; line-height: 2.96rem; font-size: 1.12rem; color: #3d4149; font-style: normal;}
+.cont ul li span{margin-left:5rem; display: block; height: 100%; overflow: hidden;}
+.cont ul li span input{ display: block; width: 100%; height: 100%; font-size: 1.12rem; color: #ff7811; border: none;}
+.cont ul li span select{ display: block; width: 100%; height: 100%; font-size: 1.12rem; color: #ff7811; border: none;}
+.cont ul li span .but{display: inline-block; vertical-align: top; padding: 0.5rem 0.5rem; font-size:0.8rem; border: none; background: #DEDBDB; margin-top: 0.4rem; border-radius: 5px;}
+.cont ul li span .but:nth-of-type(1){ margin-right: 0.7rem;}
+.cont ul li span .but.link{background: #ff7811; color: #fff;}
+.cont .tk_but{padding:0.5rem 0 1rem 2.3rem; font-size: 1rem; color: #dedede;}
+.cont .tk_but em{color: #00baff;}
+.btn {
+	border: none;
+	background: #ff7811;
+	color: #FFFFFF;
+	font-size: 1.28rem;
+	height: 3rem;
+	width: 27.56rem;
+	border-radius: 0.5rem;
+	position: fixed;
+	bottom: 1.5rem;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+

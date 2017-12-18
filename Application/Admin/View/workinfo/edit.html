@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/admin/css/html5.css"/>
+		<link rel="stylesheet" type="text/css"  href="__PUBLIC__/admin/font/iconfont.css">
+		<link rel="stylesheet" type="text/css"  href="__PUBLIC__/admin/font/css/font-awesome.css">
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/admin/css/index.css"/>
+		<script src="__PUBLIC__/admin/js/jquery-1.10.2.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="__PUBLIC__/admin/js/icheck/icheck.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/admin/js/icheck/square/green.css">
+		<link href="__PUBLIC__/validform/Validform.css" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" href="__PUBLIC__/kindeditor/themes/default/default.css" />
+		<script type="text/javascript" src="__PUBLIC__/validform/Validform_v5.3.2.js"></script>
+        <script type="text/javascript" src="__PUBLIC__/kindeditor/kindeditor-min.js"></script>
+        <script type="text/javascript" src="__PUBLIC__/kindeditor/lang/zh-CN.js"></script>
+	  <script type="text/javascript">
+		var editor;
+		KindEditor.ready(function(K) {
+			editor = K.create('textarea[id="content"]', {
+				uploadJson : '{:U('kindeditor/upload_json',array('dir'=>image))}',
+				fileManagerJson : '{:U('kindeditor/file_manager_json')}',
+				allowFileManager : true,
+				urlType : 'domain',
+				afterCreate : function() {
+					this.sync(); 
+				},
+				afterBlur:function(){ 
+					this.sync(); 
+				}
+			});
+			
+		var uploadbutton = K.uploadbutton({
+			button : K('#uploadButton')[0],
+			fieldName : 'imgFile',
+			url : '{:U('kindeditor/upload_json',array('dir'=>image))}',
+			afterUpload : function(data) {
+				if (data.error === 0) {
+					var url = K.formatUrl(data.url, 'domain');
+					K('#image').val(url);
+				} else {
+					alert(data.message);
+				}
+			},
+			afterError : function(str) {
+				alert('自定义错误信息: ' + str);
+			}
+		});
+		uploadbutton.fileBox.change(function(e) {
+			uploadbutton.submit();
+		});
+
+	   });
+   
+    </script>
+	</head>
+	<body>
+		<div class="right_min">
+			<div class="crumbs_nav">
+				<i class="iconfont icon-shouye"></i>
+				<ul>
+					<li><a href="{:U('index/welcome')}">首页</a></li>
+					<li> > </li>
+					<li><a href="javascript:void(0);">其它管理</a></li>
+					<li> > </li>
+					<li><a href="{:U('workinfo/workoper')}">研发班管理</a></li>
+					<li> > </li>
+					<li><a href="{:U('workinfo/edit')}">修改</a></li>
+				</ul>
+			</div>
+			<div class="min">
+				<div class="form_box">
+						<form name="myform" id="myform" action="{:U('workinfo/edit',array('work_id'=>$classify['work_id']))}" method="post">
+						<div class="form-item">
+							<label class="form-label">研习班名称</label>
+							<div class="form-text form-input-block">
+								<input type="text" name="info[work_title]" id="work_title"  datatype="*2-30" errormsg="研发班名称为2-30位！" maxlength="30" value="{$classify.work_title}"/>
+								<i class="Validform_checktip"></i>
+							</div>
+						</div>
+						<div class="form-item">
+							<label class="form-label">研习班视频</label>
+							<div class="form-text form-input-block">
+								<input type="text" name="info[work_video]" id="work_video"  datatype="*5-100" errormsg="研习班视频为5-100位！" maxlength="100" value="{$classify.work_video}"/>
+								<i class="Validform_checktip"></i>
+								<i style="color:red;">视频url如：http://www.xxx.com/player.php/sid/v.mp3</i>
+							</div>
+						</div>
+						<div class="form-item">
+							<label class="form-label">研习班地址</label>
+							<div class="form-text form-input-block">
+								<input type="text" name="info[work_address]" id="work_address"  datatype="*2-50" errormsg="研习班地址为2-50位！" maxlength="50" value="{$classify.work_address}"/>
+								<i class="Validform_checktip"></i>
+							</div>
+						</div>
+						<div class="form-item">
+							<label class="form-label">研习班时间</label>
+							<div class="form-text form-input-block">
+								<input type="text" name="info[work_time]" id="work_time"  datatype="*5-30" errormsg="研发班时间为5-30位！" maxlength="30" value="{$classify.work_time}"/>
+								<i class="Validform_checktip"></i>
+							</div>
+						</div>
+				        <div class="form-item">
+							<label class="form-label">研习班简介</label>
+							<div class="form-textarea form-input-block">
+								 <textarea style="width: 100%" name="info[work_content]" id="content" maxlength="255"  datatype="*">{$classify.work_content}</textarea>
+								<i class="Validform_checktip"></i>
+							</div>
+						</div>
+						<div class="form-item">
+							<div class="form-button form-input-block">
+								<input class="chaxun but" type="submit" value="提交"/>
+								<button class="but chongzhi" type="button" onclick="location.href='{:U('workinfo/workoper')}'">返回</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+<script type="text/javascript">
+	$(function(){
+		$(".right_min").height($(window).height());
+		
+		$('.skin-section input').iCheck({
+			checkboxClass: 'icheckbox_square-green',
+			radioClass: 'iradio_square-green',
+		});
+		$('input').on('ifChecked', function(event){
+		  alert($(this).val());
+		});
+	});
+</script>
+	<script>
+	$(function(){
+		$("#myform").Validform({
+			//tiptype:2
+			tiptype:function(msg,o,cssctl){
+				var objtip=o.obj.siblings(".Validform_checktip");
+				cssctl(objtip,o.type);
+				objtip.text(msg);
+			}
+		});
+	}); 
+	</script>

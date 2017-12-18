@@ -1,0 +1,1862 @@
+[ 2017-12-08T09:57:48+08:00 ] 192.168.2.104 /index.php?m=admin&c=Focus&a=detail&f_id=undefined&callback=jQuery111005309440197888762_1512698268303&_=1512698268304
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-08T09:58:05+08:00 ] 192.168.2.104 /index.php?m=admin&c=focus&a=index&callback=jsonp1&_=1512698285005
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0320s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-08T09:58:09+08:00 ] 192.168.2.104 /index.php?m=admin&c=focus&a=index&callback=jsonp1&_=1512698289413
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0080s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-08T09:58:11+08:00 ] 192.168.2.104 /index.php?m=admin&c=focus&a=index&callback=jsonp1&_=1512698291761
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-08T09:58:12+08:00 ] 192.168.2.104 /index.php?m=admin&c=focus&a=index&callback=jsonp1&_=1512698292319
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-08T09:58:12+08:00 ] 192.168.2.104 /index.php?m=admin&c=focus&a=index&callback=jsonp1&_=1512698292482
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.1210s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-08T09:58:12+08:00 ] 192.168.2.104 /index.php?m=admin&c=focus&a=index&callback=jsonp1&_=1512698292613
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0090s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-08T09:58:12+08:00 ] 192.168.2.104 /index.php?m=admin&c=focus&a=index&callback=jsonp1&_=1512698292819
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-08T09:58:27+08:00 ] 192.168.2.104 /index.php?m=admin&c=focus&a=index&callback=jsonp1&_=1512698307770
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0430s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-08T09:58:40+08:00 ] 192.168.2.104 /index.php?m=admin&c=Focus&a=detail&f_id=undefined&callback=jQuery111000897073233500123_1512698320015&_=1512698320016
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-08T10:00:45+08:00 ] 192.168.2.104 /index.php?m=admin&c=focus&a=index&callback=jsonp1&_=1512698445012
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-08T10:00:48+08:00 ] 192.168.2.104 /index.php?m=admin&c=focus&a=index&callback=jsonp1&_=1512698448537
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-08T10:01:48+08:00 ] 192.168.2.104 /index.php?m=admin&c=Focus&a=detail&f_id=1&callback=jQuery111006614107587374747_1512698508070&_=1512698508071
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-08T10:01:52+08:00 ] 192.168.2.104 /index.php?m=admin&c=Focus&a=detail&f_id=8&callback=jQuery1110027933776611462235_1512698512627&_=1512698512628
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-08T10:01:55+08:00 ] 192.168.2.104 /index.php?m=admin&c=Focus&a=detail&f_id=8&callback=jQuery111007362840108107775_1512698514936&_=1512698514937
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0080s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-08T10:03:49+08:00 ] 192.168.2.104 /index.php?m=admin&c=Focus&a=detail&f_id=1&callback=jQuery11100537822277052328_1512698629240&_=1512698629241
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-08T10:04:02+08:00 ] 192.168.2.104 /index.php?m=admin&c=Focus&a=detail&f_id=1&callback=jQuery11100362586920382455_1512698642767&_=1512698642768
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-08T10:04:36+08:00 ] 192.168.2.104 /index.php?m=admin&c=Focus&a=detail&f_id=8&callback=jQuery1110018453962518833578_1512698676683&_=1512698676684
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-08T10:04:39+08:00 ] 192.168.2.104 /index.php?m=admin&c=Focus&a=detail&f_id=undefined&callback=jQuery111007118502238299698_1512698679279&_=1512698679280
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0090s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-08T10:04:49+08:00 ] 192.168.2.104 /index.php?m=admin&c=Focus&a=detail&f_id=undefined&callback=jQuery111007616049873176962_1512698688488&_=1512698688489
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-08T10:04:57+08:00 ] 192.168.2.104 /index.php?m=admin&c=Focus&a=detail&f_id=undefined&callback=jQuery111003012308469042182_1512698694270&_=1512698694271
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0120s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-08T10:05:04+08:00 ] 192.168.2.104 /index.php?m=admin&c=Focus&a=detail&f_id=1&callback=jQuery1110049127182736992836_1512698703282&_=1512698703283
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0080s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-08T10:05:09+08:00 ] 192.168.2.104 /index.php?m=admin&c=Focus&a=detail&f_id=undefined&callback=jQuery111005843469754327089_1512698708044&_=1512698708045
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-08T10:06:34+08:00 ] 192.168.2.104 /index.php?m=admin&c=Focus&a=detail&f_id=undefined&callback=jQuery111003283350074198097_1512698755218&_=1512698755219
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: SQLSTATE[HY000] [2002] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+
+[ 2017-12-08T10:06:55+08:00 ] 192.168.2.104 /index.php?m=admin&c=Focus&a=detail&f_id=undefined&callback=jQuery111006579978209920228_1512698770794&_=1512698770795
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: SQLSTATE[HY000] [2002] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+
+[ 2017-12-08T10:07:38+08:00 ] 192.168.2.104 /index.php?m=admin&c=Focus&a=detail&f_id=undefined&callback=jQuery111009402004589792341_1512698833278&_=1512698833279
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0770s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-08T10:07:52+08:00 ] 192.168.2.104 /index.php?m=admin&c=Focus&a=detail&f_id=1&callback=jQuery1110016204857570119202_1512698872368&_=1512698872369
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.1900s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-08T10:07:56+08:00 ] 192.168.2.104 /index.php?m=admin&c=Focus&a=detail&f_id=undefined&callback=jQuery1110015062765427865088_1512698876689&_=1512698876690
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0080s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-08T11:47:51+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=register&tel=&pwd=&callback=jsonp1&_=1512704871701
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0020s ]
+SQL: INSERT INTO `ec_user` () VALUES () [ RunTime:0.0390s ]
+
+[ 2017-12-08T11:48:09+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=register&tel=&pwd=&callback=jsonp1&_=1512704889839
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0030s ]
+SQL: INSERT INTO `ec_user` () VALUES () [ RunTime:0.0480s ]
+
+[ 2017-12-08T11:51:59+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=register&tel=&pwd=&callback=jsonp1&_=1512705119570
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0030s ]
+SQL: INSERT INTO `ec_user` () VALUES () [ RunTime:0.0460s ]
+
+[ 2017-12-08T11:52:27+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=register&tel=18220995991&pwd=123456&callback=jsonp2&_=1512705147577
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0030s ]
+SQL: INSERT INTO `ec_user` () VALUES () [ RunTime:0.0540s ]
+
+[ 2017-12-08T11:53:33+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=register&tel=18220995991&pwd=123456&callback=jsonp1&_=1512705213392
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0020s ]
+SQL: INSERT INTO `ec_user` () VALUES () [ RunTime:0.0410s ]
+
+[ 2017-12-08T11:54:54+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=register&tel=18220995991&pwd=123456&callback=jsonp1&_=1512705294060
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0010s ]
+SQL: INSERT INTO `ec_user` () VALUES () [ RunTime:0.0530s ]
+
+[ 2017-12-08T11:55:58+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=register&tel=18220995991&pwd=123456&callback=jsonp1&_=1512705358608
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0010s ]
+SQL: INSERT INTO `ec_user` (`user_tel`,`user_pwd`) VALUES ('2147483647','e10adc3949ba59abbe56e057f20f883e') [ RunTime:0.0560s ]
+
+[ 2017-12-08T11:59:21+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=register&tel=&pwd=&callback=jsonp1&_=1512705560916
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0020s ]
+SQL: INSERT INTO `ec_user` (`user_tel`,`user_pwd`) VALUES ('0','d41d8cd98f00b204e9800998ecf8427e') [ RunTime:0.0570s ]
+
+[ 2017-12-08T12:00:00+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=register&tel=17691074991&pwd=123456&callback=jsonp1&_=1512705600090
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0030s ]
+SQL: INSERT INTO `ec_user` (`user_tel`,`user_pwd`) VALUES ('2147483647','e10adc3949ba59abbe56e057f20f883e') [ RunTime:0.1150s ]
+
+[ 2017-12-08T13:50:53+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=register&tel=&pwd=&callback=jsonp1&_=1512712253202
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0030s ]
+SQL: INSERT INTO `ec_user` (`user_tel`,`user_pwd`) VALUES ('0','d41d8cd98f00b204e9800998ecf8427e') [ RunTime:0.0530s ]
+
+[ 2017-12-08T13:51:21+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=register&tel=18220995991&pwd=123123&callback=jsonp1&_=1512712281005
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0010s ]
+SQL: INSERT INTO `ec_user` (`user_tel`,`user_pwd`) VALUES ('2147483647','4297f44b13955235245b2497399d7a93') [ RunTime:0.0640s ]
+
+[ 2017-12-08T13:56:15+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=register&tel=18220995991&pwd=123456&callback=jsonp1&_=1512712575160
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0020s ]
+SQL: INSERT INTO `ec_user` (`user_tel`,`user_pwd`) VALUES ('2147483647','e10adc3949ba59abbe56e057f20f883e') [ RunTime:0.0530s ]
+
+[ 2017-12-08T13:58:13+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=register&tel=17691074991&pwd=123123&callback=jsonp1&_=1512712692976
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0020s ]
+SQL: INSERT INTO `ec_user` (`user_tel`,`user_pwd`) VALUES ('2147483647','4297f44b13955235245b2497399d7a93') [ RunTime:0.0440s ]
+
+[ 2017-12-08T13:59:05+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=register&tel=17691074991&pwd=123123&callback=jsonp1&_=1512712745371
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0020s ]
+SQL: INSERT INTO `ec_user` (`user_tel`,`user_pwd`) VALUES ('2147483647','4297f44b13955235245b2497399d7a93') [ RunTime:0.0340s ]
+
+[ 2017-12-08T14:10:23+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=register&tel=18888888888&pwd=123123&callback=jsonp1&_=1512713423456
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0010s ]
+SQL: INSERT INTO `ec_user` (`user_tel`,`user_pwd`) VALUES ('2147483647','4297f44b13955235245b2497399d7a93') [ RunTime:0.0400s ]
+
+[ 2017-12-08T14:11:11+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=register&tel=15222222222&pwd=1111111&callback=jsonp1&_=1512713471019
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0010s ]
+SQL: INSERT INTO `ec_user` (`user_tel`,`user_pwd`) VALUES ('2147483647','7fa8282ad93047a4d6fe6111c93b308a') [ RunTime:0.0250s ]
+
+[ 2017-12-08T14:12:08+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=register&tel=15999999999&pwd=111111&callback=jsonp1&_=1512713528404
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0020s ]
+SQL: INSERT INTO `ec_user` (`user_tel`,`user_pwd`) VALUES ('2147483647','96e79218965eb72c92a549dd5a330112') [ RunTime:0.0290s ]
+
+[ 2017-12-08T14:13:14+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=register&tel=18555555555&pwd=111111&callback=jsonp1&_=1512713594438
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0020s ]
+SQL: INSERT INTO `ec_user` (`user_tel`,`user_pwd`) VALUES ('2147483647','96e79218965eb72c92a549dd5a330112') [ RunTime:0.0380s ]
+
+[ 2017-12-08T14:13:56+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=register&tel=13999999999&pwd=18220995991&callback=jsonp1&_=1512713636063
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0020s ]
+SQL: INSERT INTO `ec_user` (`user_tel`,`user_pwd`) VALUES ('2147483647','002fce276866260b1932b8467a682774') [ RunTime:0.0410s ]
+
+[ 2017-12-08T14:15:59+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=register&tel=18220995991&pwd=123456&callback=jsonp1&_=1512713759082
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0030s ]
+SQL: INSERT INTO `ec_user` (`user_tel`,`user_pwd`) VALUES ('2147483647','e10adc3949ba59abbe56e057f20f883e') [ RunTime:0.0290s ]
+
+[ 2017-12-08T14:18:38+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=register&tel=15555555555&pwd=123456&callback=jsonp1&_=1512713918004
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0020s ]
+SQL: INSERT INTO `ec_user` (`user_tel`,`user_pwd`) VALUES ('2147483647','e10adc3949ba59abbe56e057f20f883e') [ RunTime:0.0250s ]
+
+[ 2017-12-08T14:20:15+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=register&tel=17777777777&pwd=123456&callback=jsonp1&_=1512714015250
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0020s ]
+SQL: INSERT INTO `ec_user` (`user_tel`,`user_pwd`) VALUES ('2147483647','e10adc3949ba59abbe56e057f20f883e') [ RunTime:0.0340s ]
+
+[ 2017-12-08T14:32:39+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=applogin&tel=17777777777&pwd=123456&callback=jsonp1&_=1512714759716
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0030s ]
+ERR: 1054:Unknown column 'e10adc3949ba59abbe56e057f20f883e' in 'where clause'
+ [ SQL璇彞 ] : SELECT * FROM `ec_user` WHERE ( user_tel = 17777777777 and user_pwd = e10adc3949ba59abbe56e057f20f883e ) 
+ERR: 1054:Unknown column 'e10adc3949ba59abbe56e057f20f883e' in 'where clause'
+ [ SQL璇彞 ] : SELECT * FROM `ec_user` WHERE ( user_tel = 17777777777 and user_pwd = e10adc3949ba59abbe56e057f20f883e ) 
+
+[ 2017-12-08T14:32:40+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=applogin&tel=17777777777&pwd=123456&callback=jsonp2&_=1512714760240
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0020s ]
+ERR: 1054:Unknown column 'e10adc3949ba59abbe56e057f20f883e' in 'where clause'
+ [ SQL璇彞 ] : SELECT * FROM `ec_user` WHERE ( user_tel = 17777777777 and user_pwd = e10adc3949ba59abbe56e057f20f883e ) 
+ERR: 1054:Unknown column 'e10adc3949ba59abbe56e057f20f883e' in 'where clause'
+ [ SQL璇彞 ] : SELECT * FROM `ec_user` WHERE ( user_tel = 17777777777 and user_pwd = e10adc3949ba59abbe56e057f20f883e ) 
+
+[ 2017-12-08T14:32:40+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=applogin&tel=17777777777&pwd=123456&callback=jsonp3&_=1512714760735
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0030s ]
+ERR: 1054:Unknown column 'e10adc3949ba59abbe56e057f20f883e' in 'where clause'
+ [ SQL璇彞 ] : SELECT * FROM `ec_user` WHERE ( user_tel = 17777777777 and user_pwd = e10adc3949ba59abbe56e057f20f883e ) 
+ERR: 1054:Unknown column 'e10adc3949ba59abbe56e057f20f883e' in 'where clause'
+ [ SQL璇彞 ] : SELECT * FROM `ec_user` WHERE ( user_tel = 17777777777 and user_pwd = e10adc3949ba59abbe56e057f20f883e ) 
+
+[ 2017-12-08T14:32:41+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=applogin&tel=17777777777&pwd=123456&callback=jsonp4&_=1512714760951
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0020s ]
+ERR: 1054:Unknown column 'e10adc3949ba59abbe56e057f20f883e' in 'where clause'
+ [ SQL璇彞 ] : SELECT * FROM `ec_user` WHERE ( user_tel = 17777777777 and user_pwd = e10adc3949ba59abbe56e057f20f883e ) 
+ERR: 1054:Unknown column 'e10adc3949ba59abbe56e057f20f883e' in 'where clause'
+ [ SQL璇彞 ] : SELECT * FROM `ec_user` WHERE ( user_tel = 17777777777 and user_pwd = e10adc3949ba59abbe56e057f20f883e ) 
+
+[ 2017-12-08T14:33:49+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=applogin&tel=&pwd=&callback=jsonp1&_=1512714829051
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0010s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and user_pwd = d41d8cd98f00b204e9800998ecf8427e )' at line 1
+ [ SQL璇彞 ] : SELECT * FROM `ec_user` WHERE ( user_tel =  and user_pwd = d41d8cd98f00b204e9800998ecf8427e ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and user_pwd = d41d8cd98f00b204e9800998ecf8427e )' at line 1
+ [ SQL璇彞 ] : SELECT * FROM `ec_user` WHERE ( user_tel =  and user_pwd = d41d8cd98f00b204e9800998ecf8427e ) 
+
+[ 2017-12-08T14:34:17+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=applogin&tel=123123465&pwd=123123&callback=jsonp2&_=1512714857914
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0010s ]
+ERR: 1054:Unknown column '4297f44b13955235245b2497399d7a93' in 'where clause'
+ [ SQL璇彞 ] : SELECT * FROM `ec_user` WHERE ( user_tel = 123123465 and user_pwd = 4297f44b13955235245b2497399d7a93 ) 
+ERR: 1054:Unknown column '4297f44b13955235245b2497399d7a93' in 'where clause'
+ [ SQL璇彞 ] : SELECT * FROM `ec_user` WHERE ( user_tel = 123123465 and user_pwd = 4297f44b13955235245b2497399d7a93 ) 
+
+[ 2017-12-08T14:35:35+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=applogin&callback=jsonp1&_=1512714935451
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0030s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and user_pwd = d41d8cd98f00b204e9800998ecf8427e )' at line 1
+ [ SQL璇彞 ] : SELECT * FROM `ec_user` WHERE ( user_tel =  and user_pwd = d41d8cd98f00b204e9800998ecf8427e ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and user_pwd = d41d8cd98f00b204e9800998ecf8427e )' at line 1
+ [ SQL璇彞 ] : SELECT * FROM `ec_user` WHERE ( user_tel =  and user_pwd = d41d8cd98f00b204e9800998ecf8427e ) 
+
+[ 2017-12-08T14:35:36+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=applogin&callback=jsonp2&_=1512714936192
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0040s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and user_pwd = d41d8cd98f00b204e9800998ecf8427e )' at line 1
+ [ SQL璇彞 ] : SELECT * FROM `ec_user` WHERE ( user_tel =  and user_pwd = d41d8cd98f00b204e9800998ecf8427e ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and user_pwd = d41d8cd98f00b204e9800998ecf8427e )' at line 1
+ [ SQL璇彞 ] : SELECT * FROM `ec_user` WHERE ( user_tel =  and user_pwd = d41d8cd98f00b204e9800998ecf8427e ) 
+
+[ 2017-12-08T14:35:36+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=applogin&callback=jsonp3&_=1512714936368
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0040s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and user_pwd = d41d8cd98f00b204e9800998ecf8427e )' at line 1
+ [ SQL璇彞 ] : SELECT * FROM `ec_user` WHERE ( user_tel =  and user_pwd = d41d8cd98f00b204e9800998ecf8427e ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and user_pwd = d41d8cd98f00b204e9800998ecf8427e )' at line 1
+ [ SQL璇彞 ] : SELECT * FROM `ec_user` WHERE ( user_tel =  and user_pwd = d41d8cd98f00b204e9800998ecf8427e ) 
+
+[ 2017-12-08T14:35:36+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=applogin&callback=jsonp4&_=1512714936535
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0020s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and user_pwd = d41d8cd98f00b204e9800998ecf8427e )' at line 1
+ [ SQL璇彞 ] : SELECT * FROM `ec_user` WHERE ( user_tel =  and user_pwd = d41d8cd98f00b204e9800998ecf8427e ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and user_pwd = d41d8cd98f00b204e9800998ecf8427e )' at line 1
+ [ SQL璇彞 ] : SELECT * FROM `ec_user` WHERE ( user_tel =  and user_pwd = d41d8cd98f00b204e9800998ecf8427e ) 
+
+[ 2017-12-08T14:35:36+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=applogin&callback=jsonp5&_=1512714936856
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0030s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and user_pwd = d41d8cd98f00b204e9800998ecf8427e )' at line 1
+ [ SQL璇彞 ] : SELECT * FROM `ec_user` WHERE ( user_tel =  and user_pwd = d41d8cd98f00b204e9800998ecf8427e ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and user_pwd = d41d8cd98f00b204e9800998ecf8427e )' at line 1
+ [ SQL璇彞 ] : SELECT * FROM `ec_user` WHERE ( user_tel =  and user_pwd = d41d8cd98f00b204e9800998ecf8427e ) 
+
+[ 2017-12-08T14:36:33+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=applogin&callback=jsonp1&_=1512714993562
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0020s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and user_pwd = d41d8cd98f00b204e9800998ecf8427e )' at line 1
+ [ SQL璇彞 ] : SELECT * FROM `ec_user` WHERE ( user_tel =  and user_pwd = d41d8cd98f00b204e9800998ecf8427e ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and user_pwd = d41d8cd98f00b204e9800998ecf8427e )' at line 1
+ [ SQL璇彞 ] : SELECT * FROM `ec_user` WHERE ( user_tel =  and user_pwd = d41d8cd98f00b204e9800998ecf8427e ) 
+
+[ 2017-12-08T14:36:33+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=applogin&callback=jsonp2&_=1512714993760
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0020s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and user_pwd = d41d8cd98f00b204e9800998ecf8427e )' at line 1
+ [ SQL璇彞 ] : SELECT * FROM `ec_user` WHERE ( user_tel =  and user_pwd = d41d8cd98f00b204e9800998ecf8427e ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and user_pwd = d41d8cd98f00b204e9800998ecf8427e )' at line 1
+ [ SQL璇彞 ] : SELECT * FROM `ec_user` WHERE ( user_tel =  and user_pwd = d41d8cd98f00b204e9800998ecf8427e ) 
+
+[ 2017-12-08T14:36:33+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=applogin&callback=jsonp3&_=1512714993955
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0010s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and user_pwd = d41d8cd98f00b204e9800998ecf8427e )' at line 1
+ [ SQL璇彞 ] : SELECT * FROM `ec_user` WHERE ( user_tel =  and user_pwd = d41d8cd98f00b204e9800998ecf8427e ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and user_pwd = d41d8cd98f00b204e9800998ecf8427e )' at line 1
+ [ SQL璇彞 ] : SELECT * FROM `ec_user` WHERE ( user_tel =  and user_pwd = d41d8cd98f00b204e9800998ecf8427e ) 
+
+[ 2017-12-08T14:36:46+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=applogin&callback=jsonp4&_=1512715006215
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0030s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and user_pwd = d41d8cd98f00b204e9800998ecf8427e )' at line 1
+ [ SQL璇彞 ] : SELECT * FROM `ec_user` WHERE ( user_tel =  and user_pwd = d41d8cd98f00b204e9800998ecf8427e ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and user_pwd = d41d8cd98f00b204e9800998ecf8427e )' at line 1
+ [ SQL璇彞 ] : SELECT * FROM `ec_user` WHERE ( user_tel =  and user_pwd = d41d8cd98f00b204e9800998ecf8427e ) 
+
+[ 2017-12-08T14:36:47+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=applogin&callback=jsonp5&_=1512715007231
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0020s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and user_pwd = d41d8cd98f00b204e9800998ecf8427e )' at line 1
+ [ SQL璇彞 ] : SELECT * FROM `ec_user` WHERE ( user_tel =  and user_pwd = d41d8cd98f00b204e9800998ecf8427e ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and user_pwd = d41d8cd98f00b204e9800998ecf8427e )' at line 1
+ [ SQL璇彞 ] : SELECT * FROM `ec_user` WHERE ( user_tel =  and user_pwd = d41d8cd98f00b204e9800998ecf8427e ) 
+
+[ 2017-12-08T14:37:49+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=logina&tel=17777777777&pwd=123456&callback=jsonp1&_=1512715069746
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0090s ]
+ERR: 1054:Unknown column 'e10adc3949ba59abbe56e057f20f883e' in 'where clause'
+ [ SQL璇彞 ] : SELECT * FROM `ec_user` WHERE ( user_tel = 17777777777 and user_pwd = e10adc3949ba59abbe56e057f20f883e ) 
+ERR: 1054:Unknown column 'e10adc3949ba59abbe56e057f20f883e' in 'where clause'
+ [ SQL璇彞 ] : SELECT * FROM `ec_user` WHERE ( user_tel = 17777777777 and user_pwd = e10adc3949ba59abbe56e057f20f883e ) 
+
+[ 2017-12-08T14:37:50+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=logina&tel=17777777777&pwd=123456&callback=jsonp2&_=1512715070367
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0020s ]
+ERR: 1054:Unknown column 'e10adc3949ba59abbe56e057f20f883e' in 'where clause'
+ [ SQL璇彞 ] : SELECT * FROM `ec_user` WHERE ( user_tel = 17777777777 and user_pwd = e10adc3949ba59abbe56e057f20f883e ) 
+ERR: 1054:Unknown column 'e10adc3949ba59abbe56e057f20f883e' in 'where clause'
+ [ SQL璇彞 ] : SELECT * FROM `ec_user` WHERE ( user_tel = 17777777777 and user_pwd = e10adc3949ba59abbe56e057f20f883e ) 
+
+[ 2017-12-08T14:37:50+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=logina&tel=17777777777&pwd=123456&callback=jsonp3&_=1512715070577
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0020s ]
+ERR: 1054:Unknown column 'e10adc3949ba59abbe56e057f20f883e' in 'where clause'
+ [ SQL璇彞 ] : SELECT * FROM `ec_user` WHERE ( user_tel = 17777777777 and user_pwd = e10adc3949ba59abbe56e057f20f883e ) 
+ERR: 1054:Unknown column 'e10adc3949ba59abbe56e057f20f883e' in 'where clause'
+ [ SQL璇彞 ] : SELECT * FROM `ec_user` WHERE ( user_tel = 17777777777 and user_pwd = e10adc3949ba59abbe56e057f20f883e ) 
+
+[ 2017-12-08T14:37:50+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=logina&tel=17777777777&pwd=123456&callback=jsonp4&_=1512715070752
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0030s ]
+ERR: 1054:Unknown column 'e10adc3949ba59abbe56e057f20f883e' in 'where clause'
+ [ SQL璇彞 ] : SELECT * FROM `ec_user` WHERE ( user_tel = 17777777777 and user_pwd = e10adc3949ba59abbe56e057f20f883e ) 
+ERR: 1054:Unknown column 'e10adc3949ba59abbe56e057f20f883e' in 'where clause'
+ [ SQL璇彞 ] : SELECT * FROM `ec_user` WHERE ( user_tel = 17777777777 and user_pwd = e10adc3949ba59abbe56e057f20f883e ) 
+
+[ 2017-12-08T14:38:10+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=logina&tel=17777777777&pwd=123456&callback=jsonp5&_=1512715090751
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0010s ]
+ERR: 1054:Unknown column 'e10adc3949ba59abbe56e057f20f883e' in 'where clause'
+ [ SQL璇彞 ] : SELECT * FROM `ec_user` WHERE ( user_tel = 17777777777 and user_pwd = e10adc3949ba59abbe56e057f20f883e ) 
+ERR: 1054:Unknown column 'e10adc3949ba59abbe56e057f20f883e' in 'where clause'
+ [ SQL璇彞 ] : SELECT * FROM `ec_user` WHERE ( user_tel = 17777777777 and user_pwd = e10adc3949ba59abbe56e057f20f883e ) 
+
+[ 2017-12-08T14:38:42+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=logina&tel=17777777777&pwd=123456&callback=jsonp5&_=1512715090751
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0020s ]
+ERR: 1054:Unknown column 'e10adc3949ba59abbe56e057f20f883e' in 'where clause'
+ [ SQL璇彞 ] : SELECT * FROM `ec_user` WHERE ( user_tel = 17777777777 and user_pwd = e10adc3949ba59abbe56e057f20f883e ) 
+ERR: 1054:Unknown column 'e10adc3949ba59abbe56e057f20f883e' in 'where clause'
+ [ SQL璇彞 ] : SELECT * FROM `ec_user` WHERE ( user_tel = 17777777777 and user_pwd = e10adc3949ba59abbe56e057f20f883e ) 
+
+[ 2017-12-08T14:40:08+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=logina&tel=17777777777&pwd=123456&callback=jsonp1&_=1512715208185
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ec_user` WHERE ( user_tel = 17777777777 and user_pwd = 'e10adc3949ba59abbe56e057f20f883e' )  [ RunTime:0.0120s ]
+
+[ 2017-12-08T14:41:28+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=logina&tel=1822099591&pwd=123456&callback=jsonp1&_=1512715288440
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ec_user` WHERE ( user_tel = 1822099591 and user_pwd = 'e10adc3949ba59abbe56e057f20f883e' )  [ RunTime:0.0010s ]
+
+[ 2017-12-08T14:42:17+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=logina&tel=18220995991&pwd=123456&callback=jsonp1&_=1512715337855
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ec_user` WHERE ( user_tel = 18220995991 and user_pwd = 'e10adc3949ba59abbe56e057f20f883e' )  [ RunTime:0.0000s ]
+
+[ 2017-12-08T14:43:18+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=logina&tel=18220995991&pwd=123456&callback=jsonp1&_=1512715398481
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ec_user` WHERE ( user_tel = 18220995991 and user_pwd = 'e10adc3949ba59abbe56e057f20f883e' )  [ RunTime:0.0010s ]
+
+[ 2017-12-08T14:43:34+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=logina&tel=18220995991&pwd=123456&callback=jsonp2&_=1512715414176
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ec_user` WHERE ( user_tel = 18220995991 and user_pwd = 'e10adc3949ba59abbe56e057f20f883e' )  [ RunTime:0.0000s ]
+
+[ 2017-12-08T14:44:23+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=register&tel=18220995991&pwd=123456&callback=jsonp1&_=1512715463810
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0010s ]
+SQL: INSERT INTO `ec_user` (`user_tel`,`user_pwd`) VALUES ('2147483647','e10adc3949ba59abbe56e057f20f883e') [ RunTime:0.0570s ]
+
+[ 2017-12-08T14:44:30+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=logina&tel=18220995991&pwd=123456&callback=jsonp1&_=1512715470097
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ec_user` WHERE ( user_tel = 18220995991 and user_pwd = 'e10adc3949ba59abbe56e057f20f883e' )  [ RunTime:0.0000s ]
+
+[ 2017-12-08T14:49:20+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=logina&tel=18220995991&pwd=123456&callback=jsonp1&_=1512715760752
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0030s ]
+
+[ 2017-12-08T14:50:02+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=logina&tel=18220995991&pwd=123456&callback=jsonp1&_=1512715802714
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0030s ]
+
+[ 2017-12-08T14:51:02+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=logina&tel=18220995991&pwd=123456&callback=jsonp1&_=1512715862729
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0040s ]
+
+[ 2017-12-08T14:52:25+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=logina&tel=18220995991&pwd=123465&callback=jsonp1&_=1512715945640
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ec_user` WHERE ( user_tel = 18220995991 and user_pwd = '3d9188577cc9bfe9291ac66b5cc872b7' )  [ RunTime:0.0010s ]
+
+[ 2017-12-08T14:54:53+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=logina&tel=18220995991&pwd=123465&callback=jsonp2&_=1512716093800
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ec_user` WHERE ( user_tel = 18220995991 and user_pwd = '3d9188577cc9bfe9291ac66b5cc872b7' )  [ RunTime:0.0000s ]
+
+[ 2017-12-08T14:55:10+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=logina&tel=18220995991&pwd=123465&callback=jsonp3&_=1512716110255
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ec_user` WHERE ( user_tel = 18220995991 and user_pwd = '3d9188577cc9bfe9291ac66b5cc872b7' )  [ RunTime:0.0000s ]
+
+[ 2017-12-08T14:55:17+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=logina&tel=18220995991&pwd=123465&callback=jsonp4&_=1512716117056
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ec_user` WHERE ( user_tel = 18220995991 and user_pwd = '3d9188577cc9bfe9291ac66b5cc872b7' )  [ RunTime:0.0000s ]
+
+[ 2017-12-08T14:58:40+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=logina&tel=18220995991&pwd=123456&callback=jsonp1&_=1512716320480
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ec_user` WHERE ( user_tel = 18220995991 and user_pwd = 'e10adc3949ba59abbe56e057f20f883e' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-12-08T14:59:51+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=logina&tel=18220995991&pwd=123456&callback=jsonp1&_=1512716390952
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ec_user` WHERE ( user_tel = 18220995991 and user_pwd = 'e10adc3949ba59abbe56e057f20f883e' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-12-08T15:00:19+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=logina&tel=18220995991&pwd=18220995991&callback=jsonp1&_=1512716419864
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ec_user` WHERE ( user_tel = 18220995991 and user_pwd = '002fce276866260b1932b8467a682774' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-12-08T15:00:29+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=logina&tel=18220995991&pwd=123456&callback=jsonp2&_=1512716429177
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ec_user` WHERE ( user_tel = 18220995991 and user_pwd = 'e10adc3949ba59abbe56e057f20f883e' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-12-08T15:00:33+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=logina&tel=18220995991&pwd=123456&callback=jsonp3&_=1512716433359
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ec_user` WHERE ( user_tel = 18220995991 and user_pwd = 'e10adc3949ba59abbe56e057f20f883e' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-12-08T15:01:48+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=logina&tel=18220995991&pwd=123456&callback=jsonp1&_=1512716508889
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ec_user` WHERE ( user_tel = 18220995991 and user_pwd = 'e10adc3949ba59abbe56e057f20f883e' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-12-08T15:10:04+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=logina&tel=18220995991&pwd=123456&callback=jsonp1&_=1512717004728
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0040s ]
+
+[ 2017-12-08T15:13:16+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=register&tel=18220995991&pwd=123456&callback=jsonp1&_=1512717196344
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0020s ]
+SQL: INSERT INTO `ec_user` (`user_tel`,`user_pwd`) VALUES ('2147483647','e10adc3949ba59abbe56e057f20f883e') [ RunTime:0.0400s ]
+
+[ 2017-12-08T15:14:18+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=register&tel=18220995991&pwd=123456&callback=jsonp1&_=1512717257984
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0020s ]
+SQL: INSERT INTO `ec_user` (`user_tel`,`user_pwd`) VALUES ('2147483647','e10adc3949ba59abbe56e057f20f883e') [ RunTime:0.0400s ]
+
+[ 2017-12-08T15:14:25+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=logina&tel=18220995991&pwd=123456&callback=jsonp1&_=1512717265489
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0030s ]
+
+[ 2017-12-08T15:15:35+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=register&tel=18220995991&pwd=123456&callback=jsonp1&_=1512717335560
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0020s ]
+
+[ 2017-12-08T15:17:45+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=register&tel=18220995991&pwd=123456&callback=jsonp1&_=1512717465440
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0030s ]
+
+[ 2017-12-08T15:19:18+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=register&tel=18220995991&pwd=123456&callback=jsonp1&_=1512717558936
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0030s ]
+
+[ 2017-12-08T15:19:54+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=register&tel=18220995991&pwd=123456&callback=jsonp1&_=1512717594584
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0030s ]
+
+[ 2017-12-08T15:20:54+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=register&tel=18220995991&pwd=123456&callback=jsonp1&_=1512717654200
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0020s ]
+
+[ 2017-12-08T15:22:19+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=register&tel=18220995991&pwd=123456&callback=jsonp1&_=1512717739224
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0020s ]
+
+[ 2017-12-08T15:23:01+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=register&tel=18220995991&pwd=123456&callback=jsonp1&_=1512717781122
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0020s ]
+
+[ 2017-12-08T15:23:59+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=register&tel=15555555555&pwd=111111&callback=jsonp1&_=1512717839252
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0020s ]
+
+[ 2017-12-08T15:24:24+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=register&tel=15555555555&pwd=111111&callback=jsonp1&_=1512717864441
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0020s ]
+
+[ 2017-12-08T15:26:02+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=register&tel=15555555555&pwd=111111&callback=jsonp1&_=1512717962824
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0020s ]
+
+[ 2017-12-08T15:26:41+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=register&tel=15555555555&pwd=111111&callback=jsonp1&_=1512718001952
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0020s ]
+
+[ 2017-12-08T15:29:17+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=register&tel=15555555555&pwd=123456&callback=jsonp1&_=1512718157584
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0050s ]
+
+[ 2017-12-08T15:29:39+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=register&tel=18220995991&pwd=123456&callback=jsonp1&_=1512718179672
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0030s ]
+
+[ 2017-12-08T15:30:11+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=register&tel=15555555555&pwd=124563&callback=jsonp1&_=1512718211752
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0020s ]
+
+[ 2017-12-08T15:31:03+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=register&tel=15555555555&pwd=123456&callback=jsonp1&_=1512718263515
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0020s ]
+
+[ 2017-12-08T15:32:36+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=register&tel=15555555555&pwd=123456&callback=jsonp1&_=1512718356129
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0020s ]
+
+[ 2017-12-08T15:33:01+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=register&tel=18292054795&pwd=123456&callback=jsonp1&_=1512718381337
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0020s ]
+
+[ 2017-12-08T15:36:10+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=register&tel=15555555555&pwd=123456&callback=jsonp1&_=1512718570856
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0030s ]
+
+[ 2017-12-08T15:40:41+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=register&tel=15555555555&pwd=123456&callback=jsonp1&_=1512718841880
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0030s ]
+SQL: INSERT INTO `ec_user` (`user_tel`,`user_pwd`) VALUES ('15555555555','e10adc3949ba59abbe56e057f20f883e') [ RunTime:0.0530s ]
+
+[ 2017-12-08T15:40:57+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=logina&tel=15555555555&pwd=123456&callback=jsonp1&_=1512718857049
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0020s ]
+
+[ 2017-12-08T17:25:00+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=logina&tel=15555555555&pwd=123456&callback=jsonp1&_=1512725100553
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0010s ]
+
+[ 2017-12-08T17:26:14+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=logina&tel=15555555555&pwd=123456&callback=jsonp1&_=1512725174775
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ec_user` WHERE ( user_tel = 15555555555 and user_pwd = 'e10adc3949ba59abbe56e057f20f883e' ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-12-08T17:28:14+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=register&tel=&pwd=&callback=jsonp1&_=1512725294344
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0020s ]
+SQL: INSERT INTO `ec_user` (`user_tel`,`user_pwd`) VALUES ('','d41d8cd98f00b204e9800998ecf8427e') [ RunTime:0.0360s ]
+
+[ 2017-12-08T17:28:25+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=logina&tel=&pwd=&callback=jsonp1&_=1512725305031
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0020s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and user_pwd = 'd41d8cd98f00b204e9800998ecf8427e' ) LIMIT 1' at line 1
+ [ SQL璇彞 ] : SELECT * FROM `ec_user` WHERE ( user_tel =  and user_pwd = 'd41d8cd98f00b204e9800998ecf8427e' ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and user_pwd = 'd41d8cd98f00b204e9800998ecf8427e' ) LIMIT 1' at line 1
+ [ SQL璇彞 ] : SELECT * FROM `ec_user` WHERE ( user_tel =  and user_pwd = 'd41d8cd98f00b204e9800998ecf8427e' ) LIMIT 1  
+
+[ 2017-12-08T17:28:25+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=logina&tel=&pwd=&callback=jsonp2&_=1512725305559
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0020s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and user_pwd = 'd41d8cd98f00b204e9800998ecf8427e' ) LIMIT 1' at line 1
+ [ SQL璇彞 ] : SELECT * FROM `ec_user` WHERE ( user_tel =  and user_pwd = 'd41d8cd98f00b204e9800998ecf8427e' ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and user_pwd = 'd41d8cd98f00b204e9800998ecf8427e' ) LIMIT 1' at line 1
+ [ SQL璇彞 ] : SELECT * FROM `ec_user` WHERE ( user_tel =  and user_pwd = 'd41d8cd98f00b204e9800998ecf8427e' ) LIMIT 1  
+
+[ 2017-12-08T17:28:25+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=logina&tel=&pwd=&callback=jsonp3&_=1512725305950
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0010s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and user_pwd = 'd41d8cd98f00b204e9800998ecf8427e' ) LIMIT 1' at line 1
+ [ SQL璇彞 ] : SELECT * FROM `ec_user` WHERE ( user_tel =  and user_pwd = 'd41d8cd98f00b204e9800998ecf8427e' ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and user_pwd = 'd41d8cd98f00b204e9800998ecf8427e' ) LIMIT 1' at line 1
+ [ SQL璇彞 ] : SELECT * FROM `ec_user` WHERE ( user_tel =  and user_pwd = 'd41d8cd98f00b204e9800998ecf8427e' ) LIMIT 1  
+
+[ 2017-12-08T17:28:26+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=logina&tel=&pwd=&callback=jsonp4&_=1512725306145
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0020s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and user_pwd = 'd41d8cd98f00b204e9800998ecf8427e' ) LIMIT 1' at line 1
+ [ SQL璇彞 ] : SELECT * FROM `ec_user` WHERE ( user_tel =  and user_pwd = 'd41d8cd98f00b204e9800998ecf8427e' ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and user_pwd = 'd41d8cd98f00b204e9800998ecf8427e' ) LIMIT 1' at line 1
+ [ SQL璇彞 ] : SELECT * FROM `ec_user` WHERE ( user_tel =  and user_pwd = 'd41d8cd98f00b204e9800998ecf8427e' ) LIMIT 1  
+
+[ 2017-12-08T17:28:26+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=logina&tel=&pwd=&callback=jsonp5&_=1512725306335
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0010s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and user_pwd = 'd41d8cd98f00b204e9800998ecf8427e' ) LIMIT 1' at line 1
+ [ SQL璇彞 ] : SELECT * FROM `ec_user` WHERE ( user_tel =  and user_pwd = 'd41d8cd98f00b204e9800998ecf8427e' ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and user_pwd = 'd41d8cd98f00b204e9800998ecf8427e' ) LIMIT 1' at line 1
+ [ SQL璇彞 ] : SELECT * FROM `ec_user` WHERE ( user_tel =  and user_pwd = 'd41d8cd98f00b204e9800998ecf8427e' ) LIMIT 1  
+
+[ 2017-12-08T17:28:26+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=logina&tel=&pwd=&callback=jsonp6&_=1512725306495
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0020s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and user_pwd = 'd41d8cd98f00b204e9800998ecf8427e' ) LIMIT 1' at line 1
+ [ SQL璇彞 ] : SELECT * FROM `ec_user` WHERE ( user_tel =  and user_pwd = 'd41d8cd98f00b204e9800998ecf8427e' ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and user_pwd = 'd41d8cd98f00b204e9800998ecf8427e' ) LIMIT 1' at line 1
+ [ SQL璇彞 ] : SELECT * FROM `ec_user` WHERE ( user_tel =  and user_pwd = 'd41d8cd98f00b204e9800998ecf8427e' ) LIMIT 1  
+
+[ 2017-12-08T17:28:32+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=register&tel=&pwd=&callback=jsonp1&_=1512725311959
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0010s ]
+SQL: INSERT INTO `ec_user` (`user_tel`,`user_pwd`) VALUES ('','d41d8cd98f00b204e9800998ecf8427e') [ RunTime:0.0610s ]
+
+[ 2017-12-08T17:28:44+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=logina&tel=&pwd=&callback=jsonp1&_=1512725324360
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0010s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and user_pwd = 'd41d8cd98f00b204e9800998ecf8427e' ) LIMIT 1' at line 1
+ [ SQL璇彞 ] : SELECT * FROM `ec_user` WHERE ( user_tel =  and user_pwd = 'd41d8cd98f00b204e9800998ecf8427e' ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and user_pwd = 'd41d8cd98f00b204e9800998ecf8427e' ) LIMIT 1' at line 1
+ [ SQL璇彞 ] : SELECT * FROM `ec_user` WHERE ( user_tel =  and user_pwd = 'd41d8cd98f00b204e9800998ecf8427e' ) LIMIT 1  
+
+[ 2017-12-08T17:29:42+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=logina&tel=15555555555&pwd=123456&callback=jsonp1&_=1512725382575
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `ec_user` WHERE ( user_tel = 15555555555 and user_pwd = 'e10adc3949ba59abbe56e057f20f883e' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-12-08T17:30:17+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=register&tel=18220995991&pwd=123456&callback=jsonp1&_=1512725417775
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0020s ]
+SQL: INSERT INTO `ec_user` (`user_tel`,`user_pwd`) VALUES ('18220995991','e10adc3949ba59abbe56e057f20f883e') [ RunTime:0.0470s ]
+
+[ 2017-12-08T17:30:23+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=logina&tel=18220995991&pwd=123456&callback=jsonp1&_=1512725423887
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ec_user` WHERE ( user_tel = 18220995991 and user_pwd = 'e10adc3949ba59abbe56e057f20f883e' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-12-08T17:41:52+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=logina&tel=&pwd=&callback=jsonp1&_=1512726112368
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0010s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and user_pwd = 'd41d8cd98f00b204e9800998ecf8427e' ) LIMIT 1' at line 1
+ [ SQL璇彞 ] : SELECT * FROM `ec_user` WHERE ( user_tel =  and user_pwd = 'd41d8cd98f00b204e9800998ecf8427e' ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and user_pwd = 'd41d8cd98f00b204e9800998ecf8427e' ) LIMIT 1' at line 1
+ [ SQL璇彞 ] : SELECT * FROM `ec_user` WHERE ( user_tel =  and user_pwd = 'd41d8cd98f00b204e9800998ecf8427e' ) LIMIT 1  
+
+[ 2017-12-08T17:41:52+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=logina&tel=&pwd=&callback=jsonp2&_=1512726112839
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0010s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and user_pwd = 'd41d8cd98f00b204e9800998ecf8427e' ) LIMIT 1' at line 1
+ [ SQL璇彞 ] : SELECT * FROM `ec_user` WHERE ( user_tel =  and user_pwd = 'd41d8cd98f00b204e9800998ecf8427e' ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and user_pwd = 'd41d8cd98f00b204e9800998ecf8427e' ) LIMIT 1' at line 1
+ [ SQL璇彞 ] : SELECT * FROM `ec_user` WHERE ( user_tel =  and user_pwd = 'd41d8cd98f00b204e9800998ecf8427e' ) LIMIT 1  
+
+[ 2017-12-08T17:45:43+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=logina&tel=18220995991&pwd=123456&callback=jsonp3&_=1512726343687
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ec_user` WHERE ( user_tel = 18220995991 and user_pwd = 'e10adc3949ba59abbe56e057f20f883e' ) LIMIT 1   [ RunTime:0.0230s ]
+
+[ 2017-12-08T17:57:04+08:00 ] 192.168.2.129 /index.php?m=admin&c=login&a=logina&tel=18220995991&pwd=)123456&callback=jsonp1&_=1512727052016
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ec_user` WHERE ( user_tel = 18220995991 and user_pwd = 'aa93bd12a7be510577a1325fb60e2847' ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-12-08T17:57:06+08:00 ] 192.168.2.129 /index.php?m=admin&c=login&a=logina&tel=18220995991&pwd=)123456&callback=jsonp2&_=1512727055045
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ec_user` WHERE ( user_tel = 18220995991 and user_pwd = 'aa93bd12a7be510577a1325fb60e2847' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-12-08T17:57:27+08:00 ] 192.168.2.129 /index.php?m=admin&c=login&a=register&tel=18220995991&pwd=123456&callback=jsonp1&_=1512727075004
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0060s ]
+SQL: INSERT INTO `ec_user` (`user_tel`,`user_pwd`) VALUES ('18220995991','e10adc3949ba59abbe56e057f20f883e') [ RunTime:0.0940s ]
+
+[ 2017-12-08T17:57:38+08:00 ] 192.168.2.129 /index.php?m=admin&c=login&a=logina&tel=18220995991&pwd=123456&callback=jsonp1&_=1512727086428
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ec_user` WHERE ( user_tel = 18220995991 and user_pwd = 'e10adc3949ba59abbe56e057f20f883e' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-12-08T17:57:41+08:00 ] 192.168.2.129 /index.php?m=admin&c=login&a=logina&tel=18220995991&pwd=123456&callback=jsonp2&_=1512727089372
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ec_user` WHERE ( user_tel = 18220995991 and user_pwd = 'e10adc3949ba59abbe56e057f20f883e' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-12-08T17:57:42+08:00 ] 192.168.2.129 /index.php?m=admin&c=login&a=logina&tel=18220995991&pwd=123456&callback=jsonp3&_=1512727090115
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ec_user` WHERE ( user_tel = 18220995991 and user_pwd = 'e10adc3949ba59abbe56e057f20f883e' ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-12-08T17:58:06+08:00 ] 192.168.2.129 /index.php?m=admin&c=login&a=register&tel=18220995991&pwd=123456&callback=jsonp2&_=1512727114429
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0090s ]
+SQL: INSERT INTO `ec_user` (`user_tel`,`user_pwd`) VALUES ('18220995991','e10adc3949ba59abbe56e057f20f883e') [ RunTime:0.0360s ]
+
+[ 2017-12-08T17:58:09+08:00 ] 192.168.2.129 /index.php?m=admin&c=login&a=register&tel=18220995991&pwd=123456&callback=jsonp3&_=1512727117094
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0030s ]
+SQL: INSERT INTO `ec_user` (`user_tel`,`user_pwd`) VALUES ('18220995991','e10adc3949ba59abbe56e057f20f883e') [ RunTime:0.0570s ]
+
+[ 2017-12-08T17:58:35+08:00 ] 192.168.2.129 /index.php?m=admin&c=login&a=logina&tel=18220995991&pwd=123456&callback=jsonp1&_=1512727143156
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `ec_user` WHERE ( user_tel = 18220995991 and user_pwd = 'e10adc3949ba59abbe56e057f20f883e' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-12-08T17:58:54+08:00 ] 192.168.2.129 /index.php?m=admin&c=login&a=logina&tel=18220995991&pwd=123456&callback=jsonp2&_=1512727162154
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ec_user` WHERE ( user_tel = 18220995991 and user_pwd = 'e10adc3949ba59abbe56e057f20f883e' ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-12-08T17:59:35+08:00 ] 192.168.2.129 /index.php?m=admin&c=login&a=logina&tel=18220995991&pwd=123456&callback=jsonp1&_=1512727203463
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ec_user` WHERE ( user_tel = 18220995991 and user_pwd = 'e10adc3949ba59abbe56e057f20f883e' ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-12-08T17:59:44+08:00 ] 192.168.2.129 /index.php?m=admin&c=login&a=logina&tel=18220995991&pwd=123456&callback=jsonp2&_=1512727212594
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ec_user` WHERE ( user_tel = 18220995991 and user_pwd = 'e10adc3949ba59abbe56e057f20f883e' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-12-08T18:00:16+08:00 ] 192.168.2.129 /index.php?m=admin&c=login&a=logina&tel=18220995991&pwd=123456&callback=jsonp1&_=1512727244439
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ec_user` WHERE ( user_tel = 18220995991 and user_pwd = 'e10adc3949ba59abbe56e057f20f883e' ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-12-08T18:01:53+08:00 ] 192.168.2.129 /index.php?m=admin&c=login&a=logina&tel=18220995991&pwd=111111&callback=jsonp1&_=1512727341142
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ec_user` WHERE ( user_tel = 18220995991 and user_pwd = '96e79218965eb72c92a549dd5a330112' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-12-08T18:02:01+08:00 ] 192.168.2.129 /index.php?m=admin&c=login&a=logina&tel=18220995991&pwd=123456&callback=jsonp2&_=1512727349578
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ec_user` WHERE ( user_tel = 18220995991 and user_pwd = 'e10adc3949ba59abbe56e057f20f883e' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-12-08T18:04:44+08:00 ] 192.168.2.129 /index.php?m=admin&c=login&a=logina&tel=18220995991&pwd=123456&callback=jsonp1&_=1512727512519
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `ec_user` WHERE ( user_tel = 18220995991 and user_pwd = 'e10adc3949ba59abbe56e057f20f883e' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-12-08T18:06:01+08:00 ] 192.168.2.129 /index.php?m=admin&c=login&a=logina&tel=18220995991&pwd=123456&callback=jsonp1&_=1512727589424
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ec_user` WHERE ( user_tel = 18220995991 and user_pwd = 'e10adc3949ba59abbe56e057f20f883e' ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-12-08T18:11:22+08:00 ] 192.168.2.129 /index.php?m=admin&c=login&a=logina&tel=18220995991&pwd=123456&callback=jsonp1&_=1512727910032
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `ec_user` WHERE ( user_tel = 18220995991 and user_pwd = 'e10adc3949ba59abbe56e057f20f883e' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-12-08T18:15:09+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=register&tel=&pwd=&callback=jsonp1&_=1512728109232
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0020s ]
+SQL: INSERT INTO `ec_user` (`user_tel`,`user_pwd`) VALUES ('','d41d8cd98f00b204e9800998ecf8427e') [ RunTime:0.0480s ]
+
+[ 2017-12-08T18:15:22+08:00 ] 192.168.2.104 /index.php?m=admin&c=login&a=register&tel=&pwd=&callback=jsonp2&_=1512728122088
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0020s ]
+SQL: INSERT INTO `ec_user` (`user_tel`,`user_pwd`) VALUES ('','d41d8cd98f00b204e9800998ecf8427e') [ RunTime:0.1800s ]
+
+[ 2017-12-08T18:15:58+08:00 ] 192.168.2.138 /index.php?m=admin&c=login&a=logina&tel=&pwd=&callback=jsonp1&_=1512728186884
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0120s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and user_pwd = 'd41d8cd98f00b204e9800998ecf8427e' ) LIMIT 1' at line 1
+ [ SQL璇彞 ] : SELECT * FROM `ec_user` WHERE ( user_tel =  and user_pwd = 'd41d8cd98f00b204e9800998ecf8427e' ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and user_pwd = 'd41d8cd98f00b204e9800998ecf8427e' ) LIMIT 1' at line 1
+ [ SQL璇彞 ] : SELECT * FROM `ec_user` WHERE ( user_tel =  and user_pwd = 'd41d8cd98f00b204e9800998ecf8427e' ) LIMIT 1  
+
+[ 2017-12-08T18:15:59+08:00 ] 192.168.2.138 /index.php?m=admin&c=login&a=logina&tel=&pwd=&callback=jsonp2&_=1512728187881
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0010s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and user_pwd = 'd41d8cd98f00b204e9800998ecf8427e' ) LIMIT 1' at line 1
+ [ SQL璇彞 ] : SELECT * FROM `ec_user` WHERE ( user_tel =  and user_pwd = 'd41d8cd98f00b204e9800998ecf8427e' ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and user_pwd = 'd41d8cd98f00b204e9800998ecf8427e' ) LIMIT 1' at line 1
+ [ SQL璇彞 ] : SELECT * FROM `ec_user` WHERE ( user_tel =  and user_pwd = 'd41d8cd98f00b204e9800998ecf8427e' ) LIMIT 1  
+
+[ 2017-12-08T18:16:11+08:00 ] 192.168.2.138 /index.php?m=admin&c=login&a=logina&tel=18220995991&pwd=123456&callback=jsonp3&_=1512728199399
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ec_user` WHERE ( user_tel = 18220995991 and user_pwd = 'e10adc3949ba59abbe56e057f20f883e' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-12-08T18:16:36+08:00 ] 192.168.2.129 /index.php?m=admin&c=login&a=logina&tel=18220995991&pwd=&callback=jsonp1&_=1512728224708
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ec_user` WHERE ( user_tel = 18220995991 and user_pwd = 'd41d8cd98f00b204e9800998ecf8427e' ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-12-08T18:16:42+08:00 ] 192.168.2.129 /index.php?m=admin&c=login&a=logina&tel=18220995991&pwd=123456&callback=jsonp2&_=1512728230015
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ec_user` WHERE ( user_tel = 18220995991 and user_pwd = 'e10adc3949ba59abbe56e057f20f883e' ) LIMIT 1   [ RunTime:0.0000s ]
+

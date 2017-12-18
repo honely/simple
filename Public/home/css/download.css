@@ -1,0 +1,30 @@
+.cont {
+	width: 27.6rem;
+	display: block;
+	margin: 0 auto;
+}
+
+.cont li {
+	height: 4rem;
+	border-bottom: 1px solid #fafafa;
+	padding: 0 0.72rem;
+}
+
+.cont li p {
+	font-size: 1.12rem;
+	color: #363636;
+	float: left;
+	line-height: 4rem;
+}
+
+.cont li button {
+	width: 5.12rem;
+	height: 1.8rem;
+	background: #33bfff;
+	border-radius: 0.5rem;
+	color: #ffffff;
+	font-size: 1rem;
+	border: none;
+	float: right;
+	margin-top: 1.1rem;
+}

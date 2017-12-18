@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta http-equiv="Cache-Control" content="no-transform" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<title>学分规则</title>
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/home/font/iconfont.css">
+		<link rel="stylesheet" href="__PUBLIC__/home/css/ziliaowanshan.css" />
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/home/css/html5.css"/>
+		<link rel="stylesheet" href="__PUBLIC__/home/css/district.css" />
+		<script src="__PUBLIC__/home/js/jquery-1.10.2.min.js" type="text/javascript" charset="utf-8"></script>	
+		
+		<script>
+			(function(doc, win) {
+				var docEl = doc.documentElement,
+					resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+					recalc = function() {
+						var clientWidth = docEl.clientWidth;
+						if(!clientWidth) return;
+						docEl.style.fontSize = 25 * (clientWidth / 720) + 'px';
+					};
+				if(!doc.addEventListener) return;
+				win.addEventListener(resizeEvt, recalc, false);
+				doc.addEventListener('DOMContentLoaded', recalc, false);
+			})(document, window);
+		</script>
+	</head>
+	<body>
+		<style type="text/css">
+			body{background: #fff;}
+			.cont{ padding:0 1rem 1rem; width: 100%; border-radius: 0; margin:0 auto;}
+			.cont img{display: block; max-width: 100%;}
+		</style>	
+		<div class="cont">
+			<span>{$content.content}</span>
+		</div>
+	</body>
+</html>
+
+

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="UTF-8">
+		<title>支付明细</title>
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/admin/css/html5.css"/>
+		<link rel="stylesheet" type="text/css"  href="__PUBLIC__/admin/font/iconfont.css">
+		<link rel="stylesheet" type="text/css"  href="__PUBLIC__/admin/font/css/font-awesome.css">
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/admin/css/index.css"/>
+		<script src="__PUBLIC__/admin/js/jquery-1.10.2.min.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+		<div class="right_min">
+			<div class="crumbs_nav">
+				<i class="iconfont icon-shouye"></i>
+				<ul>
+					<li><a href="{:U('index/welcome')}">首页</a></li>
+					<li> > </li>
+					<li><a href="javascript:void(0);">学员管理</a></li>
+					<li> > </li>
+					<li><a href="javascript:void(0);">支付明细</a></li>
+				</ul>
+			</div>
+			<div class="min">								
+				<div class="query">
+					<form  name="seachform" id="seachform"  action="{:U('Payinfo/payoper')}"  method="post" class="form">
+						<div class="form_input mg_trb">
+		                    <label class="text">查询</label>
+		                    <input type="text" name="info[focus_title]" id="focus_title" value="{$focus_title}"  placeholder="输入用户名、手机号或订单号"  maxlength="15"/>
+	                	</div>			
+						<div class="form_input mg_trb form-date">
+							<label class="text">支付时间</label>
+								<input type="text" class="laydate-icon layer-date" name="info[starttime]"  value="{$starttime}"  id="start" placeholder="开始时间" readonly/>
+								<span>--</span>
+								<input type="text" class="laydate-icon layer-date" name="info[endtime]"  value="{$endtime}"  id="end" placeholder="结束时间" readonly/>
+						</div>					
+						<!--<div class="select mg_trb">		
+							<span class="text">支付方式</span>
+							<select name="info[pay_type]">
+								<option value="">--请选择--</option>
+								<volist name="paytype" id="data">
+									<option value="{$key}" <if condition="$key eq $pay_type">selected</if>>{$data}</option>
+								</volist>
+							</select>
+						</div>-->			
+						<div class="select mg_trb">	
+							<span class="text">支付状态</span>
+							<select name="info[pay_flag]">
+								<option value="">--请选择--</option>
+								<volist name="payflag" id="data">
+									<option value="{$key}" <if condition="$key eq $pay_flag">selected</if>>{$data}</option>
+								</volist>
+							</select>
+						</div>
+
+						<div class="button mg_trb">
+							<i class="fa fa-refresh ico"></i>
+							<input type="button" value="重置" class="but chongzhi" onclick="location.href='{:U('Payinfo/payoper')}'"/>
+						</div>
+						<div class="button mg_trb">
+							<i class="fa fa-search ico"></i>
+							<input type="submit" value="查询" class="but chaxun"/>
+						</div>
+					</form>
+				</div>
+				<div class="table_box">
+					<table class="table" border="" cellspacing="" cellpadding="">
+						<colgroup>
+							<col width="200">
+							<col width="100">
+							<col width="100">
+							<col width="100">
+							<col width="100">
+							<col width="100">
+							<col width="200">
+							<col width="200">
+						</colgroup>
+						<thead>
+							<tr>
+								<th>订单号</th>
+								<th>用户名</th>
+								<th>手机号</th>
+								<th>支付方式</th>
+								<th>支付状态</th>
+								<th>支付金额</th>
+								<th>支付备注</th>	
+								<th>支付时间</th>							
+							</tr>
+						</thead>
+						<tbody>
+							<volist name="arr" id="v">
+							<tr>
+								<td>{$v.pay_no}</td>
+								<td>{$v.nickname}</td>
+								<td>{$v.phone}</td>
+								<td>{$paytype[$v[pay_type]]}</td>
+								<td>{$payflag[$v[pay_flag]]}</td>
+								<td>{$v.pay_money}</td>
+								<td>{$v.pay_remarks}</td>
+								<td>{$v.pay_addtime|date='Y-m-d H:i:s',###}</td>
+							</tr>
+							</volist>
+						</tbody>
+					</table>					
+				</div>				
+				{$pageshow}
+			</div>
+		</div>
+	</body>
+</html>
+<script src="__PUBLIC__/admin/js/laydate/laydate.js"></script>
+<script type="text/javascript">
+	$(function(){
+		$(".right_min").height($(window).height());
+	});
+</script>
+<script>
+    //laydate({elem: "#hello", event: "focus"});
+    var start = {
+        elem: "#start",
+        format: "YYYY-MM-DD",
+        min: "2000-01-01",
+        max: "2100-01-01",
+        istime: false,
+        istoday: false,
+        choose: function (datas) {
+            end.min = datas;
+            end.start = datas
+        }
+    };
+    var end = {
+        elem: "#end",
+        format: "YYYY-MM-DD",
+        min: "2000-01-01",
+        max: "2100-01-01",
+        istime: false,
+        istoday: false,
+        choose: function (datas) {
+            start.max = datas
+        }
+    };
+    laydate(start);
+    laydate(end);
+</script>

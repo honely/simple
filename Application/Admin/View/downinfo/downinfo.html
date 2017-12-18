@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>工具下载管理</title>
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/admin/css/html5.css"/>
+		<link rel="stylesheet" type="text/css"  href="__PUBLIC__/admin/font/iconfont.css">
+		<link rel="stylesheet" type="text/css"  href="__PUBLIC__/admin/font/css/font-awesome.css">
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/admin/css/index.css"/>
+		<script src="__PUBLIC__/admin/js/jquery-1.10.2.min.js" type="text/javascript" charset="utf-8"></script>
+		<script>
+		function subtype(v){
+			//ajax获取二级分类数据
+			$("#down_subtype").empty();
+			$("#down_subtype").append('<option value="">--请选择分类--</option>');
+			$.getJSON("{:U('downinfo/ajaxgetsubtype')}&down_type="+v,function(result){
+				$.each(result, function(i, field){
+					$("#down_subtype").append('<option value="'+result[i].subtype_id+'">'+result[i].subtype_name+'</option>');
+				});
+			});
+		}
+		</script>
+	</head>
+	<body>
+		<div class="right_min">
+			<div class="crumbs_nav">
+				<i class="iconfont icon-shouye"></i>
+				<ul>
+					<li><a href="{:U('index/welcome')}">首页</a></li>
+					<li> > </li>
+					<li><a>其他设置</a></li>
+					<li> > </li>
+					<li><a href="{:U('downinfo/downinfo')}">工具下载管理</a></li>
+				</ul>
+			</div>
+			<div class="min">
+				<!--查询-->
+				<div class="query">
+					<form name="seachform" id="seachform" action="{:U('downinfo/downinfo')}"  method="post" class="form" >
+						<div class="form_input mg_trb">
+							<label class="text">快速检索</label>
+							<input type="text" name="info[downinfo]" id="keyword" value="{$downinfo}" placeholder="请输入标题搜索" maxlength="15"/>							
+						</div>
+						<div class="select mg_trb">
+							<span class="text">工具类型</span>
+							<select name="info[down_type_]" onchange="subtype(this.value)">
+								<option value="">--请选择--</option>
+								<volist name="down_type" id="data">
+									<option value="{$key}" <if condition="$key eq $down_type_">selected</if>>{$data}</option>
+								</volist>
+							</select>
+							<select name="info[down_subtype]" id="down_subtype">
+								<option value="">--请选择分类--</option>
+								<volist name="down_subtype_info" id="data">
+									<option value="{$data.subtype_id}" <if condition="$data.subtype_id eq $down_subtype">selected</if>>{$data.subtype_name}</option>
+								</volist>
+							</select>
+						</div>
+						<div class="button mg_trb" onclick="location.href = '{:U('downinfo/downinfo')}'">
+							<i class="fa fa-refresh ico"></i>
+							<input type="button" value="重置" class="but chongzhi" />
+						</div>
+						<div class="button mg_trb chaxun">
+							<i class="fa fa-search ico"></i>
+							<input type="submit" value="查询" class="but " style="    position: absolute; background: none;z-index: 2;" />
+						</div>
+					</form>
+				</div>
+				<div class="tianjia">
+					<a class="tianjia_but" href="{:U('downinfo/addpage')}">
+						<i class="fa fa-plus"></i>
+						添加工具
+					</a>
+				</div>
+				<div class="table_box">
+					<table class="table" border="" cellspacing="" cellpadding="">
+					
+						<thead>
+							<tr>
+								<th>编号</th>
+								<th>下载标题</th>
+								<th>工具类型</th>
+								<th>二级类型</th>
+								<!--<th>封面图</th>-->
+								<th>下载次数</th>
+								<th>操作</th>
+							</tr>
+						</thead>
+						<tbody>
+							<volist name="arr" id="vo">
+							<tr>
+								<td>{$vo.down_id}</td>
+								<td>{$vo.down_title}</td>
+								<td>{$down_type[$vo['down_type']]}</td> 
+								<td>{$vo.subtype_name}</td>
+								<!--<td><img src='{$vo.down_image}'  width="100px"/></td>-->
+								<td>{$vo.down_count}</td>
+								<td>
+									<a href="{:U('downinfo/upd',array('down_id'=>$vo['down_id']))}"  class="but chaxun">
+										<i class="fa fa-edit"></i>
+										编辑
+									</a>
+									<a href="{:U('downinfo/del',array('down_id'=>$vo['down_id']))}" onclick="{if(confirm('确认删除?')){return true;}return false;}"  class="but chongzhi">
+										<i class="fa fa-trash-o"></i>
+										删除
+									</a>
+								</td>
+							</tr> 
+							</volist>
+						</tbody>
+					</table>
+				</div>
+				{$pageshow}
+			</div>
+		</div>
+	</body>
+</html>
+<script type="text/javascript">
+	$(function(){
+		$(".right_min").height($(window).height());
+	});
+</script>

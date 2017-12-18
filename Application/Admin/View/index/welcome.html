@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>统计</title>
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/admin/css/html5.css"/>
+		<link rel="stylesheet" type="text/css"  href="__PUBLIC__/admin/font/iconfont.css">
+		<link rel="stylesheet" type="text/css"  href="__PUBLIC__/admin/font/css/font-awesome.css">
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/admin/css/index.css"/>
+		<script src="__PUBLIC__/admin/js/jquery-1.10.2.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<style type="text/css">
+			.right_min{background: #f2f2f2;}
+			.query{background:#fff;}
+		</style>
+		<div class="right_min">
+			<div class="crumbs_nav">
+				<i class="iconfont icon-shouye"></i>
+				<ul>
+					<li><a href="{:U('index/welcome')}">首页</a></li>
+					<li> > </li>
+					<li><a href="javascript:void(0);">主页</a></li>
+				</ul>
+			</div>
+			
+			<div class="min">
+			<!--查询-->
+				<div class="query">
+					<h1 style="font-size:25px;">欢迎【<font color=red>{$Think.session.admin.realname}({$Think.session.admin.username})</font>】进入简异思维管理系统！</h1>
+				</div>
+				<div class="tongji_box">
+					<ul>
+						<li class="tongji pg_lr15">
+							<a href="javascript:void(0);">
+								<div class="title">
+									<i class="fa fa-user-o" style="color:#54FF9F;"></i>
+									<h4><span>会员（全部会员个数）</span></h4>
+								</div>
+								<div class="center">
+									<p>
+										<span>{$user_info['user_count']}</span>
+										<em>人</em>
+									</p>
+								</div>
+							</a>
+						</li>
+						<li class="tongji pg_lr15">
+							<a href="javascript:void(0);">
+								<div class="title">
+									<i class="iconfont icon-vipdingyue" style="color:#EE7621;"></i>
+									<h4><span>VIP（全部VIP个数）</span></h4>
+								</div>
+								<div class="center">
+									<p>
+										<span>{$user_info['user_vip_count']}</span>
+										<em>人</em>
+									</p>
+								</div>
+							</a>
+						</li>
+						<li class="tongji pg_lr15">
+							<a href="javascript:void(0);">
+								<div class="title">
+									<i class="iconfont icon-icon_sub" style="color:#54FF9F;"></i>
+									<h4><span>订阅金额（购买专题VIP金额）</span></h4>
+								</div>
+								<div class="center">
+									<p>
+										<span>{$user_info['user_buy_money']}</span>
+										<em>元</em>
+									</p>
+								</div>
+							</a>
+						</li>
+						<li class="tongji pg_lr15">
+							<a href="javascript:void(0);">
+								<div class="title">
+									<i class="iconfont icon-icon_sub" style="color:#54FF9F;"></i>
+									<h4><span>购买金额（购买课程金额）</span></h4>
+								</div>
+								<div class="center">
+									<p>
+										<span>{$user_info['user_buy_lesson']}</span>
+										<em>元</em>
+									</p>
+								</div>
+							</a>
+						</li>
+						<!--
+						<li class="tongji pg_lr15">
+							<a href="javascript:void(0);">
+								<div class="title">
+									<i class="iconfont icon-chongzhijine" style="color:#CD4F39;"></i>
+									<h4><span>充值金额（全部充值金额）</span></h4>
+								</div>
+								<div class="center">
+									<p>
+										<span>{$user_info['user_pay_money']}</span>
+										<em>元</em>
+									</p>
+								</div>
+							</a>
+						</li>
+						-->
+						<li class="tongji pg_lr15">
+							<a href="javascript:void(0);">
+								<div class="title">
+									<i class="iconfont icon-wodejianglixianjin" style="color:#CD0000;"></i>
+									<h4><span>奖金金额（全部奖学金金额）</span></h4>
+								</div>
+								<div class="center">
+									<p>
+										<span>{$user_info['user_money_money']}</span>
+										<em>元</em>
+									</p>
+								</div>
+							</a>
+						</li>
+						<li class="tongji pg_lr15">
+							<a href="{:U('forum/index')}">
+								<div class="title">
+									<i class="iconfont icon-icon_sub" style="color:#CD0000;"></i>
+									<h4><span>待办事项</span></h4>
+								</div>
+								<div class="center">
+									<p>
+										<em>你有<i style="color:red;">{$user_info['forum']}</i>条问答内容未审核</em>
+									</p>
+								</div>
+							</a>
+						</li>
+						<li class="tongji pg_lr15">
+							<a href="{:U('forum/forum')}">
+								<div class="title">
+									<i class="iconfont icon-icon_sub" style="color:#CD0000;"></i>
+									<h4><span>待办事项</span></h4>
+								</div>
+								<div class="center">
+									<p>
+										<em>你有<i style="color:red;">{$user_info['forumcomment']}</i>条问答评论未审核</em>
+									</p>
+								</div>
+							</a>
+						</li>
+						<li class="tongji pg_lr15">
+							<a href="{:U('forum/forum2')}">
+								<div class="title">
+									<i class="iconfont icon-icon_sub" style="color:#CD0000;"></i>
+									<h4><span>待办事项</span></h4>
+								</div>
+								<div class="center">
+									<p>
+										<em>你有<i style="color:red;">{$user_info['forumcomment2']}</i>条问答回复未审核</em>
+									</p>
+								</div>
+							</a>
+						</li>
+						<li class="tongji pg_lr15">
+							<a href="{:U('comment/comment')}">
+								<div class="title">
+									<i class="iconfont icon-icon_sub" style="color:#CD0000;"></i>
+									<h4><span>待办事项</span></h4>
+								</div>
+								<div class="center">
+									<p>
+										<em>你有<i style="color:red;">{$user_info['comment']}</i>条专题评论未审核</em>
+									</p>
+								</div>
+							</a>
+						</li>
+						<li class="tongji pg_lr15">
+							<a href="{:U('comment2/index')}">
+								<div class="title">
+									<i class="iconfont icon-icon_sub" style="color:#CD0000;"></i>
+									<h4><span>待办事项</span></h4>
+								</div>
+								<div class="center">
+									<p>
+										<em>你有<i style="color:red;">{$user_info['comment2']}</i>条专题回复未审核</em>
+									</p>
+								</div>
+							</a>
+						</li>
+						<!--
+						<li class="tongji pg_lr15">
+							<a href="{:U('commentalone/commentalone')}">
+								<div class="title">
+									<i class="iconfont icon-icon_sub" style="color:#CD0000;"></i>
+									<h4><span>待办事项</span></h4>
+								</div>
+								<div class="center">
+									<p>
+										<em>你有<i style="color:red;">{$user_info['commentalone']}</i>条课程评论未审核</em>
+									</p>
+								</div>
+							</a>
+						</li>
+						<li class="tongji pg_lr15">
+							<a href="{:U('comment2alone/index')}">
+								<div class="title">
+									<i class="iconfont icon-icon_sub" style="color:#CD0000;"></i>
+									<h4><span>待办事项</span></h4>
+								</div>
+								<div class="center">
+									<p>
+										<em>你有<i style="color:red;">{$user_info['comment2alone']}</i>条课程回复未审核</em>
+									</p>
+								</div>
+							</a>
+						</li>
+						-->
+					</ul>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+<script type="text/javascript">
+	$(function(){
+		$(".right_min").height($(window).height());
+	});
+</script>

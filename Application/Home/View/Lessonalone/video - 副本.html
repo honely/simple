@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html>
+    <!--课程列表-->
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta http-equiv="Cache-Control" content="no-transform" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <title><?= $current_lesson['lesson_name']?></title>
+        <link rel="stylesheet" type="text/css" href="__PUBLIC__/home/font/iconfont.css">
+        <link rel="stylesheet" type="text/css" href="__PUBLIC__/home/css/html5.css"/>
+        <script src="__PUBLIC__/home/js/jquery-1.10.2.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="__PUBLIC__/home/js/jquery.pin.js" type="text/javascript" charset="utf-8"></script>
+        <link rel="stylesheet" href="https://g.alicdn.com/de/prismplayer/1.9.9/skins/default/index.css" />
+        <script type="text/javascript" src="https://g.alicdn.com/de/prismplayer/1.9.9/prism-min.js"></script>  
+        <script>
+            (function (doc, win) {
+                var docEl = doc.documentElement,
+                        resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+                        recalc = function () {
+                            var clientWidth = docEl.clientWidth;
+                            if (!clientWidth)
+                            return;
+                    docEl.style.fontSize = 25 * (clientWidth / 720) + 'px';
+                    };
+            if (!doc.addEventListener)
+                    return;
+            win.addEventListener(resizeEvt, recalc, false);
+            doc.addEventListener('DOMContentLoaded', recalc, false);
+            })(document, window);
+        </script>
+    </head>
+    <body>
+        <style type="text/css">
+            body{background: #fff;}		
+            .form_textarea .but{background: #ccc;}
+            .form_textarea .but.link{background:#ff7811;} 
+            .btn00{ text-align:center; padding:0.75rem 0; font-size:0.95rem; color:#666; width:15rem;  margin:2rem auto;}
+            .xuanjibofang h4,.ivde_tab .nav span em,.ivde_tab .jianji h4 em{font-weight: bold;}
+            
+            .chongzhijilu_ul li {
+                    width: 100%;
+                    height: 3.5rem;
+                    padding: 0 3rem 0 2rem;
+                    border-bottom: 1px solid #f0f0f0;
+                    font-size: 1.3rem;
+                    line-height: 3.5rem;
+                    color: #363636;
+                    overflow: hidden;
+            }
+            .vide_text .left h4 {
+				    width: 100%;
+				    overflow: hidden;
+				    white-space: nowrap;
+				    text-overflow: ellipsis;
+				    font-weight: bold;
+				    font-size: 1.12rem;
+    				color: #3d4149; 
+    				margin:5px 0px 7px ; 
+			}
+            .vide_text .left p {
+				    width: 100%;
+				    display: -webkit-box;
+					-webkit-box-orient: vertical;
+					-webkit-line-clamp: 2;
+					overflow: hidden;     
+				    font-size: 1rem;
+    				color:#808080;  
+			} 
+			.xuanjibofang {padding: 1rem 0 0.6rem 0;}
+			.ivde_tab{border-top: 10px solid #f0f0f0;}
+            .popuo-jianjie{z-index:999999999;}
+            .popuo-jianjie .layui-m-layercont{height: 100%; overflow-y: scroll;padding:0.5rem 0.5rem 0;}
+        	.popuo-jianjie .layui-m-layercont img{display: block; max-width: 100%;}
+        	.popuo-jianjie .head_tatle{position: fixed; top: 0; left: 0;border-bottom: 1px solid #E5E6E8;}
+        	.popuo-jianjie .head_tatle .guanbi_button{display: block; background:rgba(0,0,0,0.5); border-radius: 100%;color: #fff;width: 2.5rem;height: 2.5rem;line-height: 2.5rem;font-size: 2.5rem; text-align: center;}
+        	.xuanjibofang .lb ul li p{height: 3rem; overflow: hidden;display: -webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp:2;overflow: hidden;}
+        	.twlb_box .ct .twlb dd .top a p{margin-top: 2px;}
+        </style>
+        <div class="vide_box">
+            <div  class="prism-player" id="J_prismPlayer" style="position: absolute;left:0%; top: 0;"></div>
+            <div class="music_link">
+                <a onclick="tiaozhuan()">
+                    <i class="iconfont icon-1"></i>
+                    <em>音频</em>
+                </a>
+            </div>
+        </div>
+        <div class="vide_text xqy c">
+            <div class="left">
+            	<h4><?= $current_lesson['lesson_name']?></h4>
+                <p id='course_title'><?= $current_lesson['lesson_remarks']?></p>
+            </div>
+            <div class="right c" >
+                <span>
+                    <i class="iconfont icon-shijian"></i>
+                    <em id='course_time'><?= $current_lesson['lesson_video_time']?></em>
+                </span>
+                <span>
+                    <i class="iconfont icon-yueduliang"></i>
+                    <em><?= $current_lesson['lesson_view']?></em>
+                </span>
+                <strong onclick="shoucang(this);" <?php if($is_cool){echo "class='link'";}?>>
+                    <i class="iconfont icon-xing1"></i>
+                </strong>
+            </div>
+        </div>
+        <div class="xuanjibofang">
+            <h4>选集播放</h4>
+            <div class="lb">
+                <ul id='bar'>
+                    <?php foreach($lessons AS $k=>$v):?>
+                    <li class="url  <?php if($v['lesson_id']==$episode){echo 'link';}?>" onclick="loadurl(this);" data="<?=$v['lesson_id']?>">
+                        <p class='course_title'><?=$v['lesson_name']?></p>
+                        <span>
+                            <i class="iconfont icon-shijian"></i>
+                            <em class='course_time'><?=$v['lesson_video_time']?></em>
+                        </span>
+                    </li>
+                    <?php endforeach;?> 
+                </ul>
+            </div>
+        </div>
+        <div class="ivde_tab">
+            <div class="nav c">
+                <span class="link"><em>简介</em></span>
+                <span><em>问答</em></span>
+            </div>
+            <div class="center">
+                <div class="center_box container" style="position: relative; overflow: hidden;">
+                    <div class="jianji">
+                        <h4>
+                            <em>介绍</em>
+                            <i class="iconfont icon-xiangxiajiantou"></i>
+                        </h4>
+                        <p><?= $current_lesson['lesson_name']?></p>
+                    </div>
+                    <div class="twlb_box pd_lr06">
+                        <h4 class="cnxh">猜你喜欢</h4>
+                        <div class="ct">
+                            <?php foreach($tuijian AS $k=>$v):?>
+                            <dl class="twlb c">
+                                <dt>
+                                    <a href="<?= U('lessonalone/video',array('lesson_id'=>$v['lesson_id']))?>">
+                                        <img src="<?= $v['lesson_image'][0]?>"/>
+                                    </a>
+                                </dt>
+                                <dd>
+                                    <div class="top">
+                                        <a href="<?= U('lessonalone/video',array('lesson_id'=>$v['lesson_id']))?>">
+                                            <h4>
+                                                <strong><?= $v['lesson_name']?></strong>
+                                            </h4>
+                                            <p><?= $v['lesson_remarks']?></p>
+                                        </a>
+                                    </div>
+                                    <div class="ct">
+                                        <div class="left">
+                                            <span>￥<?=$v['lesson_money']?>/年</span>
+                                        </div>
+                                        <div class="right">
+                                            <a href="<?= U('lessonalone/video',array('lesson_id'=>$v['lesson_id']))?>"  onclick="{if(confirm('你还未付费，只能观看免费音频、视频，付费后可观看完整音频视频')){return true;}return false;}" >
+                                                <em>立即订购</em>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="ct_1">
+                                        <div class="left">
+                                            <span>
+                                                <a href="<?= U('lessonalone/video',array('lesson_id'=>$v['lesson_id']))?>">
+                                                    <i class="iconfont icon-shipin1"></i>
+                                                    <em>看视频</em>
+                                                </a>
+                                                <a href="<?= U('lessonalone/audio',array('lesson_id'=>$v['lesson_id']))?>">
+                                                    <i class="iconfont icon-headset"></i>
+                                                    <em>听音频</em>
+                                                </a>
+                                            </span>
+                                        </div>
+                                        <div class="right">
+                                            <span><?=$v['lesson_buy']?>订阅</span>
+                                        </div>
+                                    </div>
+                                </dd>
+                            </dl>
+                            <?php endforeach;?>
+                        </div>
+                    </div>
+					<?php if(!$user_auth):?>
+                    <div class="button_box pd_lr06" style="background: #fff;">
+                        <a class="but mg_b10 mg_t10" href="<?=U('lessonalone/xuanzezhifu',array("lesson_id"=>$current_lesson['lesson_id']))?>">立即订购</a>
+                    </div>
+					<?php else:?>
+						<?php if(!$userinfo['vip']):?>
+						<div class="button_box pd_lr06" style="background: #fff;">
+							<a class="but mg_b10 mg_t10" href="<?=U('personal/shengjihuiyuan')?>">入学</a>
+						</div>
+						<?php endif;?>
+                    <?php endif;?>
+
+                   	<style type="text/css">
+                   		#jianjie{position: absolute; z-index: 99; bottom: -100%; left: 0; width: 100%; height: 100%; background: #fff; overflow: hidden; padding-bottom:100px;}
+                   		#jianjie .jianjie_box{height: 100%;}
+                   		#jianjie .head_tatle{background:#fff;}
+                   		#jianjie .head_tatle .guanbi_button{display: block; padding-right: 0.5rem;color: #000;width: 100%;height:2rem;line-height:2rem;font-size:2.5rem;text-align: right;}
+                   		#jianjie .head_tatle h4{padding:1rem; font-size: 1.12rem; color: #333; font-weight: bold;}
+                   		#jianjie .jianjie_box .jianjie_ct{overflow:hidden;height: 100%; padding:0 1rem; margin-bottom:20px;}
+                   		#jianjie .jianjie_box .jianjie_ct img{display: block; max-width: 100%;}
+                   	</style>
+					<div id="jianjie">  
+						<div class="jianjie_box">
+							<div class="head_tatle">
+								<span  class="guanbi_button">×</span>
+								<h4>{$current_lesson.lesson_name}</h4>
+							</div>
+							<div class="jianjie_ct">{$current_lesson.lesson_content}</div>
+						</div>
+					</div>
+                </div>
+                <div class="center_box">
+                    <div class="hudong_box">
+                        <h4 class="but" onclick="pinglu(0);">我来说两句</h4>
+                        <div id='comments'>
+                        <?php foreach($lessoncomment['commentsalone'] AS $k=>$v):?>
+                        <dl class="pinglun">
+                            <dt><img src="<?=$v['avatar']?>"/></dt>
+                            <dd>
+                                <div class="top">
+                                    <h4><?=$v['nickname']?></h4>
+                                    <span><?=$v['addtime']?></span>
+                                </div>
+                                <div class="ct">
+                                    <p><?=$v['comment']?></p>
+                                </div>
+                                <div class="bottom">
+                                    <span onclick="dianzan(<?=$v['comment_id']?>,this)">
+                                        <i class="iconfont icon-zan"></i>
+                                        <em><?=$v['comment_good']?></em>
+                                    </span>
+                                    <span onclick="pinglu(<?=$v['comment_id']?>);">
+                                        <i class="iconfont icon-xiaoxi1"></i>
+                                        <em><?=$v['comment_count']?></em>
+                                    </span>
+                                </div>
+                                <div class="huifu" id='huifu<?=$v['comment_id']?>'>
+                                    <?php foreach($v['comments2alone'] AS $k2=>$v2):?>
+                                    <dl class="pinglun">
+                                        <dt><img src="<?=$v2['avatar']?>"/></dt>
+                                        <dd>
+                                            <div class="top">
+                                                <h4><?=$v2['nickname']?></h4>
+                                                <span><?=$v2['addtime2']?></span>
+                                            </div>
+                                            <div class="ct">
+                                                <p><?=$v2['comment2']?></p>
+                                            </div>
+                                        </dd>
+                                    </dl> 
+                                    <?php endforeach;?> 
+                                </div>
+                            </dd>
+                        </dl>	
+                        <?php endforeach;?> 
+                         <div id="gundong"></div>
+                        <div onclick="getmore()" id="morebtn" data='1' class="btn00">加载更多</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="textarea_box" style="display:none;">
+            <div class="form_textarea c">
+                <form id="pinglun_form" class="c" action="" to="" method="post" onsubmit="return tijiao(this);">
+                    <textarea id='kong' name="content" placeholder="请输入内容"></textarea>
+                    <button disabled="true"  id="but" class="but">发表</button>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
+<script src="__PUBLIC__/home/js/layer/layer.js" ></script>
+<script>
+                            var _length = $(".xuanjibofang .lb ul li").length;//li个数
+                            var _width = $(".xuanjibofang .lb ul li").outerWidth() + 15; 
+                            $(".xuanjibofang .lb ul").outerWidth(_width * _length);
+                            var thisobj = $("#bar .link");//当前播放li对象
+                            var videoUrl = "<?= $current_lesson['lesson_video']?>";  //当前默认播放
+                            var player = new prismplayer({
+                                id: "J_prismPlayer",
+                                autoplay: false, //播放器是否自动播放true
+                                isLive: false, //播放内容是否为直播
+                                playsinline: true, //H5是否内置播放
+                                width: "100%",
+                                height: "200px",
+                                showBuffer: true,
+                                showBarTime: "2000",
+                                controlBarVisibility: "hover", //控制控制面板的现实
+                                useH5Prism: false, //指定使用H5播放器
+                                useFlashPrism: false, //指定使用Flash播放器
+                                source: videoUrl, //视频播放地址url
+                                cover: "<?= $current_lesson['lesson_image'][1]?>", //播放器默认封面图片,第二张是视频的封面图
+                                skinLayout: [{"name": "bigPlayButton", "align": "cc"},
+                                    {"name": "controlBar", "align": "blabs", "x": 0, "y": 0, "children": [{"name": "progress", "align": "tlabs", "x": 0, "y": 0},
+                                            {"name": "playButton", "align": "tl", "x": 15, "y": 26},
+                                            {"name": "fullScreenButton", "align": "tr", "x": 20, "y": 25},
+                                            {"name": "timeDisplay", "align": "tl", "x": 10, "y": 24},
+                                            {"name": "setButton", "align": "tr", "x": 20, "y": 25}]},
+                                    {"name": "fullControlBar", "align": "tlabs", "x": 0, "y": 0, "children": [{"name": "fullTitle", "align": "tl", "x": 25, "y": 6},
+                                            {"name": "fullNormalScreenButton", "align": "tr", "x": 24, "y": 13},
+                                            {"name": "fullTimeDisplay", "align": "tr", "x": 10, "y": 12},
+                                            {"name": "fullZoom", "align": "cc"}
+                                        ]}]
+                            });
+                            var sh;
+                            player.on("play", function(){
+                                console.log(player.getCurrentTime());
+                                //播放次数+1
+                                // $.get("<?=U('lessonalone/add_play_number',array('lesson_id'=>$current_lesson_id))?>");
+                                //每隔5秒 提交一次观看信息
+                                sh =setInterval(function(){$.get("<?=U('lessonalone/learntime',array('lesson_id'=>$current_lesson_id))?>")},5000);
+                            });
+                            player.on("pause", function(){
+                                console.log(player.getCurrentTime());
+                                clearInterval(sh);
+                            });
+                             
+                             
+                           
+                            player.on("ended", function () {
+                                clearInterval(sh);
+                                console.log(sh);
+                                //console.log("xiayige");
+                                var nextobj = $(thisobj).next();
+                                if ($(nextobj).length) {
+                                    loadurl(nextobj);
+                                }
+                            });
+
+                            function loadurl(obj) { 
+                                thisobj = obj;
+                                //console.log(thisobj);
+                                var lesson_id = $(obj).attr("data");
+                                //alert(lesson_id); 
+                                window.location.href="<?= U('lessonalone/video')?>&lesson_id="+lesson_id;
+                            }
+                            function pinglu(a) { //评论弹出  
+                            $("#pinglun_form").attr("to",a);
+                            if(a == 0){ //对专题评论 
+                                    $("#pinglun_form").attr("action","<?= U('lessonalone/course_comment',array('lesson_id'=>$current_lesson_id))?>");
+                                }else{ //对评论回复
+                                    $("#pinglun_form").attr("action","<?= U('lessonalone/comment_comment')?>&comment_id="+a);
+                                } 
+                                var html = $("#textarea_box").html();
+                                layer.open({
+                                    type: 1,
+                                    content: html,
+                                    anim: 'up',
+                                    style: 'position:fixed; bottom:0; left:0; width: 100%;  padding:0; border:none; background:none;'
+                                });
+                                $('.form_textarea textarea').keyup(function(){
+                                        var _val=$(this).val();
+                                        if(_val!=""){
+                                                $(this).next().attr("disabled",false);
+                                                $(this).next().addClass('link');
+                                        }	
+                                        if(_val==""){
+                                                $(this).next().attr("disabled",true);
+                                                $(this).next().removeClass('link');
+                                        }				
+                                });	
+                            }
+                            function shoucang(obj) { 
+                                if($(obj).hasClass('link')){ //取消收藏 
+                                    $.get("<?=U('lessonalone/quxiaoshoucang',array('lesson_id'=>$current_lesson_id))?>");
+                                    $(obj).removeClass('link'); 
+                                      layer.open({
+                                          content: '取消收藏成功',
+                                          skin: 'msg',
+                                          time: 2 
+                                          }); 
+                                }else{ //收藏
+                                    $.get("<?=U('lessonalone/shoucang',array('lesson_id'=>$current_lesson_id))?>");
+                                    $(obj).addClass('link'); 
+                                      layer.open({
+                                          content: '收藏成功',
+                                          skin: 'msg',
+                                          time: 2
+                                          }); 
+                                }
+                            }
+                            function tijiao(obj){
+                            var url = $(obj).attr("action");
+                            var content = $(obj).find("textarea").val(); 
+                            var to=$(obj).attr("to");
+                            //隐藏
+                            layer.closeAll(); 
+                            //发送
+                            $.ajax({
+                                url: url,
+                                type: "get",
+                                data: {content:content},
+                                timeout: 7000,
+                                success: function (data) {
+                                if(to == 0){ //提交评论
+                                    var container = $("#comments");
+                                    var html='';
+                                    if(data.flag){ //评论成功  
+                                        html += '<dl class="pinglun">';
+                                        html += '<dt><img src="'+data.data.avatar+'"/></dt>';
+                                        html += '<dd>';
+                                        html += '    <div class="top">';
+                                        html += '        <h4>'+data.data.nickname+'</h4>';
+                                        html += '        <span>'+data.data.addtime+'</span>';
+                                        html += '    </div>';
+                                        html += '    <div class="ct">';
+                                        html += '        <p>'+data.data.comment+'</p>';
+                                        html += '    </div>';
+                                        html += '    <div class="bottom">';
+                                        html += '        <span onclick="dianzan('+data.data.comment_id+',this)">';
+                                        html += '            <i class="iconfont icon-zan"></i>';
+                                        html += '            <em>'+data.data.comment_good+'</em>';
+                                        html += '        </span>';
+                                        html += '        <span onclick="pinglu('+data.data.comment_id+');">';
+                                        html += '            <i class="iconfont icon-xiaoxi1"></i>';
+                                        html += '            <em>'+data.data.comment_count+'</em>';
+                                        html += '        </span>';
+                                        html += '    </div>';
+                                        html += '    <div class="huifu" id="huifu'+data.data.comment_id+'">';
+                                        html += '    </div>';
+                                        html += '</dd>';
+                                        html += '</dl>	';  
+                                        //container.prepend(html);
+                                        //拼接页面成功
+                                        
+                                        layer.open({
+                                          content: '评论成功，请等待审核',
+                                          skin: 'msg',
+                                          time: 2 
+                                          });
+                                        }else{ // 评论失败
+                                            layer.open({
+                                           content: '评论失败',
+                                           skin: 'msg',
+                                           time: 2 
+                                           });
+                                        }
+                                }else{ // 回复
+                                    var nm = "#huifu"+to;
+                                    var containerA = $(nm); 
+                                    var containerB = $(nm).siblings(".bottom").find("span:last").find("em"); 
+                                    var html='';
+                                    if(data.flag){ //回复成功 
+                                          html += '<dl class="pinglun">';
+                                        html += '    <dt><img src="'+data.data.avatar+'"/></dt>';
+                                        html += '    <dd>';
+                                        html += '        <div class="top">';
+                                        html += '            <h4>'+data.data.nickname+'</h4>';
+                                        html += '            <span>'+data.data.addtime2+'</span>';
+                                        html += '         </div>';
+                                        html += '        <div class="ct">';
+                                        html += '            <p>'+data.data.comment2+'</p>';
+                                        html += '        </div>';
+                                        html += '    </dd>';
+                                         html += ' </dl> ';  
+                                        //containerA.prepend(html);
+                                        //containerB.html(data.count);
+                                        //拼接页面成功 
+                                            layer.open({
+                                          content: '回复成功，请等待审核',
+                                          skin: 'msg',
+                                          time: 2 
+                                          });
+                                        }else{ // 评论失败
+                                            layer.open({
+                                           content: '回复失败',
+                                           skin: 'msg',
+                                           time: 2 
+                                           });
+                                        }
+                                    }
+                                },
+                                error: function (XMLHttpRequest, textStatus, errorThrown) {
+                                    alert(errorThrown);
+                                },
+                                complete: function () {
+                                   //提示成功
+                                   
+                                }
+                            }); 
+                                return false;
+                            }
+							
+                            $(function () {
+                                $(".ivde_tab .center .center_box").eq(0).show();
+                                $(".ivde_tab .nav span").click(function () {
+                                    var _index = $(this).index();
+                                    $(this).addClass('link').siblings().removeClass('link');
+                                    $(".ivde_tab .center .center_box").eq(_index).show().siblings().hide();
+                                });
+                                $('.jianji h4,.jianji p').click(function () {
+                                    $("#jianjie").animate({bottom:'0'},300);
+                                    $(".head_tatle").show();
+	                            	$(".head_tatle").pin({
+								      containerSelector: ".container",
+								      padding: {top:30}
+									});
+                                });
+                                $(".guanbi_button").click(function(){
+                                	$("#jianjie").animate({bottom:'-100%'},100);
+                                	$(".head_tatle").hide();
+                                });
+                                $(".nav").pin();
+                            });
+                            
+							$(document).scroll(  
+							    function() {  
+							        if ($(document).scrollTop() + window.innerHeight == $(document).height()){  
+							            console.log("到底了！") 
+							            $('#jianjie .jianjie_box .jianjie_ct').css({'overflow':'scroll'})
+							        }else{
+							        	$('#jianjie .jianjie_box .jianjie_ct').css({'overflow':'hidden'})
+							        }
+							});
+							
+                            //点赞
+                            
+                            function dianzan(comment_id,obj){
+                                $(obj).removeAttr("onclick")
+                                $.get("<?=U('lessonalone/dianzan')?>&comment_id="+comment_id,function(n){
+                                     $(obj).find("em").html(n)
+                                     layer.open({
+                                          content: '点赞成功',
+                                          skin: 'msg',
+                                          time: 1 
+                                          });
+                                    })
+                            } 
+                            //跳转到音频播放
+                            function tiaozhuan(){ 
+                               location.href="{:U('lessonalone/audio',array('lesson_id'=>$current_lesson_id))}";
+            
+                            }
+                            $(function(){$(".lb").scrollLeft(<?=$margin?> * _width);})//保证页面正常显示
+                            
+                    //加载更多
+                    function getmore() {
+                        var page = parseInt($('#morebtn').attr("data")) + 1;
+                        $('#morebtn').attr("data", page);//重置当前页数
+                        //alert(page); 
+                        $.getJSON("{:U('lessonalone/gvideo',array('lesson_id'=>$current_lesson_id))}&p=" + page, function (data) { 
+                            if (data.length > 0) {
+                                var html = ""; 
+                                for (var i = 0; i < data.length; i++) {   
+                                    html += '<dl class="pinglun">';
+                                    html += '<dt><img src="' + data[i].avatar + '"/></dt>';
+                                    html += '<dd>';
+                                    html += '    <div class="top">';
+                                    html += '        <h4>' + data[i].nickname + '</h4>';
+                                    html += '        <span>' + data[i].addtime + '</span>';
+                                    html += '    </div>';
+                                    html += '    <div class="ct">';
+                                    html += '        <p>' + data[i].comment + '</p>';
+                                    html += '     </div>';
+                                    html += '    <div class="bottom">';
+                                    html += '        <span onclick="dianzan(' + data[i].comment_id + ',this)">';
+                                    html += '            <i class="iconfont icon-zan"></i>';
+                                    html += '           <em>' + data[i].comment_good + '</em>';
+                                    html += '       </span>';
+                                    html += '        <span onclick="pinglu(' + data[i].comment_id + ');">';
+                                    html += '            <i class="iconfont icon-xiaoxi1"></i>';
+                                    html += '            <em>' + data[i].comment_count + '</em>';
+                                    html += '        </span>';
+                                    html += '    </div>';
+                                    html += '    <div class="huifu" id="huifu' + data[i].comment_id + '">'; 
+                                    console.log(data[i].comments2);
+                                    if(data[i].comments2){
+                                        for(var j=0;j<data[i].comments2.length;j++){
+                                            html += '       <dl class="pinglun">';
+                                            html += '           <dt><img src="'+data[i].comments2[j].avatar+'"/></dt>';
+                                            html += '           <dd>';
+                                            html += '               <div class="top">';
+                                            html += '                   <h4>'+data[i].comments2[j].nickname+'</h4>';
+                                            html += '                   <span>'+data[i].comments2[j].addtime2+'</span>';
+                                            html += '               </div>';
+                                            html += '               <div class="ct">';
+                                            html += '                   <p>'+data[i].comments2[j].comment2+'</p>';
+                                            html += '                </div>';
+                                            html += '            </dd>';
+                                            html += '        </dl>';
+                                        }
+                                    }
+                                    html += '</div>';
+                                    html += ' </dd>';
+                                    html += '</dl>';
+                                }
+                                $("#gundong").append(html); 
+                            } else {
+                                $("#morebtn").html('亲，没有数据了！').removeAttr('onclick');
+                            }
+                        });
+                    }
+</script>

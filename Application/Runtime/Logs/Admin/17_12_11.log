@@ -1,0 +1,980 @@
+[ 2017-12-11T11:01:31+08:00 ] 192.168.2.114 /index.php?m=admin&c=login&a=getBookList&p=1&user_id=1&callback=jQuery1110011571194580756128_1512961291518&_=1512961291519
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_book` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ec_book`  [ RunTime:0.0010s ]
+
+[ 2017-12-11T11:01:37+08:00 ] 192.168.2.114 /index.php?m=admin&c=login&a=getBookList&p=1&user_id=1&callback=jQuery111007621143620926887_1512961297300&_=1512961297301
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_book` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ec_book`  [ RunTime:0.0000s ]
+
+[ 2017-12-11T11:03:34+08:00 ] 192.168.2.114 /index.php?m=admin&c=login&a=getBookList&p=1&user_id=1&callback=jQuery111003065098710358143_1512961414468&_=1512961414469
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_book` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ec_book`  [ RunTime:0.0000s ]
+
+[ 2017-12-11T11:03:38+08:00 ] 192.168.2.114 /index.php?m=admin&c=login&a=getBookList&p=1&user_id=1&callback=jQuery1110018715438013896346_1512961418867&_=1512961418868
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_book` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ec_book`  [ RunTime:0.0010s ]
+
+[ 2017-12-11T11:03:46+08:00 ] 192.168.2.114 /index.php?m=admin&c=login&a=getBookList&p=1&user_id=1&callback=jQuery111009536227327771485_1512961426316&_=1512961426317
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_book` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ec_book`  [ RunTime:0.0010s ]
+
+[ 2017-12-11T11:05:40+08:00 ] 192.168.2.114 /index.php?m=admin&c=login&a=getBookList&p=1&user_id=1&callback=jQuery111003186796323861927_1512961540656&_=1512961540657
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_book` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ec_book`  [ RunTime:0.0010s ]
+
+[ 2017-12-11T11:07:09+08:00 ] 192.168.2.114 /index.php?m=admin&c=login&a=getBookList&p=1&user_id=1&callback=jQuery1110014161341963335872_1512961629571&_=1512961629572
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_book` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ec_book`  [ RunTime:0.0000s ]
+
+[ 2017-12-11T11:07:22+08:00 ] 192.168.2.114 /index.php?m=admin&c=login&a=getBookList&p=1&user_id=1&callback=jQuery1110046209292532876134_1512961642287&_=1512961642288
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_book` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ec_book`  [ RunTime:0.0000s ]
+
+[ 2017-12-11T11:07:32+08:00 ] 192.168.2.114 /index.php?m=admin&c=login&a=getBookList&p=1&user_id=1&callback=jQuery111009841743658762425_1512961652818&_=1512961652819
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_book` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ec_book`  [ RunTime:0.0000s ]
+
+[ 2017-12-11T11:07:36+08:00 ] 192.168.2.114 /index.php?m=admin&c=login&a=getBookList&p=1&user_id=1&callback=jQuery1110049655184568837285_1512961656174&_=1512961656175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_book` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ec_book`  [ RunTime:0.0010s ]
+
+[ 2017-12-11T11:07:46+08:00 ] 192.168.2.114 /index.php?m=admin&c=login&a=getBookList&p=1&user_id=1&callback=jQuery111005803543564397842_1512961666358&_=1512961666359
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_book` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ec_book`  [ RunTime:0.0010s ]
+
+[ 2017-12-11T11:08:08+08:00 ] 192.168.2.114 /index.php?m=admin&c=login&a=getBookList&p=1&callback=jQuery1110033945891121402383_1512961688222&_=1512961688223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_book` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ec_book`  [ RunTime:0.0000s ]
+
+[ 2017-12-11T11:08:18+08:00 ] 192.168.2.114 /index.php?m=admin&c=login&a=getBookList&p=1&callback=jQuery1110015242277970537543_1512961697985&_=1512961697986
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_book` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ec_book`  [ RunTime:0.0000s ]
+
+[ 2017-12-11T11:08:23+08:00 ] 192.168.2.114 /index.php?m=admin&c=login&a=getBookList&p=1&callback=jQuery111002039682820905_1512961703421&_=1512961703422
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_book` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ec_book`  [ RunTime:0.0010s ]
+
+[ 2017-12-11T11:08:56+08:00 ] 192.168.2.114 /index.php?m=admin&c=login&a=getBookList&p=1&callback=jQuery111009791160328313708_1512961736654&_=1512961736655
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_book` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ec_book`  [ RunTime:0.0000s ]
+
+[ 2017-12-11T11:09:02+08:00 ] 192.168.2.114 /index.php?m=admin&c=login&a=getBookList&p=1&callback=jQuery11100595103598665446_1512961742376&_=1512961742377
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_book` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ec_book`  [ RunTime:0.0000s ]
+
+[ 2017-12-11T11:09:08+08:00 ] 192.168.2.114 /index.php?m=admin&c=login&a=getBookList&p=1&callback=jQuery111009647050108760595_1512961748785&_=1512961748786
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_book` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ec_book`  [ RunTime:0.0000s ]
+
+[ 2017-12-11T11:10:33+08:00 ] 192.168.2.114 /index.php?m=admin&c=login&a=getBookList&p=1&callback=jQuery111006216664020903409_1512961833577&_=1512961833578
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_book` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ec_book`  [ RunTime:0.0000s ]
+
+[ 2017-12-11T11:10:56+08:00 ] 192.168.2.114 /index.php?m=admin&c=login&a=getBookList&p=1&callback=jQuery1110017576349223963916_1512961856103&_=1512961856104
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_book` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ec_book`  [ RunTime:0.0010s ]
+
+[ 2017-12-11T11:11:52+08:00 ] 192.168.2.114 /index.php?m=admin&c=login&a=getBookList&p=1&callback=jQuery111002198595623485744_1512961912486&_=1512961912487
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_book` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ec_book`  [ RunTime:0.0010s ]
+
+[ 2017-12-11T11:11:58+08:00 ] 192.168.2.114 /index.php?m=admin&c=login&a=getBookList&p=1&callback=jQuery1110015886607253924012_1512961918031&_=1512961918032
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_book` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ec_book`  [ RunTime:0.0000s ]
+
+[ 2017-12-11T11:14:55+08:00 ] 192.168.2.114 /index.php?m=admin&c=login&a=getBookList&p=1&callback=jQuery111006985785393044353_1512962095023&_=1512962095024
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_book` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ec_book`  [ RunTime:0.0000s ]
+
+[ 2017-12-11T11:15:02+08:00 ] 192.168.2.114 /index.php?m=admin&c=login&a=getBookList&p=1&callback=jQuery111009272181445267051_1512962102577&_=1512962102578
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_book` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ec_book`  [ RunTime:0.0000s ]
+
+[ 2017-12-11T11:15:10+08:00 ] 192.168.2.114 /index.php?m=admin&c=login&a=getBookList&p=1&callback=jQuery1110007235856330953538_1512962110505&_=1512962110506
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_book` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ec_book`  [ RunTime:0.0000s ]
+
+[ 2017-12-11T11:15:18+08:00 ] 192.168.2.114 /index.php?m=admin&c=login&a=getBookList&p=1&callback=jQuery111009267902942374349_1512962118440&_=1512962118441
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_book` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ec_book`  [ RunTime:0.0000s ]
+
+[ 2017-12-11T11:15:34+08:00 ] 192.168.2.114 /index.php?m=admin&c=login&a=getBookList&p=1&callback=jQuery111007255369897466153_1512962134519&_=1512962134520
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_book` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ec_book`  [ RunTime:0.0000s ]
+
+[ 2017-12-11T11:16:05+08:00 ] 192.168.2.114 /index.php?m=admin&c=login&a=getBookList&p=1&callback=jQuery111009147225148044527_1512962165730&_=1512962165731
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_book` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ec_book`  [ RunTime:0.0010s ]
+
+[ 2017-12-11T11:16:18+08:00 ] 192.168.2.114 /index.php?m=admin&c=login&a=getBookList&p=1&callback=jQuery11100580880579771474_1512962178150&_=1512962178151
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_book` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `ec_book`  [ RunTime:0.0000s ]
+
+[ 2017-12-11T11:16:25+08:00 ] 192.168.2.114 /index.php?m=admin&c=login&a=getBookList&p=1&callback=jQuery111008989644655957818_1512962185867&_=1512962185868
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_book` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ec_book`  [ RunTime:0.0000s ]
+
+[ 2017-12-11T11:16:35+08:00 ] 192.168.2.114 /index.php?m=admin&c=login&a=getBookList&p=1&callback=jQuery111007777187670581043_1512962195308&_=1512962195309
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_book` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ec_book`  [ RunTime:0.0010s ]
+
+[ 2017-12-11T11:16:43+08:00 ] 192.168.2.114 /index.php?m=admin&c=login&a=getBookList&p=1&callback=jQuery11100062039218842983246_1512962203771&_=1512962203772
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_book` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ec_book`  [ RunTime:0.0000s ]
+
+[ 2017-12-11T11:17:03+08:00 ] 192.168.2.114 /index.php?m=admin&c=login&a=getBookList&p=1&callback=jQuery11100641408164286986_1512962222908&_=1512962222909
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_book` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ec_book`  [ RunTime:0.0000s ]
+
+[ 2017-12-11T11:17:57+08:00 ] 192.168.2.114 /index.php?m=admin&c=login&a=getBookList&p=1&callback=jQuery11100030149904545396566_1512962277504&_=1512962277505
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_book` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `ec_book`  [ RunTime:0.0010s ]
+
+[ 2017-12-11T11:18:12+08:00 ] 192.168.2.114 /index.php?m=admin&c=login&a=getBookList&p=1&callback=jQuery111006438941834494472_1512962292192&_=1512962292193
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_book` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ec_book`  [ RunTime:0.0000s ]
+
+[ 2017-12-11T11:18:27+08:00 ] 192.168.2.114 /index.php?m=admin&c=login&a=getBookList&p=1&callback=jQuery11100031079862266778946_1512962307646&_=1512962307647
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_book` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ec_book`  [ RunTime:0.0000s ]
+
+[ 2017-12-11T11:18:29+08:00 ] 192.168.2.114 /index.php?m=admin&c=login&a=getBookList&p=1&callback=jQuery111000030838206876069307_1512962309617&_=1512962309618
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_book` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ec_book`  [ RunTime:0.0000s ]
+
+[ 2017-12-11T11:18:32+08:00 ] 192.168.2.114 /index.php?m=admin&c=login&a=getBookList&p=1&callback=jQuery1110046101136435754597_1512962312471&_=1512962312472
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_book` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ec_book`  [ RunTime:0.0010s ]
+
+[ 2017-12-11T11:18:38+08:00 ] 192.168.2.114 /index.php?m=admin&c=login&a=getBookList&p=1&callback=jQuery111007911820623558015_1512962318558&_=1512962318559
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_book` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ec_book`  [ RunTime:0.0000s ]
+
+[ 2017-12-11T11:18:45+08:00 ] 192.168.2.114 /index.php?m=admin&c=login&a=getBookList&p=1&callback=jQuery11100036913705291226506_1512962325686&_=1512962325687
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_book` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ec_book`  [ RunTime:0.0000s ]
+
+[ 2017-12-11T11:18:52+08:00 ] 192.168.2.114 /index.php?m=admin&c=login&a=getBookList&p=1&callback=jQuery111005599525284487754_1512962332857&_=1512962332858
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_book` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ec_book`  [ RunTime:0.0000s ]
+
+[ 2017-12-11T11:19:18+08:00 ] 192.168.2.114 /index.php?m=admin&c=login&a=getBookList&p=1&callback=jQuery111008759889705106616_1512962358840&_=1512962358841
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_book` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ec_book`  [ RunTime:0.0000s ]
+
+[ 2017-12-11T11:19:37+08:00 ] 192.168.2.114 /index.php?m=admin&c=login&a=getBookList&p=1&callback=jQuery1110020343231013976038_1512962377485&_=1512962377486
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_book` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ec_book`  [ RunTime:0.0010s ]
+
+[ 2017-12-11T11:20:17+08:00 ] 192.168.2.114 /index.php?m=admin&c=login&a=getBookList&p=1&callback=jQuery1110018042182037606835_1512962417572&_=1512962417573
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_book` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ec_book` ORDER BY book_id desc  [ RunTime:0.0010s ]
+
+[ 2017-12-11T11:21:14+08:00 ] 192.168.2.114 /index.php?m=admin&c=login&a=getBookList&p=1&callback=jQuery1110005535365897230804_1512962474562&_=1512962474563
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_book` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ec_book` ORDER BY book_id desc  [ RunTime:0.0010s ]
+
+[ 2017-12-11T11:21:15+08:00 ] 192.168.2.114 /index.php?m=admin&c=login&a=getBookList&p=1&callback=jQuery1110036594236153177917_1512962475346&_=1512962475347
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_book` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ec_book` ORDER BY book_id desc  [ RunTime:0.0010s ]
+
+[ 2017-12-11T11:21:17+08:00 ] 192.168.2.114 /index.php?m=admin&c=login&a=getBookList&p=1&callback=jQuery111002594929803162813_1512962477726&_=1512962477727
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_book` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ec_book` ORDER BY book_id desc  [ RunTime:0.0000s ]
+
+[ 2017-12-11T11:22:03+08:00 ] 127.0.0.1 /index.php?m=admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 1146:Table 'honely.ec_admininfo' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ec_admininfo`
+ERR: 1146:Table 'honely.ec_admininfo' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ec_admininfo`
+
+[ 2017-12-11T11:24:46+08:00 ] 192.168.2.114 /index.php?m=admin&c=login&a=getBookList&p=1&callback=jQuery1110030901999515481293_1512962685935&_=1512962685936
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_book` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ec_book` ORDER BY book_id desc  [ RunTime:0.0010s ]
+
+[ 2017-12-11T11:26:53+08:00 ] 192.168.2.114 /index.php?m=admin&c=login&a=getBookList&p=1&callback=jQuery1110020599771314300597_1512962813430&_=1512962813431
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_book` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ec_book` ORDER BY book_id desc  [ RunTime:0.0010s ]
+
+[ 2017-12-11T11:27:10+08:00 ] 192.168.2.114 /index.php?m=admin&c=login&a=getBookList&p=1&callback=jQuery111002623825501650572_1512962830031&_=1512962830032
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_book` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ec_book` ORDER BY book_id desc  [ RunTime:0.0010s ]
+
+[ 2017-12-11T11:28:01+08:00 ] 192.168.2.114 /index.php?m=admin&c=login&a=getBookList&p=1&callback=jQuery111004912122590467334_1512962881482&_=1512962881483
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_book` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ec_book` ORDER BY book_id desc  [ RunTime:0.0000s ]
+
+[ 2017-12-11T11:28:06+08:00 ] 192.168.2.114 /index.php?m=admin&c=login&a=getBookList&p=1&callback=jQuery111004086108496412635_1512962885944&_=1512962885945
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_book` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ec_book` ORDER BY book_id desc  [ RunTime:0.0010s ]
+
+[ 2017-12-11T11:29:18+08:00 ] 192.168.2.114 /index.php?m=admin&c=login&a=getBookList&p=1&callback=jQuery111005566436427179724_1512962958769&_=1512962958770
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_book` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ec_book` ORDER BY book_id desc  [ RunTime:0.0000s ]
+
+[ 2017-12-11T11:29:42+08:00 ] 192.168.2.114 /index.php?m=admin&c=login&a=getBookList&p=1&callback=jQuery111001794255084823817_1512962982440&_=1512962982441
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_book` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ec_book` ORDER BY book_id desc  [ RunTime:0.0000s ]
+
+[ 2017-12-11T11:30:04+08:00 ] 192.168.2.114 /index.php?m=admin&c=login&a=getBookList&p=1&callback=jQuery111003248446669895202_1512963004699&_=1512963004700
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_book` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ec_book` ORDER BY book_id desc  [ RunTime:0.0000s ]
+
+[ 2017-12-11T11:30:10+08:00 ] 192.168.2.114 /index.php?m=admin&c=login&a=getBookList&p=1&callback=jQuery11100815694026183337_1512963010594&_=1512963010595
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_book` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ec_book` ORDER BY book_id desc  [ RunTime:0.0000s ]
+
+[ 2017-12-11T11:30:14+08:00 ] 192.168.2.114 /index.php?m=admin&c=login&a=getBookList&p=1&callback=jQuery1110014064855664037168_1512963014857&_=1512963014858
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_book` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ec_book` ORDER BY book_id desc  [ RunTime:0.0000s ]
+
+[ 2017-12-11T11:30:21+08:00 ] 192.168.2.114 /index.php?m=admin&c=login&a=getBookList&p=1&callback=jQuery1110046687588188797235_1512963021728&_=1512963021729
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_book` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ec_book` ORDER BY book_id desc  [ RunTime:0.0000s ]
+
+[ 2017-12-11T11:33:40+08:00 ] 192.168.2.114 /index.php?m=admin&c=login&a=getBookList&p=1&callback=jQuery111004467565428931266_1512963220628&_=1512963220629
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_book` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ec_book` ORDER BY book_id desc  [ RunTime:0.0010s ]
+
+[ 2017-12-11T14:27:56+08:00 ] 192.168.2.114 /index.php?m=admin&c=login&a=getBookList&p=1&callback=jQuery111007602387540973723_1512973676693&_=1512973676694
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_book` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ec_book` ORDER BY book_id desc  [ RunTime:0.0000s ]
+
+[ 2017-12-11T14:47:06+08:00 ] 192.168.2.114 /index.php?m=admin&c=login&a=getBookList&p=1&callback=jQuery111003294833363033831_1512974826079&_=1512974826080
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_book` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ec_book` ORDER BY book_id desc  [ RunTime:0.0110s ]
+
+[ 2017-12-11T14:48:19+08:00 ] 192.168.2.114 /index.php?m=admin&c=login&a=getBookList&p=1&callback=jQuery1110043556035053916276_1512974898841&_=1512974898842
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_book` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ec_book` ORDER BY book_id desc  [ RunTime:0.0110s ]
+
+[ 2017-12-11T14:48:44+08:00 ] 192.168.2.114 /index.php?m=admin&c=login&a=getBookList&p=1&callback=jQuery311010486276005394757_1512974924750&_=1512974924751
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_book` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ec_book` ORDER BY book_id desc  [ RunTime:0.0100s ]
+
+[ 2017-12-11T14:49:08+08:00 ] 192.168.2.114 /index.php?m=admin&c=login&a=getBookList&p=1&callback=jQuery11100801492327824235_1512974948333&_=1512974948334
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_book` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `ec_book` ORDER BY book_id desc  [ RunTime:0.0090s ]
+
+[ 2017-12-11T14:49:20+08:00 ] 192.168.2.114 /index.php?m=admin&c=login&a=getBookList&p=1&callback=jQuery111006486080447211862_1512974960149&_=1512974960150
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_book` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `ec_book` ORDER BY book_id desc  [ RunTime:0.0080s ]
+
+[ 2017-12-11T14:49:31+08:00 ] 192.168.2.114 /index.php?m=admin&c=login&a=getBookList&p=1&callback=jQuery311017235834570601583_1512974971718&_=1512974971719
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_book` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `ec_book` ORDER BY book_id desc  [ RunTime:0.0200s ]
+
+[ 2017-12-11T14:49:38+08:00 ] 192.168.2.114 /index.php?m=admin&c=login&a=getBookList&p=1&callback=jQuery311017061597877182066_1512974978213&_=1512974978214
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_book` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ec_book` ORDER BY book_id desc  [ RunTime:0.0120s ]
+
+[ 2017-12-11T14:50:00+08:00 ] 192.168.2.114 /index.php?m=admin&c=login&a=getBookList&p=1&callback=jQuery31107098739778157324_1512975000466&_=1512975000467
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_book` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ec_book` ORDER BY book_id desc  [ RunTime:0.0100s ]
+
+[ 2017-12-11T14:50:08+08:00 ] 192.168.2.114 /index.php?m=admin&c=login&a=getBookList&p=1&callback=jQuery311030431047081947327_1512975008645&_=1512975008646
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_book` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ec_book` ORDER BY book_id desc  [ RunTime:0.0100s ]
+
+[ 2017-12-11T14:50:18+08:00 ] 192.168.2.114 /index.php?m=admin&c=login&a=getBookList&p=1&callback=jQuery311018336937995627522_1512975018029&_=1512975018030
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_book` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ec_book` ORDER BY book_id desc  [ RunTime:0.0170s ]
+
+[ 2017-12-11T14:50:33+08:00 ] 192.168.2.114 /index.php?m=admin&c=login&a=getBookList&p=1&callback=jQuery311037062300369143486_1512975033218&_=1512975033219
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_book` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `ec_book` ORDER BY book_id desc  [ RunTime:0.0110s ]
+
+[ 2017-12-11T14:50:59+08:00 ] 192.168.2.114 /index.php?m=admin&c=login&a=getBookList&p=1&callback=jQuery311007142070564441383_1512975059485&_=1512975059486
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_book` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `ec_book` ORDER BY book_id desc  [ RunTime:0.0150s ]
+
+[ 2017-12-11T14:51:09+08:00 ] 192.168.2.114 /index.php?m=admin&c=login&a=getBookList&p=1&callback=jQuery31105733800902962685_1512975069305&_=1512975069306
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_book` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ec_book` ORDER BY book_id desc  [ RunTime:0.0130s ]
+
+[ 2017-12-11T14:51:36+08:00 ] 192.168.2.114 /index.php?m=admin&c=login&a=getBookList&p=1&callback=jQuery311033675588038749993_1512975096416&_=1512975096417
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_book` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ec_book` ORDER BY book_id desc  [ RunTime:0.0100s ]
+
+[ 2017-12-11T14:51:56+08:00 ] 192.168.2.114 /index.php?m=admin&c=login&a=getBookList&p=1&callback=jQuery31108822688194923103_1512975116261&_=1512975116262
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_book` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ec_book` ORDER BY book_id desc  [ RunTime:0.0140s ]
+
+[ 2017-12-11T14:52:18+08:00 ] 192.168.2.114 /index.php?m=admin&c=login&a=getBookList&p=1&callback=jQuery31109183298973366618_1512975138156&_=1512975138157
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_book` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `ec_book` ORDER BY book_id desc  [ RunTime:0.0270s ]
+
+[ 2017-12-11T14:52:26+08:00 ] 192.168.2.114 /index.php?m=admin&c=login&a=getBookList&p=1&callback=jQuery311045489117968827486_1512975146478&_=1512975146479
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_book` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `ec_book` ORDER BY book_id desc  [ RunTime:0.0360s ]
+
+[ 2017-12-11T14:52:32+08:00 ] 192.168.2.114 /index.php?m=admin&c=login&a=getBookList&p=1&callback=jQuery31109693357355426997_1512975152298&_=1512975152299
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_book` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ec_book` ORDER BY book_id desc  [ RunTime:0.0100s ]
+
+[ 2017-12-11T14:52:42+08:00 ] 192.168.2.114 /index.php?m=admin&c=login&a=getBookList&p=1&callback=jQuery31105996668653097004_1512975162422&_=1512975162423
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_book` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ec_book` ORDER BY book_id desc  [ RunTime:0.0440s ]
+
+[ 2017-12-11T14:52:56+08:00 ] 192.168.2.114 /index.php?m=admin&c=login&a=getBookList&p=1&callback=jQuery311045867748465389013_1512975176022&_=1512975176023
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_book` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ec_book` ORDER BY book_id desc  [ RunTime:0.0210s ]
+
+[ 2017-12-11T14:53:18+08:00 ] 192.168.2.114 /index.php?m=admin&c=login&a=getBookList&p=1&callback=jQuery31109227096305694431_1512975198486&_=1512975198487
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_book` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ec_book` ORDER BY book_id desc  [ RunTime:0.0130s ]
+
+[ 2017-12-11T14:53:24+08:00 ] 192.168.2.114 /index.php?m=admin&c=login&a=getBookList&p=1&callback=jQuery31106934273522347212_1512975204348&_=1512975204349
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_book` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `ec_book` ORDER BY book_id desc  [ RunTime:0.0120s ]
+
+[ 2017-12-11T14:53:32+08:00 ] 192.168.2.114 /index.php?m=admin&c=login&a=getBookList&p=1&callback=jQuery31107775233031716198_1512975211944&_=1512975211945
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_book` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `ec_book` ORDER BY book_id desc  [ RunTime:0.0090s ]
+
+[ 2017-12-11T14:54:01+08:00 ] 192.168.2.114 /index.php?m=admin&c=login&a=Exchange&p=1&callback=jQuery3110266374807106331_1512975241418&_=1512975241419
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:Exchange
+
+[ 2017-12-11T14:54:08+08:00 ] 192.168.2.114 /index.php?m=admin&c=Exchange&a=&p=1&callback=jQuery311004961797199212015_1512975248301&_=1512975248302
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Exchange
+
+[ 2017-12-11T14:54:22+08:00 ] 192.168.2.114 /index.php?m=admin&c=Exchange&a=duihuanzhongxin&p=1&callback=jQuery31106286005452275276_1512975262606&_=1512975262607
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Exchange
+
+[ 2017-12-11T14:54:27+08:00 ] 192.168.2.114 /index.php?m=admin&c=Exchange&a=duihuanzhongxin&p=1&callback=jQuery31106341555665712804_1512975267490&_=1512975267491
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Exchange
+
+[ 2017-12-11T14:54:28+08:00 ] 192.168.2.114 /index.php?m=admin&c=Exchange&a=duihuanzhongxin&p=1&callback=jQuery31109599024434573948_1512975268085&_=1512975268086
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Exchange
+
+[ 2017-12-11T14:54:28+08:00 ] 192.168.2.114 /index.php?m=admin&c=Exchange&a=duihuanzhongxin&p=1&callback=jQuery311036825251136906445_1512975268265&_=1512975268266
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Exchange
+
+[ 2017-12-11T14:54:37+08:00 ] 192.168.2.114 /index.php?m=admin&c=Exchange&a=duihuanzhongxin&p=1&callback=jQuery31109169763959944248_1512975277390&_=1512975277391
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Exchange
+
+[ 2017-12-11T14:54:41+08:00 ] 192.168.2.114 /index.php?m=admin&c=Exchange&a=duihuanzhongxin&p=1&callback=jQuery31107792151460889727_1512975281849&_=1512975281850
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Exchange
+
+[ 2017-12-11T14:54:42+08:00 ] 192.168.2.114 /index.php?m=admin&c=Exchange&a=duihuanzhongxin&p=1&callback=jQuery31101540661717299372_1512975282040&_=1512975282041
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Exchange
+
+[ 2017-12-11T14:54:42+08:00 ] 192.168.2.114 /index.php?m=admin&c=Exchange&a=duihuanzhongxin&p=1&callback=jQuery311022450147988274693_1512975282209&_=1512975282210
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Exchange
+
+[ 2017-12-11T14:54:42+08:00 ] 192.168.2.114 /index.php?m=admin&c=Exchange&a=duihuanzhongxin&p=1&callback=jQuery31108917464329861104_1512975282368&_=1512975282369
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Exchange
+
+[ 2017-12-11T14:54:42+08:00 ] 192.168.2.114 /index.php?m=admin&c=Exchange&a=duihuanzhongxin&p=1&callback=jQuery31107763726448174566_1512975282518&_=1512975282519
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Exchange
+
+[ 2017-12-11T15:03:08+08:00 ] 192.168.2.114 /index.php?m=admin&c=login&a=getBookList&p=1&callback=jQuery111008911429604049772_1512975788678&_=1512975788679
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_book` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `ec_book` ORDER BY book_id desc  [ RunTime:0.0100s ]
+
+[ 2017-12-11T15:40:01+08:00 ] 192.168.2.114 /index.php?m=admin&c=login&a=getBookList&p=1&callback=jQuery1110017351418733596802_1512978001594&_=1512978001595
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_book` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ec_book` ORDER BY book_id desc  [ RunTime:0.0130s ]
+
+[ 2017-12-11T16:02:28+08:00 ] 192.168.2.114 /index.php?m=admin&c=login&a=getBookList&p=1&callback=jQuery11100008509691804647446_1512979348329&_=1512979348330
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_book` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ec_book` ORDER BY book_id desc  [ RunTime:0.0440s ]
+
+[ 2017-12-11T16:02:34+08:00 ] 192.168.2.114 /index.php?m=admin&c=login&a=getBookList&p=1&callback=jQuery1110036599189788103104_1512979354897&_=1512979354898
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_book` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ec_book` ORDER BY book_id desc  [ RunTime:0.0130s ]
+

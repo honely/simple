@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta http-equiv="Cache-Control" content="no-transform" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<title>选择支付</title>
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/home/css/html5.css"/>
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/home/css/mian.css"/>
+		<script src="__PUBLIC__/home/js/jquery-1.10.2.min.js" type="text/javascript" charset="utf-8"></script>
+		<script>
+			(function(doc, win) {
+				var docEl = doc.documentElement,
+					resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+					recalc = function() {
+						var clientWidth = docEl.clientWidth;
+						if(!clientWidth) return;
+						docEl.style.fontSize = 25 * (clientWidth / 720) + 'px';
+					};
+				if(!doc.addEventListener) return;
+				win.addEventListener(resizeEvt, recalc, false);
+				doc.addEventListener('DOMContentLoaded', recalc, false);
+			})(document, window);
+		</script>
+	</head>
+	<body>
+		<style type="text/css">
+			body{background: #fff;}
+		</style>
+		<div class="zf_head">
+			<h4>简异思维<br/>互联型企业创新大学</h4>
+			<h5>¥{$viplevel['vip_money']}</h5>
+			<p class="c">
+				<i>购买内容：</i>
+				<span>{$viplevel['vip_name']}</span>
+			</p>
+		</div>
+		<div class="zf_ct">
+				<div class="form_radio">
+					<i></i>
+					<p>奖学金支付</p>
+					<if condition="$userinfo['money'] lt $viplevel['vip_money']" >
+					<em>（余额不足，¥{$userinfo['money']}）</em>
+					<else/>
+					<em>（现有金额：¥{$userinfo['money']}）</em>
+					<strong><input type="radio" name="pay" value='3' /></strong>
+					</if>
+				</div>
+				<div class="form_radio">
+					<i></i>
+					<p>微信支付</p>
+					<strong><input type="radio" name="pay" value='1' /></strong>
+				</div>
+				<div class="form_but">
+				 <if condition="$userinfo['vip'] lt 1 " >
+					<input class="but" type="button" value="确定支付" onclick="zhifu({$vip_id});"/>
+				</if>
+				</div>
+		</div>
+	</body>
+	<script>
+	     
+	    function zhifu(vip_id){
+
+			//获取单选框的值
+			var pay_type=$('input:radio:checked').val();
+
+            if(pay_type=='1'){
+                //微信支付
+				location.href="{:U('personal/weixinpayorder')}&vip_id="+vip_id;
+			}else if(pay_type=='3'){
+			    //奖学金支付,验证余额是否充足
+				//奖学金
+				var jiangxuejin = "{$userinfo['money']}";
+				var money_1 = parseFloat(jiangxuejin);
+				//vip费用
+				var vip_money = "{$viplevel['vip_money']}";
+				var money_2 = parseFloat(vip_money);
+
+				if((money_1 < money_2) || (money_1 <= 0)) {
+					alert("余额不足，请使用其他支付方式");
+					return false;
+				} else {
+					$.ajax({
+						type: "post",
+						url: "{:U('personal/shengji_jxj')}",
+						data: {
+							vipid: vip_id,
+						},
+						success: function(data) {
+	
+							if(data.flag==1){
+								alert("购买VIP会员成功");
+								window.location.href="{:U('personal/my')}";
+							}else{
+								alert("购买VIP会员失败");
+								window.location.href="{:U('personal/shengjihuiyuan')}";
+							}
+						},
+						error: function(data) {
+							//console.log(data)
+							alert("网络请求失败");
+							window.location.href="{:U('personal/shengjihuiyuan')}";
+						}
+					})
+				}
+			}else{
+                alert('请选择支付方式');		
+				return false;				
+			}
+		}
+		$(function () {
+			var needRefresh = sessionStorage.getItem("need-refresh");
+			if(needRefresh){
+				sessionStorage.removeItem("need-refresh");
+				location.reload();
+			}
+        });
+		sessionStorage.setItem("need-refresh1", true); 
+	</script>
+	
+</html>

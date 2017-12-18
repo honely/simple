@@ -1,0 +1,2934 @@
+[ 2017-12-08T09:34:37+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ec_user` WHERE ( user_id=7 ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ec_user` WHERE ( user_id=7 ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ec_user` WHERE ( user_id=7 ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `ec_userlevel` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ec_userlevel` WHERE ( level_learntime<='38700' ) ORDER BY level_learntime desc LIMIT 1   [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `ec_course` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ec_course` WHERE ( course_limittime>1512696876 ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ec_focusinfo` WHERE ( focus_type=2 ) ORDER BY focus_sort desc LIMIT 1   [ RunTime:0.0230s ]
+SQL: SELECT ec_user.*,ec_userlevel.level_name,ec_userlevel.level_image,ec_viplevel.vip_image FROM `ec_user` left join ec_userlevel on ec_userlevel.level_id = ec_user.level left join ec_viplevel on ec_viplevel.vip_id = ec_user.vip  WHERE ( ec_user.user_id=7 ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ec_focusinfo` WHERE ( focus_type=1 ) ORDER BY focus_sort desc LIMIT 4   [ RunTime:0.0060s ]
+SQL: SELECT ec_course.* FROM `ec_course` left join ec_classify on ec_classify.classify_id = ec_course.classify_id  WHERE ( ec_course.course_isable=1 and ec_classify.classify_id=2 ) LIMIT 3   [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `ec_lesson` [ RunTime:0.0060s ]
+SQL: SELECT `lesson_view` FROM `ec_lesson` WHERE ( course_id='18'  ) ORDER BY lesson_id asc LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT `lesson_view` FROM `ec_lesson` WHERE ( course_id='19'  ) ORDER BY lesson_id asc LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT `lesson_view` FROM `ec_lesson` WHERE ( course_id='22'  ) ORDER BY lesson_id asc LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ec_course` WHERE ( course_isable=1 and classify_id=1  ) ORDER BY course_sort desc LIMIT 1,12   [ RunTime:0.0080s ]
+SQL: SELECT * FROM `ec_course` WHERE ( course_isable=1 and classify_id=1  ) ORDER BY course_sort desc LIMIT 1   [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `ec_scoreinfo` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_scoreinfo` WHERE (  1 and score_addtime >='1512662400' and score_addtime <='1512748799' and user_id='7'  ) LIMIT 1   [ RunTime:0.0080s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: live_info D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 118 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.125000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.125000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013000s ]
+
+[ 2017-12-08T09:50:57+08:00 ] 192.168.2.104 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `ec_user` WHERE ( user_id=7 ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ec_user` WHERE ( user_id=7 ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ec_user` WHERE ( user_id=7 ) LIMIT 1   [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `ec_userlevel` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ec_userlevel` WHERE ( level_learntime<='38700' ) ORDER BY level_learntime desc LIMIT 1   [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `ec_course` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `ec_course` WHERE ( course_limittime>1512697857 ) LIMIT 1   [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `ec_focusinfo` WHERE ( focus_type=2 ) ORDER BY focus_sort desc LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT ec_user.*,ec_userlevel.level_name,ec_userlevel.level_image,ec_viplevel.vip_image FROM `ec_user` left join ec_userlevel on ec_userlevel.level_id = ec_user.level left join ec_viplevel on ec_viplevel.vip_id = ec_user.vip  WHERE ( ec_user.user_id=7 ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ec_focusinfo` WHERE ( focus_type=1 ) ORDER BY focus_sort desc LIMIT 4   [ RunTime:0.0090s ]
+SQL: SELECT ec_course.* FROM `ec_course` left join ec_classify on ec_classify.classify_id = ec_course.classify_id  WHERE ( ec_course.course_isable=1 and ec_classify.classify_id=2 ) LIMIT 3   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `ec_lesson` [ RunTime:0.0140s ]
+SQL: SELECT `lesson_view` FROM `ec_lesson` WHERE ( course_id='18'  ) ORDER BY lesson_id asc LIMIT 1   [ RunTime:0.0090s ]
+SQL: SELECT `lesson_view` FROM `ec_lesson` WHERE ( course_id='19'  ) ORDER BY lesson_id asc LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT `lesson_view` FROM `ec_lesson` WHERE ( course_id='22'  ) ORDER BY lesson_id asc LIMIT 1   [ RunTime:0.0080s ]
+SQL: SELECT * FROM `ec_course` WHERE ( course_isable=1 and classify_id=1  ) ORDER BY course_sort desc LIMIT 1,12   [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ec_course` WHERE ( course_isable=1 and classify_id=1  ) ORDER BY course_sort desc LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `ec_scoreinfo` [ RunTime:0.0110s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_scoreinfo` WHERE (  1 and score_addtime >='1512662400' and score_addtime <='1512748799' and user_id='7'  ) LIMIT 1   [ RunTime:0.0280s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: live_info D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 118 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-08T09:55:33+08:00 ] 192.168.2.104 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ec_user` WHERE ( user_id=7 ) LIMIT 1   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0690s ]
+SQL: SELECT * FROM `ec_user` WHERE ( user_id=7 ) LIMIT 1   [ RunTime:0.0180s ]
+SQL: SELECT * FROM `ec_user` WHERE ( user_id=7 ) LIMIT 1   [ RunTime:0.0180s ]
+SQL: SHOW COLUMNS FROM `ec_userlevel` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `ec_userlevel` WHERE ( level_learntime<='38700' ) ORDER BY level_learntime desc LIMIT 1   [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `ec_course` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `ec_course` WHERE ( course_limittime>1512698132 ) LIMIT 1   [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `ec_focusinfo` WHERE ( focus_type=2 ) ORDER BY focus_sort desc LIMIT 1   [ RunTime:0.0330s ]
+SQL: SELECT ec_user.*,ec_userlevel.level_name,ec_userlevel.level_image,ec_viplevel.vip_image FROM `ec_user` left join ec_userlevel on ec_userlevel.level_id = ec_user.level left join ec_viplevel on ec_viplevel.vip_id = ec_user.vip  WHERE ( ec_user.user_id=7 ) LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `ec_focusinfo` WHERE ( focus_type=1 ) ORDER BY focus_sort desc LIMIT 4   [ RunTime:0.0100s ]
+SQL: SELECT ec_course.* FROM `ec_course` left join ec_classify on ec_classify.classify_id = ec_course.classify_id  WHERE ( ec_course.course_isable=1 and ec_classify.classify_id=2 ) LIMIT 3   [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `ec_lesson` [ RunTime:0.0100s ]
+SQL: SELECT `lesson_view` FROM `ec_lesson` WHERE ( course_id='18'  ) ORDER BY lesson_id asc LIMIT 1   [ RunTime:0.0360s ]
+SQL: SELECT `lesson_view` FROM `ec_lesson` WHERE ( course_id='19'  ) ORDER BY lesson_id asc LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT `lesson_view` FROM `ec_lesson` WHERE ( course_id='22'  ) ORDER BY lesson_id asc LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ec_course` WHERE ( course_isable=1 and classify_id=1  ) ORDER BY course_sort desc LIMIT 1,12   [ RunTime:0.0130s ]
+SQL: SELECT * FROM `ec_course` WHERE ( course_isable=1 and classify_id=1  ) ORDER BY course_sort desc LIMIT 1   [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `ec_scoreinfo` [ RunTime:0.0260s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_scoreinfo` WHERE (  1 and score_addtime >='1512662400' and score_addtime <='1512748799' and user_id='7'  ) LIMIT 1   [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: live_info D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 118 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-08T09:55:43+08:00 ] 192.168.2.104 /index.php?m=Home&c=bookinfo&a=zhibo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_liveinfo` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `ec_liveinfo` WHERE ( live_flag=2 ) LIMIT 1   [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-08T09:55:47+08:00 ] 192.168.2.104 /index.php?m=Home&c=course&a=video&course_id=22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __ACTION - assumed '__ACTION' D:\xampp\htdocs\jianyinew\Application\Home\Controller\CourseController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `ec_course` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `ec_user` WHERE `user_id` = 7 LIMIT 1   [ RunTime:0.0080s ]
+SQL: SELECT * FROM `ec_course` WHERE `course_id` = 22 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `ec_course` WHERE `course_id` = 22 LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `ec_lesson` [ RunTime:0.0560s ]
+SQL: SELECT * FROM `ec_lesson` WHERE ( course_id=22 and lesson_isable=1 ) ORDER BY lesson_id ASC  [ RunTime:0.0050s ]
+
+[ 2017-12-08T09:55:49+08:00 ] 192.168.2.104 /index.php?m=Home&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ec_user` WHERE ( user_id=7 ) LIMIT 1   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ec_user` WHERE ( user_id=7 ) LIMIT 1   [ RunTime:0.0080s ]
+SQL: SELECT * FROM `ec_user` WHERE ( user_id=7 ) LIMIT 1   [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `ec_userlevel` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ec_userlevel` WHERE ( level_learntime<='38700' ) ORDER BY level_learntime desc LIMIT 1   [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `ec_course` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `ec_course` WHERE ( course_limittime>1512698148 ) LIMIT 1   [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `ec_focusinfo` WHERE ( focus_type=2 ) ORDER BY focus_sort desc LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT ec_user.*,ec_userlevel.level_name,ec_userlevel.level_image,ec_viplevel.vip_image FROM `ec_user` left join ec_userlevel on ec_userlevel.level_id = ec_user.level left join ec_viplevel on ec_viplevel.vip_id = ec_user.vip  WHERE ( ec_user.user_id=7 ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ec_focusinfo` WHERE ( focus_type=1 ) ORDER BY focus_sort desc LIMIT 4   [ RunTime:0.0050s ]
+SQL: SELECT ec_course.* FROM `ec_course` left join ec_classify on ec_classify.classify_id = ec_course.classify_id  WHERE ( ec_course.course_isable=1 and ec_classify.classify_id=2 ) LIMIT 3   [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `ec_lesson` [ RunTime:0.0150s ]
+SQL: SELECT `lesson_view` FROM `ec_lesson` WHERE ( course_id='18'  ) ORDER BY lesson_id asc LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT `lesson_view` FROM `ec_lesson` WHERE ( course_id='19'  ) ORDER BY lesson_id asc LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT `lesson_view` FROM `ec_lesson` WHERE ( course_id='22'  ) ORDER BY lesson_id asc LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ec_course` WHERE ( course_isable=1 and classify_id=1  ) ORDER BY course_sort desc LIMIT 1,12   [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ec_course` WHERE ( course_isable=1 and classify_id=1  ) ORDER BY course_sort desc LIMIT 1   [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `ec_scoreinfo` [ RunTime:0.0110s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_scoreinfo` WHERE (  1 and score_addtime >='1512662400' and score_addtime <='1512748799' and user_id='7'  ) LIMIT 1   [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: live_info D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 118 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-08T10:01:02+08:00 ] 192.168.2.104 /index.php?m=home&c=focus&a=index&callback=jsonp1&_=1512698462875
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Focus
+
+[ 2017-12-08T10:01:12+08:00 ] 192.168.2.104 /index.php?m=home&c=bookinfo&a=index&callback=jsonp1&_=1512698472085
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-08T10:01:12+08:00 ] 192.168.2.104 /index.php?m=Home&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `ec_user` WHERE ( user_id=7 ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `ec_user` WHERE ( user_id=7 ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ec_user` WHERE ( user_id=7 ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `ec_userlevel` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `ec_userlevel` WHERE ( level_learntime<='38700' ) ORDER BY level_learntime desc LIMIT 1   [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `ec_course` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `ec_course` WHERE ( course_limittime>1512698472 ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ec_focusinfo` WHERE ( focus_type=2 ) ORDER BY focus_sort desc LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT ec_user.*,ec_userlevel.level_name,ec_userlevel.level_image,ec_viplevel.vip_image FROM `ec_user` left join ec_userlevel on ec_userlevel.level_id = ec_user.level left join ec_viplevel on ec_viplevel.vip_id = ec_user.vip  WHERE ( ec_user.user_id=7 ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ec_focusinfo` WHERE ( focus_type=1 ) ORDER BY focus_sort desc LIMIT 4   [ RunTime:0.0060s ]
+SQL: SELECT ec_course.* FROM `ec_course` left join ec_classify on ec_classify.classify_id = ec_course.classify_id  WHERE ( ec_course.course_isable=1 and ec_classify.classify_id=2 ) LIMIT 3   [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `ec_lesson` [ RunTime:0.0060s ]
+SQL: SELECT `lesson_view` FROM `ec_lesson` WHERE ( course_id='18'  ) ORDER BY lesson_id asc LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT `lesson_view` FROM `ec_lesson` WHERE ( course_id='19'  ) ORDER BY lesson_id asc LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT `lesson_view` FROM `ec_lesson` WHERE ( course_id='22'  ) ORDER BY lesson_id asc LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ec_course` WHERE ( course_isable=1 and classify_id=1  ) ORDER BY course_sort desc LIMIT 1,12   [ RunTime:0.0080s ]
+SQL: SELECT * FROM `ec_course` WHERE ( course_isable=1 and classify_id=1  ) ORDER BY course_sort desc LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `ec_scoreinfo` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_scoreinfo` WHERE (  1 and score_addtime >='1512662400' and score_addtime <='1512748799' and user_id='7'  ) LIMIT 1   [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: live_info D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 118 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-08T10:01:26+08:00 ] 192.168.2.104 /index.php?m=home&c=bookinfo&a=myfatie&callback=jsonp1&_=1512698486667
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ec_focusinfo` ORDER BY focus_type asc,focus_sort asc,focus_id desc  [ RunTime:0.0070s ]
+
+[ 2017-12-08T10:01:33+08:00 ] 192.168.2.129 /index.php?m=home&c=bookinfo&a=myfatie&callback=jsonp1&_=1512698523427
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-08T10:01:33+08:00 ] 192.168.2.129 /index.php?m=Home&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ec_user` WHERE ( user_id=7 ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `ec_user` WHERE ( user_id=7 ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ec_user` WHERE ( user_id=7 ) LIMIT 1   [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `ec_userlevel` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ec_userlevel` WHERE ( level_learntime<='38700' ) ORDER BY level_learntime desc LIMIT 1   [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `ec_course` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ec_course` WHERE ( course_limittime>1512698493 ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ec_focusinfo` WHERE ( focus_type=2 ) ORDER BY focus_sort desc LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT ec_user.*,ec_userlevel.level_name,ec_userlevel.level_image,ec_viplevel.vip_image FROM `ec_user` left join ec_userlevel on ec_userlevel.level_id = ec_user.level left join ec_viplevel on ec_viplevel.vip_id = ec_user.vip  WHERE ( ec_user.user_id=7 ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ec_focusinfo` WHERE ( focus_type=1 ) ORDER BY focus_sort desc LIMIT 4   [ RunTime:0.0060s ]
+SQL: SELECT ec_course.* FROM `ec_course` left join ec_classify on ec_classify.classify_id = ec_course.classify_id  WHERE ( ec_course.course_isable=1 and ec_classify.classify_id=2 ) LIMIT 3   [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `ec_lesson` [ RunTime:0.0060s ]
+SQL: SELECT `lesson_view` FROM `ec_lesson` WHERE ( course_id='18'  ) ORDER BY lesson_id asc LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT `lesson_view` FROM `ec_lesson` WHERE ( course_id='19'  ) ORDER BY lesson_id asc LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT `lesson_view` FROM `ec_lesson` WHERE ( course_id='22'  ) ORDER BY lesson_id asc LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ec_course` WHERE ( course_isable=1 and classify_id=1  ) ORDER BY course_sort desc LIMIT 1,12   [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ec_course` WHERE ( course_isable=1 and classify_id=1  ) ORDER BY course_sort desc LIMIT 1   [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `ec_scoreinfo` [ RunTime:0.0120s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_scoreinfo` WHERE (  1 and score_addtime >='1512662400' and score_addtime <='1512748799' and user_id='7'  ) LIMIT 1   [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: live_info D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 118 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-08T10:02:31+08:00 ] 192.168.2.104 /index.php?m=home&c=bookinfo&a=myfatie&callback=jsonp1&_=1512698551701
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ec_focusinfo` ORDER BY focus_type asc,focus_sort asc,focus_id desc  [ RunTime:0.0040s ]
+
+[ 2017-12-08T10:03:08+08:00 ] 192.168.2.104 /index.php?m=home&c=bookinfo&a=myfatie&callback=jsonp1&_=1512698588793
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ec_focusinfo` ORDER BY focus_type asc,focus_sort asc,focus_id desc  [ RunTime:0.0070s ]
+
+[ 2017-12-08T10:03:17+08:00 ] 192.168.2.104 /index.php?m=home&c=bookinfo&a=myfatie&callback=jsonp1&_=1512698597290
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ec_focusinfo` ORDER BY focus_type asc,focus_sort asc,focus_id desc  [ RunTime:0.0080s ]
+
+[ 2017-12-08T10:03:25+08:00 ] 192.168.2.104 /index.php?m=home&c=bookinfo&a=myfatie&callback=jsonp1&_=1512698605023
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `ec_focusinfo` ORDER BY focus_type asc,focus_sort asc,focus_id desc  [ RunTime:0.0050s ]
+
+[ 2017-12-08T10:03:37+08:00 ] 192.168.2.104 /index.php?m=home&c=bookinfo&a=myfatie&callback=jsonp1&_=1512698617251
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ec_focusinfo` ORDER BY focus_type asc,focus_sort asc,focus_id desc  [ RunTime:0.0070s ]
+
+[ 2017-12-08T10:03:45+08:00 ] 192.168.2.104 /index.php?m=home&c=bookinfo&a=myfatie&callback=jsonp1&_=1512698625935
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ec_focusinfo` ORDER BY focus_type asc,focus_sort asc,focus_id desc  [ RunTime:0.0040s ]
+
+[ 2017-12-08T10:04:01+08:00 ] 192.168.2.104 /index.php?m=home&c=bookinfo&a=myfatie&callback=jsonp1&_=1512698641427
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ec_focusinfo` ORDER BY focus_type asc,focus_sort asc,focus_id desc  [ RunTime:0.0070s ]
+
+[ 2017-12-08T10:04:24+08:00 ] 192.168.2.104 /index.php?m=home&c=bookinfo&a=myfatie&callback=jsonp1&_=1512698664777
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `ec_focusinfo` ORDER BY focus_type asc,focus_sort asc,focus_id desc  [ RunTime:0.0050s ]
+
+[ 2017-12-08T10:04:33+08:00 ] 192.168.2.104 /index.php?m=home&c=bookinfo&a=myfatie&callback=jsonp1&_=1512698673048
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `ec_focusinfo` ORDER BY focus_type asc,focus_sort asc,focus_id desc  [ RunTime:0.0040s ]
+
+[ 2017-12-08T10:04:58+08:00 ] 192.168.2.104 /index.php?m=home&c=bookinfo&a=myfatie&callback=jsonp1&_=1512698698861
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ec_focusinfo` ORDER BY focus_type asc,focus_sort asc,focus_id desc  [ RunTime:0.0040s ]
+
+[ 2017-12-08T10:05:00+08:00 ] 192.168.2.104 /index.php?m=home&c=bookinfo&a=myfatie&callback=jsonp1&_=1512698700811
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `ec_focusinfo` ORDER BY focus_type asc,focus_sort asc,focus_id desc  [ RunTime:0.0050s ]
+
+[ 2017-12-08T10:05:01+08:00 ] 192.168.2.104 /index.php?m=home&c=bookinfo&a=myfatie&callback=jsonp1&_=1512698701480
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ec_focusinfo` ORDER BY focus_type asc,focus_sort asc,focus_id desc  [ RunTime:0.0060s ]
+
+[ 2017-12-08T10:06:13+08:00 ] 192.168.2.104 /index.php?m=home&c=bookinfo&a=myfatie&callback=jsonp1&_=1512698752825
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: SQLSTATE[HY000] [2002] �������ӷ���һ��ʱ���û����ȷ�𸴻����ӵ�����û�з�Ӧ�����ӳ���ʧ�ܡ�
+
+
+[ 2017-12-08T10:06:55+08:00 ] 192.168.2.104 /index.php?m=home&c=Focus&a=detail&f_id=undefined&callback=jQuery111008292494576890022_1512698777108&_=1512698777109
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Focus
+
+[ 2017-12-08T10:07:16+08:00 ] 192.168.2.104 /index.php?m=home&c=bookinfo&a=detail&f_id=undefined&callback=jQuery111004629895396064967_1512698782357&_=1512698782358
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: SQLSTATE[HY000] [2002] �������ӷ���һ��ʱ���û����ȷ�𸴻����ӵ�����û�з�Ӧ�����ӳ���ʧ�ܡ�
+
+
+[ 2017-12-08T10:07:26+08:00 ] 192.168.2.104 /index.php?m=home&c=bookinfo&a=myfatie&callback=jsonp1&_=1512698785322
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: SQLSTATE[HY000] [2002] ����Ŀ�����������ܾ����޷����ӡ�
+
+
+[ 2017-12-08T10:07:36+08:00 ] 192.168.2.104 /index.php?m=home&c=bookinfo&a=myfatie&callback=jsonp1&_=1512698787472
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0950s ]
+SQL: SELECT * FROM `ec_focusinfo` ORDER BY focus_type asc,focus_sort asc,focus_id desc  [ RunTime:0.0200s ]
+
+[ 2017-12-08T10:07:37+08:00 ] 192.168.2.104 /index.php?m=home&c=bookinfo&a=myfatie&callback=jsonp1&_=1512698788111
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ec_focusinfo` ORDER BY focus_type asc,focus_sort asc,focus_id desc  [ RunTime:0.0060s ]
+
+[ 2017-12-08T10:07:37+08:00 ] 192.168.2.104 /index.php?m=home&c=bookinfo&a=myfatie&callback=jsonp1&_=1512698788295
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ec_focusinfo` ORDER BY focus_type asc,focus_sort asc,focus_id desc  [ RunTime:0.0050s ]
+
+[ 2017-12-08T10:07:37+08:00 ] 192.168.2.104 /index.php?m=home&c=bookinfo&a=myfatie&callback=jsonp1&_=1512698788487
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ec_focusinfo` ORDER BY focus_type asc,focus_sort asc,focus_id desc  [ RunTime:0.0060s ]
+
+[ 2017-12-08T10:07:37+08:00 ] 192.168.2.104 /index.php?m=home&c=bookinfo&a=myfatie&callback=jsonp1&_=1512698788647
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ec_focusinfo` ORDER BY focus_type asc,focus_sort asc,focus_id desc  [ RunTime:0.0050s ]
+
+[ 2017-12-08T10:07:37+08:00 ] 192.168.2.104 /index.php?m=home&c=bookinfo&a=myfatie&callback=jsonp1&_=1512698788803
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ec_focusinfo` ORDER BY focus_type asc,focus_sort asc,focus_id desc  [ RunTime:0.0060s ]
+
+[ 2017-12-08T10:07:37+08:00 ] 192.168.2.104 /index.php?m=home&c=bookinfo&a=myfatie&callback=jsonp1&_=1512698788972
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ec_focusinfo` ORDER BY focus_type asc,focus_sort asc,focus_id desc  [ RunTime:0.0050s ]
+
+[ 2017-12-08T10:07:37+08:00 ] 192.168.2.104 /index.php?m=home&c=bookinfo&a=myfatie&callback=jsonp1&_=1512698789148
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `ec_focusinfo` ORDER BY focus_type asc,focus_sort asc,focus_id desc  [ RunTime:0.0070s ]
+
+[ 2017-12-08T10:07:37+08:00 ] 192.168.2.104 /index.php?m=home&c=bookinfo&a=myfatie&callback=jsonp1&_=1512698789310
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `ec_focusinfo` ORDER BY focus_type asc,focus_sort asc,focus_id desc  [ RunTime:0.0070s ]
+
+[ 2017-12-08T10:07:37+08:00 ] 192.168.2.104 /index.php?m=home&c=bookinfo&a=detail&f_id=undefined&callback=jQuery111005826478903181851_1512698801092&_=1512698801093
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0070s ]
+ERR: 1054:Unknown column 'undefined' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `ec_focusinfo` WHERE ( focus_id = undefined ) LIMIT 1  
+ERR: 1054:Unknown column 'undefined' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `ec_focusinfo` WHERE ( focus_id = undefined ) LIMIT 1  
+
+[ 2017-12-08T10:07:37+08:00 ] 192.168.2.104 /index.php?m=home&c=bookinfo&a=detail&f_id=undefined&callback=jQuery111009752272886689752_1512698812686&_=1512698812687
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0080s ]
+ERR: 1054:Unknown column 'undefined' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `ec_focusinfo` WHERE ( focus_id = undefined ) LIMIT 1  
+ERR: 1054:Unknown column 'undefined' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `ec_focusinfo` WHERE ( focus_id = undefined ) LIMIT 1  
+
+[ 2017-12-08T10:07:37+08:00 ] 192.168.2.104 /index.php?m=home&c=bookinfo&a=detail&f_id=undefined&callback=jQuery1110015763518982566893_1512698813526&_=1512698813527
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0060s ]
+ERR: 1054:Unknown column 'undefined' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `ec_focusinfo` WHERE ( focus_id = undefined ) LIMIT 1  
+ERR: 1054:Unknown column 'undefined' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `ec_focusinfo` WHERE ( focus_id = undefined ) LIMIT 1  
+
+[ 2017-12-08T10:07:37+08:00 ] 192.168.2.104 /index.php?m=home&c=bookinfo&a=myfatie&callback=jsonp1&_=1512698815828
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ec_focusinfo` ORDER BY focus_type asc,focus_sort asc,focus_id desc  [ RunTime:0.0090s ]
+
+[ 2017-12-08T10:07:37+08:00 ] 192.168.2.104 /index.php?m=home&c=bookinfo&a=myfatie&callback=jsonp1&_=1512698820419
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ec_focusinfo` ORDER BY focus_type asc,focus_sort asc,focus_id desc  [ RunTime:0.0050s ]
+
+[ 2017-12-08T10:07:37+08:00 ] 192.168.2.104 /index.php?m=home&c=bookinfo&a=myfatie&callback=jsonp1&_=1512698820957
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ec_focusinfo` ORDER BY focus_type asc,focus_sort asc,focus_id desc  [ RunTime:0.0050s ]
+
+[ 2017-12-08T10:07:37+08:00 ] 192.168.2.104 /index.php?m=home&c=bookinfo&a=myfatie&callback=jsonp1&_=1512698821133
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ec_focusinfo` ORDER BY focus_type asc,focus_sort asc,focus_id desc  [ RunTime:0.0050s ]
+
+[ 2017-12-08T10:07:37+08:00 ] 192.168.2.104 /index.php?m=home&c=bookinfo&a=myfatie&callback=jsonp1&_=1512698821242
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ec_focusinfo` ORDER BY focus_type asc,focus_sort asc,focus_id desc  [ RunTime:0.0060s ]
+
+[ 2017-12-08T10:07:37+08:00 ] 192.168.2.104 /index.php?m=home&c=bookinfo&a=myfatie&callback=jsonp1&_=1512698821428
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ec_focusinfo` ORDER BY focus_type asc,focus_sort asc,focus_id desc  [ RunTime:0.0050s ]
+
+[ 2017-12-08T10:07:37+08:00 ] 192.168.2.104 /index.php?m=home&c=bookinfo&a=myfatie&callback=jsonp1&_=1512698821547
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `ec_focusinfo` ORDER BY focus_type asc,focus_sort asc,focus_id desc  [ RunTime:0.0090s ]
+
+[ 2017-12-08T10:07:37+08:00 ] 192.168.2.104 /index.php?m=home&c=bookinfo&a=myfatie&callback=jsonp1&_=1512698821728
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ec_focusinfo` ORDER BY focus_type asc,focus_sort asc,focus_id desc  [ RunTime:0.0040s ]
+
+[ 2017-12-08T10:07:37+08:00 ] 192.168.2.104 /index.php?m=home&c=bookinfo&a=detail&f_id=undefined&callback=jQuery11100965680415276438_1512698824859&_=1512698824860
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0060s ]
+ERR: 1054:Unknown column 'undefined' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `ec_focusinfo` WHERE ( focus_id = undefined ) LIMIT 1  
+ERR: 1054:Unknown column 'undefined' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `ec_focusinfo` WHERE ( focus_id = undefined ) LIMIT 1  
+
+[ 2017-12-08T10:07:38+08:00 ] 192.168.2.104 /index.php?m=home&c=bookinfo&a=myfatie&callback=jsonp1&_=1512698835017
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `ec_focusinfo` ORDER BY focus_type asc,focus_sort asc,focus_id desc  [ RunTime:0.0060s ]
+
+[ 2017-12-08T10:07:38+08:00 ] 192.168.2.104 /index.php?m=home&c=bookinfo&a=myfatie&callback=jsonp1&_=1512698842762
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `ec_focusinfo` ORDER BY focus_type asc,focus_sort asc,focus_id desc  [ RunTime:0.0090s ]
+
+[ 2017-12-08T10:07:38+08:00 ] 192.168.2.104 /index.php?m=home&c=bookinfo&a=myfatie&callback=jsonp1&_=1512698848745
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0560s ]
+SQL: SELECT * FROM `ec_focusinfo` ORDER BY focus_type asc,focus_sort asc,focus_id desc  [ RunTime:0.0910s ]
+
+[ 2017-12-08T10:07:38+08:00 ] 192.168.2.104 /index.php?m=home&c=bookinfo&a=myfatie&callback=jsonp1&_=1512698854900
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ec_focusinfo` ORDER BY focus_type asc,focus_sort asc,focus_id desc  [ RunTime:0.0120s ]
+
+[ 2017-12-08T10:07:51+08:00 ] 192.168.2.104 /index.php?m=home&c=bookinfo&a=myfatie&callback=jsonp1&_=1512698871211
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `ec_focusinfo` ORDER BY focus_type asc,focus_sort asc,focus_id desc  [ RunTime:0.0060s ]
+
+[ 2017-12-08T10:08:05+08:00 ] 192.168.2.104 /index.php?m=home&c=Focus&a=detail&f_id=undefined&callback=jQuery1110046176643576473_1512698885603&_=1512698885604
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Focus
+
+[ 2017-12-08T10:08:11+08:00 ] 192.168.2.104 /index.php?m=home&c=bookinfo&a=detail&f_id=undefined&callback=jQuery111006949478054884821_1512698891609&_=1512698891610
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0080s ]
+ERR: 1054:Unknown column 'undefined' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `ec_focusinfo` WHERE ( focus_id = undefined ) LIMIT 1  
+ERR: 1054:Unknown column 'undefined' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `ec_focusinfo` WHERE ( focus_id = undefined ) LIMIT 1  
+
+[ 2017-12-08T10:08:21+08:00 ] 192.168.2.104 /index.php?m=home&c=bookinfo&a=detail&f_id=undefined&callback=jQuery111009963206495158374_1512698901210&_=1512698901211
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0090s ]
+ERR: 1054:Unknown column 'undefined' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `ec_focusinfo` WHERE ( focus_id = undefined ) LIMIT 1  
+ERR: 1054:Unknown column 'undefined' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `ec_focusinfo` WHERE ( focus_id = undefined ) LIMIT 1  
+
+[ 2017-12-08T10:08:23+08:00 ] 192.168.2.104 /index.php?m=home&c=bookinfo&a=myfatie&callback=jsonp1&_=1512698902883
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0440s ]
+SQL: SELECT * FROM `ec_focusinfo` ORDER BY focus_type asc,focus_sort asc,focus_id desc  [ RunTime:0.0180s ]
+
+[ 2017-12-08T10:08:25+08:00 ] 192.168.2.104 /index.php?m=home&c=bookinfo&a=myfatie&callback=jsonp1&_=1512698905506
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ec_focusinfo` ORDER BY focus_type asc,focus_sort asc,focus_id desc  [ RunTime:0.0110s ]
+
+[ 2017-12-08T10:08:25+08:00 ] 192.168.2.104 /index.php?m=home&c=bookinfo&a=myfatie&callback=jsonp1&_=1512698905703
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `ec_focusinfo` ORDER BY focus_type asc,focus_sort asc,focus_id desc  [ RunTime:0.0100s ]
+
+[ 2017-12-08T10:08:26+08:00 ] 192.168.2.104 /index.php?m=home&c=bookinfo&a=detail&f_id=1&callback=jQuery111008720362698659301_1512698906746&_=1512698906747
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `ec_focusinfo` WHERE ( focus_id = 1 ) LIMIT 1   [ RunTime:0.0070s ]
+
+[ 2017-12-08T10:08:33+08:00 ] 192.168.2.129 /index.php?m=home&c=bookinfo&a=myfatie&callback=jsonp1&_=1512698943294
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ec_focusinfo` ORDER BY focus_type asc,focus_sort asc,focus_id desc  [ RunTime:0.0070s ]
+
+[ 2017-12-08T10:08:35+08:00 ] 192.168.2.129 /index.php?m=home&c=bookinfo&a=detail&f_id=8&callback=jQuery111005931055713913043_1512698945122&_=1512698945123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `ec_focusinfo` WHERE ( focus_id = 8 ) LIMIT 1   [ RunTime:0.0050s ]
+
+[ 2017-12-08T10:08:40+08:00 ] 192.168.2.129 /index.php?m=home&c=bookinfo&a=detail&f_id=1&callback=jQuery1110024703679791706246_1512698949582&_=1512698949583
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `ec_focusinfo` WHERE ( focus_id = 1 ) LIMIT 1   [ RunTime:0.0120s ]
+
+[ 2017-12-08T10:08:43+08:00 ] 192.168.2.129 /index.php?m=home&c=bookinfo&a=detail&f_id=1&callback=jQuery111001419657706089299_1512698952582&_=1512698952583
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ec_focusinfo` WHERE ( focus_id = 1 ) LIMIT 1   [ RunTime:0.0060s ]
+
+[ 2017-12-08T10:08:52+08:00 ] 192.168.2.129 /index.php?m=home&c=bookinfo&a=myfatie&callback=jsonp1&_=1512698961806
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `ec_focusinfo` ORDER BY focus_type asc,focus_sort asc,focus_id desc  [ RunTime:0.0050s ]
+
+[ 2017-12-08T10:08:53+08:00 ] 192.168.2.129 /index.php?m=home&c=bookinfo&a=detail&f_id=1&callback=jQuery1110034583044432465426_1512698963306&_=1512698963307
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ec_focusinfo` WHERE ( focus_id = 1 ) LIMIT 1   [ RunTime:0.0040s ]
+
+[ 2017-12-08T10:08:59+08:00 ] 192.168.2.129 /index.php?m=home&c=bookinfo&a=detail&f_id=1&callback=jQuery1110014823674423360478_1512698969466&_=1512698969467
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ec_focusinfo` WHERE ( focus_id = 1 ) LIMIT 1   [ RunTime:0.0060s ]
+
+[ 2017-12-08T10:09:09+08:00 ] 192.168.2.129 /index.php?m=home&c=bookinfo&a=detail&f_id=1&callback=jQuery11100521476018264194_1512698978688&_=1512698978689
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ec_focusinfo` WHERE ( focus_id = 1 ) LIMIT 1   [ RunTime:0.0170s ]
+
+[ 2017-12-08T10:09:11+08:00 ] 192.168.2.129 /index.php?m=home&c=bookinfo&a=detail&f_id=8&callback=jQuery111008567995381303384_1512698981063&_=1512698981064
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ec_focusinfo` WHERE ( focus_id = 8 ) LIMIT 1   [ RunTime:0.0090s ]
+
+[ 2017-12-08T10:09:19+08:00 ] 192.168.2.129 /index.php?m=home&c=bookinfo&a=detail&f_id=8&callback=jQuery111004264503817132179_1512698988846&_=1512698988847
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ec_focusinfo` WHERE ( focus_id = 8 ) LIMIT 1   [ RunTime:0.0050s ]
+
+[ 2017-12-08T10:09:22+08:00 ] 192.168.2.129 /index.php?m=home&c=bookinfo&a=detail&f_id=1&callback=jQuery111006429671163186719_1512698991699&_=1512698991700
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0320s ]
+SQL: SELECT * FROM `ec_focusinfo` WHERE ( focus_id = 1 ) LIMIT 1   [ RunTime:0.0110s ]
+
+[ 2017-12-08T10:10:10+08:00 ] 192.168.2.129 /index.php?m=home&c=bookinfo&a=detail&f_id=8&callback=jQuery111006223972572733143_1512699039973&_=1512699039974
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ec_focusinfo` WHERE ( focus_id = 8 ) LIMIT 1   [ RunTime:0.0080s ]
+
+[ 2017-12-08T10:10:13+08:00 ] 192.168.2.129 /index.php?m=home&c=bookinfo&a=detail&f_id=1&callback=jQuery111004105391924505921_1512699042789&_=1512699042790
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `ec_focusinfo` WHERE ( focus_id = 1 ) LIMIT 1   [ RunTime:0.0050s ]
+
+[ 2017-12-08T10:10:31+08:00 ] 192.168.2.104 /index.php?m=home&c=bookinfo&a=myfatie&callback=jsonp1&_=1512699031662
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ec_focusinfo` ORDER BY focus_type asc,focus_sort asc,focus_id desc  [ RunTime:0.0040s ]
+
+[ 2017-12-08T10:10:33+08:00 ] 192.168.2.104 /index.php?m=home&c=bookinfo&a=detail&f_id=undefined&callback=jQuery11100011179866269230843_1512699033505&_=1512699033506
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0080s ]
+ERR: 1054:Unknown column 'undefined' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `ec_focusinfo` WHERE ( focus_id = undefined ) LIMIT 1  
+ERR: 1054:Unknown column 'undefined' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `ec_focusinfo` WHERE ( focus_id = undefined ) LIMIT 1  
+
+[ 2017-12-08T10:10:36+08:00 ] 192.168.2.104 /index.php?m=home&c=bookinfo&a=detail&f_id=undefined&callback=jQuery1110009485722752287984_1512699036708&_=1512699036709
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0050s ]
+ERR: 1054:Unknown column 'undefined' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `ec_focusinfo` WHERE ( focus_id = undefined ) LIMIT 1  
+ERR: 1054:Unknown column 'undefined' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `ec_focusinfo` WHERE ( focus_id = undefined ) LIMIT 1  
+
+[ 2017-12-08T10:10:43+08:00 ] 192.168.2.104 /index.php?m=home&c=bookinfo&a=myfatie&callback=jsonp1&_=1512699043723
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `ec_focusinfo` ORDER BY focus_type asc,focus_sort asc,focus_id desc  [ RunTime:0.0100s ]
+
+[ 2017-12-08T10:10:44+08:00 ] 192.168.2.104 /index.php?m=home&c=bookinfo&a=myfatie&callback=jsonp1&_=1512699044884
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `ec_focusinfo` ORDER BY focus_type asc,focus_sort asc,focus_id desc  [ RunTime:0.0050s ]
+
+[ 2017-12-08T10:10:46+08:00 ] 192.168.2.104 /index.php?m=home&c=bookinfo&a=detail&f_id=1&callback=jQuery1110035094406292773783_1512699046352&_=1512699046353
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ec_focusinfo` WHERE ( focus_id = 1 ) LIMIT 1   [ RunTime:0.0070s ]
+
+[ 2017-12-08T10:10:48+08:00 ] 192.168.2.104 /index.php?m=home&c=bookinfo&a=detail&f_id=1&callback=jQuery111008224563882686198_1512699048559&_=1512699048560
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ec_focusinfo` WHERE ( focus_id = 1 ) LIMIT 1   [ RunTime:0.0060s ]
+
+[ 2017-12-08T10:10:54+08:00 ] 192.168.2.129 /index.php?m=home&c=bookinfo&a=myfatie&callback=jsonp1&_=1512699083748
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `ec_focusinfo` ORDER BY focus_type asc,focus_sort asc,focus_id desc  [ RunTime:0.0040s ]
+
+[ 2017-12-08T10:10:55+08:00 ] 192.168.2.129 /index.php?m=home&c=bookinfo&a=detail&f_id=1&callback=jQuery111005347632210784907_1512699085191&_=1512699085192
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ec_focusinfo` WHERE ( focus_id = 1 ) LIMIT 1   [ RunTime:0.0040s ]
+
+[ 2017-12-08T10:10:58+08:00 ] 192.168.2.129 /index.php?m=home&c=bookinfo&a=detail&f_id=8&callback=jQuery1110018521957013763424_1512699087823&_=1512699087824
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ec_focusinfo` WHERE ( focus_id = 8 ) LIMIT 1   [ RunTime:0.0060s ]
+
+[ 2017-12-08T10:11:00+08:00 ] 192.168.2.129 /index.php?m=home&c=bookinfo&a=detail&f_id=1&callback=jQuery11100663284799474678_1512699090090&_=1512699090091
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `ec_focusinfo` WHERE ( focus_id = 1 ) LIMIT 1   [ RunTime:0.0070s ]
+
+[ 2017-12-08T10:11:08+08:00 ] 192.168.2.129 /index.php?m=home&c=bookinfo&a=detail&f_id=8&callback=jQuery111003422361715887252_1512699098285&_=1512699098286
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ec_focusinfo` WHERE ( focus_id = 8 ) LIMIT 1   [ RunTime:0.0050s ]
+
+[ 2017-12-08T10:11:11+08:00 ] 192.168.2.129 /index.php?m=home&c=bookinfo&a=detail&f_id=1&callback=jQuery11100874968612342137_1512699101399&_=1512699101400
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0350s ]
+SQL: SELECT * FROM `ec_focusinfo` WHERE ( focus_id = 1 ) LIMIT 1   [ RunTime:0.0050s ]
+
+[ 2017-12-08T10:11:14+08:00 ] 192.168.2.129 /index.php?m=home&c=bookinfo&a=myfatie&callback=jsonp1&_=1512699104619
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ec_focusinfo` ORDER BY focus_type asc,focus_sort asc,focus_id desc  [ RunTime:0.0040s ]
+
+[ 2017-12-08T10:12:25+08:00 ] 192.168.2.129 /index.php?m=home&c=bookinfo&a=myfatie&callback=jsonp1&_=1512699175406
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-08T10:12:26+08:00 ] 192.168.2.129 /index.php?m=Home&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0510s ]
+SQL: SELECT * FROM `ec_user` WHERE ( user_id=7 ) LIMIT 1   [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `ec_user` WHERE ( user_id=7 ) LIMIT 1   [ RunTime:0.0150s ]
+SQL: SELECT * FROM `ec_user` WHERE ( user_id=7 ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `ec_userlevel` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `ec_userlevel` WHERE ( level_learntime<='38700' ) ORDER BY level_learntime desc LIMIT 1   [ RunTime:0.0170s ]
+SQL: SHOW COLUMNS FROM `ec_course` [ RunTime:0.0270s ]
+SQL: SELECT * FROM `ec_course` WHERE ( course_limittime>1512699145 ) LIMIT 1   [ RunTime:0.0160s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ec_focusinfo` WHERE ( focus_type=2 ) ORDER BY focus_sort desc LIMIT 1   [ RunTime:0.0150s ]
+SQL: SELECT ec_user.*,ec_userlevel.level_name,ec_userlevel.level_image,ec_viplevel.vip_image FROM `ec_user` left join ec_userlevel on ec_userlevel.level_id = ec_user.level left join ec_viplevel on ec_viplevel.vip_id = ec_user.vip  WHERE ( ec_user.user_id=7 ) LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT * FROM `ec_focusinfo` WHERE ( focus_type=1 ) ORDER BY focus_sort desc LIMIT 4   [ RunTime:0.0240s ]
+SQL: SELECT ec_course.* FROM `ec_course` left join ec_classify on ec_classify.classify_id = ec_course.classify_id  WHERE ( ec_course.course_isable=1 and ec_classify.classify_id=2 ) LIMIT 3   [ RunTime:0.0170s ]
+SQL: SHOW COLUMNS FROM `ec_lesson` [ RunTime:0.0110s ]
+SQL: SELECT `lesson_view` FROM `ec_lesson` WHERE ( course_id='18'  ) ORDER BY lesson_id asc LIMIT 1   [ RunTime:0.0210s ]
+SQL: SELECT `lesson_view` FROM `ec_lesson` WHERE ( course_id='19'  ) ORDER BY lesson_id asc LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT `lesson_view` FROM `ec_lesson` WHERE ( course_id='22'  ) ORDER BY lesson_id asc LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ec_course` WHERE ( course_isable=1 and classify_id=1  ) ORDER BY course_sort desc LIMIT 1,12   [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ec_course` WHERE ( course_isable=1 and classify_id=1  ) ORDER BY course_sort desc LIMIT 1   [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `ec_scoreinfo` [ RunTime:0.0170s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_scoreinfo` WHERE (  1 and score_addtime >='1512662400' and score_addtime <='1512748799' and user_id='7'  ) LIMIT 1   [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: live_info D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 118 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-08T10:12:40+08:00 ] 192.168.2.104 /index.php?m=home&c=bookinfo&a=myfatie&callback=jsonp1&_=1512699160881
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ec_focusinfo` ORDER BY focus_type asc,focus_sort asc,focus_id desc  [ RunTime:0.0040s ]
+
+[ 2017-12-08T10:12:41+08:00 ] 192.168.2.104 /index.php?m=home&c=bookinfo&a=myfatie&callback=jsonp1&_=1512699161510
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ec_focusinfo` ORDER BY focus_type asc,focus_sort asc,focus_id desc  [ RunTime:0.0040s ]
+
+[ 2017-12-08T10:12:42+08:00 ] 192.168.2.104 /index.php?m=home&c=bookinfo&a=myfatie&callback=jsonp1&_=1512699161970
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `ec_focusinfo` ORDER BY focus_type asc,focus_sort asc,focus_id desc  [ RunTime:0.0050s ]
+
+[ 2017-12-08T10:12:42+08:00 ] 192.168.2.104 /index.php?m=home&c=bookinfo&a=myfatie&callback=jsonp1&_=1512699162125
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ec_focusinfo` ORDER BY focus_type asc,focus_sort asc,focus_id desc  [ RunTime:0.0040s ]
+
+[ 2017-12-08T10:12:43+08:00 ] 192.168.2.129 /index.php?m=home&c=bookinfo&a=myfatie&callback=jsonp1&_=1512699193273
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `ec_focusinfo` ORDER BY focus_type asc,focus_sort asc,focus_id desc  [ RunTime:0.0130s ]
+
+[ 2017-12-08T10:12:45+08:00 ] 192.168.2.129 /index.php?m=home&c=bookinfo&a=detail&f_id=8&callback=jQuery1110035727747150829803_1512699194966&_=1512699194967
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ec_focusinfo` WHERE ( focus_id = 8 ) LIMIT 1   [ RunTime:0.0040s ]
+
+[ 2017-12-08T10:12:48+08:00 ] 192.168.2.129 /index.php?m=home&c=bookinfo&a=detail&f_id=1&callback=jQuery111009181177025833556_1512699197669&_=1512699197670
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ec_focusinfo` WHERE ( focus_id = 1 ) LIMIT 1   [ RunTime:0.0050s ]
+
+[ 2017-12-08T10:12:50+08:00 ] 192.168.2.129 /index.php?m=home&c=bookinfo&a=detail&f_id=8&callback=jQuery111005165940615024363_1512699200023&_=1512699200024
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `ec_focusinfo` WHERE ( focus_id = 8 ) LIMIT 1   [ RunTime:0.0050s ]
+
+[ 2017-12-08T10:13:38+08:00 ] 192.168.2.104 /index.php?m=home&c=bookinfo&a=detail&f_id=1&callback=jQuery111007209437382407486_1512699218228&_=1512699218229
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `ec_focusinfo` WHERE ( focus_id = 1 ) LIMIT 1   [ RunTime:0.0130s ]
+
+[ 2017-12-08T10:13:55+08:00 ] 192.168.2.104 /index.php?m=home&c=bookinfo&a=detail&f_id=8&callback=jQuery111005728180648293346_1512699235014&_=1512699235015
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `ec_focusinfo` WHERE ( focus_id = 8 ) LIMIT 1   [ RunTime:0.0090s ]
+
+[ 2017-12-08T10:14:01+08:00 ] 192.168.2.104 /index.php?m=home&c=bookinfo&a=myfatie&callback=jsonp1&_=1512699241619
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ec_focusinfo` ORDER BY focus_type asc,focus_sort asc,focus_id desc  [ RunTime:0.0060s ]
+
+[ 2017-12-08T10:14:03+08:00 ] 192.168.2.104 /index.php?m=home&c=bookinfo&a=detail&f_id=1&callback=jQuery111004664736604318023_1512699243656&_=1512699243657
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ec_focusinfo` WHERE ( focus_id = 1 ) LIMIT 1   [ RunTime:0.0060s ]
+
+[ 2017-12-08T10:14:05+08:00 ] 192.168.2.104 /index.php?m=home&c=bookinfo&a=detail&f_id=1&callback=jQuery111009539039777591825_1512699245691&_=1512699245692
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ec_focusinfo` WHERE ( focus_id = 1 ) LIMIT 1   [ RunTime:0.0050s ]
+
+[ 2017-12-08T10:14:09+08:00 ] 192.168.2.104 /index.php?m=home&c=bookinfo&a=detail&f_id=8&callback=jQuery111008767884804401547_1512699249268&_=1512699249269
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `ec_focusinfo` WHERE ( focus_id = 8 ) LIMIT 1   [ RunTime:0.0050s ]
+
+[ 2017-12-08T10:14:16+08:00 ] 192.168.2.129 /index.php?m=home&c=bookinfo&a=myfatie&callback=jsonp1&_=1512699286315
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ec_focusinfo` ORDER BY focus_type asc,focus_sort asc,focus_id desc  [ RunTime:0.0050s ]
+
+[ 2017-12-08T10:14:18+08:00 ] 192.168.2.129 /index.php?m=home&c=bookinfo&a=detail&f_id=8&callback=jQuery111007375559055141585_1512699287874&_=1512699287875
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0460s ]
+SQL: SELECT * FROM `ec_focusinfo` WHERE ( focus_id = 8 ) LIMIT 1   [ RunTime:0.0400s ]
+
+[ 2017-12-08T10:14:21+08:00 ] 192.168.2.129 /index.php?m=home&c=bookinfo&a=detail&f_id=1&callback=jQuery111005637909387988271_1512699290432&_=1512699290433
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ec_focusinfo` WHERE ( focus_id = 1 ) LIMIT 1   [ RunTime:0.0070s ]
+
+[ 2017-12-08T10:14:37+08:00 ] 192.168.2.129 /index.php?m=home&c=bookinfo&a=myfatie&callback=jsonp1&_=1512699307158
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `ec_focusinfo` ORDER BY focus_type asc,focus_sort asc,focus_id desc  [ RunTime:0.0050s ]
+
+[ 2017-12-08T10:14:39+08:00 ] 192.168.2.129 /index.php?m=home&c=bookinfo&a=detail&f_id=1&callback=jQuery111008739130302383284_1512699309082&_=1512699309083
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ec_focusinfo` WHERE ( focus_id = 1 ) LIMIT 1   [ RunTime:0.0070s ]
+
+[ 2017-12-08T10:14:43+08:00 ] 192.168.2.129 /index.php?m=home&c=bookinfo&a=detail&f_id=8&callback=jQuery111001625282285008205_1512699312653&_=1512699312654
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ec_focusinfo` WHERE ( focus_id = 8 ) LIMIT 1   [ RunTime:0.0060s ]
+
+[ 2017-12-08T10:15:02+08:00 ] 192.168.2.104 /index.php?m=home&c=bookinfo&a=myfatie&callback=jsonp1&_=1512699302137
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ec_focusinfo` ORDER BY focus_type asc,focus_sort asc,focus_id desc  [ RunTime:0.0110s ]
+
+[ 2017-12-08T10:15:44+08:00 ] 192.168.2.104 /index.php?m=home&c=bookinfo&a=myfatie&callback=jsonp1&_=1512699344094
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ec_focusinfo` ORDER BY focus_type asc,focus_sort asc,focus_id desc  [ RunTime:0.0050s ]
+
+[ 2017-12-08T10:15:45+08:00 ] 192.168.2.104 /index.php?m=home&c=bookinfo&a=detail&f_id=undefined&callback=jQuery111004915814991109073_1512699345332&_=1512699345333
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0070s ]
+ERR: 1054:Unknown column 'undefined' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `ec_focusinfo` WHERE ( focus_id = undefined ) LIMIT 1  
+ERR: 1054:Unknown column 'undefined' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `ec_focusinfo` WHERE ( focus_id = undefined ) LIMIT 1  
+
+[ 2017-12-08T10:15:49+08:00 ] 192.168.2.129 /index.php?m=home&c=bookinfo&a=myfatie&callback=jsonp1&_=1512699378726
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ec_focusinfo` ORDER BY focus_type asc,focus_sort asc,focus_id desc  [ RunTime:0.0040s ]
+
+[ 2017-12-08T10:15:50+08:00 ] 192.168.2.129 /index.php?m=home&c=bookinfo&a=detail&f_id=1&callback=jQuery111006741254758572128_1512699380252&_=1512699380253
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ec_focusinfo` WHERE ( focus_id = 1 ) LIMIT 1   [ RunTime:0.0080s ]
+
+[ 2017-12-08T10:15:54+08:00 ] 192.168.2.129 /index.php?m=home&c=bookinfo&a=detail&f_id=8&callback=jQuery111006978934673028432_1512699383676&_=1512699383677
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ec_focusinfo` WHERE ( focus_id = 8 ) LIMIT 1   [ RunTime:0.0040s ]
+
+[ 2017-12-08T10:15:56+08:00 ] 192.168.2.129 /index.php?m=home&c=bookinfo&a=detail&f_id=1&callback=jQuery111007267972525487127_1512699385930&_=1512699385931
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ec_focusinfo` WHERE ( focus_id = 1 ) LIMIT 1   [ RunTime:0.0050s ]
+
+[ 2017-12-08T10:15:58+08:00 ] 192.168.2.129 /index.php?m=home&c=bookinfo&a=detail&f_id=8&callback=jQuery111008202276475248513_1512699387640&_=1512699387641
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `ec_focusinfo` WHERE ( focus_id = 8 ) LIMIT 1   [ RunTime:0.0070s ]
+
+[ 2017-12-08T10:16:18+08:00 ] 192.168.2.104 /index.php?m=home&c=bookinfo&a=detail&f_id=undefined&callback=jQuery111005346871637739241_1512699378349&_=1512699378350
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0110s ]
+ERR: 1054:Unknown column 'undefined' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `ec_focusinfo` WHERE ( focus_id = undefined ) LIMIT 1  
+ERR: 1054:Unknown column 'undefined' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `ec_focusinfo` WHERE ( focus_id = undefined ) LIMIT 1  
+
+[ 2017-12-08T10:16:20+08:00 ] 192.168.2.104 /index.php?m=home&c=bookinfo&a=myfatie&callback=jsonp1&_=1512699380000
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `ec_focusinfo` ORDER BY focus_type asc,focus_sort asc,focus_id desc  [ RunTime:0.0050s ]
+
+[ 2017-12-08T10:16:20+08:00 ] 192.168.2.104 /index.php?m=home&c=bookinfo&a=detail&f_id=undefined&callback=jQuery1110009542402601800859_1512699380525&_=1512699380526
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0160s ]
+ERR: 1054:Unknown column 'undefined' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `ec_focusinfo` WHERE ( focus_id = undefined ) LIMIT 1  
+ERR: 1054:Unknown column 'undefined' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `ec_focusinfo` WHERE ( focus_id = undefined ) LIMIT 1  
+
+[ 2017-12-08T10:16:24+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=forum&category_id=2&callback=jQuery111003287832336500287_1512699384184&_=1512699384185
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T10:16:24+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=getforummore&category_id=2&callback=jQuery111003287832336500287_1512699384186&_=1512699384187
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T10:16:25+08:00 ] 192.168.2.104 /index.php?m=home&c=upload&a=wangshangbanshi&user_id=undefined&work_id=undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Upload
+
+[ 2017-12-08T10:17:22+08:00 ] 192.168.2.104 /index.php?m=home&c=bookinfo&a=myfatie&callback=jsonp1&_=1512699442533
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `ec_focusinfo` ORDER BY focus_type asc,focus_sort asc,focus_id desc  [ RunTime:0.0180s ]
+
+[ 2017-12-08T10:17:38+08:00 ] 192.168.2.104 /index.php?m=home&c=bookinfo&a=myfatie&callback=jsonp1&_=1512699456223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.2100s ]
+SQL: SELECT * FROM `ec_focusinfo` ORDER BY focus_type asc,focus_sort asc,focus_id desc  [ RunTime:0.5310s ]
+
+[ 2017-12-08T11:42:08+08:00 ] 192.168.2.104 /index.php?m=home&c=bookinfo&a=detail&f_id=undefined&callback=jQuery1110040077703702263534_1512704528497&_=1512704528498
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 1146:Table 'honely.ec_focusinfo' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ec_focusinfo`
+ERR: 1146:Table 'honely.ec_focusinfo' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ec_focusinfo`
+
+[ 2017-12-08T11:42:09+08:00 ] 192.168.2.104 /index.php?m=home&c=bookinfo&a=myfatie&callback=jsonp1&_=1512704529409
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 1146:Table 'honely.ec_focusinfo' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ec_focusinfo`
+ERR: 1146:Table 'honely.ec_focusinfo' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ec_focusinfo`
+
+[ 2017-12-08T11:42:23+08:00 ] 192.168.2.104 /index.php?m=home&c=bookinfo&a=detail&f_id=undefined&callback=jQuery111006179985336493701_1512704543857&_=1512704543858
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 1146:Table 'honely.ec_focusinfo' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ec_focusinfo`
+ERR: 1146:Table 'honely.ec_focusinfo' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ec_focusinfo`
+
+[ 2017-12-08T11:42:25+08:00 ] 192.168.2.104 /index.php?m=home&c=bookinfo&a=myfatie&callback=jsonp1&_=1512704545416
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 1146:Table 'honely.ec_focusinfo' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ec_focusinfo`
+ERR: 1146:Table 'honely.ec_focusinfo' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ec_focusinfo`
+
+[ 2017-12-08T11:47:32+08:00 ] 192.168.2.104 /index.php?m=home&c=bookinfo&a=myfatie&callback=jsonp1&_=1512704852937
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 1146:Table 'honely.ec_focusinfo' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ec_focusinfo`
+ERR: 1146:Table 'honely.ec_focusinfo' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ec_focusinfo`
+
+[ 2017-12-08T11:57:17+08:00 ] 192.168.2.104 /index.php?m=home&c=bookinfo&a=myfatie&callback=jsonp1&_=1512705437042
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 1146:Table 'honely.ec_focusinfo' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ec_focusinfo`
+ERR: 1146:Table 'honely.ec_focusinfo' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ec_focusinfo`
+
+[ 2017-12-08T11:59:25+08:00 ] 192.168.2.104 /index.php?m=home&c=bookinfo&a=myfatie&callback=jsonp1&_=1512705565017
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 1146:Table 'honely.ec_focusinfo' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ec_focusinfo`
+ERR: 1146:Table 'honely.ec_focusinfo' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ec_focusinfo`
+
+[ 2017-12-08T13:52:33+08:00 ] 192.168.2.104 /index.php?m=home&c=bookinfo&a=detail&f_id=undefined&callback=jQuery111006505947539117187_1512712353274&_=1512712353275
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 1146:Table 'honely.ec_focusinfo' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ec_focusinfo`
+ERR: 1146:Table 'honely.ec_focusinfo' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ec_focusinfo`
+
+[ 2017-12-08T14:02:03+08:00 ] 192.168.2.104 /index.php?m=home&c=bookinfo&a=detail&f_id=undefined&callback=jQuery111005852309572510421_1512712923662&_=1512712923663
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 1146:Table 'honely.ec_focusinfo' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ec_focusinfo`
+ERR: 1146:Table 'honely.ec_focusinfo' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ec_focusinfo`
+
+[ 2017-12-08T14:02:15+08:00 ] 192.168.2.104 /index.php?m=home&c=bookinfo&a=myfatie&callback=jsonp1&_=1512712935550
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 1146:Table 'honely.ec_focusinfo' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ec_focusinfo`
+ERR: 1146:Table 'honely.ec_focusinfo' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ec_focusinfo`
+
+[ 2017-12-08T14:04:32+08:00 ] 192.168.2.104 /index.php?m=home&c=bookinfo&a=detail&f_id=undefined&callback=jQuery1110002629178110510111_1512713072065&_=1512713072066
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 1146:Table 'honely.ec_focusinfo' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ec_focusinfo`
+ERR: 1146:Table 'honely.ec_focusinfo' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ec_focusinfo`
+
+[ 2017-12-08T14:05:00+08:00 ] 192.168.2.104 /index.php?m=home&c=bookinfo&a=myfatie&callback=jsonp1&_=1512713100495
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 1146:Table 'honely.ec_focusinfo' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ec_focusinfo`
+ERR: 1146:Table 'honely.ec_focusinfo' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ec_focusinfo`
+
+[ 2017-12-08T14:07:09+08:00 ] 192.168.2.104 /index.php?m=home&c=bookinfo&a=myfatie&callback=jsonp1&_=1512713229959
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 1146:Table 'honely.ec_focusinfo' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ec_focusinfo`
+ERR: 1146:Table 'honely.ec_focusinfo' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ec_focusinfo`
+
+[ 2017-12-08T14:07:21+08:00 ] 192.168.2.104 /index.php?m=home&c=bookinfo&a=myfatie&callback=jsonp1&_=1512713240988
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 1146:Table 'honely.ec_focusinfo' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ec_focusinfo`
+ERR: 1146:Table 'honely.ec_focusinfo' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ec_focusinfo`
+
+[ 2017-12-08T15:53:46+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=focus&callback=jQuery111001960550881922245_1512719626855&_=1512719626856
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T15:53:46+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=forum_zcfg&callback=jQuery111001960550881922245_1512719626861&_=1512719626862
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T15:53:46+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=forum_msjy&callback=jQuery111001960550881922245_1512719626863&_=1512719626864
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T15:53:46+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=forum_tsrd&callback=jQuery111001960550881922245_1512719626859&_=1512719626860
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T15:53:46+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=forum_msjy&callback=jQuery111001960550881922245_1512719626857&_=1512719626858
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T15:53:46+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=getmatter&callback=jQuery111001960550881922245_1512719626865&_=1512719626866
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T15:53:56+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=forum_tsrd&callback=jQuery111001960550881922245_1512719626867&_=1512719626868
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T15:53:56+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=forum_msjy&callback=jQuery111001960550881922245_1512719626871&_=1512719626872
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T15:53:56+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=forum_zcfg&callback=jQuery111001960550881922245_1512719626869&_=1512719626870
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T15:54:06+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=forum_tsrd&callback=jQuery111001960550881922245_1512719626873&_=1512719626874
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T15:54:06+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=forum_zcfg&callback=jQuery111001960550881922245_1512719626875&_=1512719626876
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T15:54:06+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=forum_msjy&callback=jQuery111001960550881922245_1512719626877&_=1512719626878
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T15:54:25+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=forum_msjy&callback=jQuery111009840871498454362_1512719665655&_=1512719665656
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T15:54:25+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=focus&callback=jQuery111009840871498454362_1512719665653&_=1512719665654
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T15:54:25+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=forum_zcfg&callback=jQuery111009840871498454362_1512719665659&_=1512719665660
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T15:54:25+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=forum_msjy&callback=jQuery111009840871498454362_1512719665661&_=1512719665662
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T15:54:25+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=forum_tsrd&callback=jQuery111009840871498454362_1512719665657&_=1512719665658
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T15:54:25+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=getmatter&callback=jQuery111009840871498454362_1512719665663&_=1512719665664
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T15:54:35+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=forum_tsrd&callback=jQuery111009840871498454362_1512719665665&_=1512719665666
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T15:54:35+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=forum_zcfg&callback=jQuery111009840871498454362_1512719665667&_=1512719665668
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T15:54:35+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=forum_msjy&callback=jQuery111009840871498454362_1512719665669&_=1512719665670
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T15:54:37+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=getworkinfo&str=2&group_id=5&callback=jQuery11100914976728381589_1512719677089&_=1512719677090
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T15:54:37+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=getmatterb&callback=jQuery11100914976728381589_1512719677091&_=1512719677092
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T15:54:45+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=forum_msjy&callback=jQuery111009840871498454362_1512719665675&_=1512719665676
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T15:54:45+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=forum_tsrd&callback=jQuery111009840871498454362_1512719665671&_=1512719665672
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T15:54:45+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=forum_zcfg&callback=jQuery111009840871498454362_1512719665673&_=1512719665674
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:06:41+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=focus&callback=jQuery1110025604919041506946_1512724001883&_=1512724001884
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:06:41+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=forum_msjy&callback=jQuery1110025604919041506946_1512724001885&_=1512724001886
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:06:41+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=forum_tsrd&callback=jQuery1110025604919041506946_1512724001887&_=1512724001888
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:06:41+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=forum_msjy&callback=jQuery1110025604919041506946_1512724001891&_=1512724001892
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:06:41+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=forum_zcfg&callback=jQuery1110025604919041506946_1512724001889&_=1512724001890
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:06:42+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=getmatter&callback=jQuery1110025604919041506946_1512724001893&_=1512724001894
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:07:42+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=focus&callback=jQuery111007582774416077882_1512724062114&_=1512724062115
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:07:42+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=forum_msjy&callback=jQuery111007582774416077882_1512724062122&_=1512724062123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:07:42+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=forum_tsrd&callback=jQuery111007582774416077882_1512724062118&_=1512724062119
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:07:42+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=forum_zcfg&callback=jQuery111007582774416077882_1512724062120&_=1512724062121
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:07:42+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=forum_msjy&callback=jQuery111007582774416077882_1512724062116&_=1512724062117
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:07:42+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=getmatter&callback=jQuery111007582774416077882_1512724062124&_=1512724062125
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:14:35+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=focus&callback=jQuery111009282387245912105_1512724475175&_=1512724475176
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:14:35+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=forum_zcfg&callback=jQuery111009282387245912105_1512724475181&_=1512724475182
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:14:35+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=forum_msjy&callback=jQuery111009282387245912105_1512724475177&_=1512724475178
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:14:35+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=forum_msjy&callback=jQuery111009282387245912105_1512724475183&_=1512724475184
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:14:35+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=forum_tsrd&callback=jQuery111009282387245912105_1512724475179&_=1512724475180
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:14:35+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=getmatter&callback=jQuery111009282387245912105_1512724475185&_=1512724475186
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:14:36+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=getworkinfo&str=2&group_id=5&callback=jQuery11100265852207550779_1512724476597&_=1512724476598
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:14:36+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=getmatterb&callback=jQuery11100265852207550779_1512724476599&_=1512724476600
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:14:37+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=gettoolinfo&callback=jQuery111003441422220785171_1512724477529&_=1512724477530
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:14:45+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=forum_tsrd&callback=jQuery111009282387245912105_1512724475187&_=1512724475188
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:14:45+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=forum_msjy&callback=jQuery111009282387245912105_1512724475191&_=1512724475192
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:14:45+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=forum_zcfg&callback=jQuery111009282387245912105_1512724475189&_=1512724475190
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:14:55+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=forum_tsrd&callback=jQuery111009282387245912105_1512724475193&_=1512724475194
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:14:55+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=forum_zcfg&callback=jQuery111009282387245912105_1512724475195&_=1512724475196
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:14:55+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=forum_msjy&callback=jQuery111009282387245912105_1512724475197&_=1512724475198
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:15:08+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=forum_msjy&callback=jQuery111006970323596615344_1512724508077&_=1512724508078
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:15:08+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=focus&callback=jQuery111006970323596615344_1512724508075&_=1512724508076
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:15:08+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=forum_tsrd&callback=jQuery111006970323596615344_1512724508079&_=1512724508080
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:15:08+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=forum_zcfg&callback=jQuery111006970323596615344_1512724508081&_=1512724508082
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:15:08+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=forum_msjy&callback=jQuery111006970323596615344_1512724508083&_=1512724508084
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:15:08+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=getmatter&callback=jQuery111006970323596615344_1512724508085&_=1512724508086
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:15:18+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=forum_tsrd&callback=jQuery111006970323596615344_1512724508087&_=1512724508088
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:15:18+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=forum_msjy&callback=jQuery111006970323596615344_1512724508091&_=1512724508092
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:15:18+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=forum_zcfg&callback=jQuery111006970323596615344_1512724508089&_=1512724508090
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:15:28+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=forum_zcfg&callback=jQuery111006970323596615344_1512724508095&_=1512724508096
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:15:28+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=forum_msjy&callback=jQuery111006970323596615344_1512724508097&_=1512724508098
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:15:28+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=forum_tsrd&callback=jQuery111006970323596615344_1512724508093&_=1512724508094
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:15:38+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=forum_zcfg&callback=jQuery111006970323596615344_1512724508101&_=1512724508102
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:15:38+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=forum_tsrd&callback=jQuery111006970323596615344_1512724508099&_=1512724508100
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:15:38+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=forum_msjy&callback=jQuery111006970323596615344_1512724508103&_=1512724508104
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:15:48+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=forum_tsrd&callback=jQuery111006970323596615344_1512724508105&_=1512724508106
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:15:48+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=forum_msjy&callback=jQuery111006970323596615344_1512724508109&_=1512724508110
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:15:48+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=forum_zcfg&callback=jQuery111006970323596615344_1512724508107&_=1512724508108
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:15:56+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=getworkinfo&str=2&group_id=5&callback=jQuery111002707390505820513_1512724556052&_=1512724556053
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:15:56+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=getmatterb&callback=jQuery111002707390505820513_1512724556054&_=1512724556055
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:15:57+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=focus&callback=jQuery11100007437010994181037_1512724557495&_=1512724557496
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:15:57+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=forum_msjy&callback=jQuery11100007437010994181037_1512724557497&_=1512724557498
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:15:57+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=forum_tsrd&callback=jQuery11100007437010994181037_1512724557499&_=1512724557500
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:15:57+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=forum_zcfg&callback=jQuery11100007437010994181037_1512724557501&_=1512724557502
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:15:57+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=forum_msjy&callback=jQuery11100007437010994181037_1512724557503&_=1512724557504
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:15:57+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=getmatter&callback=jQuery11100007437010994181037_1512724557505&_=1512724557506
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:15:58+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=forum_zcfg&callback=jQuery111006970323596615344_1512724508113&_=1512724508114
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:15:58+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=forum_msjy&callback=jQuery111006970323596615344_1512724508115&_=1512724508116
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:15:58+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=forum_tsrd&callback=jQuery111006970323596615344_1512724508111&_=1512724508112
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:16:07+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=forum_tsrd&callback=jQuery11100007437010994181037_1512724557507&_=1512724557508
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:16:07+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=forum_msjy&callback=jQuery11100007437010994181037_1512724557511&_=1512724557512
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:16:07+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=forum_zcfg&callback=jQuery11100007437010994181037_1512724557509&_=1512724557510
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:16:08+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=forum_msjy&callback=jQuery111006970323596615344_1512724508121&_=1512724508122
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:16:08+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=forum_tsrd&callback=jQuery111006970323596615344_1512724508117&_=1512724508118
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:16:08+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=forum_zcfg&callback=jQuery111006970323596615344_1512724508119&_=1512724508120
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:16:17+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=forum_tsrd&callback=jQuery11100007437010994181037_1512724557513&_=1512724557514
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:16:17+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=forum_zcfg&callback=jQuery11100007437010994181037_1512724557515&_=1512724557516
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:16:17+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=forum_msjy&callback=jQuery11100007437010994181037_1512724557517&_=1512724557518
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:16:18+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=forum_zcfg&callback=jQuery111006970323596615344_1512724508125&_=1512724508126
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:16:18+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=forum_tsrd&callback=jQuery111006970323596615344_1512724508123&_=1512724508124
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:16:18+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=forum_msjy&callback=jQuery111006970323596615344_1512724508127&_=1512724508128
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:16:27+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=forum_tsrd&callback=jQuery11100007437010994181037_1512724557519&_=1512724557520
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:16:27+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=forum_msjy&callback=jQuery11100007437010994181037_1512724557523&_=1512724557524
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:16:27+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=forum_zcfg&callback=jQuery11100007437010994181037_1512724557521&_=1512724557522
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:16:28+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=forum_tsrd&callback=jQuery111006970323596615344_1512724508129&_=1512724508130
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:16:28+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=forum_zcfg&callback=jQuery111006970323596615344_1512724508131&_=1512724508132
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:16:28+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=forum_msjy&callback=jQuery111006970323596615344_1512724508133&_=1512724508134
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:16:37+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=forum_tsrd&callback=jQuery11100007437010994181037_1512724557525&_=1512724557526
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:16:37+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=forum_msjy&callback=jQuery11100007437010994181037_1512724557529&_=1512724557530
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:16:37+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=forum_zcfg&callback=jQuery11100007437010994181037_1512724557527&_=1512724557528
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:16:38+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=forum_zcfg&callback=jQuery111006970323596615344_1512724508137&_=1512724508138
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:16:38+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=forum_tsrd&callback=jQuery111006970323596615344_1512724508135&_=1512724508136
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:16:38+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=forum_msjy&callback=jQuery111006970323596615344_1512724508139&_=1512724508140
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:16:47+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=forum_tsrd&callback=jQuery11100007437010994181037_1512724557531&_=1512724557532
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:16:47+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=forum_zcfg&callback=jQuery11100007437010994181037_1512724557533&_=1512724557534
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:16:47+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=forum_msjy&callback=jQuery11100007437010994181037_1512724557535&_=1512724557536
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:16:48+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=forum_tsrd&callback=jQuery111006970323596615344_1512724508141&_=1512724508142
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:16:48+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=forum_zcfg&callback=jQuery111006970323596615344_1512724508143&_=1512724508144
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:16:48+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=forum_msjy&callback=jQuery111006970323596615344_1512724508145&_=1512724508146
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:16:54+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=getworkinfo&str=2&group_id=5&callback=jQuery111009581902604550123_1512724614759&_=1512724614760
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:16:54+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=getmatterb&callback=jQuery111009581902604550123_1512724614761&_=1512724614762
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:17:01+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=getworkinfo&str=2&group_id=5&callback=jQuery111007485880230087787_1512724620985&_=1512724620986
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:17:01+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=getmatterb&callback=jQuery111007485880230087787_1512724620987&_=1512724620988
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:17:01+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=getworkinfo&str=2&group_id=5&callback=jQuery111005567332075443119_1512724621501&_=1512724621502
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:17:01+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=getmatterb&callback=jQuery111005567332075443119_1512724621503&_=1512724621504
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:17:01+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=getworkinfo&str=2&group_id=5&callback=jQuery111008075428169686347_1512724621656&_=1512724621657
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:17:01+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=getworkinfo&str=2&group_id=5&callback=jQuery11100470622924156487_1512724621808&_=1512724621809
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:17:01+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=getmatterb&callback=jQuery11100470622924156487_1512724621810&_=1512724621811
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:17:09+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=gettoolinfo&callback=jQuery11100015323033789172769_1512724629063&_=1512724629064
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:17:32+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=getworkinfo&str=2&group_id=5&callback=jQuery111007398375708144158_1512724652258&_=1512724652259
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:17:32+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=getmatterb&callback=jQuery111007398375708144158_1512724652260&_=1512724652261
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:17:44+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=gettoolinfo&callback=jQuery11100042853621765971184_1512724664650&_=1512724664651
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:18:22+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=getworkinfo&str=2&group_id=5&callback=jQuery111009893966058734804_1512724702820&_=1512724702821
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:18:22+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=getmatterb&callback=jQuery111009893966058734804_1512724702822&_=1512724702823
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:18:38+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=gettoolinfo&callback=jQuery111007105013723485172_1512724718769&_=1512724718770
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T17:20:20+08:00 ] 192.168.2.104 /index.php?m=home&c=bookinfo&a=myfatie&callback=jsonp1&_=1512724820822
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 1146:Table 'honely.ec_focusinfo' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ec_focusinfo`
+ERR: 1146:Table 'honely.ec_focusinfo' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ec_focusinfo`
+
+[ 2017-12-08T17:55:27+08:00 ] 192.168.2.129 /index.php?m=home&c=bookinfo&a=myfatie&callback=jsonp1&_=1512726955390
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-08T17:55:27+08:00 ] 192.168.2.129 /index.php?m=Home&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ec_user` WHERE ( user_id=7 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-12-08T18:11:17+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=focus&callback=jQuery1110012138498015701771_1512727877937&_=1512727877938
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T18:11:17+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=forum_msjy&callback=jQuery1110012138498015701771_1512727877939&_=1512727877940
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T18:11:18+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=forum_zcfg&callback=jQuery1110012138498015701771_1512727877943&_=1512727877944
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T18:11:18+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=forum_tsrd&callback=jQuery1110012138498015701771_1512727877941&_=1512727877942
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T18:11:18+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=forum_msjy&callback=jQuery1110012138498015701771_1512727877945&_=1512727877946
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-12-08T18:11:18+08:00 ] 192.168.2.104 /index.php?m=home&c=work&a=getmatter&callback=jQuery1110012138498015701771_1512727877947&_=1512727877948
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Work
+

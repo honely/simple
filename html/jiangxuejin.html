@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>奖学金</title>
+		<!--说明文字编码-->
+		<meta http-equiv="Content-type" content="text/html" charset="utf-8">
+		<!--针对 IE8 版本的一个特殊文件头标记，用于为 IE8 指定不同的页面渲染模式-->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<!--设备物理宽度等于等于页面宽度,页面初始缩放1:1,禁止用户调整缩放-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no" />
+		<!--控制状态栏显示样式-->
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<!--解决uc字体变大问题-->
+		<meta name="wap-font-scale" content="no">
+		<!--手机号码不被显示为拨号链接-->
+		<meta content="telephone=no" name="format-detection" />
+		<!--页面缓存时间的最大值是0秒，目的是不让页面缓存，每次访问必须到服务器读取-->
+		<meta http-equiv="Pragma" content="no-cache">
+		<meta http-equiv="Cache-Control" content="no-cache">
+		<meta http-equiv="Expires" content="0">
+		<link rel="stylesheet" href="css/public.css" />
+		<link rel="stylesheet" href="css/jiangxuejin.css" />
+		<link rel="stylesheet" type="text/css" href="font/iconfont.css">
+		<link rel="stylesheet" type="text/css" href="css/html5.css"/>
+	</head>
+
+	<body>
+		<div class="pd_lr06 mg_t10">
+			<div class="grxx_box c">
+				<div class="right">
+					<!--不是会员的显示“升级会员按钮”，是会员的显示“排名、学分、签到”按钮-->
+					<!--<a class="shengjihuiyuan" href="shengjihuiyuan.html">升级会员</a>-->
+					<a class="paimimg" href="">
+						<i class="iconfont icon-paiming"></i>
+						<p>排名</p>
+					</a>
+					<a class="xuefen" href="">
+						<i class="iconfont icon-30xuefenpingjiatixi"></i>
+						<p>学分</p>
+					</a>
+				</div>
+				<dl class="left">
+					<dt>
+						<span>
+							<i class="iconfont icon-vip1"></i>
+							<img src="images/touxiang.jpg"/>
+						</span>
+					</dt>
+					<dd>
+						<div class="top">
+							<span>李明成</span>
+							<em>|</em>
+							<i>秀才</i>
+						</div>
+					</dd>
+				</dl>
+			</div>
+		</div>
+		<div class="cont  mg_t10">
+			<div class="money">
+				<!--注：可以吧奖学金赠送给别人-->
+				<button onClick="window.open('xiajiliebiao.html')">赠送</button>
+				<img src="images/money.png"  />
+				<p><span>0.00</span>元</p>
+				<p>我的奖学金</p>
+				<p>成功邀请一位学员，奖励奖学金100元，<br />奖学金可以购买课程时抵用。</p>
+			</div>
+			<div class="list">
+				<div class="top c">
+					<span class="link">已邀请的VIP学员：122位</span>
+					<span>已邀请的普通学员：122位</span>
+				</div>
+				<div class="ct">
+					<div class="ct_box">
+						<ul>
+							<li>
+								<span>
+									<i class="iconfont icon-vip1"></i>
+									<img src="images/bg3.png"/>
+								</span>
+								<p>大大横<span>秀才</span></p>
+							</li>
+							<li>
+								<span>
+									<i class="iconfont icon-vip3"></i>
+									<img src="images/bg3.png"/>
+								</span>
+								<p>大大横大<span>秀才</span></p>
+							</li>
+							<li>
+								<span>
+									<i class="iconfont icon-vip5"></i>
+									<img src="images/bg3.png"/>
+								</span>
+								<p>大大横大大横<span>秀才</span></p>
+							</li>
+						</ul>						
+					</div>
+					<div class="ct_box">
+						<ul>
+							<li>
+								<span>
+									<img src="images/bg3.png"/>
+								</span>
+								<p>大大横<span>秀才</span></p>
+							</li>
+							<li>
+								<span>
+									<img src="images/bg3.png"/>
+								</span>
+								<p>大大横大<span>秀才</span></p>
+							</li>
+							<li>
+								<span>
+									<img src="images/bg3.png"/>
+								</span>
+								<p>大大横大大横<span>秀才</span></p>
+							</li>
+						</ul>						
+					</div>
+				</div>
+				<p>你还未成功邀请学员</p>
+				<button onClick="window.open('tuijian.html')" class="btnb">立即邀请</button>
+			</div>
+		</div>
+		<script type="text/javascript" src="js/screenSize.js"></script>
+	</body>
+</html>
+<script src="js/jquery-1.10.2.min.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+	$(function(){
+		$('.list .ct .ct_box').eq(0).show();
+		$('.list .top span').click(function(){
+			var _index=$(this).index();
+			$(this).addClass('link').siblings().removeClass('link');
+			$('.list .ct .ct_box').eq(_index).show().siblings().hide();
+		});
+	});
+</script>

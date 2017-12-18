@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta http-equiv="Cache-Control" content="no-transform" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>直播</title>
+        <link rel="stylesheet" type="text/css" href="__PUBLIC__/home/font/iconfont.css">
+        <link rel="stylesheet" type="text/css" href="__PUBLIC__/home/css/swiper-3.4.2.min.css"/>
+        <link rel="stylesheet" type="text/css" href="__PUBLIC__/home/css/html5.css"/>
+        <link rel="stylesheet" type="text/css" href="__PUBLIC__/home/css/mian.css"/>
+        <script src="__PUBLIC__/home/js/jquery-1.10.2.min.js" type="text/javascript" charset="utf-8"></script>
+        <script>
+            (function(doc, win) {
+            var docEl = doc.documentElement,
+                    resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+                    recalc = function() {
+                    var clientWidth = docEl.clientWidth;
+                    if (!clientWidth) return;
+                    docEl.style.fontSize = 25 * (clientWidth / 720) + 'px';
+                    };
+            if (!doc.addEventListener) return;
+            win.addEventListener(resizeEvt, recalc, false);
+            doc.addEventListener('DOMContentLoaded', recalc, false);
+            })(document, window);
+        </script>
+    </head>
+    <body>
+        <style>
+            .grxx_box{padding:5px 1.2rem;border-radius:0px;}
+            .nav,.zhibo{border-radius:0px;}
+            .twlb_box .ct .twlb{ margin-bottom:0;border-radius:0px; border-bottom: 1px solid #E5E6E8;}
+            .twlb_box .ct .twlb:last-child{border-bottom: none;}
+            .twlb_box{background: #fff;}
+            .twlb_box .ct .twlb dd .top a p{margin-top: 0; font-size: 1rem;}
+        </style>
+    <if condition="count($live_info) neq 0 ">
+        <div class="mg_t10">
+            <div class="zhibo">
+                <div class="top">
+                    <h4>直播即将开始</h4>	
+                    <if condition="$live_info['flag'] eq 1 ">
+                        <span onclick="show('{$live_info['live_id']}');">点击预约</span>
+                    </if>	
+                    <if condition="$live_info['flag'] eq 2 ">						
+                        <span onclick="location.href = '{$live_info['live_url']}'">点击直播</span>
+                    </if>
+                </div>
+                <div class="ct">
+                    <h4>{$live_info['live_title']}</h4>
+                    <p>{$live_info['live_remarks']}</p>
+                    <div class="bottom">
+                        <span>主讲：{$live_info['live_speaker']}</span>
+                        <i>时间：{$live_info['live_time']}</i>
+                        <strong><em id="int_num">{$live_info['live_num']}</em> 预约</strong>
+                    </div>
+                 </div>
+             </div>
+        </div>
+    </if>                           
+    </body>
+</html>
+
+

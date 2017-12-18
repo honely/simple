@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta http-equiv="Cache-Control" content="no-transform" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<title>下级列表</title>
+		<link rel="stylesheet" type="text/css" href="css/html5.css"/>
+		<link rel="stylesheet" type="text/css" href="css/mian.css" />
+		<script src="js/jquery-1.10.2.min.js" type="text/javascript" charset="utf-8"></script>
+		<script>
+			(function(doc, win) {
+				var docEl = doc.documentElement,
+					resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+					recalc = function() {
+						var clientWidth = docEl.clientWidth;
+						if(!clientWidth) return;
+						docEl.style.fontSize = 25 * (clientWidth / 720) + 'px';
+					};
+				if(!doc.addEventListener) return;
+				win.addEventListener(resizeEvt, recalc, false);
+				doc.addEventListener('DOMContentLoaded', recalc, false);
+			})(document, window);
+		</script>
+	</head>
+	<body>
+		<style type="text/css">
+			body{background: #fff;}
+		</style>
+		<div class="xxphb">
+			<div class="ct">
+				<ul>
+					<li onclick="show();">
+						<i><img src="images/touxiang.jpg"/></i>
+						<p>简异思维</p>
+						<em>秀才</em>
+					</li>
+					<li>
+						<i><img src="images/touxiang.jpg"/></i>
+						<p>简异思维</p>
+						<em>秀才</em>
+					</li>
+					<li>
+						<i><img src="images/touxiang.jpg"/></i>
+						<p>简异思维</p>
+						<em>秀才</em>
+					</li>
+					<li>
+						<i><img src="images/touxiang.jpg"/></i>
+						<p>简异思维</p>
+						<em>秀才</em>
+					</li>
+					<li>
+						<i><img src="images/touxiang.jpg"/></i>
+						<p>简异思维</p>
+						<em>秀才</em>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="zsjxj_box"></div>
+		<div class="zsjxj">
+			<form method="post">
+				<div class="input_text c">
+					<span>金额</span>
+					<i>
+						<input type="text"value="" placeholder="请输入金额"/>
+					</i>
+				</div>
+				<div class="input_but">
+					<span onclick="hide()" class="but_fl">取消</span>
+					<button class="but_fr">确定</button>
+				</div>
+			</form>
+		</div>
+	</body>
+</html>
+<script type="text/javascript">
+	function show(){
+		$('.zsjxj_box').fadeTo(200,1);
+		$('.zsjxj').fadeTo(200,1);
+	}
+	function hide(){
+		$('.zsjxj_box').fadeOut(300);
+		$('.zsjxj').fadeOut(300);
+	}
+</script>
+
+

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta http-equiv="Cache-Control" content="no-transform" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<title>工具下载</title>
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/home/font/iconfont.css">
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/home/css/html5.css"/>
+		<script src="__PUBLIC__/home/js/jquery-1.10.2.min.js" type="text/javascript" charset="utf-8"></script>
+		<script>
+			(function(doc, win) {
+				var docEl = doc.documentElement,
+					resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+					recalc = function() {
+						var clientWidth = docEl.clientWidth;
+						if(!clientWidth) return;
+						docEl.style.fontSize = 25 * (clientWidth / 720) + 'px';
+					};
+				if(!doc.addEventListener) return;
+				win.addEventListener(resizeEvt, recalc, false);
+				doc.addEventListener('DOMContentLoaded', recalc, false);
+			})(document, window);
+		</script>
+	</head>
+	<body>
+		<style type="text/css">
+			body{background: #fff;}
+			.gjxz_box{padding: 0 0.6rem; padding-top: 2rem;}
+			.gjxz_nav{ display: flex; width: 100%; height: 3.6rem;}
+			.gjxz_nav span{flex:1; display: block; text-align: center; position: relative; font-size: 1.12rem; color: #363636;}
+			.gjxz_nav span.link{color: #ff5411;}
+			.gjxz_nav span.link em{color: #ff5411;}
+			.gjxz_nav span em{display: block; font-size: 0.8rem;}
+			.gjxz_nav span:before{content:"" ; width:2px; height:1.7rem; background: #e5e5e5; position: absolute; right: 0; top: 0px;}
+			.gjxz_nav span:last-child:before{ background: #fff;}
+			.gjxz_ct{ width: 100%; height: 10%}	
+			.ullist{ border-top: 1px solid #e5e5e5; border-left: 1px solid #e5e5e5; display: none;}
+			.ullist	li{border-right: 1px solid #e5e5e5; border-bottom: 1px solid #e5e5e5; float: left; width: 33.3%; text-align: center; height: 6.2rem;padding-top: 1.28rem;}
+			.ullist	li i{display: block; width:2.4rem; height: 2.4rem; overflow: hidden; margin: 0 auto;}
+			.ullist	li i img{display: block; width: 100%;}
+
+			
+			.ullist	li p{margin-top: 0.6rem; font-size: 1rem; color: #7b7b7b;}
+		</style>
+		<div class="gjxz_box">
+			<div class="gjxz_nav">
+				<span class="link">
+					管理工具
+					<em>(免费)</em>
+				</span>
+				<span>落地方案</span>
+				<span>行业资料</span>
+			</div>
+			<div class="gjxz_ct">
+				<ul class="ullist c">
+					<volist name="magTools" id="mag">
+						<li>
+							<a href="{:U('myinfo/download',array('down_subtype'=>$mag['subtype_id']))}">
+								<i><img src="{$mag.subtype_image}"/></i>
+								<p>{$mag.subtype_name}</p>
+							</a>
+							<!--
+							<a onclick="xksxShow();">
+								<i><img src="{$mag.subtype_image}"/></i>
+								<p>{$mag.subtype_name}</p>
+							</a>
+							-->
+						</li>
+					</volist>
+				</ul>
+				<ul class="ullist c">
+					<volist name="scheme" id="sch">
+						<li>
+							<a href="{:U('myinfo/download',array('down_subtype'=>$sch['subtype_id']))}">
+								<i><img src="{$sch.subtype_image}"/></i>
+								<p>{$sch.subtype_name}</p>
+							</a>
+						</li>
+					</volist>
+				</ul>
+				<ul class="ullist c">
+					<volist name="information" id="info">
+						<li>
+							<a href="{:U('myinfo/download',array('down_subtype'=>$info['subtype_id']))}">
+								<i><img src="{$info.subtype_image}"/></i>
+								<p>{$info.subtype_name}</p>
+							</a>
+						</li>
+					</volist>
+				</ul>
+			</div>
+		</div>
+
+		<style type="text/css">
+			.tjwx_box{ width: 100%; height: 100%; background: rgba(0,0,0,0.5); position: fixed; top: 0; left: 0; display: none;}
+			.tjwx_bg{ width: 100%; height: 24rem;  position: absolute; top: 50%; margin-top: -12rem;padding: 0 1rem;}
+			.tjwx{background: #fff; width: 100%; height: 100%; position: relative; border-radius: 10px; text-align: center;}
+			.tjwx_box .tjwx_bg .span{display: block; width: 2.5rem; height: 2.5rem; line-height: 2.5rem; font-size:2.5rem; text-align: center; color: #fff; border: 1px solid #fff ; border-radius: 100%; margin: 0 auto; margin-top:1.5rem;}
+			.tjwx h4{font-size: 1.2rem; color: #363636; font-weight: bold; padding-top: 2.2rem;}
+			.tjwx span{display: block; font-size: 1.04rem; color: #ff5411; padding-top: 1rem;}
+			.tjwx i{display: block; font-size: 1.04rem; color: #363636; padding-top: 1rem;}
+			.tjwx strong{ display: block; width: 9.6rem; height: 9.4rem; overflow: hidden; margin: 1rem auto 0;}
+			.tjwx strong img{display: block; width: 100%;}
+			.tjwx em{ display: block; font-size: 0.8rem; color: #797979; padding-top: 1.2rem;}
+	
+		</style>
+		<div class="tjwx_box">
+			<div class="tjwx_bg">
+				<div class="tjwx">
+					<h4>请添加微信好友</h4>
+					<span>[微小宝]　18192071569</span>
+					<i>即可免费获得价值3800元大礼包</i>
+					<strong><img src="__PUBLIC__/home/images/erweim.jpg"/></strong>
+					<em>长按识别二维码</em>
+				</div>
+				<span class="span" onclick="xksxHide()">×</span>
+			</div>
+		</div>
+
+	</body>
+</html>
+<script type="text/javascript">
+	$(function(){
+		$(".gjxz_box .gjxz_ct .ullist").eq(0).show();
+		$(".gjxz_box .gjxz_nav span").click(function(){
+			var _index=$(this).index();
+			$(this).addClass("link").siblings().removeClass("link");
+			$(".gjxz_box .gjxz_ct .ullist").eq(_index).show().siblings().hide();
+		})
+	});
+
+	function xksxShow(){
+    	$('.tjwx_box').fadeTo(200, 1);
+    }
+
+    function xksxHide(){
+    	$('.tjwx_box').fadeOut(300);
+    }
+</script>

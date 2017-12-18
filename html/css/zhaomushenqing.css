@@ -1,0 +1,50 @@
+body {
+	background: #ebebeb;
+	min-height: 100%;
+}
+
+.cont {
+	width: 27.56rem;
+	height: 23.32rem;
+	display: block;
+	margin: 0.8rem auto 0;
+	background: #FFFFFF;
+	border-radius: 0.4rem;
+}
+
+.cont ul {
+	padding: 0.8rem 0;
+}
+
+.cont ul li {
+	height: 2.96rem;
+	padding: 0 1.7rem;
+	border-bottom: 1px solid #fafafa;
+	margin: 0 0.5rem;
+}
+
+.cont ul li p {
+	line-height: 2.96rem;
+	font-size: 1.12rem;
+	color: #363636;
+}
+
+.cont ul li p span {
+	margin-left: 0.7rem;
+	color: #ff7811;
+}
+
+.btn {
+	border: none;
+	background: #ff7811;
+	color: #FFFFFF;
+	font-size: 1.28rem;
+	height: 3rem;
+	width: 27.56rem;
+	border-radius: 0.5rem;
+	position: absolute;
+	bottom: 1.5rem;
+	left: 0;
+	right: 0;
+	margin: auto;
+}

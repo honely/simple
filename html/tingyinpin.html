@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta http-equiv="Cache-Control" content="no-transform" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<title>听音频</title>
+		<link rel="stylesheet" type="text/css" href="font/iconfont.css">
+		<link rel="stylesheet" type="text/css" href="css/html5.css"/>
+		<script src="js/jquery-1.10.2.min.js" type="text/javascript" charset="utf-8"></script>
+		<script>
+			(function(doc, win) {
+				var docEl = doc.documentElement,
+					resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+					recalc = function() {
+						var clientWidth = docEl.clientWidth;
+						if(!clientWidth) return;
+						docEl.style.fontSize = 25 * (clientWidth / 720) + 'px';
+					};
+				if(!doc.addEventListener) return;
+				win.addEventListener(resizeEvt, recalc, false);
+				doc.addEventListener('DOMContentLoaded', recalc, false);
+			})(document, window);
+		</script>
+	</head>
+	<body>
+		<div class="twlb_box pd_lr06 mg_t10">
+			<div class="ct">
+				<dl class="twlb c">
+					<dt>
+						<a href="">
+							<img src="images/twlb_img.jpg"/>
+						</a>
+					</dt>
+					<dd>
+						<div class="top">
+							<a href="#">
+								<h4><!--此处文字请限制长度-->
+									人才留不住，领袖之道，统帅人心文化力
+								</h4>
+							</a>
+						</div>
+						<div class="ct_1">
+							<div class="left">
+								<span>主讲：西门吹雪</span>
+							</div>
+						</div>
+						<div class="bottom">
+							<span>
+								<i class="iconfont icon-shijian"></i>
+								<em>15分30秒</em>
+							</span>
+							<span>
+								<i class="iconfont icon-yueduliang"></i>
+								<em>2366112</em>
+							</span>
+						</div>
+					</dd>
+				</dl>
+			</div>
+		</div>
+	</body>
+</html>

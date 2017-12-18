@@ -1,0 +1,132 @@
+[ 2017-10-09T18:13:36+08:00 ] 192.168.2.2 /index.php?m=Admin&c=applyinfo&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: starttime F:\www\Application\Admin\Controller\ApplyinfoController.class.php 第 38 行.
+NOTIC: [8] Undefined variable: endtime F:\www\Application\Admin\Controller\ApplyinfoController.class.php 第 39 行.
+NOTIC: [8] Undefined variable: starttime F:\www\Application\Admin\Controller\ApplyinfoController.class.php 第 41 行.
+NOTIC: [8] Undefined variable: endtime F:\www\Application\Admin\Controller\ApplyinfoController.class.php 第 44 行.
+SQL: SHOW COLUMNS FROM `ec_applyinfo` [ RunTime:0.0236s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_applyinfo` left join ec_user on ec_applyinfo.user_id = ec_user.user_id  WHERE ( 1  and ec_applyinfo.apply_addtime>=1506614400  and ec_applyinfo.apply_addtime<=1507564799  ) LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT ec_user.nickname,ec_applyinfo.* FROM `ec_applyinfo` left join ec_user on ec_applyinfo.user_id = ec_user.user_id  WHERE ( 1  and ec_applyinfo.apply_addtime>=1506614400  and ec_applyinfo.apply_addtime<=1507564799  ) ORDER BY ec_applyinfo.apply_id desc LIMIT 0,15   [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `ec_applyinfo` [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: keyword F:\www\Application\Runtime\Cache\Admin\291c69ef3fea2ac60a11483c71f1c549.php 第 28 行.
+NOTIC: [8] Undefined variable: apply_type F:\www\Application\Runtime\Cache\Admin\291c69ef3fea2ac60a11483c71f1c549.php 第 40 行.
+NOTIC: [8] Undefined variable: apply_type F:\www\Application\Runtime\Cache\Admin\291c69ef3fea2ac60a11483c71f1c549.php 第 40 行.
+NOTIC: [8] Undefined variable: apply_flag F:\www\Application\Runtime\Cache\Admin\291c69ef3fea2ac60a11483c71f1c549.php 第 47 行.
+NOTIC: [8] Undefined variable: apply_flag F:\www\Application\Runtime\Cache\Admin\291c69ef3fea2ac60a11483c71f1c549.php 第 47 行.
+NOTIC: [8] Undefined variable: apply_flag F:\www\Application\Runtime\Cache\Admin\291c69ef3fea2ac60a11483c71f1c549.php 第 47 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-09T18:13:37+08:00 ] 192.168.2.2 /index.php?m=Admin&c=buxiyanfa&a=buxiyanfa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: work_id F:\www\Application\Admin\Controller\BuxiyanfaController.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `ec_signinfo` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_signinfo` left join ec_user ON ec_user.user_id = ec_signinfo.user_id left join ec_workinfo ON ec_workinfo.work_id = ec_signinfo.work_id  WHERE ( 1  and (ec_signinfo.sign_addtime >=1506614400)  and (ec_signinfo.sign_addtime <=1507564799)  ) LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT ec_signinfo.*,ec_user.nickname,ec_user.phone as mobile,ec_workinfo.work_title FROM `ec_signinfo` left join ec_user ON ec_user.user_id = ec_signinfo.user_id left join ec_workinfo ON ec_workinfo.work_id = ec_signinfo.work_id  WHERE ( 1  and (ec_signinfo.sign_addtime >=1506614400)  and (ec_signinfo.sign_addtime <=1507564799)  ) ORDER BY sign_id desc LIMIT 0,15   [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `ec_buyinfo` [ RunTime:0.0090s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: state F:\www\Application\Runtime\Cache\Admin\211132888094a162877ae36feceef9be.php 第 19 行.
+NOTIC: [8] Undefined variable: workId F:\www\Application\Runtime\Cache\Admin\211132888094a162877ae36feceef9be.php 第 34 行.
+NOTIC: [8] Undefined variable: wordTitle F:\www\Application\Runtime\Cache\Admin\211132888094a162877ae36feceef9be.php 第 34 行.
+NOTIC: [8] Undefined variable: state F:\www\Application\Runtime\Cache\Admin\211132888094a162877ae36feceef9be.php 第 35 行.
+NOTIC: [8] Undefined variable: wordTitle F:\www\Application\Runtime\Cache\Admin\211132888094a162877ae36feceef9be.php 第 36 行.
+NOTIC: [8] Undefined variable: workId F:\www\Application\Runtime\Cache\Admin\211132888094a162877ae36feceef9be.php 第 37 行.
+NOTIC: [8] Undefined variable: keyword F:\www\Application\Runtime\Cache\Admin\211132888094a162877ae36feceef9be.php 第 40 行.
+NOTIC: [8] Undefined variable: pay_flag_ F:\www\Application\Runtime\Cache\Admin\211132888094a162877ae36feceef9be.php 第 52 行.
+NOTIC: [8] Undefined variable: pay_flag_ F:\www\Application\Runtime\Cache\Admin\211132888094a162877ae36feceef9be.php 第 52 行.
+NOTIC: [8] Undefined variable: workId F:\www\Application\Runtime\Cache\Admin\211132888094a162877ae36feceef9be.php 第 57 行.
+NOTIC: [8] Undefined variable: wordTitle F:\www\Application\Runtime\Cache\Admin\211132888094a162877ae36feceef9be.php 第 57 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-09T18:13:38+08:00 ] 192.168.2.2 /index.php?m=Admin&c=moneyinfo&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined variable: starttime F:\www\Application\Admin\Controller\MoneyinfoController.class.php 第 44 行.
+NOTIC: [8] Undefined variable: endtime F:\www\Application\Admin\Controller\MoneyinfoController.class.php 第 47 行.
+SQL: SHOW COLUMNS FROM `ec_moneyinfo` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_moneyinfo`  left join ec_user as a ON a.user_id = ec_moneyinfo.user_id  WHERE ( 1  and ec_moneyinfo.money_addtime>=1506614400  and ec_moneyinfo.money_addtime<=1507564799  ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ec_moneyinfo`  left join ec_user as a ON a.user_id = ec_moneyinfo.user_id  WHERE ( 1  and ec_moneyinfo.money_addtime>=1506614400  and ec_moneyinfo.money_addtime<=1507564799  ) ORDER BY  ec_moneyinfo.money_id desc LIMIT 0,15   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `ec_moneyinfo` [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: keyword F:\www\Application\Runtime\Cache\Admin\0e6c7fe84b781d035f79d2b51f6fba24.php 第 32 行.
+NOTIC: [8] Undefined variable: money_type F:\www\Application\Runtime\Cache\Admin\0e6c7fe84b781d035f79d2b51f6fba24.php 第 38 行.
+NOTIC: [8] Undefined variable: money_type F:\www\Application\Runtime\Cache\Admin\0e6c7fe84b781d035f79d2b51f6fba24.php 第 38 行.
+NOTIC: [8] Undefined variable: money_type F:\www\Application\Runtime\Cache\Admin\0e6c7fe84b781d035f79d2b51f6fba24.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-09T18:13:38+08:00 ] 192.168.2.2 /index.php?m=Admin&c=liveorder&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `ec_liveorder` [ RunTime:0.0120s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_liveorder` left join ec_user as a on a.user_id = ec_liveorder.user_id left join ec_liveinfo as b on b.live_id = ec_liveorder.live_id  WHERE ( 1  ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT a.nickname,a.phone,b.live_title,b.live_id as live_ids,ec_liveorder.order_id,ec_liveorder.order_addtime FROM `ec_liveorder` left join ec_user as a on a.user_id = ec_liveorder.user_id left join ec_liveinfo as b on b.live_id = ec_liveorder.live_id  WHERE ( 1  ) ORDER BY ec_liveorder.order_id desc LIMIT 0,20   [ RunTime:0.0100s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: live_id F:\www\Application\Runtime\Cache\Admin\8aa12f459adf3e386e7f2549c6b24fea.php 第 21 行.
+NOTIC: [8] Undefined variable: live_id F:\www\Application\Runtime\Cache\Admin\8aa12f459adf3e386e7f2549c6b24fea.php 第 30 行.
+NOTIC: [8] Undefined variable: keyword F:\www\Application\Runtime\Cache\Admin\8aa12f459adf3e386e7f2549c6b24fea.php 第 34 行.
+NOTIC: [8] Undefined variable: starttime F:\www\Application\Runtime\Cache\Admin\8aa12f459adf3e386e7f2549c6b24fea.php 第 38 行.
+NOTIC: [8] Undefined variable: endtime F:\www\Application\Runtime\Cache\Admin\8aa12f459adf3e386e7f2549c6b24fea.php 第 40 行.
+NOTIC: [8] Undefined variable: live_id F:\www\Application\Runtime\Cache\Admin\8aa12f459adf3e386e7f2549c6b24fea.php 第 44 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

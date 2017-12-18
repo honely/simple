@@ -1,0 +1,352 @@
+[ 2017-12-14T09:30:06+08:00 ] 192.168.2.108 /index.php?m=home&c=Exchange&a=duihuanzhongxin&user_id=1&p=1&callback=jQuery311022473278548568487_1513215006120&_=1513215006121
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `ec_user` WHERE ( user_id = 1 ) LIMIT 1   [ RunTime:0.0150s ]
+SQL: SHOW COLUMNS FROM `ec_goods` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_goods` WHERE ( goods_isable = 1 and goods_stock >= 1 ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ec_goods` WHERE ( goods_isable = 1 and goods_stock >= 1  ) ORDER BY goods_id desc LIMIT 0,6   [ RunTime:0.0140s ]
+NOTIC: [8] Undefined variable: p D:\xampp\htdocs\jianyinew\Application\Home\Controller\ExchangeController.class.php 第 45 行.
+
+[ 2017-12-14T09:35:51+08:00 ] 192.168.2.108 /index.php?m=home&c=Exchange&a=exchangeLog&user_id=206&p=1&callback=jQuery31108612717573996633_1513215349769&_=1513215349770
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_goodschange` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_goodschange` left join ec_goodslist on ec_goodschange.change_id=ec_goodslist.change_id left join ec_goods on ec_goods.goods_id=ec_goodslist.goods_id  WHERE ( change_flag = 2 and user_id = 206 ) LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT ec_goodschange.*,ec_goods.goods_name,ec_goods.goods_price,ec_goodslist.* FROM `ec_goodschange` left join ec_goodslist on ec_goodschange.change_id=ec_goodslist.change_id left join ec_goods on ec_goods.goods_id=ec_goodslist.goods_id  WHERE ( change_flag = 2 and user_id = 206 ) ORDER BY ec_goodschange.change_id desc LIMIT 0,9   [ RunTime:0.0060s ]
+NOTIC: [8] Undefined variable: p D:\xampp\htdocs\jianyinew\Application\Home\Controller\ExchangeController.class.php 第 130 行.
+
+[ 2017-12-14T09:36:10+08:00 ] 192.168.2.108 /index.php?m=home&c=Exchange&a=exchangeLog&user_id=206&p=1&callback=jQuery31105812650970183313_1513215368410&_=1513215368411
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_goodschange` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_goodschange` left join ec_goodslist on ec_goodschange.change_id=ec_goodslist.change_id left join ec_goods on ec_goods.goods_id=ec_goodslist.goods_id  WHERE ( change_flag = 2 and user_id = 206 ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT ec_goodschange.*,ec_goods.goods_name,ec_goods.goods_price,ec_goodslist.* FROM `ec_goodschange` left join ec_goodslist on ec_goodschange.change_id=ec_goodslist.change_id left join ec_goods on ec_goods.goods_id=ec_goodslist.goods_id  WHERE ( change_flag = 2 and user_id = 206 ) ORDER BY ec_goodschange.change_id desc LIMIT 0,9   [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: p D:\xampp\htdocs\jianyinew\Application\Home\Controller\ExchangeController.class.php 第 130 行.
+
+[ 2017-12-14T09:36:16+08:00 ] 192.168.2.108 /index.php?m=home&c=Exchange&a=exchangeLog&user_id=206&p=1&callback=jQuery31105766463533509523_1513215376603&_=1513215376604
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_goodschange` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_goodschange` left join ec_goodslist on ec_goodschange.change_id=ec_goodslist.change_id left join ec_goods on ec_goods.goods_id=ec_goodslist.goods_id  WHERE ( change_flag = 2 and user_id = 206 ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT ec_goodschange.*,ec_goods.goods_name,ec_goods.goods_price,ec_goodslist.* FROM `ec_goodschange` left join ec_goodslist on ec_goodschange.change_id=ec_goodslist.change_id left join ec_goods on ec_goods.goods_id=ec_goodslist.goods_id  WHERE ( change_flag = 2 and user_id = 206 ) ORDER BY ec_goodschange.change_id desc LIMIT 0,9   [ RunTime:0.0060s ]
+NOTIC: [8] Undefined variable: p D:\xampp\htdocs\jianyinew\Application\Home\Controller\ExchangeController.class.php 第 130 行.
+
+[ 2017-12-14T09:36:31+08:00 ] 192.168.2.108 /index.php?m=home&c=Exchange&a=exchangeLog&user_id=206&p=1&callback=jQuery311006867775111459196_1513215390877&_=1513215390878
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_goodschange` [ RunTime:0.0280s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_goodschange` left join ec_goodslist on ec_goodschange.change_id=ec_goodslist.change_id left join ec_goods on ec_goods.goods_id=ec_goodslist.goods_id  WHERE ( change_flag = 2 and user_id = 206 ) LIMIT 1   [ RunTime:0.0120s ]
+SQL: SELECT ec_goodschange.*,ec_goods.goods_name,ec_goods.goods_price,ec_goodslist.* FROM `ec_goodschange` left join ec_goodslist on ec_goodschange.change_id=ec_goodslist.change_id left join ec_goods on ec_goods.goods_id=ec_goodslist.goods_id  WHERE ( change_flag = 2 and user_id = 206 ) ORDER BY ec_goodschange.change_id desc LIMIT 0,9   [ RunTime:0.0130s ]
+NOTIC: [8] Undefined variable: p D:\xampp\htdocs\jianyinew\Application\Home\Controller\ExchangeController.class.php 第 130 行.
+
+[ 2017-12-14T09:37:03+08:00 ] 192.168.2.108 /index.php?m=home&c=Exchange&a=exchangeLog&user_id=206&p=1&callback=jQuery31107597360531799495_1513215423208&_=1513215423209
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_goodschange` [ RunTime:0.0110s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_goodschange` left join ec_goodslist on ec_goodschange.change_id=ec_goodslist.change_id left join ec_goods on ec_goods.goods_id=ec_goodslist.goods_id  WHERE ( change_flag = 2 and user_id = 206 ) LIMIT 1   [ RunTime:0.0080s ]
+SQL: SELECT ec_goodschange.*,ec_goods.goods_name,ec_goods.goods_price,ec_goodslist.* FROM `ec_goodschange` left join ec_goodslist on ec_goodschange.change_id=ec_goodslist.change_id left join ec_goods on ec_goods.goods_id=ec_goodslist.goods_id  WHERE ( change_flag = 2 and user_id = 206 ) ORDER BY ec_goodschange.change_id desc LIMIT 0,9   [ RunTime:0.0080s ]
+NOTIC: [8] Undefined variable: p D:\xampp\htdocs\jianyinew\Application\Home\Controller\ExchangeController.class.php 第 130 行.
+
+[ 2017-12-14T09:37:11+08:00 ] 192.168.2.108 /index.php?m=home&c=Exchange&a=exchangeLog&user_id=206&p=1&callback=jQuery311043422555970028043_1513215431089&_=1513215431090
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_goodschange` [ RunTime:0.0120s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_goodschange` left join ec_goodslist on ec_goodschange.change_id=ec_goodslist.change_id left join ec_goods on ec_goods.goods_id=ec_goodslist.goods_id  WHERE ( change_flag = 2 and user_id = 206 ) LIMIT 1   [ RunTime:0.0150s ]
+SQL: SELECT ec_goodschange.*,ec_goods.goods_name,ec_goods.goods_price,ec_goodslist.* FROM `ec_goodschange` left join ec_goodslist on ec_goodschange.change_id=ec_goodslist.change_id left join ec_goods on ec_goods.goods_id=ec_goodslist.goods_id  WHERE ( change_flag = 2 and user_id = 206 ) ORDER BY ec_goodschange.change_id desc LIMIT 0,9   [ RunTime:0.0130s ]
+NOTIC: [8] Undefined variable: p D:\xampp\htdocs\jianyinew\Application\Home\Controller\ExchangeController.class.php 第 130 行.
+
+[ 2017-12-14T09:37:22+08:00 ] 192.168.2.108 /index.php?m=home&c=Exchange&a=exchangeLog&user_id=206&p=1&callback=jQuery3110084342593094334_1513215442180&_=1513215442181
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_goodschange` [ RunTime:0.0120s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_goodschange` left join ec_goodslist on ec_goodschange.change_id=ec_goodslist.change_id left join ec_goods on ec_goods.goods_id=ec_goodslist.goods_id  WHERE ( change_flag = 2 and user_id = 206 ) LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT ec_goodschange.*,ec_goods.goods_name,ec_goods.goods_price,ec_goodslist.* FROM `ec_goodschange` left join ec_goodslist on ec_goodschange.change_id=ec_goodslist.change_id left join ec_goods on ec_goods.goods_id=ec_goodslist.goods_id  WHERE ( change_flag = 2 and user_id = 206 ) ORDER BY ec_goodschange.change_id desc LIMIT 0,9   [ RunTime:0.0080s ]
+NOTIC: [8] Undefined variable: p D:\xampp\htdocs\jianyinew\Application\Home\Controller\ExchangeController.class.php 第 130 行.
+
+[ 2017-12-14T09:37:28+08:00 ] 192.168.2.108 /index.php?m=home&c=Exchange&a=exchangeLog&user_id=206&p=1&callback=jQuery31106533575218636543_1513215448360&_=1513215448361
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_goodschange` [ RunTime:0.0130s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_goodschange` left join ec_goodslist on ec_goodschange.change_id=ec_goodslist.change_id left join ec_goods on ec_goods.goods_id=ec_goodslist.goods_id  WHERE ( change_flag = 2 and user_id = 206 ) LIMIT 1   [ RunTime:0.0120s ]
+SQL: SELECT ec_goodschange.*,ec_goods.goods_name,ec_goods.goods_price,ec_goodslist.* FROM `ec_goodschange` left join ec_goodslist on ec_goodschange.change_id=ec_goodslist.change_id left join ec_goods on ec_goods.goods_id=ec_goodslist.goods_id  WHERE ( change_flag = 2 and user_id = 206 ) ORDER BY ec_goodschange.change_id desc LIMIT 0,9   [ RunTime:0.0070s ]
+NOTIC: [8] Undefined variable: p D:\xampp\htdocs\jianyinew\Application\Home\Controller\ExchangeController.class.php 第 130 行.
+
+[ 2017-12-14T09:37:41+08:00 ] 192.168.2.108 /index.php?m=home&c=Exchange&a=exchangeLog&user_id=206&p=1&callback=jQuery311015897628967650235_1513215461134&_=1513215461135
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_goodschange` [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_goodschange` left join ec_goodslist on ec_goodschange.change_id=ec_goodslist.change_id left join ec_goods on ec_goods.goods_id=ec_goodslist.goods_id  WHERE ( change_flag = 2 and user_id = 206 ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT ec_goodschange.*,ec_goods.goods_name,ec_goods.goods_price,ec_goodslist.* FROM `ec_goodschange` left join ec_goodslist on ec_goodschange.change_id=ec_goodslist.change_id left join ec_goods on ec_goods.goods_id=ec_goodslist.goods_id  WHERE ( change_flag = 2 and user_id = 206 ) ORDER BY ec_goodschange.change_id desc LIMIT 0,9   [ RunTime:0.0060s ]
+NOTIC: [8] Undefined variable: p D:\xampp\htdocs\jianyinew\Application\Home\Controller\ExchangeController.class.php 第 130 行.
+
+[ 2017-12-14T09:37:43+08:00 ] 192.168.2.108 /index.php?m=home&c=Exchange&a=exchangeLog&user_id=206&p=1&callback=jQuery31108697506287135184_1513215463623&_=1513215463624
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_goodschange` [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_goodschange` left join ec_goodslist on ec_goodschange.change_id=ec_goodslist.change_id left join ec_goods on ec_goods.goods_id=ec_goodslist.goods_id  WHERE ( change_flag = 2 and user_id = 206 ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT ec_goodschange.*,ec_goods.goods_name,ec_goods.goods_price,ec_goodslist.* FROM `ec_goodschange` left join ec_goodslist on ec_goodschange.change_id=ec_goodslist.change_id left join ec_goods on ec_goods.goods_id=ec_goodslist.goods_id  WHERE ( change_flag = 2 and user_id = 206 ) ORDER BY ec_goodschange.change_id desc LIMIT 0,9   [ RunTime:0.0140s ]
+NOTIC: [8] Undefined variable: p D:\xampp\htdocs\jianyinew\Application\Home\Controller\ExchangeController.class.php 第 130 行.
+
+[ 2017-12-14T09:37:46+08:00 ] 192.168.2.108 /index.php?m=home&c=Exchange&a=exchangeLog&user_id=206&p=1&callback=jQuery31106366147266235203_1513215466139&_=1513215466140
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_goodschange` [ RunTime:0.1640s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_goodschange` left join ec_goodslist on ec_goodschange.change_id=ec_goodslist.change_id left join ec_goods on ec_goods.goods_id=ec_goodslist.goods_id  WHERE ( change_flag = 2 and user_id = 206 ) LIMIT 1   [ RunTime:0.0110s ]
+SQL: SELECT ec_goodschange.*,ec_goods.goods_name,ec_goods.goods_price,ec_goodslist.* FROM `ec_goodschange` left join ec_goodslist on ec_goodschange.change_id=ec_goodslist.change_id left join ec_goods on ec_goods.goods_id=ec_goodslist.goods_id  WHERE ( change_flag = 2 and user_id = 206 ) ORDER BY ec_goodschange.change_id desc LIMIT 0,9   [ RunTime:0.0060s ]
+NOTIC: [8] Undefined variable: p D:\xampp\htdocs\jianyinew\Application\Home\Controller\ExchangeController.class.php 第 130 行.
+
+[ 2017-12-14T09:37:53+08:00 ] 192.168.2.108 /index.php?m=home&c=Exchange&a=exchangeLog&user_id=206&p=1&callback=jQuery3110009760953485965729_1513215472928&_=1513215472929
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_goodschange` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_goodschange` left join ec_goodslist on ec_goodschange.change_id=ec_goodslist.change_id left join ec_goods on ec_goods.goods_id=ec_goodslist.goods_id  WHERE ( change_flag = 2 and user_id = 206 ) LIMIT 1   [ RunTime:0.0150s ]
+SQL: SELECT ec_goodschange.*,ec_goods.goods_name,ec_goods.goods_price,ec_goodslist.* FROM `ec_goodschange` left join ec_goodslist on ec_goodschange.change_id=ec_goodslist.change_id left join ec_goods on ec_goods.goods_id=ec_goodslist.goods_id  WHERE ( change_flag = 2 and user_id = 206 ) ORDER BY ec_goodschange.change_id desc LIMIT 0,9   [ RunTime:0.0080s ]
+NOTIC: [8] Undefined variable: p D:\xampp\htdocs\jianyinew\Application\Home\Controller\ExchangeController.class.php 第 130 行.
+
+[ 2017-12-14T09:38:03+08:00 ] 192.168.2.108 /index.php?m=home&c=Exchange&a=exchangeLog&user_id=206&p=1&callback=jQuery31109071930991485715_1513215483025&_=1513215483026
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_goodschange` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_goodschange` left join ec_goodslist on ec_goodschange.change_id=ec_goodslist.change_id left join ec_goods on ec_goods.goods_id=ec_goodslist.goods_id  WHERE ( change_flag = 2 and user_id = 206 ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT ec_goodschange.*,ec_goods.goods_name,ec_goods.goods_price,ec_goodslist.* FROM `ec_goodschange` left join ec_goodslist on ec_goodschange.change_id=ec_goodslist.change_id left join ec_goods on ec_goods.goods_id=ec_goodslist.goods_id  WHERE ( change_flag = 2 and user_id = 206 ) ORDER BY ec_goodschange.change_id desc LIMIT 0,9   [ RunTime:0.0060s ]
+NOTIC: [8] Undefined variable: p D:\xampp\htdocs\jianyinew\Application\Home\Controller\ExchangeController.class.php 第 130 行.
+
+[ 2017-12-14T09:38:06+08:00 ] 192.168.2.108 /index.php?m=home&c=Exchange&a=exchangeLog&user_id=206&p=1&callback=jQuery311031624375213868916_1513215486647&_=1513215486648
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_goodschange` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_goodschange` left join ec_goodslist on ec_goodschange.change_id=ec_goodslist.change_id left join ec_goods on ec_goods.goods_id=ec_goodslist.goods_id  WHERE ( change_flag = 2 and user_id = 206 ) LIMIT 1   [ RunTime:0.0110s ]
+SQL: SELECT ec_goodschange.*,ec_goods.goods_name,ec_goods.goods_price,ec_goodslist.* FROM `ec_goodschange` left join ec_goodslist on ec_goodschange.change_id=ec_goodslist.change_id left join ec_goods on ec_goods.goods_id=ec_goodslist.goods_id  WHERE ( change_flag = 2 and user_id = 206 ) ORDER BY ec_goodschange.change_id desc LIMIT 0,9   [ RunTime:0.0070s ]
+NOTIC: [8] Undefined variable: p D:\xampp\htdocs\jianyinew\Application\Home\Controller\ExchangeController.class.php 第 130 行.
+
+[ 2017-12-14T09:38:12+08:00 ] 192.168.2.108 /index.php?m=home&c=Exchange&a=exchangeLog&user_id=206&p=1&callback=jQuery311011904541659168899_1513215492248&_=1513215492249
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_goodschange` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_goodschange` left join ec_goodslist on ec_goodschange.change_id=ec_goodslist.change_id left join ec_goods on ec_goods.goods_id=ec_goodslist.goods_id  WHERE ( change_flag = 2 and user_id = 206 ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT ec_goodschange.*,ec_goods.goods_name,ec_goods.goods_price,ec_goodslist.* FROM `ec_goodschange` left join ec_goodslist on ec_goodschange.change_id=ec_goodslist.change_id left join ec_goods on ec_goods.goods_id=ec_goodslist.goods_id  WHERE ( change_flag = 2 and user_id = 206 ) ORDER BY ec_goodschange.change_id desc LIMIT 0,9   [ RunTime:0.0120s ]
+NOTIC: [8] Undefined variable: p D:\xampp\htdocs\jianyinew\Application\Home\Controller\ExchangeController.class.php 第 130 行.
+
+[ 2017-12-14T09:38:19+08:00 ] 192.168.2.108 /index.php?m=home&c=Exchange&a=exchangeLog&user_id=206&p=1&callback=jQuery311012133305426687002_1513215499374&_=1513215499375
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_goodschange` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_goodschange` left join ec_goodslist on ec_goodschange.change_id=ec_goodslist.change_id left join ec_goods on ec_goods.goods_id=ec_goodslist.goods_id  WHERE ( change_flag = 2 and user_id = 206 ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT ec_goodschange.*,ec_goods.goods_name,ec_goods.goods_price,ec_goodslist.* FROM `ec_goodschange` left join ec_goodslist on ec_goodschange.change_id=ec_goodslist.change_id left join ec_goods on ec_goods.goods_id=ec_goodslist.goods_id  WHERE ( change_flag = 2 and user_id = 206 ) ORDER BY ec_goodschange.change_id desc LIMIT 0,9   [ RunTime:0.0080s ]
+NOTIC: [8] Undefined variable: p D:\xampp\htdocs\jianyinew\Application\Home\Controller\ExchangeController.class.php 第 130 行.
+
+[ 2017-12-14T09:38:24+08:00 ] 192.168.2.108 /index.php?m=home&c=Exchange&a=exchangeLog&user_id=206&p=1&callback=jQuery311046405631327070296_1513215504800&_=1513215504801
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_goodschange` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_goodschange` left join ec_goodslist on ec_goodschange.change_id=ec_goodslist.change_id left join ec_goods on ec_goods.goods_id=ec_goodslist.goods_id  WHERE ( change_flag = 2 and user_id = 206 ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT ec_goodschange.*,ec_goods.goods_name,ec_goods.goods_price,ec_goodslist.* FROM `ec_goodschange` left join ec_goodslist on ec_goodschange.change_id=ec_goodslist.change_id left join ec_goods on ec_goods.goods_id=ec_goodslist.goods_id  WHERE ( change_flag = 2 and user_id = 206 ) ORDER BY ec_goodschange.change_id desc LIMIT 0,9   [ RunTime:0.0100s ]
+NOTIC: [8] Undefined variable: p D:\xampp\htdocs\jianyinew\Application\Home\Controller\ExchangeController.class.php 第 130 行.
+
+[ 2017-12-14T09:38:33+08:00 ] 192.168.2.108 /index.php?m=home&c=Exchange&a=exchangeLog&user_id=206&p=1&callback=jQuery311031133170309476554_1513215513389&_=1513215513390
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_goodschange` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_goodschange` left join ec_goodslist on ec_goodschange.change_id=ec_goodslist.change_id left join ec_goods on ec_goods.goods_id=ec_goodslist.goods_id  WHERE ( change_flag = 2 and user_id = 206 ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT ec_goodschange.*,ec_goods.goods_name,ec_goods.goods_price,ec_goodslist.* FROM `ec_goodschange` left join ec_goodslist on ec_goodschange.change_id=ec_goodslist.change_id left join ec_goods on ec_goods.goods_id=ec_goodslist.goods_id  WHERE ( change_flag = 2 and user_id = 206 ) ORDER BY ec_goodschange.change_id desc LIMIT 0,9   [ RunTime:0.0100s ]
+NOTIC: [8] Undefined variable: p D:\xampp\htdocs\jianyinew\Application\Home\Controller\ExchangeController.class.php 第 130 行.
+
+[ 2017-12-14T09:38:39+08:00 ] 192.168.2.108 /index.php?m=home&c=Exchange&a=exchangeLog&user_id=206&p=1&callback=jQuery31105669663676526397_1513215519677&_=1513215519678
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_goodschange` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_goodschange` left join ec_goodslist on ec_goodschange.change_id=ec_goodslist.change_id left join ec_goods on ec_goods.goods_id=ec_goodslist.goods_id  WHERE ( change_flag = 2 and user_id = 206 ) LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT ec_goodschange.*,ec_goods.goods_name,ec_goods.goods_price,ec_goodslist.* FROM `ec_goodschange` left join ec_goodslist on ec_goodschange.change_id=ec_goodslist.change_id left join ec_goods on ec_goods.goods_id=ec_goodslist.goods_id  WHERE ( change_flag = 2 and user_id = 206 ) ORDER BY ec_goodschange.change_id desc LIMIT 0,9   [ RunTime:0.0060s ]
+NOTIC: [8] Undefined variable: p D:\xampp\htdocs\jianyinew\Application\Home\Controller\ExchangeController.class.php 第 130 行.
+
+[ 2017-12-14T09:38:53+08:00 ] 192.168.2.108 /index.php?m=home&c=Exchange&a=exchangeLog&user_id=206&p=1&callback=jQuery31100709660635329783_1513215533558&_=1513215533559
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_goodschange` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_goodschange` left join ec_goodslist on ec_goodschange.change_id=ec_goodslist.change_id left join ec_goods on ec_goods.goods_id=ec_goodslist.goods_id  WHERE ( change_flag = 2 and user_id = 206 ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT ec_goodschange.*,ec_goods.goods_name,ec_goods.goods_price,ec_goodslist.* FROM `ec_goodschange` left join ec_goodslist on ec_goodschange.change_id=ec_goodslist.change_id left join ec_goods on ec_goods.goods_id=ec_goodslist.goods_id  WHERE ( change_flag = 2 and user_id = 206 ) ORDER BY ec_goodschange.change_id desc LIMIT 0,9   [ RunTime:0.0060s ]
+NOTIC: [8] Undefined variable: p D:\xampp\htdocs\jianyinew\Application\Home\Controller\ExchangeController.class.php 第 130 行.
+
+[ 2017-12-14T09:39:05+08:00 ] 192.168.2.108 /index.php?m=home&c=Exchange&a=exchangeLog&user_id=206&p=1&callback=jQuery31108633062315639108_1513215545686&_=1513215545687
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_goodschange` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_goodschange` left join ec_goodslist on ec_goodschange.change_id=ec_goodslist.change_id left join ec_goods on ec_goods.goods_id=ec_goodslist.goods_id  WHERE ( change_flag = 2 and user_id = 206 ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT ec_goodschange.*,ec_goods.goods_name,ec_goods.goods_price,ec_goodslist.* FROM `ec_goodschange` left join ec_goodslist on ec_goodschange.change_id=ec_goodslist.change_id left join ec_goods on ec_goods.goods_id=ec_goodslist.goods_id  WHERE ( change_flag = 2 and user_id = 206 ) ORDER BY ec_goodschange.change_id desc LIMIT 0,9   [ RunTime:0.0530s ]
+NOTIC: [8] Undefined variable: p D:\xampp\htdocs\jianyinew\Application\Home\Controller\ExchangeController.class.php 第 130 行.
+
+[ 2017-12-14T09:39:46+08:00 ] 192.168.2.108 /index.php?m=home&c=Exchange&a=exchangeLog&user_id=206&p=1&callback=jQuery31108126773575786501_1513215586433&_=1513215586434
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_goodschange` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_goodschange` left join ec_goodslist on ec_goodschange.change_id=ec_goodslist.change_id left join ec_goods on ec_goods.goods_id=ec_goodslist.goods_id  WHERE ( change_flag = 2 and user_id = 206 ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT ec_goodschange.*,ec_goods.goods_name,ec_goods.goods_price,ec_goodslist.* FROM `ec_goodschange` left join ec_goodslist on ec_goodschange.change_id=ec_goodslist.change_id left join ec_goods on ec_goods.goods_id=ec_goodslist.goods_id  WHERE ( change_flag = 2 and user_id = 206 ) ORDER BY ec_goodschange.change_id desc LIMIT 0,9   [ RunTime:0.0060s ]
+NOTIC: [8] Undefined variable: p D:\xampp\htdocs\jianyinew\Application\Home\Controller\ExchangeController.class.php 第 130 行.
+
+[ 2017-12-14T09:40:19+08:00 ] 192.168.2.108 /index.php?m=home&c=Exchange&a=exchangeLog&user_id=206&p=1&callback=jQuery3110035622801166027784_1513215619758&_=1513215619759
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_goodschange` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_goodschange` left join ec_goodslist on ec_goodschange.change_id=ec_goodslist.change_id left join ec_goods on ec_goods.goods_id=ec_goodslist.goods_id  WHERE ( change_flag = 2 and user_id = 206 ) LIMIT 1   [ RunTime:0.0110s ]
+SQL: SELECT ec_goodschange.*,ec_goods.goods_name,ec_goods.goods_price,ec_goodslist.* FROM `ec_goodschange` left join ec_goodslist on ec_goodschange.change_id=ec_goodslist.change_id left join ec_goods on ec_goods.goods_id=ec_goodslist.goods_id  WHERE ( change_flag = 2 and user_id = 206 ) ORDER BY ec_goodschange.change_id desc LIMIT 0,9   [ RunTime:0.0090s ]
+NOTIC: [8] Undefined variable: p D:\xampp\htdocs\jianyinew\Application\Home\Controller\ExchangeController.class.php 第 130 行.
+
+[ 2017-12-14T09:40:23+08:00 ] 192.168.2.108 /index.php?m=home&c=Exchange&a=exchangeLog&user_id=206&p=1&callback=jQuery311025533291324973106_1513215623515&_=1513215623516
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_goodschange` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_goodschange` left join ec_goodslist on ec_goodschange.change_id=ec_goodslist.change_id left join ec_goods on ec_goods.goods_id=ec_goodslist.goods_id  WHERE ( change_flag = 2 and user_id = 206 ) LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT ec_goodschange.*,ec_goods.goods_name,ec_goods.goods_price,ec_goodslist.* FROM `ec_goodschange` left join ec_goodslist on ec_goodschange.change_id=ec_goodslist.change_id left join ec_goods on ec_goods.goods_id=ec_goodslist.goods_id  WHERE ( change_flag = 2 and user_id = 206 ) ORDER BY ec_goodschange.change_id desc LIMIT 0,9   [ RunTime:0.0100s ]
+NOTIC: [8] Undefined variable: p D:\xampp\htdocs\jianyinew\Application\Home\Controller\ExchangeController.class.php 第 130 行.
+
+[ 2017-12-14T09:41:29+08:00 ] 192.168.2.108 /index.php?m=home&c=Exchange&a=duihuanzhongxin&user_id=206&p=1&callback=jQuery31103914317521266639_1513215689096&_=1513215689097
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `ec_user` WHERE ( user_id = 206 ) LIMIT 1   [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `ec_goods` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_goods` WHERE ( goods_isable = 1 and goods_stock >= 1 ) LIMIT 1   [ RunTime:0.0120s ]
+SQL: SELECT * FROM `ec_goods` WHERE ( goods_isable = 1 and goods_stock >= 1  ) ORDER BY goods_id desc LIMIT 0,6   [ RunTime:0.0060s ]
+NOTIC: [8] Undefined variable: p D:\xampp\htdocs\jianyinew\Application\Home\Controller\ExchangeController.class.php 第 45 行.
+
+[ 2017-12-14T10:04:58+08:00 ] 192.168.2.108 /index.php?m=home&c=Exchange&a=exchangeLog&user_id=206&p=1&callback=jQuery31103032526448369026_1513217097859&_=1513217097860
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_goodschange` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_goodschange` left join ec_goodslist on ec_goodschange.change_id=ec_goodslist.change_id left join ec_goods on ec_goods.goods_id=ec_goodslist.goods_id  WHERE ( change_flag = 2 and user_id = 206 ) LIMIT 1   [ RunTime:0.0080s ]
+SQL: SELECT ec_goodschange.*,ec_goods.goods_name,ec_goods.goods_price,ec_goodslist.* FROM `ec_goodschange` left join ec_goodslist on ec_goodschange.change_id=ec_goodslist.change_id left join ec_goods on ec_goods.goods_id=ec_goodslist.goods_id  WHERE ( change_flag = 2 and user_id = 206 ) ORDER BY ec_goodschange.change_id desc LIMIT 0,9   [ RunTime:0.0360s ]
+NOTIC: [8] Undefined variable: p D:\xampp\htdocs\jianyinew\Application\Home\Controller\ExchangeController.class.php 第 130 行.
+
+[ 2017-12-14T10:33:31+08:00 ] 192.168.2.108 /index.php?m=home&c=Exchange&a=exchangeLog&user_id=206&p=1&callback=jQuery311037743450002744794_1513218811412&_=1513218811413
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_goodschange` [ RunTime:0.0120s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_goodschange` left join ec_goodslist on ec_goodschange.change_id=ec_goodslist.change_id left join ec_goods on ec_goods.goods_id=ec_goodslist.goods_id  WHERE ( change_flag = 2 and user_id = 206 ) LIMIT 1   [ RunTime:0.0080s ]
+SQL: SELECT ec_goodschange.*,ec_goods.goods_name,ec_goods.goods_price,ec_goodslist.* FROM `ec_goodschange` left join ec_goodslist on ec_goodschange.change_id=ec_goodslist.change_id left join ec_goods on ec_goods.goods_id=ec_goodslist.goods_id  WHERE ( change_flag = 2 and user_id = 206 ) ORDER BY ec_goodschange.change_id desc LIMIT 0,9   [ RunTime:0.0100s ]
+NOTIC: [8] Undefined variable: p D:\xampp\htdocs\jianyinew\Application\Home\Controller\ExchangeController.class.php 第 130 行.
+
+[ 2017-12-14T11:49:47+08:00 ] 192.168.2.108 /index.php?m=home&c=Exchange&a=exchangeLog&user_id=206&p=1&callback=jQuery31100014833961613476276_1513223387627&_=1513223387628
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_goodschange` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_goodschange` left join ec_goodslist on ec_goodschange.change_id=ec_goodslist.change_id left join ec_goods on ec_goods.goods_id=ec_goodslist.goods_id  WHERE ( change_flag = 2 and user_id = 206 ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT ec_goodschange.*,ec_goods.goods_name,ec_goods.goods_price,ec_goodslist.* FROM `ec_goodschange` left join ec_goodslist on ec_goodschange.change_id=ec_goodslist.change_id left join ec_goods on ec_goods.goods_id=ec_goodslist.goods_id  WHERE ( change_flag = 2 and user_id = 206 ) ORDER BY ec_goodschange.change_id desc LIMIT 0,9   [ RunTime:0.0120s ]
+NOTIC: [8] Undefined variable: p D:\xampp\htdocs\jianyinew\Application\Home\Controller\ExchangeController.class.php 第 130 行.
+

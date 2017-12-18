@@ -1,0 +1,43 @@
+[ 2017-11-30T14:39:56+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ec_user` WHERE ( user_id=7 ) LIMIT 1   [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ec_user` WHERE ( user_id=7 ) LIMIT 1   [ RunTime:0.0110s ]
+SQL: SELECT * FROM `ec_user` WHERE ( user_id=7 ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `ec_userlevel` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `ec_userlevel` WHERE ( level_learntime<='38700' ) ORDER BY level_learntime desc LIMIT 1   [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `ec_course` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ec_course` WHERE ( course_limittime>1512023995 ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ec_focusinfo` WHERE ( focus_type=2 ) ORDER BY focus_sort desc LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT ec_user.*,ec_userlevel.level_name,ec_userlevel.level_image,ec_viplevel.vip_image FROM `ec_user` left join ec_userlevel on ec_userlevel.level_id = ec_user.level left join ec_viplevel on ec_viplevel.vip_id = ec_user.vip  WHERE ( ec_user.user_id=7 ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ec_focusinfo` WHERE ( focus_type=1 ) ORDER BY focus_sort desc LIMIT 4   [ RunTime:0.0110s ]
+SQL: SELECT ec_course.* FROM `ec_course` left join ec_classify on ec_classify.classify_id = ec_course.classify_id  WHERE ( ec_course.course_isable=1 and ec_classify.classify_id=2 ) LIMIT 3   [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `ec_lesson` [ RunTime:0.0120s ]
+SQL: SELECT `lesson_view` FROM `ec_lesson` WHERE ( course_id='18'  ) ORDER BY lesson_id asc LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT `lesson_view` FROM `ec_lesson` WHERE ( course_id='19'  ) ORDER BY lesson_id asc LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT `lesson_view` FROM `ec_lesson` WHERE ( course_id='22'  ) ORDER BY lesson_id asc LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ec_course` WHERE ( course_isable=1 and classify_id=1  ) ORDER BY course_sort desc LIMIT 1,12   [ RunTime:0.0120s ]
+SQL: SELECT * FROM `ec_course` WHERE ( course_isable=1 and classify_id=1  ) ORDER BY course_sort desc LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `ec_scoreinfo` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_scoreinfo` WHERE (  1 and score_addtime >='1511971200' and score_addtime <='1512057599' and user_id='7'  ) LIMIT 1   [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: live_info D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 118 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.013000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

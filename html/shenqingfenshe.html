@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta http-equiv="Cache-Control" content="no-transform" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<title>申请分社</title>
+		<link rel="stylesheet" type="text/css" href="font/iconfont.css">
+		<link rel="stylesheet" href="css/ziliaowanshan.css" />
+		<link rel="stylesheet" type="text/css" href="css/html5.css"/>
+		<script src="js/jquery-1.10.2.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript" src="js/layer/layer.js"></script>		
+		<script>
+			(function(doc, win) {
+				var docEl = doc.documentElement,
+					resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+					recalc = function() {
+						var clientWidth = docEl.clientWidth;
+						if(!clientWidth) return;
+						docEl.style.fontSize = 25 * (clientWidth / 720) + 'px';
+					};
+				if(!doc.addEventListener) return;
+				win.addEventListener(resizeEvt, recalc, false);
+				doc.addEventListener('DOMContentLoaded', recalc, false);
+			})(document, window);
+		</script>
+	</head>
+	<body>
+		<style type="text/css">
+			.cont{padding-bottom: 5rem;}
+			.popuo-login h3{height: 40px; font-size: 16px; line-height: 40px; background:#ff7811; color: #fff;}
+			.popuo-login .layui-m-layercont{padding: 15px 15px 30px;}
+			.popuo-login_1 .layui-m-layercont{font-size: 16px; line-height: 25px;padding: 30px 15px;}
+		</style>
+		<div class="pd_lr06 mg_t10">
+			<div class="grxx_box c">
+				<div class="right">
+					<!--不是会员的显示“升级会员按钮”，是会员的显示“排名、学分、签到”按钮-->
+					<!--<a class="shengjihuiyuan" href="shengjihuiyuan.html">升级会员</a>-->
+					<a class="paimimg" href="">
+						<i class="iconfont icon-paiming"></i>
+						<p>排名</p>
+					</a>
+					<a class="xuefen" href="">
+						<i class="iconfont icon-30xuefenpingjiatixi"></i>
+						<p>学分</p>
+					</a>
+				</div>
+				<dl class="left">
+					<dt>
+						<span>
+							<i class="iconfont icon-vip1"></i>
+							<img src="images/touxiang.jpg"/>
+						</span>
+					</dt>
+					<dd>
+						<div class="top">
+							<span>李明成</span>
+							<em>|</em>
+							<i>秀才</i>
+						</div>
+					</dd>
+				</dl>
+			</div>
+		</div>
+		<form action="" method="post">
+			<div class="cont">
+				<ul>
+					<li>
+						<i>昵称：</i>
+						<span><input type="text" value="西门吹雪（默认微信昵称）"/  readonly="readonly"></span>
+					</li>
+					<li>
+						<i>姓名：</i>
+						<span><input type="text" value="" placeholder="请输入姓名"/></span>
+					</li>
+					<li>
+						<i>手机：</i>
+						<span><input type="text" value="" placeholder="请输入手机号"/></span>
+					</li>
+					<li>
+						<i>城市：</i>
+						<span><input type="text" value="西安"/></span>
+					</li>
+					<li>
+						<i>级别：</i>
+						<span class="jibie">
+							<input id="jibie" type="hidden"/>
+							<strong class="but">城市分社（125人）</strong>
+							<strong class="but">分社代言人（55人）</strong>
+						</span>
+					</li>
+				</ul>
+				<p onclick="baoming();" class="tk_but">报名即默认同意相关条款<em>（阅读详情）</em></p>
+			</div>
+			<button class="btn">立即报名</button>			
+		</form>
+	</body>
+</html>
+<script type="text/javascript">
+	$(function(){
+		$('.jibie .but').click(function(){
+			$(this).addClass('link').siblings().removeClass('link');
+			var _val=$(this).html();
+			$('#jibie').val(_val);
+		});
+	})
+	function tk_but(){
+		var _text='本平台发布的课程（包括视频、音频、文字资料）仅限学员个人学习使用，除学员就每次课程摘录的少量文字资料外（文字字数不超过2000字），任何人不得以复制、摘录、超过上述字数限制的文字整理等方式就课程内容对外传播。否则，本平台将依法维护自己的权益'
+		layer.open({
+		    title: '相关条款',
+		    className: 'popuo-login', 
+		    content: _text,
+		  });
+	}
+	function baoming(){
+		var tishi='恭喜你报名成功<br/>1-3个工作日内，我们的工作人员会与你联系，谢谢你的支持'
+		layer.open({
+		    className: 'popuo-login_1', 
+		    content: tishi,
+		    shadeClose:false,
+		    btn: '我知道了'
+		  });		
+	}
+</script>

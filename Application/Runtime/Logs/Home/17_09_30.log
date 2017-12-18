@@ -1,0 +1,1152 @@
+[ 2017-09-30T14:30:01+08:00 ] 192.168.2.2 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `ec_user` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ec_user` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ec_user` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ec_userlevel` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ec_userlevel` WHERE ( level_learntime<='3415' ) ORDER BY level_learntime desc LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ec_course` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ec_course` WHERE ( course_limittime>1506753001 ) LIMIT 1   [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `ec_liveinfo` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ec_liveinfo` WHERE ( live_flag=2 ) LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ec_focusinfo` WHERE ( focus_type=2 ) ORDER BY focus_sort desc LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT ec_user.*,ec_userlevel.level_name,ec_userlevel.level_image,ec_viplevel.vip_image FROM `ec_user` left join ec_userlevel on ec_userlevel.level_id = ec_user.level left join ec_viplevel on ec_viplevel.vip_id = ec_user.vip  WHERE ( ec_user.user_id=1 ) LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ec_focusinfo` WHERE ( focus_type=1 ) ORDER BY focus_sort desc LIMIT 3   [ RunTime:0.0030s ]
+SQL: SELECT ec_course.* FROM `ec_course` left join ec_classify on ec_classify.classify_id = ec_course.classify_id  WHERE ( ec_course.course_isable=1 and ec_classify.classify_id=2 ) LIMIT 3   [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ec_course` WHERE ( course_isable=1 and classify_id=1 and course_hot=1 ) ORDER BY course_sort desc LIMIT 2,12   [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ec_course` WHERE ( course_isable=1 and classify_id=1 and course_hot=1 ) ORDER BY course_sort desc LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ec_scoreinfo` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_scoreinfo` WHERE (  1 and score_addtime >='1506700800' and score_addtime <='1506787199' and user_id='1'  ) LIMIT 1   [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-30T14:30:20+08:00 ] 192.168.2.2 /index.php?m=Home&c=course&a=hot
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant __ACTION - assumed '__ACTION' F:\www\Application\Home\Controller\CourseController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `ec_course` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_course` WHERE ( course_isable=1 AND course_hot=2 and classify_id=1 ) LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ec_course` WHERE ( course_isable=1 AND course_hot=2 and classify_id=1 ) ORDER BY course_id desc LIMIT 0,5   [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ec_focusinfo` WHERE ( focus_type=4 ) ORDER BY focus_sort ASC LIMIT 3   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-30T14:30:22+08:00 ] 192.168.2.2 /index.php?m=Home&c=course&a=hot&p=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant __ACTION - assumed '__ACTION' F:\www\Application\Home\Controller\CourseController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `ec_course` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_course` WHERE ( course_isable=1 AND course_hot=2 and classify_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ec_course` WHERE ( course_isable=1 AND course_hot=2 and classify_id=1 ) ORDER BY course_id desc LIMIT 5,5   [ RunTime:0.0000s ]
+
+[ 2017-09-30T14:30:23+08:00 ] 192.168.2.2 /index.php?m=Home&c=course&a=video&course_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant __ACTION - assumed '__ACTION' F:\www\Application\Home\Controller\CourseController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `ec_course` [ RunTime:0.0050s ]
+SQL: UPDATE `ec_course` SET `course_view`=course_view+1 WHERE ( course_id=1 ) [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ec_user` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ec_course` WHERE `course_id` = 1 LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `ec_buyinfo` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_buyinfo` WHERE ( user_id=1 AND course_id=1 AND buy_flag=2 AND buy_endtime>1506753023 ) LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ec_course` WHERE `course_id` = 1 LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `ec_comment` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` WHERE ( course_id=1 ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT ec_comment.*,ec_user.avatar,ec_user.nickname FROM `ec_comment` LEFT JOIN ec_user ON ec_user.user_id=ec_comment.user_id  WHERE ( ec_comment.course_id=1 ) ORDER BY ec_comment.comment_top desc,ec_comment.addtime DESC LIMIT 0,5   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `ec_comment2` [ RunTime:0.0050s ]
+SQL: SELECT ec_comment2.*,ec_user.avatar,ec_user.nickname FROM `ec_comment2` LEFT JOIN ec_user ON ec_user.user_id=ec_comment2.user_id  WHERE ( comment_id=5 ) ORDER BY ec_comment2.addtime2 DESC LIMIT 3   [ RunTime:0.0040s ]
+SQL: SELECT ec_comment2.*,ec_user.avatar,ec_user.nickname FROM `ec_comment2` LEFT JOIN ec_user ON ec_user.user_id=ec_comment2.user_id  WHERE ( comment_id=60 ) ORDER BY ec_comment2.addtime2 DESC LIMIT 3   [ RunTime:0.0040s ]
+SQL: SELECT ec_comment2.*,ec_user.avatar,ec_user.nickname FROM `ec_comment2` LEFT JOIN ec_user ON ec_user.user_id=ec_comment2.user_id  WHERE ( comment_id=53 ) ORDER BY ec_comment2.addtime2 DESC LIMIT 3   [ RunTime:0.0030s ]
+SQL: SELECT ec_comment2.*,ec_user.avatar,ec_user.nickname FROM `ec_comment2` LEFT JOIN ec_user ON ec_user.user_id=ec_comment2.user_id  WHERE ( comment_id=52 ) ORDER BY ec_comment2.addtime2 DESC LIMIT 3   [ RunTime:0.0030s ]
+SQL: SELECT ec_comment2.*,ec_user.avatar,ec_user.nickname FROM `ec_comment2` LEFT JOIN ec_user ON ec_user.user_id=ec_comment2.user_id  WHERE ( comment_id=51 ) ORDER BY ec_comment2.addtime2 DESC LIMIT 3   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `ec_collect` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_collect` WHERE ( user_id=1 AND course_id=1 ) LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `ec_course` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ec_course` WHERE ( course_hot=2 AND course_isable=1 and course_id!=1 ) LIMIT 3   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 1 F:\www\Application\Runtime\Cache\Home\c71f236bf252bfbaacf74ff6b3d70529.php 第 99 行.
+NOTIC: [8] Undefined offset: 2 F:\www\Application\Runtime\Cache\Home\c71f236bf252bfbaacf74ff6b3d70529.php 第 99 行.
+NOTIC: [8] Undefined offset: 3 F:\www\Application\Runtime\Cache\Home\c71f236bf252bfbaacf74ff6b3d70529.php 第 99 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-30T14:30:26+08:00 ] 192.168.2.2 /index.php?m=Home&c=personal&a=shengjihuiyuan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant __ACTION - assumed '__ACTION' F:\www\Application\Home\Controller\PersonalController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0050s ]
+SQL: SELECT `nickname`,`score`,`level`,`avatar`,`vip_image`,`vip` FROM `ec_user` left join ec_viplevel on ec_viplevel.vip_id = ec_user.vip   WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `ec_userlevel` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `ec_userlevel` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ec_userlevel`  [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `ec_viplevel` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ec_viplevel` ORDER BY vip_id asc  [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-30T14:30:29+08:00 ] 192.168.2.2 /index.php?m=home&c=personal&a=xuanzezhifu&vip_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant __ACTION - assumed '__ACTION' F:\www\Application\Home\Controller\PersonalController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0050s ]
+SQL: SELECT `money`,`vip` FROM `ec_user` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `ec_viplevel` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ec_viplevel` WHERE ( vip_id =1 ) LIMIT 1   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-30T14:30:31+08:00 ] 192.168.2.2 /index.php?m=Home&c=personal&a=shengjihuiyuan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant __ACTION - assumed '__ACTION' F:\www\Application\Home\Controller\PersonalController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0320s ]
+SQL: SELECT `nickname`,`score`,`level`,`avatar`,`vip_image`,`vip` FROM `ec_user` left join ec_viplevel on ec_viplevel.vip_id = ec_user.vip   WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `ec_userlevel` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `ec_userlevel` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `ec_userlevel`  [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `ec_viplevel` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ec_viplevel` ORDER BY vip_id asc  [ RunTime:0.0200s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-30T14:30:43+08:00 ] 192.168.2.2 /index.php?m=Home&c=course&a=add_play_number&course_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __ACTION - assumed '__ACTION' F:\www\Application\Home\Controller\CourseController.class.php 第 18 行.
+ERR: Think\Controller:where方法不存在！
+
+[ 2017-09-30T14:30:46+08:00 ] 192.168.2.2 /index.php?m=Home&c=course&a=add_play_number&course_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __ACTION - assumed '__ACTION' F:\www\Application\Home\Controller\CourseController.class.php 第 18 行.
+ERR: Think\Controller:where方法不存在！
+
+[ 2017-09-30T14:30:52+08:00 ] 192.168.2.2 /index.php?m=Home&c=course&a=hot&p=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant __ACTION - assumed '__ACTION' F:\www\Application\Home\Controller\CourseController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `ec_course` [ RunTime:0.0312s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_course` WHERE ( course_isable=1 AND course_hot=2 and classify_id=1 ) LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `ec_course` WHERE ( course_isable=1 AND course_hot=2 and classify_id=1 ) ORDER BY course_id desc LIMIT 5,5   [ RunTime:0.0000s ]
+
+[ 2017-09-30T14:30:59+08:00 ] 192.168.2.2 /index.php?m=Home&c=personal&a=shengjihuiyuan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant __ACTION - assumed '__ACTION' F:\www\Application\Home\Controller\PersonalController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0120s ]
+SQL: SELECT `nickname`,`score`,`level`,`avatar`,`vip_image`,`vip` FROM `ec_user` left join ec_viplevel on ec_viplevel.vip_id = ec_user.vip   WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.0710s ]
+SQL: SHOW COLUMNS FROM `ec_userlevel` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `ec_userlevel` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `ec_userlevel`  [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `ec_viplevel` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ec_viplevel` ORDER BY vip_id asc  [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-30T14:31:04+08:00 ] 192.168.2.2 /index.php?m=Home&c=myinfo&a=xuexijilu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_learninfo` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_learninfo` left join ec_user on ec_user.user_id=ec_learninfo.user_id left join ec_course on ec_learninfo.course_id=ec_course.course_id  WHERE ( ec_user.user_id=1 ) LIMIT 1   [ RunTime:0.0470s ]
+SQL: SELECT * FROM `ec_learninfo` left join ec_user on ec_user.user_id=ec_learninfo.user_id left join ec_course on ec_learninfo.course_id=ec_course.course_id  WHERE ( ec_user.user_id=1 ) ORDER BY ec_learninfo.learn_id desc  LIMIT 0,5   [ RunTime:0.0330s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-30T14:31:14+08:00 ] 192.168.2.2 /index.php?m=Home&c=alreadybuy&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_buyinfo` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_buyinfo` left join  ec_course on ec_course.course_id=ec_buyinfo.course_id left join  ec_user on ec_user.user_id=ec_buyinfo.user_id  WHERE ( ec_buyinfo.user_id=1 and ec_buyinfo.course_id>0 and ec_buyinfo.buy_flag=2 and ec_buyinfo.buy_endtime>= 1506753074 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ec_buyinfo` left join  ec_course on ec_course.course_id=ec_buyinfo.course_id left join  ec_user on ec_user.user_id=ec_buyinfo.user_id  WHERE ( ec_buyinfo.user_id=1 and ec_buyinfo.course_id>0 and ec_buyinfo.buy_flag=2 and ec_buyinfo.buy_endtime>= 1506753074 ) ORDER BY ec_buyinfo.buy_id desc  LIMIT 0,5   [ RunTime:0.0140s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-30T14:31:18+08:00 ] 192.168.2.2 /index.php?m=Home&c=personal&a=my
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __ACTION - assumed '__ACTION' F:\www\Application\Home\Controller\PersonalController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0060s ]
+SQL: SELECT ec_user.learntime,ec_user.avatar,ec_user.nickname,ec_user.vip,ec_user.score,ec_user.level,ec_viplevel.vip_image FROM `ec_user` left join ec_viplevel on ec_viplevel.vip_id = ec_user.vip   WHERE (  1 and ec_user.user_id =1 ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `ec_userlevel` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `ec_userlevel` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ec_userlevel`  [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `ec_buyinfo` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_buyinfo` WHERE (  user_id ='1' and  buy_flag = 2 and course_id!=0 and buy_endtime>1506753078 ) LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT `user_id` FROM `ec_user` ORDER BY score desc  [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `ec_scoreinfo` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_scoreinfo` WHERE (  1 and score_addtime >='1506700800' and score_addtime <='1506787199' and user_id='1' and scroe_type=2  ) LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `ec_setinfo` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ec_setinfo` WHERE ( set_id=4 ) LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ec_setinfo` WHERE ( set_id=2 ) LIMIT 1   [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-30T14:31:21+08:00 ] 192.168.2.2 /index.php?m=Home&c=myinfo&a=xuexijilu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_learninfo` [ RunTime:0.0290s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_learninfo` left join ec_user on ec_user.user_id=ec_learninfo.user_id left join ec_course on ec_learninfo.course_id=ec_course.course_id  WHERE ( ec_user.user_id=1 ) LIMIT 1   [ RunTime:0.0160s ]
+SQL: SELECT * FROM `ec_learninfo` left join ec_user on ec_user.user_id=ec_learninfo.user_id left join ec_course on ec_learninfo.course_id=ec_course.course_id  WHERE ( ec_user.user_id=1 ) ORDER BY ec_learninfo.learn_id desc  LIMIT 0,5   [ RunTime:0.0170s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-30T14:31:27+08:00 ] 192.168.2.2 /index.php?m=Home&c=myinfo&a=ziliaowanshan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ec_user` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-30T14:31:42+08:00 ] 192.168.2.2 /index.php?m=Home&c=myinfo&a=ziliaowanshan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ec_user` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-30T14:31:45+08:00 ] 192.168.2.2 /index.php?m=Home&c=myinfo&a=xuexijilu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_learninfo` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_learninfo` left join ec_user on ec_user.user_id=ec_learninfo.user_id left join ec_course on ec_learninfo.course_id=ec_course.course_id  WHERE ( ec_user.user_id=1 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ec_learninfo` left join ec_user on ec_user.user_id=ec_learninfo.user_id left join ec_course on ec_learninfo.course_id=ec_course.course_id  WHERE ( ec_user.user_id=1 ) ORDER BY ec_learninfo.learn_id desc  LIMIT 0,5   [ RunTime:0.0110s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-30T14:31:49+08:00 ] 192.168.2.2 /index.php?m=Home&c=bookinfo&a=wodeyuyue
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_signinfo` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_signinfo`  left join ec_workinfo as a ON a.work_id = ec_signinfo.work_id  WHERE ( ec_signinfo.pay_flag = 2 and ec_signinfo.user_id=1 ) LIMIT 1   [ RunTime:0.0320s ]
+SQL: SELECT a.work_title,a.work_time,a.work_address,ec_signinfo.num FROM `ec_signinfo`  left join ec_workinfo as a ON a.work_id = ec_signinfo.work_id  WHERE ( ec_signinfo.pay_flag = 2 and ec_signinfo.user_id=1 ) ORDER BY ec_signinfo.sign_id desc LIMIT 0,6   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-30T14:31:52+08:00 ] 192.168.2.2 /index.php?m=Home&c=collect&a=applyforbranch
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_applyinfo` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `ec_applyinfo` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `ec_content` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `ec_content` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ec_user` WHERE ( ec_user.user_id=1 ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `ec_applyinfo` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `ec_userlevel` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ec_userlevel`  [ RunTime:0.0080s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-30T14:31:58+08:00 ] 192.168.2.2 /index.php?m=Home&c=personal&a=shengjihuiyuan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant __ACTION - assumed '__ACTION' F:\www\Application\Home\Controller\PersonalController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0050s ]
+SQL: SELECT `nickname`,`score`,`level`,`avatar`,`vip_image`,`vip` FROM `ec_user` left join ec_viplevel on ec_viplevel.vip_id = ec_user.vip   WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `ec_userlevel` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `ec_userlevel` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ec_userlevel`  [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `ec_viplevel` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ec_viplevel` ORDER BY vip_id asc  [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-30T14:32:05+08:00 ] 192.168.2.2 /index.php?m=Home&c=personal&a=tuijian
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant __ACTION - assumed '__ACTION' F:\www\Application\Home\Controller\PersonalController.class.php 第 17 行.
+NOTIC: [8] Undefined property: stdClass::$access_token F:\www\ThinkPHP\Library\Vendor\WxpayAPI\WxPayJsApiPay.php 第 487 行.
+NOTIC: [8] Undefined property: stdClass::$ticket F:\www\ThinkPHP\Library\Vendor\WxpayAPI\WxPayJsApiPay.php 第 460 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-30T14:32:22+08:00 ] 192.168.2.2 /index.php?m=Home&c=course&a=audio&course_id=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __ACTION - assumed '__ACTION' F:\www\Application\Home\Controller\CourseController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `ec_course` [ RunTime:0.0100s ]
+SQL: UPDATE `ec_course` SET `course_view`=course_view+1 WHERE ( course_id=4 ) [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ec_user` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ec_course` WHERE `course_id` = 4 LIMIT 1   [ RunTime:0.0120s ]
+SQL: SELECT * FROM `ec_course` WHERE `course_id` = 4 LIMIT 1   [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `ec_course` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `ec_course` WHERE ( course_groom=2 AND course_isable=1 and course_id!=4 ) LIMIT 3   [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 1 F:\www\Application\Runtime\Cache\Home\f1cc02c183f41a37a73770a4d4043990.php 第 560 行.
+NOTIC: [8] Undefined offset: 2 F:\www\Application\Runtime\Cache\Home\f1cc02c183f41a37a73770a4d4043990.php 第 560 行.
+NOTIC: [8] Undefined offset: 3 F:\www\Application\Runtime\Cache\Home\f1cc02c183f41a37a73770a4d4043990.php 第 560 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-30T14:32:27+08:00 ] 192.168.2.2 /index.php?m=Home&c=course&a=time&course_id=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant __ACTION - assumed '__ACTION' F:\www\Application\Home\Controller\CourseController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ec_user` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `ec_learninfo` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ec_learninfo` WHERE ( user_id=1 AND course_id=4 AND learn_addtime>1506700800 AND learn_addtime < 1506787199 ) LIMIT 1   [ RunTime:0.0030s ]
+SQL: UPDATE `ec_learninfo` SET `learn_addtime`='1506753147' WHERE ( learn_id=291 ) [ RunTime:0.0030s ]
+SQL: UPDATE `ec_user` SET `learntime`=learntime+5 WHERE ( user_id=1 ) [ RunTime:0.0030s ]
+SQL: UPDATE `ec_user` SET `longlearn_time`='1506753147',`longlearn`='0' WHERE ( user_id=1 ) [ RunTime:0.0050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-30T14:32:28+08:00 ] 192.168.2.2 /index.php?m=Home&c=course&a=audio&course_id=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant __ACTION - assumed '__ACTION' F:\www\Application\Home\Controller\CourseController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `ec_course` [ RunTime:0.0050s ]
+SQL: UPDATE `ec_course` SET `course_view`=course_view+1 WHERE ( course_id=4 ) [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ec_user` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ec_course` WHERE `course_id` = 4 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ec_course` WHERE `course_id` = 4 LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `ec_course` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ec_course` WHERE ( course_groom=2 AND course_isable=1 and course_id!=4 ) LIMIT 3   [ RunTime:0.0120s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 1 F:\www\Application\Runtime\Cache\Home\f1cc02c183f41a37a73770a4d4043990.php 第 560 行.
+NOTIC: [8] Undefined offset: 2 F:\www\Application\Runtime\Cache\Home\f1cc02c183f41a37a73770a4d4043990.php 第 560 行.
+NOTIC: [8] Undefined offset: 3 F:\www\Application\Runtime\Cache\Home\f1cc02c183f41a37a73770a4d4043990.php 第 560 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-30T14:32:33+08:00 ] 192.168.2.2 /index.php?m=Home&c=course&a=time&course_id=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __ACTION - assumed '__ACTION' F:\www\Application\Home\Controller\CourseController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ec_user` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `ec_learninfo` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ec_learninfo` WHERE ( user_id=1 AND course_id=4 AND learn_addtime>1506700800 AND learn_addtime < 1506787199 ) LIMIT 1   [ RunTime:0.0030s ]
+SQL: UPDATE `ec_learninfo` SET `learn_addtime`='1506753153' WHERE ( learn_id=291 ) [ RunTime:0.0030s ]
+SQL: UPDATE `ec_user` SET `learntime`=learntime+5 WHERE ( user_id=1 ) [ RunTime:0.0030s ]
+SQL: UPDATE `ec_user` SET `longlearn_time`='1506753153' WHERE ( user_id=1 ) [ RunTime:0.0040s ]
+SQL: UPDATE `ec_user` SET `longlearn`=longlearn+5 WHERE ( user_id=1 ) [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-30T14:32:38+08:00 ] 192.168.2.2 /index.php?m=Home&c=course&a=time&course_id=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant __ACTION - assumed '__ACTION' F:\www\Application\Home\Controller\CourseController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ec_user` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `ec_learninfo` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ec_learninfo` WHERE ( user_id=1 AND course_id=4 AND learn_addtime>1506700800 AND learn_addtime < 1506787199 ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: UPDATE `ec_learninfo` SET `learn_addtime`='1506753158' WHERE ( learn_id=291 ) [ RunTime:0.0030s ]
+SQL: UPDATE `ec_user` SET `learntime`=learntime+5 WHERE ( user_id=1 ) [ RunTime:0.0030s ]
+SQL: UPDATE `ec_user` SET `longlearn_time`='1506753158' WHERE ( user_id=1 ) [ RunTime:0.0030s ]
+SQL: UPDATE `ec_user` SET `longlearn`=longlearn+5 WHERE ( user_id=1 ) [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-30T14:32:43+08:00 ] 192.168.2.2 /index.php?m=Home&c=course&a=time&course_id=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __ACTION - assumed '__ACTION' F:\www\Application\Home\Controller\CourseController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ec_user` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `ec_learninfo` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ec_learninfo` WHERE ( user_id=1 AND course_id=4 AND learn_addtime>1506700800 AND learn_addtime < 1506787199 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: UPDATE `ec_learninfo` SET `learn_addtime`='1506753163' WHERE ( learn_id=291 ) [ RunTime:0.0030s ]
+SQL: UPDATE `ec_user` SET `learntime`=learntime+5 WHERE ( user_id=1 ) [ RunTime:0.0030s ]
+SQL: UPDATE `ec_user` SET `longlearn_time`='1506753163' WHERE ( user_id=1 ) [ RunTime:0.0050s ]
+SQL: UPDATE `ec_user` SET `longlearn`=longlearn+5 WHERE ( user_id=1 ) [ RunTime:0.0040s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-30T14:32:52+08:00 ] 192.168.2.2 /index.php?m=Home&c=course&a=time&course_id=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant __ACTION - assumed '__ACTION' F:\www\Application\Home\Controller\CourseController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `ec_user` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `ec_learninfo` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ec_learninfo` WHERE ( user_id=1 AND course_id=4 AND learn_addtime>1506700800 AND learn_addtime < 1506787199 ) LIMIT 1   [ RunTime:0.0030s ]
+SQL: UPDATE `ec_learninfo` SET `learn_addtime`='1506753172' WHERE ( learn_id=291 ) [ RunTime:0.0030s ]
+SQL: UPDATE `ec_user` SET `learntime`=learntime+5 WHERE ( user_id=1 ) [ RunTime:0.0030s ]
+SQL: UPDATE `ec_user` SET `longlearn_time`='1506753172' WHERE ( user_id=1 ) [ RunTime:0.0030s ]
+SQL: UPDATE `ec_user` SET `longlearn`=longlearn+5 WHERE ( user_id=1 ) [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-30T14:32:57+08:00 ] 192.168.2.2 /index.php?m=Home&c=course&a=time&course_id=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __ACTION - assumed '__ACTION' F:\www\Application\Home\Controller\CourseController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ec_user` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `ec_learninfo` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ec_learninfo` WHERE ( user_id=1 AND course_id=4 AND learn_addtime>1506700800 AND learn_addtime < 1506787199 ) LIMIT 1   [ RunTime:0.0030s ]
+SQL: UPDATE `ec_learninfo` SET `learn_addtime`='1506753177' WHERE ( learn_id=291 ) [ RunTime:0.0030s ]
+SQL: UPDATE `ec_user` SET `learntime`=learntime+5 WHERE ( user_id=1 ) [ RunTime:0.0060s ]
+SQL: UPDATE `ec_user` SET `longlearn_time`='1506753177' WHERE ( user_id=1 ) [ RunTime:0.0050s ]
+SQL: UPDATE `ec_user` SET `longlearn`=longlearn+5 WHERE ( user_id=1 ) [ RunTime:0.0060s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-30T14:33:02+08:00 ] 192.168.2.2 /index.php?m=Home&c=course&a=time&course_id=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __ACTION - assumed '__ACTION' F:\www\Application\Home\Controller\CourseController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ec_user` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `ec_learninfo` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ec_learninfo` WHERE ( user_id=1 AND course_id=4 AND learn_addtime>1506700800 AND learn_addtime < 1506787199 ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: UPDATE `ec_learninfo` SET `learn_addtime`='1506753182' WHERE ( learn_id=291 ) [ RunTime:0.0040s ]
+SQL: UPDATE `ec_user` SET `learntime`=learntime+5 WHERE ( user_id=1 ) [ RunTime:0.0080s ]
+SQL: UPDATE `ec_user` SET `longlearn_time`='1506753182' WHERE ( user_id=1 ) [ RunTime:0.1580s ]
+SQL: UPDATE `ec_user` SET `longlearn`=longlearn+5 WHERE ( user_id=1 ) [ RunTime:0.0110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-30T14:33:07+08:00 ] 192.168.2.2 /index.php?m=Home&c=course&a=time&course_id=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant __ACTION - assumed '__ACTION' F:\www\Application\Home\Controller\CourseController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0270s ]
+SQL: SELECT * FROM `ec_user` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `ec_learninfo` [ RunTime:0.0350s ]
+SQL: SELECT * FROM `ec_learninfo` WHERE ( user_id=1 AND course_id=4 AND learn_addtime>1506700800 AND learn_addtime < 1506787199 ) LIMIT 1   [ RunTime:0.0260s ]
+SQL: UPDATE `ec_learninfo` SET `learn_addtime`='1506753187' WHERE ( learn_id=291 ) [ RunTime:0.0380s ]
+SQL: UPDATE `ec_user` SET `learntime`=learntime+5 WHERE ( user_id=1 ) [ RunTime:0.0040s ]
+SQL: UPDATE `ec_user` SET `longlearn_time`='1506753187' WHERE ( user_id=1 ) [ RunTime:0.0070s ]
+SQL: UPDATE `ec_user` SET `longlearn`=longlearn+5 WHERE ( user_id=1 ) [ RunTime:0.0040s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-30T14:33:12+08:00 ] 192.168.2.2 /index.php?m=Home&c=course&a=time&course_id=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __ACTION - assumed '__ACTION' F:\www\Application\Home\Controller\CourseController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `ec_user` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `ec_learninfo` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `ec_learninfo` WHERE ( user_id=1 AND course_id=4 AND learn_addtime>1506700800 AND learn_addtime < 1506787199 ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: UPDATE `ec_learninfo` SET `learn_addtime`='1506753192' WHERE ( learn_id=291 ) [ RunTime:0.0070s ]
+SQL: UPDATE `ec_user` SET `learntime`=learntime+5 WHERE ( user_id=1 ) [ RunTime:0.1450s ]
+SQL: UPDATE `ec_user` SET `longlearn_time`='1506753192' WHERE ( user_id=1 ) [ RunTime:0.0030s ]
+SQL: UPDATE `ec_user` SET `longlearn`=longlearn+5 WHERE ( user_id=1 ) [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-30T14:33:17+08:00 ] 192.168.2.2 /index.php?m=Home&c=course&a=time&course_id=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __ACTION - assumed '__ACTION' F:\www\Application\Home\Controller\CourseController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `ec_user` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0500s ]
+SQL: SHOW COLUMNS FROM `ec_learninfo` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ec_learninfo` WHERE ( user_id=1 AND course_id=4 AND learn_addtime>1506700800 AND learn_addtime < 1506787199 ) LIMIT 1   [ RunTime:0.0080s ]
+SQL: UPDATE `ec_learninfo` SET `learn_addtime`='1506753197' WHERE ( learn_id=291 ) [ RunTime:0.0040s ]
+SQL: UPDATE `ec_user` SET `learntime`=learntime+5 WHERE ( user_id=1 ) [ RunTime:0.0110s ]
+SQL: UPDATE `ec_user` SET `longlearn_time`='1506753197' WHERE ( user_id=1 ) [ RunTime:0.0080s ]
+SQL: UPDATE `ec_user` SET `longlearn`=longlearn+5 WHERE ( user_id=1 ) [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-30T14:33:22+08:00 ] 192.168.2.2 /index.php?m=Home&c=course&a=time&course_id=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant __ACTION - assumed '__ACTION' F:\www\Application\Home\Controller\CourseController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ec_user` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `ec_learninfo` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `ec_learninfo` WHERE ( user_id=1 AND course_id=4 AND learn_addtime>1506700800 AND learn_addtime < 1506787199 ) LIMIT 1   [ RunTime:0.0030s ]
+SQL: UPDATE `ec_learninfo` SET `learn_addtime`='1506753202' WHERE ( learn_id=291 ) [ RunTime:0.0040s ]
+SQL: UPDATE `ec_user` SET `learntime`=learntime+5 WHERE ( user_id=1 ) [ RunTime:0.0060s ]
+SQL: UPDATE `ec_user` SET `longlearn_time`='1506753202' WHERE ( user_id=1 ) [ RunTime:0.0050s ]
+SQL: UPDATE `ec_user` SET `longlearn`=longlearn+5 WHERE ( user_id=1 ) [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-30T14:33:25+08:00 ] 192.168.2.2 /index.php?m=Home&c=course&a=audio&course_id=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant __ACTION - assumed '__ACTION' F:\www\Application\Home\Controller\CourseController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `ec_course` [ RunTime:0.0060s ]
+SQL: UPDATE `ec_course` SET `course_view`=course_view+1 WHERE ( course_id=5 ) [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `ec_user` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ec_course` WHERE `course_id` = 5 LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `ec_buyinfo` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_buyinfo` WHERE ( user_id=1 AND course_id=5 AND buy_flag=2 AND buy_endtime>1506753205 ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ec_course` WHERE `course_id` = 5 LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `ec_course` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ec_course` WHERE ( course_groom=2 AND course_isable=1 and course_id!=5 ) LIMIT 3   [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 1 F:\www\Application\Runtime\Cache\Home\f1cc02c183f41a37a73770a4d4043990.php 第 560 行.
+NOTIC: [8] Undefined offset: 2 F:\www\Application\Runtime\Cache\Home\f1cc02c183f41a37a73770a4d4043990.php 第 560 行.
+NOTIC: [8] Undefined offset: 3 F:\www\Application\Runtime\Cache\Home\f1cc02c183f41a37a73770a4d4043990.php 第 560 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-30T14:33:29+08:00 ] 192.168.2.2 /index.php?m=Home&c=course&a=xuanzezhifu&course_id=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __ACTION - assumed '__ACTION' F:\www\Application\Home\Controller\CourseController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0150s ]
+SQL: SELECT `money` FROM `ec_user` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `ec_course` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `ec_course` WHERE `course_id` = 5 LIMIT 1   [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.077005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-30T14:33:35+08:00 ] 192.168.2.2 /index.php?m=Home&c=course&a=paycourse
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant __ACTION - assumed '__ACTION' F:\www\Application\Home\Controller\CourseController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `ec_buyinfo` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ec_user` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0156s ]
+SQL: INSERT INTO `ec_buyinfo` (`user_id`,`course_id`,`buy_addtime`,`buy_flag`,`buy_type`,`buy_no`,`buy_money`,`buy_endtime`) VALUES ('1','5','1506753215','2','2','wx016c2ebd2b139b4a150675321521','5','1538289215') [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ec_user` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `ec_user` SET `money`='999995' WHERE ( user_id=1 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ec_course` [ RunTime:0.0156s ]
+SQL: UPDATE `ec_course` SET `course_buy`=course_buy+1 WHERE ( course_id=5 ) [ RunTime:0.0000s ]
+
+[ 2017-09-30T14:33:36+08:00 ] 192.168.2.2 /index.php?m=Home&c=course&a=video&course_id=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant __ACTION - assumed '__ACTION' F:\www\Application\Home\Controller\CourseController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `ec_course` [ RunTime:0.0050s ]
+SQL: UPDATE `ec_course` SET `course_view`=course_view+1 WHERE ( course_id=5 ) [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ec_user` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ec_course` WHERE `course_id` = 5 LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `ec_buyinfo` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_buyinfo` WHERE ( user_id=1 AND course_id=5 AND buy_flag=2 AND buy_endtime>1506753216 ) LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ec_course` WHERE `course_id` = 5 LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `ec_comment` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` WHERE ( course_id=5 ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT ec_comment.*,ec_user.avatar,ec_user.nickname FROM `ec_comment` LEFT JOIN ec_user ON ec_user.user_id=ec_comment.user_id  WHERE ( ec_comment.course_id=5 ) ORDER BY ec_comment.comment_top desc,ec_comment.addtime DESC LIMIT 0,5   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `ec_comment2` [ RunTime:0.0040s ]
+SQL: SELECT ec_comment2.*,ec_user.avatar,ec_user.nickname FROM `ec_comment2` LEFT JOIN ec_user ON ec_user.user_id=ec_comment2.user_id  WHERE ( comment_id=70 ) ORDER BY ec_comment2.addtime2 DESC LIMIT 3   [ RunTime:0.0090s ]
+SQL: SELECT ec_comment2.*,ec_user.avatar,ec_user.nickname FROM `ec_comment2` LEFT JOIN ec_user ON ec_user.user_id=ec_comment2.user_id  WHERE ( comment_id=69 ) ORDER BY ec_comment2.addtime2 DESC LIMIT 3   [ RunTime:0.0030s ]
+SQL: SELECT ec_comment2.*,ec_user.avatar,ec_user.nickname FROM `ec_comment2` LEFT JOIN ec_user ON ec_user.user_id=ec_comment2.user_id  WHERE ( comment_id=68 ) ORDER BY ec_comment2.addtime2 DESC LIMIT 3   [ RunTime:0.0030s ]
+SQL: SELECT ec_comment2.*,ec_user.avatar,ec_user.nickname FROM `ec_comment2` LEFT JOIN ec_user ON ec_user.user_id=ec_comment2.user_id  WHERE ( comment_id=67 ) ORDER BY ec_comment2.addtime2 DESC LIMIT 3   [ RunTime:0.0030s ]
+SQL: SELECT ec_comment2.*,ec_user.avatar,ec_user.nickname FROM `ec_comment2` LEFT JOIN ec_user ON ec_user.user_id=ec_comment2.user_id  WHERE ( comment_id=66 ) ORDER BY ec_comment2.addtime2 DESC LIMIT 3   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `ec_collect` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_collect` WHERE ( user_id=1 AND course_id=5 ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `ec_course` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `ec_course` WHERE ( course_groom=2 AND course_isable=1 and course_id!=5 ) LIMIT 3   [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-30T14:33:42+08:00 ] 192.168.2.2 /index.php?m=Home&c=course&a=add_play_number&course_id=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant __ACTION - assumed '__ACTION' F:\www\Application\Home\Controller\CourseController.class.php 第 18 行.
+ERR: Think\Controller:where方法不存在！
+
+[ 2017-09-30T14:33:46+08:00 ] 192.168.2.2 /index.php?m=Home&c=course&a=add_play_number&course_id=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant __ACTION - assumed '__ACTION' F:\www\Application\Home\Controller\CourseController.class.php 第 18 行.
+ERR: Think\Controller:where方法不存在！
+
+[ 2017-09-30T14:33:46+08:00 ] 192.168.2.2 /index.php?m=Home&c=course&a=add_play_number&course_id=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant __ACTION - assumed '__ACTION' F:\www\Application\Home\Controller\CourseController.class.php 第 18 行.
+ERR: Think\Controller:where方法不存在！
+
+[ 2017-09-30T14:33:47+08:00 ] 192.168.2.2 /index.php?m=Home&c=course&a=add_play_number&course_id=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant __ACTION - assumed '__ACTION' F:\www\Application\Home\Controller\CourseController.class.php 第 18 行.
+ERR: Think\Controller:where方法不存在！
+
+[ 2017-09-30T14:33:52+08:00 ] 192.168.2.2 /index.php?m=Home&c=course&a=time&course_id=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant __ACTION - assumed '__ACTION' F:\www\Application\Home\Controller\CourseController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `ec_user` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `ec_learninfo` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `ec_learninfo` WHERE ( user_id=1 AND course_id=5 AND learn_addtime>1506700800 AND learn_addtime < 1506787199 ) LIMIT 1   [ RunTime:0.0080s ]
+SQL: UPDATE `ec_learninfo` SET `learn_addtime`='1506753232' WHERE ( learn_id=289 ) [ RunTime:0.0060s ]
+SQL: UPDATE `ec_user` SET `learntime`=learntime+5 WHERE ( user_id=1 ) [ RunTime:0.0040s ]
+SQL: UPDATE `ec_user` SET `longlearn_time`='1506753232',`longlearn`='0' WHERE ( user_id=1 ) [ RunTime:0.0050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-09-30T14:33:54+08:00 ] 192.168.2.2 /index.php?m=Home&c=course&a=dianzan&comment_id=66
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __ACTION - assumed '__ACTION' F:\www\Application\Home\Controller\CourseController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `ec_comment` [ RunTime:0.0050s ]
+SQL: UPDATE `ec_comment` SET `comment_good`=comment_good+1 WHERE ( comment_id=66 ) [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ec_comment` WHERE `comment_id` = 66 LIMIT 1   [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-30T14:33:57+08:00 ] 192.168.2.2 /index.php?m=Home&c=course&a=time&course_id=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __ACTION - assumed '__ACTION' F:\www\Application\Home\Controller\CourseController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ec_user` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0240s ]
+SQL: SHOW COLUMNS FROM `ec_learninfo` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ec_learninfo` WHERE ( user_id=1 AND course_id=5 AND learn_addtime>1506700800 AND learn_addtime < 1506787199 ) LIMIT 1   [ RunTime:0.0030s ]
+SQL: UPDATE `ec_learninfo` SET `learn_addtime`='1506753237' WHERE ( learn_id=289 ) [ RunTime:0.0030s ]
+SQL: UPDATE `ec_user` SET `learntime`=learntime+5 WHERE ( user_id=1 ) [ RunTime:0.0030s ]
+SQL: UPDATE `ec_user` SET `longlearn_time`='1506753237' WHERE ( user_id=1 ) [ RunTime:0.0030s ]
+SQL: UPDATE `ec_user` SET `longlearn`=longlearn+5 WHERE ( user_id=1 ) [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-30T14:34:02+08:00 ] 192.168.2.2 /index.php?m=Home&c=course&a=time&course_id=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __ACTION - assumed '__ACTION' F:\www\Application\Home\Controller\CourseController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `ec_user` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `ec_learninfo` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ec_learninfo` WHERE ( user_id=1 AND course_id=5 AND learn_addtime>1506700800 AND learn_addtime < 1506787199 ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: UPDATE `ec_learninfo` SET `learn_addtime`='1506753242' WHERE ( learn_id=289 ) [ RunTime:0.0030s ]
+SQL: UPDATE `ec_user` SET `learntime`=learntime+5 WHERE ( user_id=1 ) [ RunTime:0.0050s ]
+SQL: UPDATE `ec_user` SET `longlearn_time`='1506753242' WHERE ( user_id=1 ) [ RunTime:0.0030s ]
+SQL: UPDATE `ec_user` SET `longlearn`=longlearn+5 WHERE ( user_id=1 ) [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-30T14:34:07+08:00 ] 192.168.2.2 /index.php?m=Home&c=course&a=time&course_id=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant __ACTION - assumed '__ACTION' F:\www\Application\Home\Controller\CourseController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ec_user` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `ec_learninfo` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ec_learninfo` WHERE ( user_id=1 AND course_id=5 AND learn_addtime>1506700800 AND learn_addtime < 1506787199 ) LIMIT 1   [ RunTime:0.0030s ]
+SQL: UPDATE `ec_learninfo` SET `learn_addtime`='1506753247' WHERE ( learn_id=289 ) [ RunTime:0.0030s ]
+SQL: UPDATE `ec_user` SET `learntime`=learntime+5 WHERE ( user_id=1 ) [ RunTime:0.0030s ]
+SQL: UPDATE `ec_user` SET `longlearn_time`='1506753247' WHERE ( user_id=1 ) [ RunTime:0.0030s ]
+SQL: UPDATE `ec_user` SET `longlearn`=longlearn+5 WHERE ( user_id=1 ) [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-30T14:34:12+08:00 ] 192.168.2.2 /index.php?m=Home&c=course&a=time&course_id=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __ACTION - assumed '__ACTION' F:\www\Application\Home\Controller\CourseController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ec_user` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `ec_learninfo` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ec_learninfo` WHERE ( user_id=1 AND course_id=5 AND learn_addtime>1506700800 AND learn_addtime < 1506787199 ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: UPDATE `ec_learninfo` SET `learn_addtime`='1506753252' WHERE ( learn_id=289 ) [ RunTime:0.0030s ]
+SQL: UPDATE `ec_user` SET `learntime`=learntime+5 WHERE ( user_id=1 ) [ RunTime:0.0030s ]
+SQL: UPDATE `ec_user` SET `longlearn_time`='1506753252' WHERE ( user_id=1 ) [ RunTime:0.0030s ]
+SQL: UPDATE `ec_user` SET `longlearn`=longlearn+5 WHERE ( user_id=1 ) [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-30T14:34:17+08:00 ] 192.168.2.2 /index.php?m=Home&c=course&a=time&course_id=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant __ACTION - assumed '__ACTION' F:\www\Application\Home\Controller\CourseController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ec_user` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `ec_learninfo` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ec_learninfo` WHERE ( user_id=1 AND course_id=5 AND learn_addtime>1506700800 AND learn_addtime < 1506787199 ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: UPDATE `ec_learninfo` SET `learn_addtime`='1506753257' WHERE ( learn_id=289 ) [ RunTime:0.0040s ]
+SQL: UPDATE `ec_user` SET `learntime`=learntime+5 WHERE ( user_id=1 ) [ RunTime:0.0030s ]
+SQL: UPDATE `ec_user` SET `longlearn_time`='1506753257' WHERE ( user_id=1 ) [ RunTime:0.0080s ]
+SQL: UPDATE `ec_user` SET `longlearn`=longlearn+5 WHERE ( user_id=1 ) [ RunTime:0.0160s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-30T14:34:22+08:00 ] 192.168.2.2 /index.php?m=Home&c=course&a=time&course_id=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant __ACTION - assumed '__ACTION' F:\www\Application\Home\Controller\CourseController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.1200s ]
+SQL: SELECT * FROM `ec_user` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0180s ]
+SQL: SHOW COLUMNS FROM `ec_learninfo` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `ec_learninfo` WHERE ( user_id=1 AND course_id=5 AND learn_addtime>1506700800 AND learn_addtime < 1506787199 ) LIMIT 1   [ RunTime:0.0290s ]
+SQL: UPDATE `ec_learninfo` SET `learn_addtime`='1506753262' WHERE ( learn_id=289 ) [ RunTime:0.0110s ]
+SQL: UPDATE `ec_user` SET `learntime`=learntime+5 WHERE ( user_id=1 ) [ RunTime:0.0110s ]
+SQL: UPDATE `ec_user` SET `longlearn_time`='1506753262' WHERE ( user_id=1 ) [ RunTime:0.0230s ]
+SQL: UPDATE `ec_user` SET `longlearn`=longlearn+5 WHERE ( user_id=1 ) [ RunTime:0.0250s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-30T14:34:27+08:00 ] 192.168.2.2 /index.php?m=Home&c=course&a=time&course_id=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant __ACTION - assumed '__ACTION' F:\www\Application\Home\Controller\CourseController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ec_user` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `ec_learninfo` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ec_learninfo` WHERE ( user_id=1 AND course_id=5 AND learn_addtime>1506700800 AND learn_addtime < 1506787199 ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: UPDATE `ec_learninfo` SET `learn_addtime`='1506753267' WHERE ( learn_id=289 ) [ RunTime:0.0030s ]
+SQL: UPDATE `ec_user` SET `learntime`=learntime+5 WHERE ( user_id=1 ) [ RunTime:0.0030s ]
+SQL: UPDATE `ec_user` SET `longlearn_time`='1506753267' WHERE ( user_id=1 ) [ RunTime:0.0030s ]
+SQL: UPDATE `ec_user` SET `longlearn`=longlearn+5 WHERE ( user_id=1 ) [ RunTime:0.0050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

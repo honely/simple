@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>专题评论详情</title>
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/admin/css/html5.css"/>
+		<link rel="stylesheet" type="text/css"  href="__PUBLIC__/admin/font/iconfont.css">
+		<link rel="stylesheet" type="text/css"  href="__PUBLIC__/admin/font/css/font-awesome.css">
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/admin/css/index.css"/>
+		<script src="__PUBLIC__/admin/js/jquery-1.10.2.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="__PUBLIC__/admin/js/icheck/icheck.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/admin/js/icheck/square/green.css">
+	</head>
+	<body>
+		<div class="right_min">
+			<div class="crumbs_nav">
+				<i class="iconfont icon-shouye"></i>
+				<ul>
+					<li><a href="javascript:void(0);">评论详情</a></li>
+				</ul>
+			</div>
+			<div class="min">
+				<div class="message">
+					<dl class="message-block">
+						<dt class="message-left">专题名称：</dt>
+						<dd class="message-right">
+							<span class="text-inline">{$data.course_name}</span>
+						</dd>
+					</dl>
+					<dl class="message-block">
+						<dt class="message-left">评论内容：</dt>
+						<dd class="message-right">
+							<span class="text-block">{$data.comment}</span>
+						</dd>
+					</dl>
+					<dl class="message-block">
+						<dt class="message-left">学员姓名：</dt>
+						<dd class="message-right">
+							<span class="text-inline">{$data.nickname}</span>
+						</dd>
+					</dl>
+					<dl class="message-block">
+						<dt class="message-left">评论时间：</dt>
+						<dd class="message-right">
+							<span class="text-inline">{$data.addtime|date="Y-m-d H:i:s",###}</span>
+						</dd>
+					</dl>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+<script src="__PUBLIC__/admin/js/layer/layer.js"></script>
+<script type="text/javascript">
+	$(function(){
+		$(".right_min").height($(window).height());
+		$('.table_box input').iCheck({
+			checkboxClass: 'icheckbox_square-green',
+			radioClass: 'iradio_square-green',
+		});
+		var index = parent.layer.getFrameIndex(window.name);
+		$('#net').on('click', function(){
+			parent.layer.close(index);
+		});
+	});
+</script>

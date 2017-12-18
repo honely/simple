@@ -1,0 +1,151 @@
+body {
+	background: #e3eaf9;
+}
+
+.cont {
+	width: 27.56rem;
+	height: 17.56rem;
+	background-image: url(../images/bg3.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	display: block;
+	margin: 0.6rem auto;
+}
+
+.cont>p {
+	color: #fff;
+	font-size: 1.8rem;
+	text-align: center;
+	line-height: 2.3rem;
+	margin: 0.4rem 0;
+}
+
+.header {
+	height: 7.8rem;
+	width: 19.88rem;
+	display: block;
+	margin: 0 auto;
+	background: #FFFFFF;
+	border-radius: 0.5rem;
+	position: relative;
+}
+
+.img1 {
+	width: 3rem;
+	height: 3rem;
+	border-radius: 1.5rem;
+	position: absolute;
+	top: 1rem;
+	left: 1.2rem;
+}
+
+.img2 {
+	width: 1.08rem;
+	height: auto;
+	position: absolute;
+	top: 0.8rem;
+	left: 1rem;
+}
+
+.p1 {
+	color: #363636;
+	font-size: 1.12rem;
+	position: absolute;
+	top: 1.2rem;
+	left: 5rem;
+}
+
+.p1 span {
+	color: #FF7811;
+	margin-left: 1.08rem;
+	padding-left: 1.08rem;
+	border-left: 1px solid #dfdfdf;
+}
+
+.p2 {
+	color: #363636;
+	font-size: 1rem;
+	position: absolute;
+	top: 3rem;
+	left: 5rem;
+}
+
+.p2 span {
+	color: #FF7811;
+}
+
+.p3 {
+	color: #8992a2;
+	font-size: 0.8rem;
+	width: 12.5rem;
+	line-height: 1.3rem;
+	position: absolute;
+	left: 5rem;
+	top: 4.5rem;
+}
+
+.list {
+	width: 25rem;
+	display: block;
+	margin: 0.6rem auto;
+	background: #FFFFFF;
+	border-radius: 0.3rem;
+	padding: 0.76rem 1.12rem 0.76rem 1.44rem;
+}
+
+.list ul {}
+
+.list ul li {
+	height: 2.24rem;
+}
+
+.cost {
+	float: left;
+	margin-top: 0.54rem;
+	width: 1.16rem;
+	height: 1.16rem;
+	background: url(../images/false.png) no-repeat;
+	background-size: cover;
+}
+
+.cost[type="radio"] {
+	-webkit-appearance: none;
+	appearance: none;
+}
+
+.cost[type="radio"]:checked {
+	background: url(../images/icon.png) center no-repeat;
+	background-size: cover;
+}
+
+.list ul li p {
+	line-height: 2.24rem;
+	color: #3d4149;
+	font-size: 1.04rem;
+	margin-left: 1.5rem;
+}
+
+.imgs {
+	width: 27.56rem;
+	display: block;
+	margin: 0.6rem auto;
+	background: #FFFFFF;
+	border-radius: 0.3rem;
+}
+
+.imgs img{
+	width: 100%;
+	height: auto;
+}
+
+.btn{
+	width: 27.6rem;
+	display: block;
+	margin: 0.5rem auto;
+	height: 3rem;
+	border: none;
+	background: #FF7811;
+	color: #FFFFFF;
+	border-radius: 0.3rem;
+	font-size: 1.28rem;
+}

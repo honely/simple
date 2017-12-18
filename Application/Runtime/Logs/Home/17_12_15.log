@@ -1,0 +1,883 @@
+[ 2017-12-15T13:54:43+08:00 ] 192.168.2.119 /index.php?m=home&c=Homepage&a=index&admin_id=2&callback=jQuery111003691877613309771_1513317282966&_=1513317282967
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `ec_admininfo` WHERE ( adminrole = 2 and isable= 1 and admin_id = 2 ) LIMIT 1   [ RunTime:0.0220s ]
+SQL: SHOW COLUMNS FROM `ec_school` [ RunTime:0.0080s ]
+SQL: SELECT `school_id` FROM `ec_school` WHERE ( sender_id = 2 )  [ RunTime:0.0040s ]
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\jianyinew\Application\Home\Controller\HomepageController.class.php 第 19 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\jianyinew\Application\Home\Controller\HomepageController.class.php 第 19 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\jianyinew\Application\Home\Controller\HomepageController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `ec_booklend` [ RunTime:0.0100s ]
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ec_booklend` left join ec_user on ec_booklend.user_id = ec_user.user_id  WHERE ( ec_booklend.lend_flag = 2 and ec_user.school_id in (Array,Array,Array) ) LIMIT 1  
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ec_booklend` left join ec_user on ec_booklend.user_id = ec_user.user_id  WHERE ( ec_booklend.lend_flag = 2 and ec_user.school_id in (Array,Array,Array) ) LIMIT 1  
+
+[ 2017-12-15T13:54:49+08:00 ] 192.168.2.119 /index.php?m=home&c=Homepage&a=index&admin_id=2&callback=jQuery11100839899015147239_1513317289455&_=1513317289456
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `ec_admininfo` WHERE ( adminrole = 2 and isable= 1 and admin_id = 2 ) LIMIT 1   [ RunTime:0.0170s ]
+SQL: SHOW COLUMNS FROM `ec_school` [ RunTime:0.0090s ]
+SQL: SELECT `school_id` FROM `ec_school` WHERE ( sender_id = 2 )  [ RunTime:0.0050s ]
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\jianyinew\Application\Home\Controller\HomepageController.class.php 第 19 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\jianyinew\Application\Home\Controller\HomepageController.class.php 第 19 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\jianyinew\Application\Home\Controller\HomepageController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `ec_booklend` [ RunTime:0.0070s ]
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ec_booklend` left join ec_user on ec_booklend.user_id = ec_user.user_id  WHERE ( ec_booklend.lend_flag = 2 and ec_user.school_id in (Array,Array,Array) ) LIMIT 1  
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ec_booklend` left join ec_user on ec_booklend.user_id = ec_user.user_id  WHERE ( ec_booklend.lend_flag = 2 and ec_user.school_id in (Array,Array,Array) ) LIMIT 1  
+
+[ 2017-12-15T13:54:50+08:00 ] 192.168.2.119 /index.php?m=home&c=Homepage&a=index&admin_id=2&callback=jQuery1110019263496482744813_1513317290034&_=1513317290035
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `ec_admininfo` WHERE ( adminrole = 2 and isable= 1 and admin_id = 2 ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `ec_school` [ RunTime:0.0060s ]
+SQL: SELECT `school_id` FROM `ec_school` WHERE ( sender_id = 2 )  [ RunTime:0.0080s ]
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\jianyinew\Application\Home\Controller\HomepageController.class.php 第 19 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\jianyinew\Application\Home\Controller\HomepageController.class.php 第 19 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\jianyinew\Application\Home\Controller\HomepageController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `ec_booklend` [ RunTime:0.0060s ]
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ec_booklend` left join ec_user on ec_booklend.user_id = ec_user.user_id  WHERE ( ec_booklend.lend_flag = 2 and ec_user.school_id in (Array,Array,Array) ) LIMIT 1  
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ec_booklend` left join ec_user on ec_booklend.user_id = ec_user.user_id  WHERE ( ec_booklend.lend_flag = 2 and ec_user.school_id in (Array,Array,Array) ) LIMIT 1  
+
+[ 2017-12-15T13:55:11+08:00 ] 192.168.2.119 /index.php?m=home&c=Homepage&a=index&admin_id=2&callback=jQuery111007750568613409996_1513317310936&_=1513317310937
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `ec_admininfo` WHERE ( adminrole = 2 and isable= 1 and admin_id = 2 ) LIMIT 1   [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `ec_school` [ RunTime:0.0060s ]
+SQL: SELECT `school_id` FROM `ec_school` WHERE ( sender_id = 2 )  [ RunTime:0.0090s ]
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\jianyinew\Application\Home\Controller\HomepageController.class.php 第 19 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\jianyinew\Application\Home\Controller\HomepageController.class.php 第 19 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\jianyinew\Application\Home\Controller\HomepageController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `ec_booklend` [ RunTime:0.0090s ]
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ec_booklend` left join ec_user on ec_booklend.user_id = ec_user.user_id  WHERE ( ec_booklend.lend_flag = 2 and ec_user.school_id in (Array,Array,Array) ) LIMIT 1  
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ec_booklend` left join ec_user on ec_booklend.user_id = ec_user.user_id  WHERE ( ec_booklend.lend_flag = 2 and ec_user.school_id in (Array,Array,Array) ) LIMIT 1  
+
+[ 2017-12-15T13:55:14+08:00 ] 192.168.2.119 /index.php?m=home&c=Homepage&a=index&admin_id=2&callback=jQuery1110015076995897106826_1513317314193&_=1513317314194
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ec_admininfo` WHERE ( adminrole = 2 and isable= 1 and admin_id = 2 ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `ec_school` [ RunTime:0.0060s ]
+SQL: SELECT `school_id` FROM `ec_school` WHERE ( sender_id = 2 )  [ RunTime:0.0070s ]
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\jianyinew\Application\Home\Controller\HomepageController.class.php 第 19 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\jianyinew\Application\Home\Controller\HomepageController.class.php 第 19 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\jianyinew\Application\Home\Controller\HomepageController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `ec_booklend` [ RunTime:0.0080s ]
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ec_booklend` left join ec_user on ec_booklend.user_id = ec_user.user_id  WHERE ( ec_booklend.lend_flag = 2 and ec_user.school_id in (Array,Array,Array) ) LIMIT 1  
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ec_booklend` left join ec_user on ec_booklend.user_id = ec_user.user_id  WHERE ( ec_booklend.lend_flag = 2 and ec_user.school_id in (Array,Array,Array) ) LIMIT 1  
+
+[ 2017-12-15T13:55:14+08:00 ] 192.168.2.119 /index.php?m=home&c=Homepage&a=index&admin_id=2&callback=jQuery11100896423639729619_1513317314739&_=1513317314740
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `ec_admininfo` WHERE ( adminrole = 2 and isable= 1 and admin_id = 2 ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `ec_school` [ RunTime:0.0070s ]
+SQL: SELECT `school_id` FROM `ec_school` WHERE ( sender_id = 2 )  [ RunTime:0.0080s ]
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\jianyinew\Application\Home\Controller\HomepageController.class.php 第 19 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\jianyinew\Application\Home\Controller\HomepageController.class.php 第 19 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\jianyinew\Application\Home\Controller\HomepageController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `ec_booklend` [ RunTime:0.0070s ]
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ec_booklend` left join ec_user on ec_booklend.user_id = ec_user.user_id  WHERE ( ec_booklend.lend_flag = 2 and ec_user.school_id in (Array,Array,Array) ) LIMIT 1  
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ec_booklend` left join ec_user on ec_booklend.user_id = ec_user.user_id  WHERE ( ec_booklend.lend_flag = 2 and ec_user.school_id in (Array,Array,Array) ) LIMIT 1  
+
+[ 2017-12-15T13:55:14+08:00 ] 192.168.2.119 /index.php?m=home&c=Homepage&a=index&admin_id=2&callback=jQuery111007433818324934691_1513317314868&_=1513317314869
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `ec_admininfo` WHERE ( adminrole = 2 and isable= 1 and admin_id = 2 ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `ec_school` [ RunTime:0.0060s ]
+SQL: SELECT `school_id` FROM `ec_school` WHERE ( sender_id = 2 )  [ RunTime:0.0040s ]
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\jianyinew\Application\Home\Controller\HomepageController.class.php 第 19 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\jianyinew\Application\Home\Controller\HomepageController.class.php 第 19 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\jianyinew\Application\Home\Controller\HomepageController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `ec_booklend` [ RunTime:0.0060s ]
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ec_booklend` left join ec_user on ec_booklend.user_id = ec_user.user_id  WHERE ( ec_booklend.lend_flag = 2 and ec_user.school_id in (Array,Array,Array) ) LIMIT 1  
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ec_booklend` left join ec_user on ec_booklend.user_id = ec_user.user_id  WHERE ( ec_booklend.lend_flag = 2 and ec_user.school_id in (Array,Array,Array) ) LIMIT 1  
+
+[ 2017-12-15T13:55:15+08:00 ] 192.168.2.119 /index.php?m=home&c=Homepage&a=index&admin_id=2&callback=jQuery111005042781331576407_1513317315126&_=1513317315127
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ec_admininfo` WHERE ( adminrole = 2 and isable= 1 and admin_id = 2 ) LIMIT 1   [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `ec_school` [ RunTime:0.0060s ]
+SQL: SELECT `school_id` FROM `ec_school` WHERE ( sender_id = 2 )  [ RunTime:0.0040s ]
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\jianyinew\Application\Home\Controller\HomepageController.class.php 第 19 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\jianyinew\Application\Home\Controller\HomepageController.class.php 第 19 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\jianyinew\Application\Home\Controller\HomepageController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `ec_booklend` [ RunTime:0.0070s ]
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ec_booklend` left join ec_user on ec_booklend.user_id = ec_user.user_id  WHERE ( ec_booklend.lend_flag = 2 and ec_user.school_id in (Array,Array,Array) ) LIMIT 1  
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ec_booklend` left join ec_user on ec_booklend.user_id = ec_user.user_id  WHERE ( ec_booklend.lend_flag = 2 and ec_user.school_id in (Array,Array,Array) ) LIMIT 1  
+
+[ 2017-12-15T13:55:15+08:00 ] 192.168.2.119 /index.php?m=home&c=Homepage&a=index&admin_id=2&callback=jQuery111008238417047541589_1513317315305&_=1513317315306
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ec_admininfo` WHERE ( adminrole = 2 and isable= 1 and admin_id = 2 ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `ec_school` [ RunTime:0.0060s ]
+SQL: SELECT `school_id` FROM `ec_school` WHERE ( sender_id = 2 )  [ RunTime:0.0050s ]
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\jianyinew\Application\Home\Controller\HomepageController.class.php 第 19 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\jianyinew\Application\Home\Controller\HomepageController.class.php 第 19 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\jianyinew\Application\Home\Controller\HomepageController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `ec_booklend` [ RunTime:0.0070s ]
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ec_booklend` left join ec_user on ec_booklend.user_id = ec_user.user_id  WHERE ( ec_booklend.lend_flag = 2 and ec_user.school_id in (Array,Array,Array) ) LIMIT 1  
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ec_booklend` left join ec_user on ec_booklend.user_id = ec_user.user_id  WHERE ( ec_booklend.lend_flag = 2 and ec_user.school_id in (Array,Array,Array) ) LIMIT 1  
+
+[ 2017-12-15T13:55:15+08:00 ] 192.168.2.119 /index.php?m=home&c=Homepage&a=index&admin_id=2&callback=jQuery111002900173426605761_1513317315421&_=1513317315422
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ec_admininfo` WHERE ( adminrole = 2 and isable= 1 and admin_id = 2 ) LIMIT 1   [ RunTime:0.0160s ]
+SQL: SHOW COLUMNS FROM `ec_school` [ RunTime:0.0090s ]
+SQL: SELECT `school_id` FROM `ec_school` WHERE ( sender_id = 2 )  [ RunTime:0.0040s ]
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\jianyinew\Application\Home\Controller\HomepageController.class.php 第 19 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\jianyinew\Application\Home\Controller\HomepageController.class.php 第 19 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\jianyinew\Application\Home\Controller\HomepageController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `ec_booklend` [ RunTime:0.0110s ]
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ec_booklend` left join ec_user on ec_booklend.user_id = ec_user.user_id  WHERE ( ec_booklend.lend_flag = 2 and ec_user.school_id in (Array,Array,Array) ) LIMIT 1  
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ec_booklend` left join ec_user on ec_booklend.user_id = ec_user.user_id  WHERE ( ec_booklend.lend_flag = 2 and ec_user.school_id in (Array,Array,Array) ) LIMIT 1  
+
+[ 2017-12-15T13:55:33+08:00 ] 192.168.2.119 /index.php?m=home&c=Homepage&a=index&admin_id=2&callback=jQuery111006974412705749273_1513317325174&_=1513317325175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `ec_admininfo` WHERE ( adminrole = 2 and isable= 1 and admin_id = 2 ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `ec_school` [ RunTime:0.0070s ]
+SQL: SELECT `school_id` FROM `ec_school` WHERE ( sender_id = 2 )  [ RunTime:0.0050s ]
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\jianyinew\Application\Home\Controller\HomepageController.class.php 第 19 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\jianyinew\Application\Home\Controller\HomepageController.class.php 第 19 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\jianyinew\Application\Home\Controller\HomepageController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `ec_booklend` [ RunTime:0.0070s ]
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ec_booklend` left join ec_user on ec_booklend.user_id = ec_user.user_id  WHERE ( ec_booklend.lend_flag = 2 and ec_user.school_id in (Array,Array,Array) ) LIMIT 1  
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ec_booklend` left join ec_user on ec_booklend.user_id = ec_user.user_id  WHERE ( ec_booklend.lend_flag = 2 and ec_user.school_id in (Array,Array,Array) ) LIMIT 1  
+
+[ 2017-12-15T13:55:52+08:00 ] 192.168.2.119 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ec_user` WHERE ( user_id=7 ) LIMIT 1   [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `ec_user` WHERE ( user_id=7 ) LIMIT 1   [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: vip D:\xampp\htdocs\jianyinew\Application\Home\Controller\IndexController.class.php 第 32 行.
+SQL: SELECT * FROM `ec_user` WHERE ( user_id=7 ) LIMIT 1   [ RunTime:0.0080s ]
+ERR: 1146:Table 'ebook.ec_userlevel' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ec_userlevel`
+ERR: 1146:Table 'ebook.ec_userlevel' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ec_userlevel`
+
+[ 2017-12-15T13:56:06+08:00 ] 192.168.2.119 /index.php?m=home&c=Homepage&a=index&admin_id=2&callback=jQuery111005121451560407877_1513317363253&_=1513317363254
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ec_admininfo` WHERE ( adminrole = 2 and isable= 1 and admin_id = 2 ) LIMIT 1   [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `ec_school` [ RunTime:0.0060s ]
+SQL: SELECT `school_id` FROM `ec_school` WHERE ( sender_id = 2 )  [ RunTime:0.0050s ]
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\jianyinew\Application\Home\Controller\HomepageController.class.php 第 19 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\jianyinew\Application\Home\Controller\HomepageController.class.php 第 19 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\jianyinew\Application\Home\Controller\HomepageController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `ec_booklend` [ RunTime:0.0070s ]
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ec_booklend` left join ec_user on ec_booklend.user_id = ec_user.user_id  WHERE ( ec_booklend.lend_flag = 2 and ec_user.school_id in (Array,Array,Array) ) LIMIT 1  
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ec_booklend` left join ec_user on ec_booklend.user_id = ec_user.user_id  WHERE ( ec_booklend.lend_flag = 2 and ec_user.school_id in (Array,Array,Array) ) LIMIT 1  
+
+[ 2017-12-15T13:56:33+08:00 ] 192.168.2.119 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `ec_user` WHERE ( user_id=7 ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ec_user` WHERE ( user_id=7 ) LIMIT 1   [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: vip D:\xampp\htdocs\jianyinew\Application\Home\Controller\IndexController.class.php 第 32 行.
+SQL: SELECT * FROM `ec_user` WHERE ( user_id=7 ) LIMIT 1   [ RunTime:0.0060s ]
+ERR: 1146:Table 'ebook.ec_userlevel' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ec_userlevel`
+ERR: 1146:Table 'ebook.ec_userlevel' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ec_userlevel`
+
+[ 2017-12-15T13:56:58+08:00 ] 192.168.2.119 /index.php?m=home&c=Homepage&a=index&admin_id=2&callback=jQuery111002398185320198536_1513317381148&_=1513317381149
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `ec_admininfo` WHERE ( adminrole = 2 and isable= 1 and admin_id = 2 ) LIMIT 1   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `ec_school` [ RunTime:0.0260s ]
+SQL: SELECT `school_id` FROM `ec_school` WHERE ( sender_id = 2 )  [ RunTime:0.0280s ]
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\jianyinew\Application\Home\Controller\HomepageController.class.php 第 19 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\jianyinew\Application\Home\Controller\HomepageController.class.php 第 19 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\jianyinew\Application\Home\Controller\HomepageController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `ec_booklend` [ RunTime:0.0890s ]
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ec_booklend` left join ec_user on ec_booklend.user_id = ec_user.user_id  WHERE ( ec_booklend.lend_flag = 2 and ec_user.school_id in (Array,Array,Array) ) LIMIT 1  
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ec_booklend` left join ec_user on ec_booklend.user_id = ec_user.user_id  WHERE ( ec_booklend.lend_flag = 2 and ec_user.school_id in (Array,Array,Array) ) LIMIT 1  
+
+[ 2017-12-15T13:57:30+08:00 ] 192.168.2.119 /index.php?m=home&c=Homepage&a=index&admin_id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0600s ]
+SQL: SELECT * FROM `ec_admininfo` WHERE ( adminrole = 2 and isable= 1 and admin_id = 2 ) LIMIT 1   [ RunTime:0.9870s ]
+SQL: SHOW COLUMNS FROM `ec_school` [ RunTime:0.0330s ]
+SQL: SELECT `school_id` FROM `ec_school` WHERE ( sender_id = 2 )  [ RunTime:0.0230s ]
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\jianyinew\Application\Home\Controller\HomepageController.class.php 第 19 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\jianyinew\Application\Home\Controller\HomepageController.class.php 第 19 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\jianyinew\Application\Home\Controller\HomepageController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `ec_booklend` [ RunTime:0.0280s ]
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ec_booklend` left join ec_user on ec_booklend.user_id = ec_user.user_id  WHERE ( ec_booklend.lend_flag = 2 and ec_user.school_id in (Array,Array,Array) ) LIMIT 1  
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ec_booklend` left join ec_user on ec_booklend.user_id = ec_user.user_id  WHERE ( ec_booklend.lend_flag = 2 and ec_user.school_id in (Array,Array,Array) ) LIMIT 1  
+
+[ 2017-12-15T13:59:09+08:00 ] 192.168.2.119 /index.php?m=home&c=Homepage&a=index&admin_id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `ec_admininfo` WHERE ( adminrole = 2 and isable= 1 and admin_id = 2 ) LIMIT 1   [ RunTime:0.0190s ]
+SQL: SHOW COLUMNS FROM `ec_school` [ RunTime:0.0120s ]
+SQL: SELECT `school_id` FROM `ec_school` WHERE ( sender_id = 2 )  [ RunTime:0.0160s ]
+NOTIC: [8] Undefined index: school_id D:\xampp\htdocs\jianyinew\Application\Home\Controller\HomepageController.class.php 第 18 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\jianyinew\Application\Home\Controller\HomepageController.class.php 第 20 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\jianyinew\Application\Home\Controller\HomepageController.class.php 第 20 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\jianyinew\Application\Home\Controller\HomepageController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `ec_booklend` [ RunTime:0.0150s ]
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ec_booklend` left join ec_user on ec_booklend.user_id = ec_user.user_id  WHERE ( ec_booklend.lend_flag = 2 and ec_user.school_id in (Array,Array,Array) ) LIMIT 1  
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ec_booklend` left join ec_user on ec_booklend.user_id = ec_user.user_id  WHERE ( ec_booklend.lend_flag = 2 and ec_user.school_id in (Array,Array,Array) ) LIMIT 1  
+
+[ 2017-12-15T13:59:10+08:00 ] 192.168.2.119 /index.php?m=home&c=Homepage&a=index&admin_id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `ec_admininfo` WHERE ( adminrole = 2 and isable= 1 and admin_id = 2 ) LIMIT 1   [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `ec_school` [ RunTime:0.0270s ]
+SQL: SELECT `school_id` FROM `ec_school` WHERE ( sender_id = 2 )  [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: school_id D:\xampp\htdocs\jianyinew\Application\Home\Controller\HomepageController.class.php 第 18 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\jianyinew\Application\Home\Controller\HomepageController.class.php 第 20 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\jianyinew\Application\Home\Controller\HomepageController.class.php 第 20 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\jianyinew\Application\Home\Controller\HomepageController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `ec_booklend` [ RunTime:0.0450s ]
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ec_booklend` left join ec_user on ec_booklend.user_id = ec_user.user_id  WHERE ( ec_booklend.lend_flag = 2 and ec_user.school_id in (Array,Array,Array) ) LIMIT 1  
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ec_booklend` left join ec_user on ec_booklend.user_id = ec_user.user_id  WHERE ( ec_booklend.lend_flag = 2 and ec_user.school_id in (Array,Array,Array) ) LIMIT 1  
+
+[ 2017-12-15T13:59:11+08:00 ] 192.168.2.119 /index.php?m=home&c=Homepage&a=index&admin_id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `ec_admininfo` WHERE ( adminrole = 2 and isable= 1 and admin_id = 2 ) LIMIT 1   [ RunTime:0.0290s ]
+SQL: SHOW COLUMNS FROM `ec_school` [ RunTime:0.0160s ]
+SQL: SELECT `school_id` FROM `ec_school` WHERE ( sender_id = 2 )  [ RunTime:0.0140s ]
+NOTIC: [8] Undefined index: school_id D:\xampp\htdocs\jianyinew\Application\Home\Controller\HomepageController.class.php 第 18 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\jianyinew\Application\Home\Controller\HomepageController.class.php 第 20 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\jianyinew\Application\Home\Controller\HomepageController.class.php 第 20 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\jianyinew\Application\Home\Controller\HomepageController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `ec_booklend` [ RunTime:0.0220s ]
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ec_booklend` left join ec_user on ec_booklend.user_id = ec_user.user_id  WHERE ( ec_booklend.lend_flag = 2 and ec_user.school_id in (Array,Array,Array) ) LIMIT 1  
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ec_booklend` left join ec_user on ec_booklend.user_id = ec_user.user_id  WHERE ( ec_booklend.lend_flag = 2 and ec_user.school_id in (Array,Array,Array) ) LIMIT 1  
+
+[ 2017-12-15T13:59:12+08:00 ] 192.168.2.119 /index.php?m=home&c=Homepage&a=index&admin_id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `ec_admininfo` WHERE ( adminrole = 2 and isable= 1 and admin_id = 2 ) LIMIT 1   [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `ec_school` [ RunTime:0.0280s ]
+SQL: SELECT `school_id` FROM `ec_school` WHERE ( sender_id = 2 )  [ RunTime:0.0160s ]
+NOTIC: [8] Undefined index: school_id D:\xampp\htdocs\jianyinew\Application\Home\Controller\HomepageController.class.php 第 18 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\jianyinew\Application\Home\Controller\HomepageController.class.php 第 20 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\jianyinew\Application\Home\Controller\HomepageController.class.php 第 20 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\jianyinew\Application\Home\Controller\HomepageController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `ec_booklend` [ RunTime:0.0130s ]
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ec_booklend` left join ec_user on ec_booklend.user_id = ec_user.user_id  WHERE ( ec_booklend.lend_flag = 2 and ec_user.school_id in (Array,Array,Array) ) LIMIT 1  
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ec_booklend` left join ec_user on ec_booklend.user_id = ec_user.user_id  WHERE ( ec_booklend.lend_flag = 2 and ec_user.school_id in (Array,Array,Array) ) LIMIT 1  
+
+[ 2017-12-15T13:59:12+08:00 ] 192.168.2.119 /index.php?m=home&c=Homepage&a=index&admin_id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `ec_admininfo` WHERE ( adminrole = 2 and isable= 1 and admin_id = 2 ) LIMIT 1   [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `ec_school` [ RunTime:0.0170s ]
+SQL: SELECT `school_id` FROM `ec_school` WHERE ( sender_id = 2 )  [ RunTime:0.0130s ]
+NOTIC: [8] Undefined index: school_id D:\xampp\htdocs\jianyinew\Application\Home\Controller\HomepageController.class.php 第 18 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\jianyinew\Application\Home\Controller\HomepageController.class.php 第 20 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\jianyinew\Application\Home\Controller\HomepageController.class.php 第 20 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\jianyinew\Application\Home\Controller\HomepageController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `ec_booklend` [ RunTime:0.0140s ]
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ec_booklend` left join ec_user on ec_booklend.user_id = ec_user.user_id  WHERE ( ec_booklend.lend_flag = 2 and ec_user.school_id in (Array,Array,Array) ) LIMIT 1  
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ec_booklend` left join ec_user on ec_booklend.user_id = ec_user.user_id  WHERE ( ec_booklend.lend_flag = 2 and ec_user.school_id in (Array,Array,Array) ) LIMIT 1  
+
+[ 2017-12-15T13:59:15+08:00 ] 192.168.2.119 /index.php?m=home&c=Homepage&a=index&admin_id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `ec_admininfo` WHERE ( adminrole = 2 and isable= 1 and admin_id = 2 ) LIMIT 1   [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `ec_school` [ RunTime:0.0170s ]
+SQL: SELECT `school_id` FROM `ec_school` WHERE ( sender_id = 2 )  [ RunTime:0.0130s ]
+NOTIC: [8] Undefined index: school_id D:\xampp\htdocs\jianyinew\Application\Home\Controller\HomepageController.class.php 第 18 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\jianyinew\Application\Home\Controller\HomepageController.class.php 第 20 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\jianyinew\Application\Home\Controller\HomepageController.class.php 第 20 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\jianyinew\Application\Home\Controller\HomepageController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `ec_booklend` [ RunTime:0.0120s ]
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ec_booklend` left join ec_user on ec_booklend.user_id = ec_user.user_id  WHERE ( ec_booklend.lend_flag = 2 and ec_user.school_id in (Array,Array,Array) ) LIMIT 1  
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ec_booklend` left join ec_user on ec_booklend.user_id = ec_user.user_id  WHERE ( ec_booklend.lend_flag = 2 and ec_user.school_id in (Array,Array,Array) ) LIMIT 1  
+
+[ 2017-12-15T13:59:45+08:00 ] 192.168.2.119 /index.php?m=home&c=Homepage&a=index&admin_id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `ec_admininfo` WHERE ( adminrole = 2 and isable= 1 and admin_id = 2 ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `ec_school` [ RunTime:0.0060s ]
+SQL: SELECT `school_id` FROM `ec_school` WHERE ( sender_id = 2 )  [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: school_id D:\xampp\htdocs\jianyinew\Application\Home\Controller\HomepageController.class.php 第 18 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\xampp\htdocs\jianyinew\Application\Home\Controller\HomepageController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `ec_booklend` [ RunTime:0.0060s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ec_booklend` left join ec_user on ec_booklend.user_id = ec_user.user_id  WHERE ( ec_booklend.lend_flag = 2 and ec_user.school_id in () ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ec_booklend` left join ec_user on ec_booklend.user_id = ec_user.user_id  WHERE ( ec_booklend.lend_flag = 2 and ec_user.school_id in () ) LIMIT 1  
+
+[ 2017-12-15T14:00:00+08:00 ] 192.168.2.119 /index.php?m=home&c=Homepage&a=index&admin_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `ec_admininfo` WHERE ( adminrole = 2 and isable= 1 and admin_id = 1 ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `ec_school` [ RunTime:0.0070s ]
+SQL: SELECT `school_id` FROM `ec_school` WHERE ( sender_id = 1 )  [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: school_id D:\xampp\htdocs\jianyinew\Application\Home\Controller\HomepageController.class.php 第 18 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\xampp\htdocs\jianyinew\Application\Home\Controller\HomepageController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `ec_booklend` [ RunTime:0.0060s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ec_booklend` left join ec_user on ec_booklend.user_id = ec_user.user_id  WHERE ( ec_booklend.lend_flag = 2 and ec_user.school_id in () ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ec_booklend` left join ec_user on ec_booklend.user_id = ec_user.user_id  WHERE ( ec_booklend.lend_flag = 2 and ec_user.school_id in () ) LIMIT 1  
+
+[ 2017-12-15T14:04:59+08:00 ] 192.168.2.119 /index.php?m=home&c=Homepage&a=index&admin_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ec_admininfo` WHERE ( adminrole = 2 and isable= 1 and admin_id = 1 ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `ec_school` [ RunTime:0.0080s ]
+SQL: SELECT `school_id` FROM `ec_school` WHERE ( sender_id = 1 )  [ RunTime:0.0060s ]
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\jianyinew\Application\Home\Controller\HomepageController.class.php 第 18 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.021000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.021000s ]
+
+[ 2017-12-15T14:05:25+08:00 ] 192.168.2.119 /index.php?m=home&c=Homepage&a=index&admin_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ec_admininfo` WHERE ( adminrole = 2 and isable= 1 and admin_id = 1 ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `ec_school` [ RunTime:0.0080s ]
+SQL: SELECT `school_id` FROM `ec_school` WHERE ( sender_id = 1 )  [ RunTime:0.0050s ]
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\jianyinew\Application\Home\Controller\HomepageController.class.php 第 18 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-15T14:05:31+08:00 ] 192.168.2.119 /index.php?m=home&c=Homepage&a=index&admin_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ec_admininfo` WHERE ( adminrole = 2 and isable= 1 and admin_id = 1 ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `ec_school` [ RunTime:0.0070s ]
+SQL: SELECT `school_id` FROM `ec_school` WHERE ( sender_id = 1 )  [ RunTime:0.0040s ]
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\jianyinew\Application\Home\Controller\HomepageController.class.php 第 18 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-15T14:05:41+08:00 ] 192.168.2.119 /index.php?m=home&c=Homepage&a=index&admin_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ec_admininfo` WHERE ( adminrole = 2 and isable= 1 and admin_id = 2 ) LIMIT 1   [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `ec_school` [ RunTime:0.0060s ]
+SQL: SELECT `school_id` FROM `ec_school` WHERE ( sender_id = 2 )  [ RunTime:0.0050s ]
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\jianyinew\Application\Home\Controller\HomepageController.class.php 第 18 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\jianyinew\Application\Home\Controller\HomepageController.class.php 第 18 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\jianyinew\Application\Home\Controller\HomepageController.class.php 第 18 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-12-15T14:05:43+08:00 ] 192.168.2.119 /index.php?m=home&c=Homepage&a=index&admin_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ec_admininfo` WHERE ( adminrole = 2 and isable= 1 and admin_id = 2 ) LIMIT 1   [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `ec_school` [ RunTime:0.0070s ]
+SQL: SELECT `school_id` FROM `ec_school` WHERE ( sender_id = 2 )  [ RunTime:0.0060s ]
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\jianyinew\Application\Home\Controller\HomepageController.class.php 第 18 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\jianyinew\Application\Home\Controller\HomepageController.class.php 第 18 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\jianyinew\Application\Home\Controller\HomepageController.class.php 第 18 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-15T14:05:44+08:00 ] 192.168.2.119 /index.php?m=home&c=Homepage&a=index&admin_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ec_admininfo` WHERE ( adminrole = 2 and isable= 1 and admin_id = 2 ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `ec_school` [ RunTime:0.0060s ]
+SQL: SELECT `school_id` FROM `ec_school` WHERE ( sender_id = 2 )  [ RunTime:0.0090s ]
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\jianyinew\Application\Home\Controller\HomepageController.class.php 第 18 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\jianyinew\Application\Home\Controller\HomepageController.class.php 第 18 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\jianyinew\Application\Home\Controller\HomepageController.class.php 第 18 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-15T14:06:16+08:00 ] 192.168.2.119 /index.php?m=home&c=Homepage&a=index&admin_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.1510s ]
+SQL: SELECT * FROM `ec_admininfo` WHERE ( adminrole = 2 and isable= 1 and admin_id = 2 ) LIMIT 1   [ RunTime:0.0400s ]
+SQL: SHOW COLUMNS FROM `ec_school` [ RunTime:0.0330s ]
+SQL: SELECT `school_id` FROM `ec_school` WHERE ( sender_id = 2 )  [ RunTime:0.1040s ]
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\jianyinew\Application\Home\Controller\HomepageController.class.php 第 18 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\jianyinew\Application\Home\Controller\HomepageController.class.php 第 18 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\jianyinew\Application\Home\Controller\HomepageController.class.php 第 18 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-12-15T14:06:45+08:00 ] 192.168.2.119 /index.php?m=home&c=Homepage&a=index&admin_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `ec_admininfo` WHERE ( adminrole = 2 and isable= 1 and admin_id = 2 ) LIMIT 1   [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `ec_school` [ RunTime:0.0080s ]
+SQL: SELECT `school_id` FROM `ec_school` WHERE ( sender_id = 2 ) LIMIT 1   [ RunTime:0.0060s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-12-15T14:06:58+08:00 ] 192.168.2.119 /index.php?m=home&c=Homepage&a=index&admin_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `ec_admininfo` WHERE ( adminrole = 2 and isable= 1 and admin_id = 2 ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `ec_school` [ RunTime:0.0080s ]
+SQL: SELECT `school_id` FROM `ec_school` WHERE ( sender_id = 2 )  [ RunTime:0.0090s ]
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\jianyinew\Application\Home\Controller\HomepageController.class.php 第 18 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\jianyinew\Application\Home\Controller\HomepageController.class.php 第 18 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\jianyinew\Application\Home\Controller\HomepageController.class.php 第 18 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-15T14:08:27+08:00 ] 192.168.2.119 /index.php?m=home&c=Homepage&a=index&admin_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ec_admininfo` WHERE ( adminrole = 2 and isable= 1 and admin_id = 2 ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `ec_school` [ RunTime:0.0080s ]
+SQL: SELECT `school_id` FROM `ec_school` WHERE ( sender_id = 2 )  [ RunTime:0.0060s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-12-15T14:08:45+08:00 ] 192.168.2.119 /index.php?m=home&c=Homepage&a=index&admin_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0380s ]
+SQL: SELECT * FROM `ec_admininfo` WHERE ( adminrole = 2 and isable= 1 and admin_id = 2 ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `ec_school` [ RunTime:0.0060s ]
+SQL: SELECT `school_id` FROM `ec_school` WHERE ( sender_id = 2 )  [ RunTime:0.0060s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-15T14:09:20+08:00 ] 192.168.2.119 /index.php?m=home&c=Homepage&a=index&admin_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ec_admininfo` WHERE ( adminrole = 2 and isable= 1 and admin_id = 2 ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `ec_school` [ RunTime:0.0090s ]
+SQL: SELECT `school_id` FROM `ec_school` WHERE ( sender_id = 2 )  [ RunTime:0.0050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-12-15T14:09:21+08:00 ] 192.168.2.119 /index.php?m=home&c=Homepage&a=index&admin_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ec_admininfo` WHERE ( adminrole = 2 and isable= 1 and admin_id = 2 ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `ec_school` [ RunTime:0.0110s ]
+SQL: SELECT `school_id` FROM `ec_school` WHERE ( sender_id = 2 )  [ RunTime:0.0050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-15T14:09:21+08:00 ] 192.168.2.119 /index.php?m=home&c=Homepage&a=index&admin_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `ec_admininfo` WHERE ( adminrole = 2 and isable= 1 and admin_id = 2 ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `ec_school` [ RunTime:0.0070s ]
+SQL: SELECT `school_id` FROM `ec_school` WHERE ( sender_id = 2 )  [ RunTime:0.0040s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-15T14:10:34+08:00 ] 192.168.2.119 /index.php?m=home&c=Homepage&a=index&admin_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `ec_admininfo` WHERE ( adminrole = 2 and isable= 1 and admin_id = 2 ) LIMIT 1   [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `ec_school` [ RunTime:0.0070s ]
+SQL: SELECT `school_id` FROM `ec_school` WHERE ( sender_id = 2 )  [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `ec_booklend` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_booklend` left join ec_user on ec_booklend.user_id = ec_user.user_id  WHERE ( ec_booklend.lend_flag = 2 and ec_user.school_id in (1,15,17) ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_booklend` left join ec_user on ec_booklend.user_id = ec_user.user_id  WHERE ( ec_booklend.lend_flag = 5 and ec_user.school_id in (1,15,17) ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `ec_goodschange` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_goodschange` left join ec_user on ec_goodschange.user_id = ec_user.user_id  WHERE ( ec_goodschange.change_type = 2 and ec_goodschange.change_flag = 2 and ec_user.school_id in (1,15,17) ) LIMIT 1   [ RunTime:0.0070s ]
+
+[ 2017-12-15T14:11:01+08:00 ] 192.168.2.119 /index.php?m=home&c=Homepage&a=index&admin_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0370s ]
+SQL: SELECT * FROM `ec_admininfo` WHERE ( adminrole = 2 and isable= 1 and admin_id = 2 ) LIMIT 1   [ RunTime:0.0260s ]
+SQL: SHOW COLUMNS FROM `ec_school` [ RunTime:0.0360s ]
+SQL: SELECT `school_id` FROM `ec_school` WHERE ( sender_id = 2 )  [ RunTime:0.0190s ]
+SQL: SHOW COLUMNS FROM `ec_booklend` [ RunTime:0.0210s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_booklend` left join ec_user on ec_booklend.user_id = ec_user.user_id  WHERE ( ec_booklend.lend_flag = 2 and ec_user.school_id in (1,15,17) ) LIMIT 1   [ RunTime:0.0210s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_booklend` left join ec_user on ec_booklend.user_id = ec_user.user_id  WHERE ( ec_booklend.lend_flag = 5 and ec_user.school_id in (1,15,17) ) LIMIT 1   [ RunTime:0.0360s ]
+SQL: SHOW COLUMNS FROM `ec_goodschange` [ RunTime:0.0310s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_goodschange` left join ec_user on ec_goodschange.user_id = ec_user.user_id  WHERE ( ec_goodschange.change_type = 2 and ec_goodschange.change_flag = 2 and ec_user.school_id in (1,15,17) ) LIMIT 1   [ RunTime:0.0340s ]
+
+[ 2017-12-15T14:11:25+08:00 ] 192.168.2.119 /index.php?m=home&c=Homepage&a=index&admin_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0450s ]
+SQL: SELECT * FROM `ec_admininfo` WHERE ( adminrole = 2 and isable= 1 and admin_id = 2 ) LIMIT 1   [ RunTime:0.0580s ]
+SQL: SHOW COLUMNS FROM `ec_school` [ RunTime:0.0290s ]
+SQL: SELECT `school_id` FROM `ec_school` WHERE ( sender_id = 2 )  [ RunTime:0.0510s ]
+SQL: SHOW COLUMNS FROM `ec_booklend` [ RunTime:0.0360s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_booklend` left join ec_user on ec_booklend.user_id = ec_user.user_id  WHERE ( ec_booklend.lend_flag = 2 and ec_user.school_id in (1,15,17) ) LIMIT 1   [ RunTime:0.0710s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_booklend` left join ec_user on ec_booklend.user_id = ec_user.user_id  WHERE ( ec_booklend.lend_flag = 5 and ec_user.school_id in (1,15,17) ) LIMIT 1   [ RunTime:0.0650s ]
+SQL: SHOW COLUMNS FROM `ec_goodschange` [ RunTime:0.2640s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_goodschange` left join ec_user on ec_goodschange.user_id = ec_user.user_id  WHERE ( ec_goodschange.change_type = 2 and ec_goodschange.change_flag = 2 and ec_user.school_id in (1,15,17) ) LIMIT 1   [ RunTime:0.0290s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-15T14:20:13+08:00 ] 192.168.2.119 /index.php?m=home&c=Homepage&a=index&admin_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ec_admininfo` WHERE ( adminrole = 2 and isable= 1 and admin_id = 2 ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `ec_school` [ RunTime:0.0130s ]
+SQL: SELECT `school_id` FROM `ec_school` WHERE ( sender_id = 2 )  [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `ec_booklend` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_booklend` left join ec_user on ec_booklend.user_id = ec_user.user_id  WHERE ( ec_booklend.lend_flag = 2 and ec_user.school_id in (1,15,17) ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_booklend` left join ec_user on ec_booklend.user_id = ec_user.user_id  WHERE ( ec_booklend.lend_flag = 5 and ec_user.school_id in (1,15,17) ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `ec_goodschange` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_goodschange` left join ec_user on ec_goodschange.user_id = ec_user.user_id  WHERE ( ec_goodschange.change_flag = 2 and ec_user.school_id in (1,15,17) ) LIMIT 1   [ RunTime:0.0050s ]
+
+[ 2017-12-15T14:38:06+08:00 ] 192.168.2.119 /index.php?m=home&c=Homepage&a=index&admin_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `ec_admininfo` WHERE ( adminrole = 2 and isable= 1 and admin_id = 2 ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `ec_school` [ RunTime:0.0100s ]
+SQL: SELECT `school_id` FROM `ec_school` WHERE ( sender_id = 2 )  [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `ec_booklend` [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_booklend` left join ec_user on ec_booklend.user_id = ec_user.user_id  WHERE ( ec_booklend.lend_flag = 2 and ec_user.school_id in (1,15,17) ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_booklend` left join ec_user on ec_booklend.user_id = ec_user.user_id  WHERE ( ec_booklend.lend_flag = 5 and ec_user.school_id in (1,15,17) ) LIMIT 1   [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `ec_goodschange` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_goodschange` left join ec_user on ec_goodschange.user_id = ec_user.user_id  WHERE ( ec_goodschange.change_flag = 2 and ec_user.school_id in (1,15,17) ) LIMIT 1   [ RunTime:0.0180s ]
+
+[ 2017-12-15T14:40:10+08:00 ] 192.168.2.119 /index.php?m=home&c=Homepage&a=index&admin_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ec_admininfo` WHERE ( adminrole = 2 and isable= 1 and admin_id = 2 ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `ec_school` [ RunTime:0.0100s ]
+SQL: SELECT `school_id` FROM `ec_school` WHERE ( sender_id = 2 )  [ RunTime:0.0050s ]
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\jianyinew\Application\Home\Controller\HomepageController.class.php 第 19 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\jianyinew\Application\Home\Controller\HomepageController.class.php 第 19 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\jianyinew\Application\Home\Controller\HomepageController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `ec_booklend` [ RunTime:0.0060s ]
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ec_booklend` left join ec_user on ec_booklend.user_id = ec_user.user_id  WHERE ( ec_booklend.lend_flag = 2 and ec_user.school_id in (Array,Array,Array) ) LIMIT 1  
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ec_booklend` left join ec_user on ec_booklend.user_id = ec_user.user_id  WHERE ( ec_booklend.lend_flag = 2 and ec_user.school_id in (Array,Array,Array) ) LIMIT 1  
+
+[ 2017-12-15T14:40:31+08:00 ] 192.168.2.119 /index.php?m=home&c=Homepage&a=index&admin_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ec_admininfo` WHERE ( adminrole = 2 and isable= 1 and admin_id = 2 ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `ec_school` [ RunTime:0.0070s ]
+SQL: SELECT `school_id` FROM `ec_school` WHERE ( sender_id = 2 )  [ RunTime:0.0040s ]
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\jianyinew\Application\Home\Controller\HomepageController.class.php 第 19 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\jianyinew\Application\Home\Controller\HomepageController.class.php 第 19 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\jianyinew\Application\Home\Controller\HomepageController.class.php 第 19 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-15T14:41:34+08:00 ] 192.168.2.119 /index.php?m=home&c=Homepage&a=index&admin_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `ec_admininfo` WHERE ( adminrole = 2 and isable= 1 and admin_id = 2 ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `ec_school` [ RunTime:0.0050s ]
+SQL: SELECT `school_id` FROM `ec_school` WHERE ( sender_id = 2 )  [ RunTime:0.0050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-15T14:48:40+08:00 ] 192.168.2.119 /index.php?m=home&c=Homepage&a=index&admin_id=2&callback=jQuery1110041369715495966375_1513320520745&_=1513320520746
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `ec_admininfo` WHERE ( adminrole = 2 and isable= 1 and admin_id = 2 ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `ec_school` [ RunTime:0.0070s ]
+SQL: SELECT `school_id` FROM `ec_school` WHERE ( sender_id = 2 )  [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `ec_booklend` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_booklend` left join ec_user on ec_booklend.user_id = ec_user.user_id  WHERE ( ec_booklend.lend_flag = 2 and ec_user.school_id in (1,15,17) ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_booklend` left join ec_user on ec_booklend.user_id = ec_user.user_id  WHERE ( ec_booklend.lend_flag = 5 and ec_user.school_id in (1,15,17) ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `ec_goodschange` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_goodschange` left join ec_user on ec_goodschange.user_id = ec_user.user_id  WHERE ( ec_goodschange.change_flag = 2 and ec_user.school_id in (1,15,17) ) LIMIT 1   [ RunTime:0.0050s ]
+
+[ 2017-12-15T16:40:34+08:00 ] 192.168.2.119 /index.php?m=home&c=Homepage&a=index&admin_id=2&callback=jQuery111004107083408161998_1513327231223&_=1513327231224
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `ec_admininfo` WHERE ( adminrole = 2 and isable= 1 and admin_id = 2 ) LIMIT 1   [ RunTime:0.0150s ]
+SQL: SHOW COLUMNS FROM `ec_school` [ RunTime:0.0100s ]
+SQL: SELECT `school_id` FROM `ec_school` WHERE ( sender_id = 2 )  [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `ec_booklend` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_booklend` left join ec_user on ec_booklend.user_id = ec_user.user_id  WHERE ( ec_booklend.lend_flag = 2 and ec_user.school_id in (1,15,17) ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_booklend` left join ec_user on ec_booklend.user_id = ec_user.user_id  WHERE ( ec_booklend.lend_flag = 5 and ec_user.school_id in (1,15,17) ) LIMIT 1   [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `ec_goodschange` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_goodschange` left join ec_user on ec_goodschange.user_id = ec_user.user_id  WHERE ( ec_goodschange.change_flag = 2 and ec_user.school_id in (1,15,17) ) LIMIT 1   [ RunTime:0.0170s ]
+

@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>报名预约</title>
+		<!--说明文字编码-->
+		<meta http-equiv="Content-type" content="text/html" charset="utf-8">
+		<!--针对 IE8 版本的一个特殊文件头标记，用于为 IE8 指定不同的页面渲染模式-->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<!--设备物理宽度等于等于页面宽度,页面初始缩放1:1,禁止用户调整缩放-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no" />
+		<!--控制状态栏显示样式-->
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<!--解决uc字体变大问题-->
+		<meta name="wap-font-scale" content="no">
+		<!--手机号码不被显示为拨号链接-->
+		<meta content="telephone=no" name="format-detection" />
+		<!--页面缓存时间的最大值是0秒，目的是不让页面缓存，每次访问必须到服务器读取-->
+		<meta http-equiv="Pragma" content="no-cache">
+		<meta http-equiv="Cache-Control" content="no-cache">
+		<meta http-equiv="Expires" content="0">
+		<link rel="stylesheet" type="text/css" href="font/iconfont.css">
+		<link rel="stylesheet" href="css/public.css" />
+		<link rel="stylesheet" href="css/baomingyuyue.css" />
+	</head>
+
+	<body>
+		<!--普通贵宾席人数选择弹出层-->
+		<div class="humanbg">
+			<div class="human">
+				<p>请选择席位， 1999元/人</p>
+				<ul>
+					<li>
+						<input class="nn" type="radio" name="human" />
+						<p>1人</p>
+					</li>
+					<li>
+						<input class="nn" type="radio" name="human" />
+						<p>2人</p>
+					</li>
+					<li>
+						<input class="nn" type="radio" name="human" />
+						<p>3人</p>
+					</li>
+					<li>
+						<input class="nn" type="radio" name="human" />
+						<p>4人</p>
+					</li>
+					<li>
+						<input class="nn" type="radio" name="human" />
+						<p>5人</p>
+					</li>
+					<li>
+						<input class="nn" type="radio" name="human" />
+						<p>6人</p>
+					</li>
+					<li>
+						<input class="nn" type="radio" name="human" />
+						<p>7人</p>
+					</li>
+					<li>
+						<input class="nn" type="radio" name="human" />
+						<p>8人</p>
+					</li>
+					<li>
+						<input class="nn" type="radio" name="human" />
+						<p>9人</p>
+					</li>
+					<li>
+						<input class="nn" type="radio" name="human" />
+						<p>10人</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!--高级贵宾席人数选择弹出层-->
+		<div class="humanbg1">
+			<div class="human1">
+				<p>请选择席位， 1999元/人</p>
+				<ul>
+					<li>
+						<input class="nn1" type="radio" name="human1" />
+						<p>1人</p>
+					</li>
+					<li>
+						<input class="nn1" type="radio" name="human1" />
+						<p>2人</p>
+					</li>
+					<li>
+						<input class="nn1" type="radio" name="human1" />
+						<p>3人</p>
+					</li>
+					<li>
+						<input class="nn1" type="radio" name="human1" />
+						<p>4人</p>
+					</li>
+					<li>
+						<input class="nn1" type="radio" name="human1" />
+						<p>5人</p>
+					</li>
+					<li>
+						<input class="nn1" type="radio" name="human1" />
+						<p>6人</p>
+					</li>
+					<li>
+						<input class="nn1" type="radio" name="human1" />
+						<p>7人</p>
+					</li>
+					<li>
+						<input class="nn1" type="radio" name="human1" />
+						<p>8人</p>
+					</li>
+					<li>
+						<input class="nn1" type="radio" name="human1" />
+						<p>9人</p>
+					</li>
+					<li>
+						<input class="nn1" type="radio" name="human1" />
+						<p>10人</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="pd_lr06 mg_t10">
+			<div class="grxx_box c">
+				<div class="right">
+					<!--不是会员的显示“升级会员按钮”，是会员的显示“排名、学分、签到”按钮-->
+					<!--<a class="shengjihuiyuan" href="shengjihuiyuan.html">升级会员</a>-->
+					<a class="paimimg" href="xuexipaihangbang.html">
+						<i class="iconfont icon-paiming"></i>
+						<p>排名</p>
+					</a>
+					<a class="xuefen" href="xuexipaihangbang.html">
+						<i class="iconfont icon-30xuefenpingjiatixi"></i>
+						<p>学分</p>
+					</a>
+				</div>
+				<dl class="left">
+					<dt>
+						<span>
+							<i class="iconfont icon-vip1"></i>
+							<img src="images/touxiang.jpg"/>
+						</span>
+					</dt>
+					<dd>
+						<div class="top">
+							<span>李明成</span>
+							<em>|</em>
+							<i>秀才</i>
+						</div>
+					</dd>
+				</dl>
+			</div>
+		</div>
+		<div class="cont">
+			<ul>
+				<li>
+					<p>姓名： </p>
+					<input class="orange" type="text" maxlength="8" />
+				</li>
+				<li>
+					<p>身份证：</p>
+					<input class="orange" type="tel" maxlength="18" onkeyup='this.value=this.value.replace(/\D/gi,"")' />
+				</li>
+				<li>
+					<p>公司：</p>
+					<input class="orange" type="text" maxlength="15" />
+				</li>
+				<li>
+					<p>职务：</p>
+					<input class="orange" type="text" maxlength="10" />
+				</li>
+				<li>
+					<p>电话： </p>
+					<input class="orange" type="tel" style="width: 12rem;" maxlength="11" onkeyup='this.value=this.value.replace(/\D/gi,"")' />
+					<button class="btn1">发送验证码</button>
+				</li>
+				<li>
+					<p>验证码：</p>
+					<input class="orange" type="tel" maxlength="6" onkeyup='this.value=this.value.replace(/\D/gi,"")' />
+				</li>
+				<li class="hi1">
+					<p>普通贵宾席： <span class="span2 pu">请选择席位 1999元/人</span></p>
+					<img class="bottom" src="images/bottom.png" />
+				</li>
+				<li class="hi2">
+					<p>高级贵宾席： <span class="span2 gao">请选择席位 2999元/人</span></p>
+					<img class="bottom" src="images/bottom.png" />
+				</li>
+				<li>
+					<!--注：默认选择是-->
+					<p>是否本人参加：<span id="zhi" class="orange">是</span></p>
+					<input id="checkbox" class="chbox" type="checkbox" checked="checked" />
+				</li>
+				<li>
+					<p>留言备注：</p>
+					<input class="beizhu" type="text" placeholder="选填" />
+				</li>
+			</ul>
+		</div>
+		<button class="btn2">立即购买</button>
+		<div class="div_hide">
+			<p>恭喜你，报名成功
+				<br />我们的工作人员会在1-3个工作日内联系你进行确认。</p>
+		</div>
+		<script type="text/javascript" src="js/screenSize.js"></script>
+		<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+		<script>
+			//是否本人参加复选框
+				$(".chbox").click(function(){
+					var hasChk = $('#checkbox').is(':checked');
+					if(hasChk){
+						$("#zhi").html("是");
+					}else{
+					   $("#zhi").html("否");
+					}
+				});
+			//点击立即购买，弹出框显示
+				$(".btn2").click(function(){
+					$(".div_hide").fadeIn(200).delay(400).fadeOut(200);
+				});
+			//普通贵宾席人数选择弹出层
+			$(".hi1").click(function(){
+				$(".humanbg").show()
+			});
+			$(".nn").click(function(){
+				var num = $(this).next().text();
+				$(".pu").text(num);
+				$(".humanbg").hide()
+			});
+			//高级贵宾席人数选择弹出层
+			$(".hi2").click(function(){
+				$(".humanbg1").show()
+			});
+			$(".nn1").click(function(){
+				var num = $(this).next().text();
+				$(".gao").text(num);
+				$(".humanbg1").hide()
+			});
+		</script>
+	</body>
+
+</html>

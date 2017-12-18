@@ -1,0 +1,132 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta http-equiv="Cache-Control" content="no-transform" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<title>下级列表</title>
+		<link rel="stylesheet" type="text/css" href="/Public/home/css/html5.css"/>
+		<link rel="stylesheet" type="text/css" href="/Public/home/css/mian.css" />
+		<script src="/Public/home/js/jquery-1.10.2.min.js" type="text/javascript" charset="utf-8"></script>
+		<script>
+			(function(doc, win) {
+				var docEl = doc.documentElement,
+					resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+					recalc = function() {
+						var clientWidth = docEl.clientWidth;
+						if(!clientWidth) return;
+						docEl.style.fontSize = 25 * (clientWidth / 720) + 'px';
+					};
+				if(!doc.addEventListener) return;
+				win.addEventListener(resizeEvt, recalc, false);
+				doc.addEventListener('DOMContentLoaded', recalc, false);
+			})(document, window);
+		</script>
+	</head>
+	<body>
+		<style type="text/css">
+			body{background: #fff;}
+			.btn00{ text-align:center; padding:0.75rem 0; font-size:0.95rem; color:#666; width:15rem;  margin:2rem auto;}
+			.chongzhijilu_ul li {
+				width: 100%;
+				height: 3.5rem;
+				padding: 0 3rem 0 2rem;
+				border-bottom: 1px solid #f0f0f0;
+				font-size: 1.3rem;
+				line-height: 3.5rem;
+				color: #363636;
+				overflow: hidden;
+			}
+		</style>
+		<div class="xxphb">
+			<div class="ct">
+				<ul>
+				<?php if(is_array($zengsong)): $i = 0; $__LIST__ = $zengsong;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$zeng): $mod = ($i % 2 );++$i;?><li onclick="show(<?php echo ($zeng["user_id"]); ?>);">
+						<i><img src="<?php echo ($zeng["avatar"]); ?>"/></i>
+						<p><?php echo ($zeng["nickname"]); ?></p>
+						<em>￥<?php echo ($zeng["money"]); ?></em>
+					</li><?php endforeach; endif; else: echo "" ;endif; ?>	
+				<?php if($count > 10): ?><div id="gundong"></div>
+			    <div onclick="getmore()" id="morebtn" data='1' class="btn00">加载更多</div><?php endif; ?>
+				</ul>
+			</div>
+		</div>
+		<div class="zsjxj_box"></div>
+		<div class="zsjxj">
+			<form method="post" id="zengsongform" action="<?php echo U('myinfo/zengsong');?>" onsubmit="return queding()">
+				<div class="input_text c">
+					<span>金额</span>
+					<i>
+						<input type="hidden" id="to_user_id" name="to_user_id"/>
+						<input type="text" id="jine" name="jine" placeholder="请输入金额" onkeyup="javascript:CheckInputIntFloat(this);" maxlength="10"/>
+					</i>
+				</div>
+				<div class="input_but">
+					<span onclick="hide()" class="but_fl">取消</span>
+					<button class="but_fr" type="submit">确定</button>
+				</div>
+			</form>
+			
+		</div>
+	</body>
+</html>
+<script type="text/javascript">
+	function show(id){
+		$('.zsjxj_box').fadeTo(200,1);
+		$('.zsjxj').fadeTo(200,1);
+		$('#to_user_id').val(id);
+
+	}
+	function hide(){
+		$('.zsjxj_box').fadeOut(300);
+		$('.zsjxj').fadeOut(300);
+	}
+	function queding(){
+		var money=$("#jine").val();
+		//alert(money);
+		if(money=="" || money<=0 ){
+			alert("赠送金额不能为空或者不能小于等于0");
+			return false;
+			}
+	}
+      //只允许输入浮点类型
+	 function CheckInputIntFloat(oInput){
+		if('' != oInput.value.replace(/\d{1,}\.{0,1}\d{0,}/,''))
+		{
+			oInput.value = oInput.value.match(/\d{1,}\.{0,1}\d{0,}/) == null ? '' :oInput.value.match(/\d{1,}\.{0,1}\d{0,}/);
+		}
+    }
+	
+	function getmore(){
+		var page=parseInt($('#morebtn').attr("data"))+1;
+		$('#morebtn').attr("data",page);//重置当前页数
+		//alert(page);
+		$.getJSON("<?php echo U('myinfo/xiajiliebiao');?>&p="+page,function(result){
+			var data=result.zengsong;
+			if(data.length>0){
+				var html="";
+				var str="";
+				for(var i=0;i<data.length;i++){
+					html+="<li onclick=\"show(<?php echo ($zeng["user_id"]); ?>);\">";
+					html+="<i>";
+					html+="<img src="+data[i].avatar+">";
+					html+="</i>";
+		            html+="<p>"+data[i].nickname+"</p>";
+					if(data[i].level_name!=null){
+		            html+="<em>"+data[i].level_name+"</em>";
+					}else{
+					html+="<em></em>";
+					}
+					html+="</li>";
+				}
+				$("#gundong").append(html);
+			}else{
+				$("#morebtn").html('亲，没有数据了！');
+			}
+		});
+	}
+
+</script>

@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta http-equiv="Cache-Control" content="no-transform" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<title>首页</title>
+		<link rel="stylesheet" type="text/css" href="font/iconfont.css">
+		<link rel="stylesheet" type="text/css" href="css/swiper-3.4.2.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/html5.css"/>
+		<link rel="stylesheet" type="text/css" href="css/mian.css"/>
+		<script src="js/jquery-1.10.2.min.js" type="text/javascript" charset="utf-8"></script>
+		<script>
+			(function(doc, win) {
+				var docEl = doc.documentElement,
+					resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+					recalc = function() {
+						var clientWidth = docEl.clientWidth;
+						if(!clientWidth) return;
+						docEl.style.fontSize = 25 * (clientWidth / 720) + 'px';
+					};
+				if(!doc.addEventListener) return;
+				win.addEventListener(resizeEvt, recalc, false);
+				doc.addEventListener('DOMContentLoaded', recalc, false);
+			})(document, window);
+		</script>
+	</head>
+	<body>
+		<div class="pd_lr06 mg_t10">
+			<div class="grxx_box c">
+				<div class="right">
+					<!--不是会员的显示“升级会员按钮”，是会员的显示“排名、学分、签到”按钮-->
+					<!--<a class="shengjihuiyuan" href="shengjihuiyuan.html">升级会员</a>-->
+					<a class="paimimg" href="xuexipaihangbang.html">
+						<i class="iconfont icon-paiming"></i>
+						<p>排名</p>
+					</a>
+					<a class="xuefen" href="xuexipaihangbang.html">
+						<i class="iconfont icon-30xuefenpingjiatixi"></i>
+						<p>学分</p>
+					</a>
+					<span class="qiandao" href="#">
+						<i class="iconfont icon-qiandao"></i>
+						<p>签到</p>
+					</span>
+				</div>
+				<dl class="left">
+					<dt>
+						<span>
+							<i class="iconfont icon-vip1"></i>
+							<img src="images/touxiang.jpg"/>
+						</span>
+					</dt>
+					<dd>
+						<div class="top">
+							<span>李明成</span>
+							<em>|</em>
+							<i>秀才</i>
+						</div>
+					</dd>
+				</dl>
+			</div>
+		</div>
+     	<!--轮播图-->
+		<div class="banner_box mg_t10">
+			<div class="swiper-container">
+				<div class="swiper-wrapper" id="swiper-wrapper">
+					<div class="swiper-slide">
+						<a href=""><img src="images/banner_1.jpg" alt=""></a>
+					</div>
+					<div class="swiper-slide">
+						<a href=""><img src="images/banner_1.jpg" alt=""></a>
+					</div>
+					<div class="swiper-slide">
+						<a href=""><img src="images/banner_1.jpg" alt=""></a>
+					</div>
+				</div>
+				<div class="swiper-pagination"></div>
+			</div>
+		</div>
+		<!--导航-->
+		<div class="pd_lr06 mg_t15">
+			<div class="nav c">
+				<ul>
+					<li>
+						<a href="hot.html">
+							<i class="iconfont icon-remenshipin"></i>
+							<p>热播HOT</p>
+						</a>
+					</li>
+					<li>
+						<a href="xuexijilu.html">
+							<i class="iconfont icon-jilu"></i>
+							<p>学习记录</p>
+						</a>
+					</li>
+					<li>
+						<a href="zhuantishipin.html">
+							<i class="iconfont icon-theme-activities"></i>
+							<p>专题</p>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!--直播-->
+		<div class="pd_lr06 mg_t10">
+			<div class="zhibo">
+				<div class="top">
+					<h4>直播即将开始</h4>
+					<span onclick="show();">点击预约</span>
+				</div>
+				<div class="ct">
+					<h4>如何经营环境，让团队自主自发的如何经营环境，</h4>
+					<p>简要介绍，文字最好在两行之内，大概50个字左右，简要介绍，文字最好在两行之内，简要介绍，文字最好在两行之内</p>
+					<div class="bottom">
+						<span>主讲：张三丰</span>
+						<i>时间：05-08 13:00:00</i>
+						<strong>预约：2563256人</strong>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--限时特价-->
+		<div class="xstj mg_t10 twlb_box pd_lr06">
+			<div class="ct">
+				<dl class="twlb c">
+					<dt>
+						<a href="">
+							<img src="images/twlb_img.jpg"/>
+						</a>
+					</dt>
+					<dd>
+						<div class="top">
+							<a href="#">
+								<h4>
+									人才留不住，领袖之道，统帅人心文化力
+								</h4>
+							</a>
+						</div>
+						<div class="ct">
+							<div class="left">
+								<span>￥1/年</span>
+							</div>
+							<div class="right">
+								<strong>
+									<i class="iconfont icon-shijian"></i>
+									<i>剩余时间　</i>
+									<i>02:05:10</i>
+								</strong>
+							</div>
+						</div>
+						<div class="ct_1">
+							<div class="right">
+								<em>立即抢购</em>
+							</div>
+						</div>
+					</dd>
+				</dl>
+			</div>
+		</div>
+		<!--限时免费-->
+		<div class="mg_t10">
+			<div class="xsmf twlb_box">
+				<div class="head">
+					<i></i>
+					<span>免费专题</span>
+					<i></i>
+				</div>
+				<div class="xsmf_ct">
+					<ul class="c">
+						<li class="lb">
+							<div class="img">
+								<a href="shipinxiangqingye.html">
+									<img src="images/xsmf_img.jpg"/>
+								</a>
+							</div>
+							<div class="text">
+								<h5>
+									<a href="shipinxiangqingye.html">如何经营环境，如何经营环境让...</a>
+								</h5>
+								<span>
+									<a href="shipinxiangqingye.html" class="iconfont icon-11"></a>
+								</span>
+								<span>
+									<a href="mp3.html" class="iconfont icon-erji"></a>
+								</span>
+								<strong>
+									<i class="iconfont icon-yueduliang"></i>
+									<em>25632</em>
+								</strong>
+							</div>
+						</li>
+						<li class="lb">
+							<div class="img">
+								<a href="javascript:void(0);">
+									<img src="images/xsmf_img.jpg"/>
+								</a>
+							</div>
+							<div class="text">
+								<h5>
+									<a href="javascript:void(0);">如何经营环境，如何经营环境让...</a>
+								</h5>
+								<span>
+									<a href="#" class="iconfont icon-11"></a>
+								</span>
+								<span>
+									<a href="#" class="iconfont icon-erji"></a>
+								</span>
+								<strong>
+									<i class="iconfont icon-yueduliang"></i>
+									<em>25632</em>
+								</strong>
+							</div>
+						</li>
+						<li class="lb">
+							<div class="img">
+								<a href="javascript:void(0);">
+									<img src="images/xsmf_img.jpg"/>
+								</a>
+							</div>
+							<div class="text">
+								<h5>
+									<a href="javascript:void(0);">如何经营环境，如何经营环境让...</a>
+								</h5>
+								<span>
+									<a href="#" class="iconfont icon-11"></a>
+								</span>
+								<span>
+									<a href="#" class="iconfont icon-erji"></a>
+								</span>
+								<strong>
+									<i class="iconfont icon-yueduliang"></i>
+									<em>25632</em>
+								</strong>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="twlb_box pd_lr06 mg_t15">
+			<div class="head">
+				<i></i>
+				<span>精彩专题　限时免费</span>
+				<i></i>
+			</div>
+			<div class="ct">
+				<dl class="twlb c">
+					<dt>
+						<a href="shengjihuiyuan.html">
+							<img src="images/twlb_img.jpg"/>
+						</a>
+					</dt>
+					<dd>
+						<div class="top">
+							<a href="shengjihuiyuan.html">
+								<h4>
+									人才留不住，领袖之道，统帅人心文化力
+									<span>NEW</span>
+								</h4>
+							</a>
+						</div>
+						<div class="ct">
+							<div class="left">
+								<span>￥699/年</span>
+							</div>
+							<div class="right">
+								<span>共100集，更新完毕</span>
+							</div>
+						</div>
+						<div class="ct_1">
+							<div class="left">
+								<span>
+									<a href="shengjihuiyuan.html">
+										<i class="iconfont icon-shipin1"></i>
+										<em>看视频</em>
+									</a>
+									<a href="shengjihuiyuan.html">
+										<i class="iconfont icon-headset"></i>
+										<em>听音频</em>
+									</a>
+								</span>
+							</div>
+							<div class="right">
+								<span>3656356订阅</span>
+							</div>
+						</div>
+					</dd>
+				</dl>
+				<dl class="twlb c">
+					<dt>
+						<a href="shipinxiangqingye.html">
+							<img src="images/twlb_img.jpg"/>
+						</a>
+					</dt>
+					<dd>
+						<div class="top">
+							<a href="shipinxiangqingye.html">
+								<h4>
+									人才留不住，领袖之道，统帅人心文化力
+									<span>NEW</span>
+								</h4>
+							</a>
+						</div>
+						<div class="ct">
+							<div class="left">
+								<span>￥699/年</span>
+							</div>
+							<div class="right">
+								<span>共10集，更新到第6集</span>
+							</div>
+						</div>
+						<div class="ct_1">
+							<div class="left">
+								<span>
+									<a href="shipinxiangqingye.html">
+										<i class="iconfont icon-shipin1"></i>
+										<em>看视频</em>
+									</a>
+									<a href="mp3.html">
+										<i class="iconfont icon-headset"></i>
+										<em>听音频</em>
+									</a>
+								</span>
+							</div>
+							<div class="right">
+								<span>356订阅</span>
+							</div>
+						</div>
+					</dd>
+				</dl>
+			</div>
+		</div>
+		<div class="banner_img">
+			<a href="#"><img src="images/banner_img.jpg"/></a>
+		</div>
+		<div class="foot_img c">
+			<ul>
+				<li><a href="xueyuanjiaru.html"><img src="images/foot_img1.jpg"/></a></li>
+				<li><a href="hehuorenzhaomu.html"><img src="images/foot_img2.jpg"/></a></li>
+				<li><a href="tuijian.html"><img src="images/foot_img3.jpg"/></a></li>
+				<li><a href="download.html"><img src="images/foot_img4.jpg"/></a></li>
+			</ul>
+		</div>
+		<div class="foot">
+			<ul>
+				<li class="link">
+					<a href="index.html">
+						<span class="iconfont icon-xuexi"></span>
+						<p>学习</p>
+					</a>
+				</li>
+				<li>
+					<a href="jiangxuejin.html">
+						<span class="iconfont icon-jiangxuejinv"></span>
+						<p>奖学金</p>
+					</a>
+				</li>
+				<li>
+					<a href="yigou.html">
+						<span class="iconfont icon-gouwuche"></span>
+						<p>已购</p>
+					</a>
+				</li>
+				<li>
+					<a href="my.html">
+						<span class="iconfont icon-wode"></span>
+						<p>我的</p>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</body>
+</html>
+<script type="text/javascript" src="js/layer/layer.js"></script>
+<script type="text/javascript" src="js/swiper-3.4.2.jquery.min.js"></script>
+<script type="text/javascript">
+	window.onload = function(){
+	    var mySwiper = new Swiper('.banner_box .swiper-container',{
+	    	direction: 'horizontal',
+	        pagination: '.banner_box .swiper-pagination',
+	        loop:true,
+	        autoplay:8000,
+	        autoplayDisableOnInteraction: false,
+	        paginationClickable: true
+	    });
+	    
+	    var swiper = new Swiper('.xsmf .swiper-container', {
+	        slidesPerView: 'auto',
+	        paginationClickable: true,
+	        spaceBetween:0,
+	        freeMode: true
+	    });
+	};
+	function show(){
+   		layer.open({
+		    content: '预约成功',
+		    skin: 'msg',
+		    time: 2 //2秒后自动关闭
+		});
+	}
+</script>

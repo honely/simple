@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>课程购买明细</title>
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/admin/css/html5.css"/>
+    <link rel="stylesheet" type="text/css"  href="__PUBLIC__/admin/font/iconfont.css">
+    <link rel="stylesheet" type="text/css"  href="__PUBLIC__/admin/font/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/admin/css/index.css"/>
+    <script src="__PUBLIC__/admin/js/jquery-1.10.2.min.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+<div class="right_min">
+    <div class="crumbs_nav">
+        <i class="iconfont icon-shouye"></i>
+        <ul>
+            <li><a href="{:U('index/welcome')}">首页</a></li>
+            <li> > </li>
+            <li><a href="javascript:void(0);">课程管理</a></li>
+            <li> > </li>
+            <li><a href="javascript:void(0);">课程购买明细</a></li>
+        </ul>
+    </div>
+    <div class="min">
+        <!--查询-->
+
+        <div class="query">
+            <form  name="seachform" id="seachform"  action="{:U('buylesson/index')}"  method="post" class="form"  onsubmit="return checkkwd()">
+                <div class="form_input mg_trb">
+                    <label class="text">快速检索</label>
+                    <input type="text" name="info[nickname]" id="nickname" value="{$nickname}"  placeholder="请输入用户名"  maxlength="15"/>
+                </div>
+                <div class="form_input mg_trb form-date">
+                    <label class="text">购买时间</label>
+                    <input type="text" class="laydate-icon layer-date" name="info[starttime]"  value="{$starttime}"  id="start" placeholder="开始时间" readonly/>
+                    <input type="text" class="laydate-icon layer-date" name="info[endtime]"  value="{$endtime}"  id="end" placeholder="结束时间" readonly/>
+                </div>
+                <div class="select mg_trb">
+                    <span class="text">支付方式</span>
+                    <select name="info[buy_type]">
+                        <option value="">--请选择状态--</option>
+                        <volist name="buyType" id="data">
+                            <option value="{$key}" <if condition="$key eq $buy_type ">selected</if>>{$data}</option>
+                        </volist>
+                    </select>
+                </div>
+                <div class="select mg_trb">
+                    <span class="text">支付状态</span>
+                    <select name="info[buy_flag]">
+                        <option value="">--请选择状态--</option>
+                        <volist name="buyFlag" id="data">
+                            <option value="{$key}" <if condition="$key eq $buy_flag ">selected</if>>{$data}</option>
+                        </volist>
+                    </select>
+                </div>
+                <div class="button mg_trb">
+                    <i class="fa fa-refresh ico"></i>
+                    <input type="button" value="重置" class="but chongzhi" onclick="location.href='{:U('buylesson/index')}'"/>
+                </div>
+
+                <div class="button mg_trb">
+                    <i class="fa fa-search ico"></i>
+                    <input type="submit" value="查询" class="but chaxun"/>
+                </div>
+            </form>
+        </div>
+        <div class="table_box">
+            <table class="table" border="" cellspacing="" cellpadding="">
+                <!--<colgroup>-->
+                <!--<col width="5">-->
+                <!--<col width="100">-->
+                <!--<col width="200">-->
+                <!--<col width="100">-->
+                <!--<col width="100">-->
+                <!--<col width="100">-->
+                <!--<col width="100">-->
+                <!--<col width="100">-->
+                <!--<col width="100">-->
+                <!--<col width="100">-->
+                <!--<col>-->
+                <!--</colgroup>-->
+                <thead>
+                <tr>
+                    <th>编号</th>
+                    <th>用户名</th>
+                    <th>课程</th>
+                    <th>到期时间</th>
+                    <th>购买时间</th>
+                    <th>支付状态</th>
+                    <th>支付方式</th>
+                    <th>支付金额（元）</th>
+                    <!--
+					<th>订单编号</th>
+                    <th>备注信息</th>
+					-->
+                </tr>
+                </thead>
+                <tbody>
+                <volist name="buyInfo" id="buy">
+                    <tr>
+                        <td>{$buy.buy_id}</td>
+                        <td>{$buy.nickname}</td>
+                        <td>{$buy.lesson_name}</td>
+                        <td><?php echo date('Y-m-d H:i:s',$buy['buy_endtime']);?></td>
+                        <td><?php echo date('Y-m-d H:i:s',$buy['buy_addtime']);?></td>
+                        <td>{$buyFlag[$buy['buy_flag']]}</td>
+                        <td>{$buyType[$buy['buy_type']]}</td>
+                        <td>{$buy.buy_money}</td>
+						<!--
+                        <td>{$buy.buy_no}</td>
+                        <td>{$buy.buy_remarks}</td>
+						-->
+                    </tr>
+                </volist>
+                </tbody>
+            </table>
+        </div>
+        {$pageshow}
+    </div>
+</div>
+</body>
+</html>
+<script src="__PUBLIC__/admin/js/laydate/laydate.js"></script>
+<script>
+    //laydate({elem: "#hello", event: "focus"});
+    var start = {
+        elem: "#start",
+        format: "YYYY-MM-DD",
+        min: "2000-01-01",
+        max: "2100-01-01",
+        istime: false,
+        istoday: false,
+        choose: function (datas) {
+            end.min = datas;
+            end.start = datas
+        }
+    };
+    var end = {
+        elem: "#end",
+        format: "YYYY-MM-DD",
+        min: "2000-01-01",
+        max: "2100-01-01",
+        istime: false,
+        istoday: false,
+        choose: function (datas) {
+            start.max = datas
+        }
+    };
+    laydate(start);
+    laydate(end);
+</script>

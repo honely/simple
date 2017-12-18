@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>工具下载管理-添加工具</title>
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/admin/css/html5.css"/>
+		<link rel="stylesheet" type="text/css"  href="__PUBLIC__/admin/font/iconfont.css">
+		<link rel="stylesheet" type="text/css"  href="__PUBLIC__/admin/font/css/font-awesome.css">
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/admin/css/index.css"/>
+		<script src="__PUBLIC__/admin/js/jquery-1.10.2.min.js" type="text/javascript" charset="utf-8"></script>
+        <link rel="stylesheet" href="__PUBLIC__/kindeditor/themes/default/default.css" />
+        <script type="text/javascript" src="__PUBLIC__/kindeditor/kindeditor-min.js"></script>
+        <script type="text/javascript" src="__PUBLIC__/kindeditor/lang/zh-CN.js"></script>
+		<script type="text/javascript" src="__PUBLIC__/admin/js/stringOperate.js"></script>
+	</head>
+	<script type="text/javascript">
+		var editor;
+		KindEditor.ready(function(K) {
+			editor = K.create('textarea[id="down_remarks"]', {
+				uploadJson : '{:U('kindeditor/upload_json',array('dir'=>image))}',
+				fileManagerJson : '{:U('kindeditor/file_manager_json')}',
+				allowFileManager : true,
+				urlType : 'domain',
+				afterCreate : function() {
+					this.sync(); 
+				},
+				afterBlur:function(){ 
+					this.sync(); 
+				}
+			});
+			//单图
+			/*
+			 var uploadbutton1 = K.uploadbutton({
+				button : K('#uploadButton')[0],
+				fieldName : 'imgFile',
+				url : '{:U('kindeditor/upload_json',array('dir'=>image))}',
+				afterUpload : function(data) {
+					if (data.error === 0) {
+						var url = K.formatUrl(data.url, 'domain');
+						K('#down_image').val(url);
+					} else {
+						alert(data.message);
+					}
+				},
+				afterError : function(str) {
+					alert('自定义错误信息: ' + str);
+				}
+				});
+				uploadbutton1.fileBox.change(function(e) {
+				uploadbutton1.submit();
+				}); 
+				*/
+				//单图
+			 var uploadbuttonb = K.uploadbutton({
+				button : K('#uploadButton2')[0],
+				fieldName : 'imgFile',
+				url : '{:U('kindeditor/upload_json',array('dir'=>file))}',
+				afterUpload : function(data) {
+					if (data.error === 0) {
+						var url = K.formatUrl(data.url, 'domain');
+						K('#down_file').val(url);
+					} else {
+						alert(data.message);
+					}
+				},
+				afterError : function(str) {
+					alert('自定义错误信息: ' + str);
+				}
+				});
+				uploadbuttonb.fileBox.change(function(e) {
+				uploadbuttonb.submit();
+				}); 
+		});
+    </script>
+	<script>
+		function subtype(v){
+			//ajax获取二级分类数据
+			$("#down_subtype").empty();
+			$("#down_subtype").append('<option value="">--请选择分类--</option>');
+			$.getJSON("{:U('downinfo/ajaxgetsubtype')}&down_type="+v,function(result){
+				$.each(result, function(i, field){
+					$("#down_subtype").append('<option value="'+result[i].subtype_id+'">'+result[i].subtype_name+'</option>');
+				});
+			});
+		}
+	</script>
+	<style>
+	/*多图上传样式*/
+	.toollist_pic{clear: both;width: 100%;text-align: center;margin-right: 10px; margin-top:10px;}
+	.toollist_pic li{float: left;list-style:none; clear: initial; width:100px;height:100px; overflow:hidden;position: relative;}
+	.toollist_pic li a{display:block; width:100%; height:100%;}
+	.toollist_pic li img{width:100px;height:100px;}
+	.toollist_pic li i{display:block; position:absolute; top:0; right:0; width:20px; height:20px; background:#2cb184; z-index:888; margin:0;}
+	.toollist_pic li .fa-times-circle{ font-size:20px; color:#fff;}
+	.span{display:inline-block; height:34px; line-height:34px;color: #ff0000;font-size:1.8rem;vertical-align: middle;}
+
+	</style>
+	<style>
+	.form-button .ke-inline-block.but{margin-top:0;}
+	.form-button .ke-button-common{display:block;width:100%; height:100%; line-height:38px; background:none;}
+	.form-button .ke-button-common.ke-button{color:#fff; font-size:16px;}
+	.form-button .ke-upload-area.ke-form .ke-upload-file{display:block;width:100% !important; height:100%;     cursor: pointer;}
+	</style>
+	<body>
+		<div class="right_min">
+			<div class="crumbs_nav">
+				<i class="iconfont icon-shouye"></i>
+				<ul>
+					<li><a href="{:U('index/welcome')}">首页</a></li>
+					<li> > </li>
+					<li><a>其他设置</a></li>
+					<li> > </li>
+					<li><a href="{:U('downinfo/downinfo')}">工具下载管理</a></li>
+					<li> > </li>
+					<li><a href="{:U('downinfo/addpage')}">添加工具</a></li>
+				</ul>
+			</div>
+			<div class="min">
+				<div class="form_box">
+					<form name="myform" id="myform" action="{:U('downinfo/addtool')}" method="post" onsubmit="return check()" >
+
+						<div class="form-item">
+							<label class="form-label">工具名称</label>
+							<div class="form-text form-input-block">
+								<input type="text" name="info[down_title]" id="down_title" value="" placeholder="请输入工具名称" maxlength="15" />
+								<i class="ss1" style="display:none;color:red;">工具名称不能为空</i>
+							</div>
+						</div>
+						<div class="form-item">
+							<label class="form-label">工具类型</label>
+							<div class="form-select form-input-inline w40">
+								<select id="classtype" name="info[down_type]" onchange="subtype(this.value)" >
+									<option value="">--请选择--</option>
+									<volist name="down_type" id="data">
+									<option value="{$key}">{$data}</option>
+									</volist>
+								</select>
+								<i class="ssclasstype" style="display:none;color:red;font-size: 12px;">工具类型不能为空</i>
+							</div>
+							<div class="form-select form-input-inline w40">
+								<select id="down_subtype" name="info[down_subtype]" >
+									<option value="">--请选择分类--</option>
+								</select>
+								<i class="ssdown_subtype" style="display:none;color:red;font-size: 12px;">工具类型不能为空</i>
+							</div>
+						</div>
+						<!--
+							<div class="form-item">
+								<label class="form-label">工具图片</label>
+								<div class="form-text form-input-inline w40">
+								<input style="width:595px" type="text" name="info[down_image]" id="down_image" value="" maxlength="255" readonly/>
+								</div>
+								<div class="form-button form-input-inline" style="text-indent:146px;" >	
+								<input class="but shenhe mg_t0" type="button" id="uploadButton"  class="chaxun but" value="上传" />
+								<i class="ss2" style="display:none;color:red;">请上传工具图片</i>
+								</div>	
+							</div>
+						-->
+						<!--
+						<div class="form-item">
+							<label class="form-label">下载URL地址</label>
+							<div class="form-text form-input-block">
+								<input type="text" name="info[down_file]" id="down_file" value="" placeholder="请输入URL地址" maxlength="50" />
+								<i class="ss3" style="display:none;color:red;">下载URL地址不能为空</i>
+							</div>
+						</div>
+						-->
+						<div class="form-item">
+							<label class="form-label">下载URL地址</label>
+							<div class="form-text form-input-inline w40">
+							<input style="width:595px" type="text" name="info[down_file]" id="down_file" value="" maxlength="255" readonly/>
+							</div>
+							<div class="form-button form-input-inline" style="text-indent:146px;" >	
+							<input class="but shenhe mg_t0" type="button" id="uploadButton2"  class="chaxun but" value="上传" />
+							<i class="ss3" style="display:none;color:red;">请上传文件</i>
+							</div>	
+						</div>
+						
+						<div class="form-item">
+							<label class="form-label">工具简介</label>
+							<div class="form-text form-input-block">
+								<textarea type="text" style="width: 100%;height: 80px;"  name="info[down_remarks]" id="down_remarks"  maxlength="1000"></textarea>
+							<i class="ss4" style="display:none;color:red;">请输入工具简介</i>
+							</div>
+						</div>
+						<div class="form-item">
+							<div class="form-button form-input-block">
+								<input class="chaxun but" type="submit" value="提交"/>
+								
+								<button class="but chongzhi" type="button" onclick="location.href='{:U('downinfo/downinfo')}'">返回</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script>	
+	   function check(){	   
+			var down_title = document.getElementById("down_title").value;
+				if(down_title==''){
+				    $(".ss1").show();
+					$('#down_title').focus();
+					return false;
+				}
+				$(".ss1").hide();
+			var classtype = $("#classtype").val();
+				if(classtype==''){
+				    $(".ssclasstype").show();
+					$('#classtype').focus();
+					return false;
+				}
+				$(".ssclasstype").hide();
+			var down_subtype = $("#down_subtype").val();
+				if(down_subtype==''){
+				    $(".ssdown_subtype").show();
+					$('#down_subtype').focus();
+					return false;
+				}
+				$(".ssdown_subtype").hide();
+			/*
+			var down_image = document.getElementById("down_image").value;
+				if(down_image==''){
+				    $(".ss2").show();
+					$('#down_image').focus();
+					return false;
+				}
+				$(".ss2").hide();	
+			*/
+			var down_file = document.getElementById("down_file").value;
+				if(down_file==''){
+				    $(".ss3").show();
+					$('#down_file').focus();
+					return false;
+				}
+				$(".ss3").hide();			
+            var down_remarks = document.getElementById("down_remarks").value;
+				if(down_remarks==''){
+					$(".ss4").show();
+					$('#down_remarks').focus();
+					return false;
+				}
+				$(".ss4").hide();			
+	   }
+	</script>
+</html>

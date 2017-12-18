@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/admin/css/html5.css"/>
+    <link rel="stylesheet" type="text/css"  href="__PUBLIC__/admin/font/iconfont.css">
+    <link rel="stylesheet" type="text/css"  href="__PUBLIC__/admin/font/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/admin/css/index.css"/>
+    <script src="__PUBLIC__/admin/js/jquery-1.10.2.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="__PUBLIC__/admin/js/icheck/icheck.js" type="text/javascript" charset="utf-8"></script>
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/admin/js/icheck/square/green.css">
+</head>
+<body >
+<div class="right_min">
+    <div class="crumbs_nav">
+        <i class="iconfont icon-shouye"></i>
+        <ul>
+            <li><a href="javascript:void(0);">查看详情({$user.nickname})</a></li>
+        </ul>
+    </div>
+    <div class="min">
+        <div class=form-item"">
+                <table class="table" border="" cellspacing="" cellpadding="">
+                    <tr>
+                        <th style="width: 20%">头像</th>
+                        <td><img style="width:50px;height:50px;"src="{$user.avatar}"></td>
+                    </tr>
+                    <tr>
+                        <th>昵称</th>
+                        <td>{$user.nickname}</td>
+                    </tr>
+                    <tr>
+                        <th>微信openid</th>
+                        <td>{$user.openid} </td>
+                    </tr>
+                    <tr>
+                        <th>vip级别</th>
+                         <td>{$viplevel[$user['vip']]} </td>
+                    </tr>
+                    <if condition="$user['vip'] neq 0">
+                    <tr>
+                        <th>vip到期时间</th>
+                        <td> {$user.vipendtime|date='Y-m-d ',###} </td>
+                    </tr>
+                    </if>
+                    <tr>
+                        <th>用户等级</th>
+                        <td>{$userlevel[$user['level']]}</td>
+                    </tr>
+					<tr>
+                        <th>手机号码</th>
+                        <td>{$user.phone}</td>
+                    </tr>
+                    <tr>
+                        <th>学习时长</th>
+                        <td>{$user.learntime}</td>
+                    </tr>
+					 <tr>
+                        <th>学分</th>
+                        <td>{$user.score}</td>
+                    </tr>
+                    <tr>
+                        <th>奖学金</th>
+                        <td>{$user.money}</td>
+                    </tr>
+                    <tr>
+                        <th>省份</th>
+                        <td>{$user.province}</td>
+                    </tr>
+                    <tr>
+                        <th>城市</th>
+                        <td>{$user.city}</td>
+                    </tr>
+                    <tr>
+                        <th>公司</th>
+                        <td>{$user.firm}</td>
+                    </tr>
+
+                    <tr>
+                        <th>职位</th>
+                        <td>{$user.job}</td>
+                    </tr>
+                    <tr>
+                        <th>推荐人</th>
+                        <td>{$user.refreename}</td>
+                    </tr>
+                    <tr>
+                        <th>加入时间</th>
+                        <td>{$user.addtime|date='Y-m-d H:i:s',###}</td>
+                    </tr>
+
+                </table>
+        </div>
+
+    </div>
+</div>
+</body>
+</html>
+<script type="text/javascript">
+    $(function(){
+
+        $('.form-checkbox input,.form-radio input').iCheck({
+            checkboxClass: 'icheckbox_square-green',
+            radioClass: 'iradio_square-green',
+        });
+        $('input').on('ifChecked', function(event){
+            //alert($(this).val());
+        });
+        $(".checkbox-title dd i").click(function(){
+            $(this).toggleClass("fa-flip-vertical");
+            $(this).parents().siblings(".skin-section").slideToggle(500);
+        });
+
+
+
+    });
+</script>
+
+
+
+
+

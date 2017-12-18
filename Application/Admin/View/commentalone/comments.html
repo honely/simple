@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>课程评论管理</title>
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/admin/css/html5.css"/>
+		<link rel="stylesheet" type="text/css"  href="__PUBLIC__/admin/font/iconfont.css">
+		<link rel="stylesheet" type="text/css"  href="__PUBLIC__/admin/font/css/font-awesome.css">
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/admin/css/index.css"/>
+		<script src="__PUBLIC__/admin/js/jquery-1.10.2.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="right_min">
+			<div class="crumbs_nav">
+				<i class="iconfont icon-shouye"></i>
+				<ul>
+					<li><a href="{:U('index/welcome')}">首页</a></li>
+					<li> > </li> 
+						<li><a href="javascript:void(0);">课程管理</a></li>
+						<li> > </li> 
+						<li><a href="javascript:void(0);">课程评论管理({$lesson['lesson_name']})</a></li> 	
+				</ul>
+			</div>
+			<div class="min">
+				<!--查询-->		
+				<div class="query">
+					<form  name="seachform" id="seachform"  action="{:U('commentalone/comments',array('lesson_id'=>$lesson['lesson_id']))}"  method="post" class="form"  onsubmit="return checkkwd()">
+						<input type="hidden" name="info[status]" value="{$state}"/>  
+						<div class="form_input mg_trb">
+							<label class="text">学员查询</label>
+							<input type="text" name="info[keyword]" id="keyword" value="{$keyword}"  placeholder="请输入姓名"  maxlength="11"/>
+						</div> 
+						<div class="form_input mg_trb form-date">
+							<label class="text">评论时间</label>
+							<input type="text" class="laydate-icon layer-date" name="info[starttime]"  value="{$starttime}"  id="start" placeholder="开始时间" readonly/>
+							<span>--</span>
+							<input type="text" class="laydate-icon layer-date" name="info[endtime]"  value="{$endtime}"  id="end" placeholder="结束时间" readonly/>
+						</div>
+						<div class="select mg_trb">
+							<span class="text">审核状态</span>
+							<select name="info[comment_flag]">
+								<option value="">--请选择状态--</option>
+								<volist name="commentFlag" id="data">
+									<option value="{$key}" <if condition="$key eq $comment_flag ">selected</if>>{$data}</option>
+								</volist>
+							</select>
+						</div>
+						<div class="button mg_trb" onclick="location.href='{:U('commentalone/comments',array('lesson_id'=>$lesson['lesson_id']))}'">
+							<i class="fa fa-refresh ico" ></i>
+							<input type="button" value="重置" class="but chongzhi" />
+						</div>	
+						<div class="button mg_trb chaxun">
+                            <i class="fa fa-search ico"></i>
+                            <input type="submit" value="查询" class="but " style="    position: absolute; background: none;z-index: 2;" />
+                        </div>
+					</form>
+				</div>
+                <!-- 学员列表 -->
+				<div class="table_box">
+					<table class="table" border="" cellspacing="" cellpadding="">
+						 <colgroup> 
+							 <col width="100"> 
+							 <col width="150">
+							 <col width="250"> 
+							 <col width="250">  
+							 <col width="150">
+							 <col width="150">    
+						 </colgroup> 
+						<thead>
+							<tr>
+								<th>编号</th>
+								<th>学员名称</th>  
+								<th>置顶状态</th> 
+								<th>评论时间</th>
+								<th>点赞数</th>
+								<th>审核状态</th>
+								<th>操作</th>
+							</tr>
+						</thead>
+						<tbody>
+							<foreach name="infolist" item="v">
+							<tr>
+								<td>{$v.comment_id}</td>
+								<td>{$v.nickname}</td>
+								<?php if($v['comment_top']==1):?>
+								<td>非置顶</td>
+								<?php endif;?>
+								<?php if($v['comment_top']==2):?>
+								<td style="color:red">置顶</td>
+								<?php endif;?>
+								<td>{$v.addtime|date="Y-m-d H:i:s",###}</td>
+								<if condition=" $v['comment2_good'] neq ''" >
+								<td>{$v.comment2_good}</td>
+								<else/>
+								<td>0</td>
+								</if>
+								<if condition="$v.comment_flag eq 2">
+								<td style="color:red;">{$commentFlag[$v['comment_flag']]}</td>
+								<else/>
+								<td>{$commentFlag[$v['comment_flag']]}</td>
+								</if>
+								<td>
+								    <a onclick="shou('{$v.comment_id}')" class="but chaxun">
+										 <i class="fa fa-eye"></i>
+										查看详情
+									</a>
+                                    <a onclick="pinglun('{$v.comment_id}','{$v.lesson_name}')" class="but chaxun">
+										 <i class="fa fa-eye"></i>
+										查看回复内容
+									</a>
+                                    <if condition="$v.comment_top eq 1">									
+									<a href="{:U('commentalone/ups',array('comment_id'=>$v['comment_id'],'lesson_id'=>$v['lesson_id']))}" onclick="{if(confirm('确认置顶?')){return true;}return false;}" class="but chongzhi">
+									<i class="fa  fa-caret-square-o-up"></i> 
+									置顶</a>
+									<else/>
+									<a href="{:U('commentalone/notups',array('comment_id'=>$v['comment_id'],'lesson_id'=>$v['lesson_id']))}" onclick="{if(confirm('确认取消置顶?')){return true;}return false;}" class="but chongzhi">
+									<i class="fa  fa-caret-square-o-up"></i> 
+									取消置顶</a>
+									</if>
+									<!--审核状态，，1未审核，2已审核-->
+									<if condition="$v.comment_flag eq 1">
+										<a href="{:U('commentalone/shenhes',array('comment_id'=>$v['comment_id'],'lesson_id'=>$v['lesson_id']))}" onclick="{if(confirm('审核通过?')){return true;}return false;}" class="but chongzhi">
+											<i class="fa  fa-caret-square-o-up"></i>
+											审核</a>
+										<a href="{:U('commentalone/delcollects',array('comment_id'=>$v['comment_id'],'lesson_id'=>$v['lesson_id']))}" onclick="{if(confirm('确认删除?')){return true;}return false;}" class="but chongzhi">
+											<i class="fa fa-trash-o"></i>
+											删除</a>
+									<else/>
+									</if>
+								</td>
+							</tr>
+							</foreach>
+						</tbody>
+					</table>
+				</div>				
+				{$pageshow}
+			</div>
+		</div>
+	</body>
+</html>
+<script src="__PUBLIC__/admin/js/laydate/laydate.js"></script>
+<script src="__PUBLIC__/admin/js/layer/layer.js"></script>
+<script type="text/javascript">
+	$(".right_min").height($(window).height());
+	var body_w=$(".right_min").width()-100;
+	var body_h=$(".right_min").height()-200;
+	function shou(a){
+		layer.open({
+			type: 2,
+			title: false,
+			skin:"layui-layer-molv",
+			shade: [0.5, '#000000'],
+			scrollbar:false,
+			maxmin: false,
+			shadeClose: false, //点击遮罩关闭层
+			area : [body_w+"px",body_h+"px"],
+			content: '{:U("commentalone/huifu")}&comment_id='+a
+		});
+	}
+	
+	function pinglun(b,c){ 
+		layer.open({
+			type: 2,
+			title: false,
+			skin:"layui-layer-molv",
+			shade: [0.5, '#000000'],
+			scrollbar:false,
+			maxmin: false,
+			shadeClose: false, //点击遮罩关闭层
+			area : [body_w+"px",body_h+"px"],
+			content: '{:U("pinglunalone/pinglun")}&comment_id='+b+'&lesson_name='+c
+		});
+	}
+</script>
+<script type="text/javascript">
+	$(function(){
+		$(".right_min").height($(window).height());
+	});
+	//搜索
+	function checkkwd(){
+		var keyword=$('#keyword').val();
+		/*
+		if(keyword==""){
+			alert("请输入要检索的关键词!");
+			return false;
+		}
+		*/
+	}
+</script>
+<script>
+    //laydate({elem: "#hello", event: "focus"});
+    var start = {
+        elem: "#start",
+        format: "YYYY-MM-DD",
+        min: "2000-01-01",
+        max: "2100-01-01",
+        istime: false,
+        istoday: false,
+        choose: function (datas) {
+            end.min = datas;
+            end.start = datas
+        }
+    };
+    var end = {
+        elem: "#end",
+        format: "YYYY-MM-DD",
+        min: "2000-01-01",
+        max: "2100-01-01",
+        istime: false,
+        istoday: false,
+        choose: function (datas) {
+            start.max = datas
+        }
+    };
+    laydate(start);
+    laydate(end);
+</script>

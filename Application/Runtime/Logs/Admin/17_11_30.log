@@ -1,0 +1,1741 @@
+[ 2017-11-30T14:40:01+08:00 ] 127.0.0.1 /index.php?m=Admin&c=buylesson&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-30T14:40:04+08:00 ] 127.0.0.1 /index.php?m=Admin&c=login&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T14:40:12+08:00 ] 127.0.0.1 /index.php?m=Admin&c=login&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ec_admininfo` WHERE ( username='admin' and isable=1 ) LIMIT 1   [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-30T14:40:15+08:00 ] 127.0.0.1 /index.php?m=Admin&c=login&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-30T14:40:22+08:00 ] 127.0.0.1 /index.php?m=Admin&c=login&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `ec_admininfo` WHERE ( username='admin' and isable=1 ) LIMIT 1   [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T14:40:25+08:00 ] 127.0.0.1 /index.php?m=Admin&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T14:40:25+08:00 ] 127.0.0.1 /index.php?m=Admin&c=index&a=left
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `ec_adminmenu` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ec_adminmenu` WHERE ( menu_fatherid=0 and menu_type=1 and menu_id in (1,34,36,53,37,38,67,17,18,19,20,30,31,32,33,57,65,66,7,8,9,10,60,61,63,64,68,69,71,2,3,22,24,73,72,74,75,76,77,78,43,44,46,47,48,51,52,55,45,49,50,54,62) ) ORDER BY sort desc,menu_id asc  [ RunTime:0.0080s ]
+SQL: SELECT * FROM `ec_adminmenu` WHERE ( menu_fatherid=1 and menu_type=1  and menu_id in (1,34,36,53,37,38,67,17,18,19,20,30,31,32,33,57,65,66,7,8,9,10,60,61,63,64,68,69,71,2,3,22,24,73,72,74,75,76,77,78,43,44,46,47,48,51,52,55,45,49,50,54,62) ) ORDER BY sort desc,menu_id asc  [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ec_adminmenu` WHERE ( menu_fatherid=34 and menu_type=1  and menu_id in (1,34,36,53,37,38,67,17,18,19,20,30,31,32,33,57,65,66,7,8,9,10,60,61,63,64,68,69,71,2,3,22,24,73,72,74,75,76,77,78,43,44,46,47,48,51,52,55,45,49,50,54,62) ) ORDER BY sort desc,menu_id asc  [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ec_adminmenu` WHERE ( menu_fatherid=17 and menu_type=1  and menu_id in (1,34,36,53,37,38,67,17,18,19,20,30,31,32,33,57,65,66,7,8,9,10,60,61,63,64,68,69,71,2,3,22,24,73,72,74,75,76,77,78,43,44,46,47,48,51,52,55,45,49,50,54,62) ) ORDER BY sort desc,menu_id asc  [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ec_adminmenu` WHERE ( menu_fatherid=73 and menu_type=1  and menu_id in (1,34,36,53,37,38,67,17,18,19,20,30,31,32,33,57,65,66,7,8,9,10,60,61,63,64,68,69,71,2,3,22,24,73,72,74,75,76,77,78,43,44,46,47,48,51,52,55,45,49,50,54,62) ) ORDER BY sort desc,menu_id asc  [ RunTime:0.0080s ]
+SQL: SELECT * FROM `ec_adminmenu` WHERE ( menu_fatherid=7 and menu_type=1  and menu_id in (1,34,36,53,37,38,67,17,18,19,20,30,31,32,33,57,65,66,7,8,9,10,60,61,63,64,68,69,71,2,3,22,24,73,72,74,75,76,77,78,43,44,46,47,48,51,52,55,45,49,50,54,62) ) ORDER BY sort desc,menu_id asc  [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ec_adminmenu` WHERE ( menu_fatherid=2 and menu_type=1  and menu_id in (1,34,36,53,37,38,67,17,18,19,20,30,31,32,33,57,65,66,7,8,9,10,60,61,63,64,68,69,71,2,3,22,24,73,72,74,75,76,77,78,43,44,46,47,48,51,52,55,45,49,50,54,62) ) ORDER BY sort desc,menu_id asc  [ RunTime:0.0110s ]
+SQL: SELECT * FROM `ec_adminmenu` WHERE ( menu_fatherid=43 and menu_type=1  and menu_id in (1,34,36,53,37,38,67,17,18,19,20,30,31,32,33,57,65,66,7,8,9,10,60,61,63,64,68,69,71,2,3,22,24,73,72,74,75,76,77,78,43,44,46,47,48,51,52,55,45,49,50,54,62) ) ORDER BY sort desc,menu_id asc  [ RunTime:0.0400s ]
+SQL: SELECT * FROM `ec_adminmenu` WHERE ( menu_fatherid=44 and menu_type=1  and menu_id in (1,34,36,53,37,38,67,17,18,19,20,30,31,32,33,57,65,66,7,8,9,10,60,61,63,64,68,69,71,2,3,22,24,73,72,74,75,76,77,78,43,44,46,47,48,51,52,55,45,49,50,54,62) ) ORDER BY sort desc,menu_id asc  [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ec_adminmenu` WHERE ( menu_fatherid=45 and menu_type=1  and menu_id in (1,34,36,53,37,38,67,17,18,19,20,30,31,32,33,57,65,66,7,8,9,10,60,61,63,64,68,69,71,2,3,22,24,73,72,74,75,76,77,78,43,44,46,47,48,51,52,55,45,49,50,54,62) ) ORDER BY sort desc,menu_id asc  [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T14:40:25+08:00 ] 127.0.0.1 /index.php?m=Admin&c=index&a=bottom
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0170s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T14:40:25+08:00 ] 127.0.0.1 /index.php?m=Admin&c=index&a=welcome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( vip!=0 ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `ec_buyinfo` [ RunTime:0.0090s ]
+SQL: SELECT SUM(buy_money) AS tp_sum FROM `ec_buyinfo` WHERE ( buy_flag=2 ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `ec_buyinfoalone` [ RunTime:0.0090s ]
+SQL: SELECT SUM(buy_money) AS tp_sum FROM `ec_buyinfoalone` WHERE ( buy_flag=2 ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `ec_payinfo` [ RunTime:0.0170s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` WHERE ( pay_flag=2 ) LIMIT 1   [ RunTime:0.0200s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `ec_user` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `ec_forum` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_forum` WHERE ( forum_flag=1 ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `ec_forumcomment` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_forumcomment` WHERE ( comment_flag=1 ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `ec_forumcomment2` [ RunTime:0.0130s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_forumcomment2` WHERE ( comment2_flag=1 ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `ec_comment` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` WHERE ( comment_flag=1 ) LIMIT 1   [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `ec_comment2` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment2` WHERE ( comment2_flag=1 ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `ec_commentalone` [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_commentalone` WHERE ( comment_flag=1 ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `ec_comment2alone` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment2alone` WHERE ( comment2_flag=1 ) LIMIT 1   [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T14:40:25+08:00 ] 127.0.0.1 /index.php?m=Admin&c=index&a=top
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0100s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-30T14:40:28+08:00 ] 127.0.0.1 /index.php?m=Admin&c=course&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `ec_course` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_course` LEFT JOIN ec_classify ON ec_classify.classify_id=ec_course.classify_id  WHERE ( ec_course.course_isable=1  ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT ec_course.*,ec_classify.classify_name,ec_classify.classify_id FROM `ec_course` LEFT JOIN ec_classify ON ec_classify.classify_id=ec_course.classify_id  WHERE ( ec_course.course_isable=1  ) ORDER BY course_id desc LIMIT 0,20   [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `ec_course` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `ec_classify` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ec_classify`  [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: course_name D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\0a118b67613e888354da043b45de67d3.php 第 30 行.
+NOTIC: [8] Undefined variable: classify_id D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\0a118b67613e888354da043b45de67d3.php 第 36 行.
+NOTIC: [8] Undefined variable: classify_id D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\0a118b67613e888354da043b45de67d3.php 第 36 行.
+NOTIC: [8] Undefined variable: course_groom D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\0a118b67613e888354da043b45de67d3.php 第 43 行.
+NOTIC: [8] Undefined variable: course_groom D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\0a118b67613e888354da043b45de67d3.php 第 43 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-11-30T14:40:29+08:00 ] 127.0.0.1 /index.php?m=Admin&c=comment&a=comment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: course_id D:\xampp\htdocs\jianyinew\Application\Admin\Controller\CommentController.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `ec_comment` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment`  left join ec_user as a ON a.user_id = ec_comment.user_id  left join ec_course as b ON b.course_id = ec_comment.course_id  left join ec_lesson as c ON c.lesson_id = ec_comment.lesson_id  left join ec_comment2 as d on b.course_id = d.course_id   WHERE ( 1  ) LIMIT 1   [ RunTime:0.0160s ]
+SQL: SELECT ec_comment.*,a.nickname,a.phone,b.course_id,b.course_name,c.lesson_name as lesson_name,d.comment2_good FROM `ec_comment`  left join ec_user as a ON a.user_id = ec_comment.user_id  left join ec_course as b ON b.course_id = ec_comment.course_id  left join ec_lesson as c ON c.lesson_id = ec_comment.lesson_id  left join ec_comment2 as d on b.course_id = d.course_id   WHERE ( 1  ) ORDER BY  ec_comment.comment_id desc LIMIT 0,15   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0390s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: state D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\8f9bdbc99d42082705483228747a68c1.php 第 19 行.
+NOTIC: [8] Undefined variable: courseID D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\8f9bdbc99d42082705483228747a68c1.php 第 33 行.
+NOTIC: [8] Undefined variable: courseName D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\8f9bdbc99d42082705483228747a68c1.php 第 33 行.
+NOTIC: [8] Undefined variable: state D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\8f9bdbc99d42082705483228747a68c1.php 第 34 行.
+NOTIC: [8] Undefined variable: courseName D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\8f9bdbc99d42082705483228747a68c1.php 第 35 行.
+NOTIC: [8] Undefined variable: keyword D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\8f9bdbc99d42082705483228747a68c1.php 第 39 行.
+NOTIC: [8] Undefined variable: state D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\8f9bdbc99d42082705483228747a68c1.php 第 41 行.
+NOTIC: [8] Undefined variable: course D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\8f9bdbc99d42082705483228747a68c1.php 第 44 行.
+NOTIC: [8] Undefined variable: lesson D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\8f9bdbc99d42082705483228747a68c1.php 第 47 行.
+NOTIC: [8] Undefined variable: starttime D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\8f9bdbc99d42082705483228747a68c1.php 第 51 行.
+NOTIC: [8] Undefined variable: endtime D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\8f9bdbc99d42082705483228747a68c1.php 第 53 行.
+NOTIC: [8] Undefined variable: comment_flag D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\8f9bdbc99d42082705483228747a68c1.php 第 59 行.
+NOTIC: [8] Undefined variable: comment_flag D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\8f9bdbc99d42082705483228747a68c1.php 第 59 行.
+NOTIC: [8] Undefined variable: courseID D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\8f9bdbc99d42082705483228747a68c1.php 第 64 行.
+NOTIC: [8] Undefined variable: courseName D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\8f9bdbc99d42082705483228747a68c1.php 第 64 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-11-30T14:40:37+08:00 ] 127.0.0.1 /index.php?m=Admin&c=learnlog&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `ec_learninfo` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_learninfo`  left join ec_user as a ON a.user_id = ec_learninfo.user_id  left join ec_course as b ON b.course_id = ec_learninfo.course_id  left join ec_lesson as c ON c.lesson_id = ec_learninfo.lesson_id  WHERE ( 1  ) ORDER BY learn_id desc LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT c.lesson_name,b.classify_id,b.course_name,a.*,ec_learninfo.learn_addtime FROM `ec_learninfo`  left join ec_user as a ON a.user_id = ec_learninfo.user_id  left join ec_course as b ON b.course_id = ec_learninfo.course_id  left join ec_lesson as c ON c.lesson_id = ec_learninfo.lesson_id  WHERE ( 1  ) ORDER BY learn_id desc LIMIT 0,15   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `ec_userlevel` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ec_userlevel`  [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `ec_viplevel` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `ec_viplevel`  [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `ec_classify` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ec_classify`  [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: keyword D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\66be68a0cee4beb4a64556c636e553a4.php 第 32 行.
+NOTIC: [8] Undefined variable: vip D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\66be68a0cee4beb4a64556c636e553a4.php 第 38 行.
+NOTIC: [8] Undefined variable: vip D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\66be68a0cee4beb4a64556c636e553a4.php 第 38 行.
+NOTIC: [8] Undefined variable: vip D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\66be68a0cee4beb4a64556c636e553a4.php 第 38 行.
+NOTIC: [8] Undefined variable: vip D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\66be68a0cee4beb4a64556c636e553a4.php 第 38 行.
+NOTIC: [8] Undefined variable: vip D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\66be68a0cee4beb4a64556c636e553a4.php 第 38 行.
+NOTIC: [8] Undefined variable: vip D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\66be68a0cee4beb4a64556c636e553a4.php 第 38 行.
+NOTIC: [8] Undefined variable: level D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\66be68a0cee4beb4a64556c636e553a4.php 第 45 行.
+NOTIC: [8] Undefined variable: level D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\66be68a0cee4beb4a64556c636e553a4.php 第 45 行.
+NOTIC: [8] Undefined variable: level D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\66be68a0cee4beb4a64556c636e553a4.php 第 45 行.
+NOTIC: [8] Undefined variable: level D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\66be68a0cee4beb4a64556c636e553a4.php 第 45 行.
+NOTIC: [8] Undefined variable: level D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\66be68a0cee4beb4a64556c636e553a4.php 第 45 行.
+NOTIC: [8] Undefined variable: classify_id D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\66be68a0cee4beb4a64556c636e553a4.php 第 52 行.
+NOTIC: [8] Undefined variable: classify_id D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\66be68a0cee4beb4a64556c636e553a4.php 第 52 行.
+NOTIC: [8] Undefined variable: starttime D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\66be68a0cee4beb4a64556c636e553a4.php 第 57 行.
+NOTIC: [8] Undefined variable: endtime D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\66be68a0cee4beb4a64556c636e553a4.php 第 59 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T14:40:38+08:00 ] 127.0.0.1 /index.php?m=Admin&c=collect&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined variable: starttime D:\xampp\htdocs\jianyinew\Application\Admin\Controller\CollectController.class.php 第 47 行.
+NOTIC: [8] Undefined variable: endtime D:\xampp\htdocs\jianyinew\Application\Admin\Controller\CollectController.class.php 第 50 行.
+SQL: SHOW COLUMNS FROM `ec_collect` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_collect`  left join ec_user as a ON a.user_id = ec_collect.user_id  left join ec_course as b ON b.course_id = ec_collect.course_id  left join ec_lesson as c ON c.lesson_id = ec_collect.lesson_id  WHERE ( 1  and ec_collect.collect_addtime>=1511107200  and ec_collect.collect_addtime<=1512057599  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT ec_collect.*,a.nickname as nickname,a.phone as phone,c.lesson_name as lesson_name,b.course_name as course_name,b.course_speaker as course_speaker FROM `ec_collect`  left join ec_user as a ON a.user_id = ec_collect.user_id  left join ec_course as b ON b.course_id = ec_collect.course_id  left join ec_lesson as c ON c.lesson_id = ec_collect.lesson_id  WHERE ( 1  and ec_collect.collect_addtime>=1511107200  and ec_collect.collect_addtime<=1512057599  ) ORDER BY  ec_collect.collect_id desc LIMIT 0,15   [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: keyword D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\f3d7d429c2e299c0c91f455ba20ba5cc.php 第 32 行.
+NOTIC: [8] Undefined variable: lesson_name D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\f3d7d429c2e299c0c91f455ba20ba5cc.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T14:40:39+08:00 ] 127.0.0.1 /index.php?m=Admin&c=applyinfo&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: starttime D:\xampp\htdocs\jianyinew\Application\Admin\Controller\ApplyinfoController.class.php 第 38 行.
+NOTIC: [8] Undefined variable: endtime D:\xampp\htdocs\jianyinew\Application\Admin\Controller\ApplyinfoController.class.php 第 39 行.
+NOTIC: [8] Undefined variable: starttime D:\xampp\htdocs\jianyinew\Application\Admin\Controller\ApplyinfoController.class.php 第 41 行.
+NOTIC: [8] Undefined variable: endtime D:\xampp\htdocs\jianyinew\Application\Admin\Controller\ApplyinfoController.class.php 第 44 行.
+SQL: SHOW COLUMNS FROM `ec_applyinfo` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_applyinfo` left join ec_user on ec_applyinfo.user_id = ec_user.user_id  WHERE ( 1  and ec_applyinfo.apply_addtime>=1511107200  and ec_applyinfo.apply_addtime<=1512057599  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT ec_user.nickname,ec_applyinfo.* FROM `ec_applyinfo` left join ec_user on ec_applyinfo.user_id = ec_user.user_id  WHERE ( 1  and ec_applyinfo.apply_addtime>=1511107200  and ec_applyinfo.apply_addtime<=1512057599  ) ORDER BY ec_applyinfo.apply_id desc LIMIT 0,15   [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `ec_applyinfo` [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: keyword D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\291c69ef3fea2ac60a11483c71f1c549.php 第 28 行.
+NOTIC: [8] Undefined variable: apply_type D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\291c69ef3fea2ac60a11483c71f1c549.php 第 40 行.
+NOTIC: [8] Undefined variable: apply_type D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\291c69ef3fea2ac60a11483c71f1c549.php 第 40 行.
+NOTIC: [8] Undefined variable: apply_flag D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\291c69ef3fea2ac60a11483c71f1c549.php 第 47 行.
+NOTIC: [8] Undefined variable: apply_flag D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\291c69ef3fea2ac60a11483c71f1c549.php 第 47 行.
+NOTIC: [8] Undefined variable: apply_flag D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\291c69ef3fea2ac60a11483c71f1c549.php 第 47 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-30T14:40:40+08:00 ] 127.0.0.1 /index.php?m=Admin&c=buxiyanfa&a=buxiyanfa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined index: work_id D:\xampp\htdocs\jianyinew\Application\Admin\Controller\BuxiyanfaController.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `ec_signinfo` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_signinfo` left join ec_user ON ec_user.user_id = ec_signinfo.user_id left join ec_workinfo ON ec_workinfo.work_id = ec_signinfo.work_id  WHERE ( 1  and (ec_signinfo.sign_addtime >=1506787200)  and (ec_signinfo.sign_addtime <=1512057599)  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT ec_signinfo.*,ec_user.nickname,ec_user.phone as mobile,ec_workinfo.work_title FROM `ec_signinfo` left join ec_user ON ec_user.user_id = ec_signinfo.user_id left join ec_workinfo ON ec_workinfo.work_id = ec_signinfo.work_id  WHERE ( 1  and (ec_signinfo.sign_addtime >=1506787200)  and (ec_signinfo.sign_addtime <=1512057599)  ) ORDER BY sign_id desc LIMIT 0,15   [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `ec_buyinfo` [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: state D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\211132888094a162877ae36feceef9be.php 第 19 行.
+NOTIC: [8] Undefined variable: workId D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\211132888094a162877ae36feceef9be.php 第 34 行.
+NOTIC: [8] Undefined variable: wordTitle D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\211132888094a162877ae36feceef9be.php 第 34 行.
+NOTIC: [8] Undefined variable: state D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\211132888094a162877ae36feceef9be.php 第 35 行.
+NOTIC: [8] Undefined variable: wordTitle D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\211132888094a162877ae36feceef9be.php 第 36 行.
+NOTIC: [8] Undefined variable: workId D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\211132888094a162877ae36feceef9be.php 第 37 行.
+NOTIC: [8] Undefined variable: keyword D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\211132888094a162877ae36feceef9be.php 第 40 行.
+NOTIC: [8] Undefined variable: pay_flag_ D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\211132888094a162877ae36feceef9be.php 第 52 行.
+NOTIC: [8] Undefined variable: pay_flag_ D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\211132888094a162877ae36feceef9be.php 第 52 行.
+NOTIC: [8] Undefined variable: workId D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\211132888094a162877ae36feceef9be.php 第 57 行.
+NOTIC: [8] Undefined variable: wordTitle D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\211132888094a162877ae36feceef9be.php 第 57 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T14:40:41+08:00 ] 127.0.0.1 /index.php?m=Admin&c=moneyinfo&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined variable: starttime D:\xampp\htdocs\jianyinew\Application\Admin\Controller\MoneyinfoController.class.php 第 44 行.
+NOTIC: [8] Undefined variable: endtime D:\xampp\htdocs\jianyinew\Application\Admin\Controller\MoneyinfoController.class.php 第 47 行.
+SQL: SHOW COLUMNS FROM `ec_moneyinfo` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_moneyinfo`  left join ec_user as a ON a.user_id = ec_moneyinfo.user_id  WHERE ( 1  and ec_moneyinfo.money_addtime>=1511107200  and ec_moneyinfo.money_addtime<=1512057599  ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ec_moneyinfo`  left join ec_user as a ON a.user_id = ec_moneyinfo.user_id  WHERE ( 1  and ec_moneyinfo.money_addtime>=1511107200  and ec_moneyinfo.money_addtime<=1512057599  ) ORDER BY  ec_moneyinfo.money_id desc LIMIT 0,15   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `ec_moneyinfo` [ RunTime:0.0240s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: keyword D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\0e6c7fe84b781d035f79d2b51f6fba24.php 第 32 行.
+NOTIC: [8] Undefined variable: money_type D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\0e6c7fe84b781d035f79d2b51f6fba24.php 第 38 行.
+NOTIC: [8] Undefined variable: money_type D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\0e6c7fe84b781d035f79d2b51f6fba24.php 第 38 行.
+NOTIC: [8] Undefined variable: money_type D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\0e6c7fe84b781d035f79d2b51f6fba24.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T14:40:42+08:00 ] 127.0.0.1 /index.php?m=Admin&c=liveorder&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `ec_liveorder` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_liveorder` left join ec_user as a on a.user_id = ec_liveorder.user_id left join ec_liveinfo as b on b.live_id = ec_liveorder.live_id  WHERE ( 1  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT a.nickname,a.phone,b.live_title,b.live_id as live_ids,ec_liveorder.order_id,ec_liveorder.order_addtime FROM `ec_liveorder` left join ec_user as a on a.user_id = ec_liveorder.user_id left join ec_liveinfo as b on b.live_id = ec_liveorder.live_id  WHERE ( 1  ) ORDER BY ec_liveorder.order_id desc LIMIT 0,20   [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: live_id D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\8aa12f459adf3e386e7f2549c6b24fea.php 第 21 行.
+NOTIC: [8] Undefined variable: live_id D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\8aa12f459adf3e386e7f2549c6b24fea.php 第 30 行.
+NOTIC: [8] Undefined variable: keyword D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\8aa12f459adf3e386e7f2549c6b24fea.php 第 34 行.
+NOTIC: [8] Undefined variable: starttime D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\8aa12f459adf3e386e7f2549c6b24fea.php 第 38 行.
+NOTIC: [8] Undefined variable: endtime D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\8aa12f459adf3e386e7f2549c6b24fea.php 第 40 行.
+NOTIC: [8] Undefined variable: live_id D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\8aa12f459adf3e386e7f2549c6b24fea.php 第 44 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-30T14:40:43+08:00 ] 127.0.0.1 /index.php?m=Admin&c=scoreinfo&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined variable: starttime D:\xampp\htdocs\jianyinew\Application\Admin\Controller\ScoreinfoController.class.php 第 45 行.
+NOTIC: [8] Undefined variable: endtime D:\xampp\htdocs\jianyinew\Application\Admin\Controller\ScoreinfoController.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `ec_scoreinfo` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_scoreinfo`  left join ec_user as a ON a.user_id = ec_scoreinfo.user_id  WHERE ( 1  and ec_scoreinfo.score_addtime>=1511107200  and ec_scoreinfo.score_addtime<=1512057599  ) LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ec_scoreinfo`  left join ec_user as a ON a.user_id = ec_scoreinfo.user_id  WHERE ( 1  and ec_scoreinfo.score_addtime>=1511107200  and ec_scoreinfo.score_addtime<=1512057599  ) ORDER BY  ec_scoreinfo.score_id desc LIMIT 0,15   [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `ec_scoreinfo` [ RunTime:0.0080s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: keyword D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\9783c6bcf2c5f9e68181548ebcb5198c.php 第 32 行.
+NOTIC: [8] Undefined variable: scroe_type D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\9783c6bcf2c5f9e68181548ebcb5198c.php 第 38 行.
+NOTIC: [8] Undefined variable: scroe_type D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\9783c6bcf2c5f9e68181548ebcb5198c.php 第 38 行.
+NOTIC: [8] Undefined variable: scroe_type D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\9783c6bcf2c5f9e68181548ebcb5198c.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T14:40:46+08:00 ] 127.0.0.1 /index.php?m=Admin&c=comment&a=comment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: course_id D:\xampp\htdocs\jianyinew\Application\Admin\Controller\CommentController.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `ec_comment` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment`  left join ec_user as a ON a.user_id = ec_comment.user_id  left join ec_course as b ON b.course_id = ec_comment.course_id  left join ec_lesson as c ON c.lesson_id = ec_comment.lesson_id  left join ec_comment2 as d on b.course_id = d.course_id   WHERE ( 1  ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT ec_comment.*,a.nickname,a.phone,b.course_id,b.course_name,c.lesson_name as lesson_name,d.comment2_good FROM `ec_comment`  left join ec_user as a ON a.user_id = ec_comment.user_id  left join ec_course as b ON b.course_id = ec_comment.course_id  left join ec_lesson as c ON c.lesson_id = ec_comment.lesson_id  left join ec_comment2 as d on b.course_id = d.course_id   WHERE ( 1  ) ORDER BY  ec_comment.comment_id desc LIMIT 0,15   [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `ec_focusinfo` [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: state D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\8f9bdbc99d42082705483228747a68c1.php 第 19 行.
+NOTIC: [8] Undefined variable: courseID D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\8f9bdbc99d42082705483228747a68c1.php 第 33 行.
+NOTIC: [8] Undefined variable: courseName D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\8f9bdbc99d42082705483228747a68c1.php 第 33 行.
+NOTIC: [8] Undefined variable: state D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\8f9bdbc99d42082705483228747a68c1.php 第 34 行.
+NOTIC: [8] Undefined variable: courseName D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\8f9bdbc99d42082705483228747a68c1.php 第 35 行.
+NOTIC: [8] Undefined variable: keyword D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\8f9bdbc99d42082705483228747a68c1.php 第 39 行.
+NOTIC: [8] Undefined variable: state D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\8f9bdbc99d42082705483228747a68c1.php 第 41 行.
+NOTIC: [8] Undefined variable: course D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\8f9bdbc99d42082705483228747a68c1.php 第 44 行.
+NOTIC: [8] Undefined variable: lesson D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\8f9bdbc99d42082705483228747a68c1.php 第 47 行.
+NOTIC: [8] Undefined variable: starttime D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\8f9bdbc99d42082705483228747a68c1.php 第 51 行.
+NOTIC: [8] Undefined variable: endtime D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\8f9bdbc99d42082705483228747a68c1.php 第 53 行.
+NOTIC: [8] Undefined variable: comment_flag D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\8f9bdbc99d42082705483228747a68c1.php 第 59 行.
+NOTIC: [8] Undefined variable: comment_flag D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\8f9bdbc99d42082705483228747a68c1.php 第 59 行.
+NOTIC: [8] Undefined variable: courseID D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\8f9bdbc99d42082705483228747a68c1.php 第 64 行.
+NOTIC: [8] Undefined variable: courseName D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\8f9bdbc99d42082705483228747a68c1.php 第 64 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T16:50:45+08:00 ] 127.0.0.1 /index.php?m=Admin&c=tongji&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: starttime D:\xampp\htdocs\jianyinew\Application\Admin\Controller\TongjiController.class.php 第 32 行.
+NOTIC: [8] Undefined variable: endtime D:\xampp\htdocs\jianyinew\Application\Admin\Controller\TongjiController.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( 1 and addtime>=1511971200 and addtime<=1512057599  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( 1 and addtime>=1511884800 and addtime<=1511971199  ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( 1 and addtime>=1511798400 and addtime<=1511884799  ) LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( 1 and addtime>=1511712000 and addtime<=1511798399  ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( 1 and addtime>=1511625600 and addtime<=1511711999  ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( 1 and addtime>=1511539200 and addtime<=1511625599  ) LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( 1 and addtime>=1511452800 and addtime<=1511539199  ) LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( 1 and addtime>=1511366400 and addtime<=1511452799  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( 1 and addtime>=1511280000 and addtime<=1511366399  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( 1 and addtime>=1511193600 and addtime<=1511279999  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( 1 and addtime>=1511107200 and addtime<=1511193599  ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( 1 and addtime>=1511020800 and addtime<=1511107199  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( 1 and addtime>=1510934400 and addtime<=1511020799  ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( 1 and addtime>=1510848000 and addtime<=1510934399  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( 1 and addtime>=1510761600 and addtime<=1510847999  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( 1 and addtime>=1510675200 and addtime<=1510761599  ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( 1 and addtime>=1510588800 and addtime<=1510675199  ) LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( 1 and addtime>=1510502400 and addtime<=1510588799  ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( 1 and addtime>=1510416000 and addtime<=1510502399  ) LIMIT 1   [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( 1 and addtime>=1510329600 and addtime<=1510415999  ) LIMIT 1   [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( 1 and addtime>=1510243200 and addtime<=1510329599  ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( 1 and addtime>=1510156800 and addtime<=1510243199  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( 1 and addtime>=1510070400 and addtime<=1510156799  ) LIMIT 1   [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( 1 and addtime>=1509984000 and addtime<=1510070399  ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( 1 and addtime>=1509897600 and addtime<=1509983999  ) LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( 1 and addtime>=1509811200 and addtime<=1509897599  ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( 1 and addtime>=1509724800 and addtime<=1509811199  ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( 1 and addtime>=1509638400 and addtime<=1509724799  ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( 1 and addtime>=1509552000 and addtime<=1509638399  ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( 1 and addtime>=1509465600 and addtime<=1509551999  ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( 1 and addtime>=1509379200 and addtime<=1509465599  ) LIMIT 1   [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: keyword D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\a90ead15ebdf918f8562f8f339d2d915.php 第 32 行.
+NOTIC: [8] Undefined variable: pageshow D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\a90ead15ebdf918f8562f8f339d2d915.php 第 72 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T16:50:46+08:00 ] 127.0.0.1 /index.php?m=Admin&c=tongji&a=payinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined variable: starttime D:\xampp\htdocs\jianyinew\Application\Admin\Controller\TongjiController.class.php 第 93 行.
+NOTIC: [8] Undefined variable: endtime D:\xampp\htdocs\jianyinew\Application\Admin\Controller\TongjiController.class.php 第 96 行.
+SQL: SHOW COLUMNS FROM `ec_payinfo` [ RunTime:0.0100s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1511971200 and pay_addtime<=1512057599  ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1511884800 and pay_addtime<=1511971199  ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1511798400 and pay_addtime<=1511884799  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1511712000 and pay_addtime<=1511798399  ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1511625600 and pay_addtime<=1511711999  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1511539200 and pay_addtime<=1511625599  ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1511452800 and pay_addtime<=1511539199  ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1511366400 and pay_addtime<=1511452799  ) LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1511280000 and pay_addtime<=1511366399  ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1511193600 and pay_addtime<=1511279999  ) LIMIT 1   [ RunTime:0.0080s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1511107200 and pay_addtime<=1511193599  ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1511020800 and pay_addtime<=1511107199  ) LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1510934400 and pay_addtime<=1511020799  ) LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1510848000 and pay_addtime<=1510934399  ) LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1510761600 and pay_addtime<=1510847999  ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1510675200 and pay_addtime<=1510761599  ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1510588800 and pay_addtime<=1510675199  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1510502400 and pay_addtime<=1510588799  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1510416000 and pay_addtime<=1510502399  ) LIMIT 1   [ RunTime:0.0150s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1510329600 and pay_addtime<=1510415999  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1510243200 and pay_addtime<=1510329599  ) LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1510156800 and pay_addtime<=1510243199  ) LIMIT 1   [ RunTime:0.0080s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1510070400 and pay_addtime<=1510156799  ) LIMIT 1   [ RunTime:0.0170s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1509984000 and pay_addtime<=1510070399  ) LIMIT 1   [ RunTime:0.0180s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1509897600 and pay_addtime<=1509983999  ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1509811200 and pay_addtime<=1509897599  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1509724800 and pay_addtime<=1509811199  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1509638400 and pay_addtime<=1509724799  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1509552000 and pay_addtime<=1509638399  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1509465600 and pay_addtime<=1509551999  ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1509379200 and pay_addtime<=1509465599  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `ec_payinfo` [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: keyword D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\e6c5697d3460b9f2ac1df1be5b452ec5.php 第 32 行.
+NOTIC: [8] Undefined variable: pay_type D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\e6c5697d3460b9f2ac1df1be5b452ec5.php 第 38 行.
+NOTIC: [8] Undefined variable: pay_type D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\e6c5697d3460b9f2ac1df1be5b452ec5.php 第 38 行.
+NOTIC: [8] Undefined variable: pay_type D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\e6c5697d3460b9f2ac1df1be5b452ec5.php 第 38 行.
+NOTIC: [8] Undefined variable: pay_flag D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\e6c5697d3460b9f2ac1df1be5b452ec5.php 第 45 行.
+NOTIC: [8] Undefined variable: pay_flag D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\e6c5697d3460b9f2ac1df1be5b452ec5.php 第 45 行.
+NOTIC: [8] Undefined variable: pageshow D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\e6c5697d3460b9f2ac1df1be5b452ec5.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-30T16:50:47+08:00 ] 127.0.0.1 /index.php?m=Admin&c=tongji&a=buyinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined variable: starttime D:\xampp\htdocs\jianyinew\Application\Admin\Controller\TongjiController.class.php 第 130 行.
+NOTIC: [8] Undefined variable: endtime D:\xampp\htdocs\jianyinew\Application\Admin\Controller\TongjiController.class.php 第 133 行.
+SQL: SHOW COLUMNS FROM `ec_buyinfo` [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_buyinfo` left join ec_user on ec_user.user_id=ec_buyinfo.user_id  WHERE ( 1 and buy_addtime>=1511971200 and buy_addtime<=1512057599  ) LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_buyinfo` left join ec_user on ec_user.user_id=ec_buyinfo.user_id  WHERE ( 1 and buy_addtime>=1511884800 and buy_addtime<=1511971199  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_buyinfo` left join ec_user on ec_user.user_id=ec_buyinfo.user_id  WHERE ( 1 and buy_addtime>=1511798400 and buy_addtime<=1511884799  ) LIMIT 1   [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_buyinfo` left join ec_user on ec_user.user_id=ec_buyinfo.user_id  WHERE ( 1 and buy_addtime>=1511712000 and buy_addtime<=1511798399  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_buyinfo` left join ec_user on ec_user.user_id=ec_buyinfo.user_id  WHERE ( 1 and buy_addtime>=1511625600 and buy_addtime<=1511711999  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_buyinfo` left join ec_user on ec_user.user_id=ec_buyinfo.user_id  WHERE ( 1 and buy_addtime>=1511539200 and buy_addtime<=1511625599  ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_buyinfo` left join ec_user on ec_user.user_id=ec_buyinfo.user_id  WHERE ( 1 and buy_addtime>=1511452800 and buy_addtime<=1511539199  ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_buyinfo` left join ec_user on ec_user.user_id=ec_buyinfo.user_id  WHERE ( 1 and buy_addtime>=1511366400 and buy_addtime<=1511452799  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_buyinfo` left join ec_user on ec_user.user_id=ec_buyinfo.user_id  WHERE ( 1 and buy_addtime>=1511280000 and buy_addtime<=1511366399  ) LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_buyinfo` left join ec_user on ec_user.user_id=ec_buyinfo.user_id  WHERE ( 1 and buy_addtime>=1511193600 and buy_addtime<=1511279999  ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_buyinfo` left join ec_user on ec_user.user_id=ec_buyinfo.user_id  WHERE ( 1 and buy_addtime>=1511107200 and buy_addtime<=1511193599  ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_buyinfo` left join ec_user on ec_user.user_id=ec_buyinfo.user_id  WHERE ( 1 and buy_addtime>=1511020800 and buy_addtime<=1511107199  ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_buyinfo` left join ec_user on ec_user.user_id=ec_buyinfo.user_id  WHERE ( 1 and buy_addtime>=1510934400 and buy_addtime<=1511020799  ) LIMIT 1   [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_buyinfo` left join ec_user on ec_user.user_id=ec_buyinfo.user_id  WHERE ( 1 and buy_addtime>=1510848000 and buy_addtime<=1510934399  ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_buyinfo` left join ec_user on ec_user.user_id=ec_buyinfo.user_id  WHERE ( 1 and buy_addtime>=1510761600 and buy_addtime<=1510847999  ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_buyinfo` left join ec_user on ec_user.user_id=ec_buyinfo.user_id  WHERE ( 1 and buy_addtime>=1510675200 and buy_addtime<=1510761599  ) LIMIT 1   [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_buyinfo` left join ec_user on ec_user.user_id=ec_buyinfo.user_id  WHERE ( 1 and buy_addtime>=1510588800 and buy_addtime<=1510675199  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_buyinfo` left join ec_user on ec_user.user_id=ec_buyinfo.user_id  WHERE ( 1 and buy_addtime>=1510502400 and buy_addtime<=1510588799  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_buyinfo` left join ec_user on ec_user.user_id=ec_buyinfo.user_id  WHERE ( 1 and buy_addtime>=1510416000 and buy_addtime<=1510502399  ) LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_buyinfo` left join ec_user on ec_user.user_id=ec_buyinfo.user_id  WHERE ( 1 and buy_addtime>=1510329600 and buy_addtime<=1510415999  ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_buyinfo` left join ec_user on ec_user.user_id=ec_buyinfo.user_id  WHERE ( 1 and buy_addtime>=1510243200 and buy_addtime<=1510329599  ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_buyinfo` left join ec_user on ec_user.user_id=ec_buyinfo.user_id  WHERE ( 1 and buy_addtime>=1510156800 and buy_addtime<=1510243199  ) LIMIT 1   [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_buyinfo` left join ec_user on ec_user.user_id=ec_buyinfo.user_id  WHERE ( 1 and buy_addtime>=1510070400 and buy_addtime<=1510156799  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_buyinfo` left join ec_user on ec_user.user_id=ec_buyinfo.user_id  WHERE ( 1 and buy_addtime>=1509984000 and buy_addtime<=1510070399  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_buyinfo` left join ec_user on ec_user.user_id=ec_buyinfo.user_id  WHERE ( 1 and buy_addtime>=1509897600 and buy_addtime<=1509983999  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_buyinfo` left join ec_user on ec_user.user_id=ec_buyinfo.user_id  WHERE ( 1 and buy_addtime>=1509811200 and buy_addtime<=1509897599  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_buyinfo` left join ec_user on ec_user.user_id=ec_buyinfo.user_id  WHERE ( 1 and buy_addtime>=1509724800 and buy_addtime<=1509811199  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_buyinfo` left join ec_user on ec_user.user_id=ec_buyinfo.user_id  WHERE ( 1 and buy_addtime>=1509638400 and buy_addtime<=1509724799  ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_buyinfo` left join ec_user on ec_user.user_id=ec_buyinfo.user_id  WHERE ( 1 and buy_addtime>=1509552000 and buy_addtime<=1509638399  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_buyinfo` left join ec_user on ec_user.user_id=ec_buyinfo.user_id  WHERE ( 1 and buy_addtime>=1509465600 and buy_addtime<=1509551999  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_buyinfo` left join ec_user on ec_user.user_id=ec_buyinfo.user_id  WHERE ( 1 and buy_addtime>=1509379200 and buy_addtime<=1509465599  ) LIMIT 1   [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `ec_buyinfo` [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: keyword D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\bdc6778e0407826264b8b80fb00ff6c9.php 第 32 行.
+NOTIC: [8] Undefined variable: buy_type D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\bdc6778e0407826264b8b80fb00ff6c9.php 第 38 行.
+NOTIC: [8] Undefined variable: buy_type D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\bdc6778e0407826264b8b80fb00ff6c9.php 第 38 行.
+NOTIC: [8] Undefined variable: buy_flag D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\bdc6778e0407826264b8b80fb00ff6c9.php 第 45 行.
+NOTIC: [8] Undefined variable: buy_flag D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\bdc6778e0407826264b8b80fb00ff6c9.php 第 45 行.
+NOTIC: [8] Undefined variable: pageshow D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\bdc6778e0407826264b8b80fb00ff6c9.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-30T16:50:47+08:00 ] 127.0.0.1 /index.php?m=Admin&c=tongji&a=levelinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined variable: starttime D:\xampp\htdocs\jianyinew\Application\Admin\Controller\TongjiController.class.php 第 164 行.
+NOTIC: [8] Undefined variable: endtime D:\xampp\htdocs\jianyinew\Application\Admin\Controller\TongjiController.class.php 第 167 行.
+SQL: SHOW COLUMNS FROM `ec_userlevel` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `ec_userlevel` ORDER BY level_id desc  [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( 1 and addtime>=1509379200 and addtime<=1512057599 and level=8  ) LIMIT 1   [ RunTime:0.0170s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( 1 and addtime>=1509379200 and addtime<=1512057599 and level=4  ) LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( 1 and addtime>=1509379200 and addtime<=1512057599 and level=3  ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( 1 and addtime>=1509379200 and addtime<=1512057599 and level=2  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( 1 and addtime>=1509379200 and addtime<=1512057599 and level=1  ) LIMIT 1   [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: keyword D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\d69abb0feeec42fcb3652e88d7c0d125.php 第 32 行.
+NOTIC: [8] Undefined variable: pageshow D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\d69abb0feeec42fcb3652e88d7c0d125.php 第 72 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-30T16:50:49+08:00 ] 127.0.0.1 /index.php?m=Admin&c=tongji&a=coursebuy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `ec_course` [ RunTime:0.0060s ]
+SQL: SELECT `course_name`,`course_buy`,`course_retime`,`course_speaker` FROM `ec_course` WHERE ( course_buy>0 ) ORDER BY course_buy desc,course_id desc LIMIT 30   [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pageshow D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\a0d37fc8243a71f5682f0b747c10121c.php 第 53 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-30T16:50:50+08:00 ] 127.0.0.1 /index.php?m=Admin&c=tongji&a=courseview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `ec_lesson` [ RunTime:0.0070s ]
+SQL: SELECT `lesson_name`,`lesson_view`,`lesson_addtime` FROM `ec_lesson` WHERE ( lesson_view>0 ) ORDER BY lesson_view desc,lesson_id desc LIMIT 30   [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pageshow D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\b9d1990744ff1d3b3e62522dc1718c6e.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-30T16:50:51+08:00 ] 127.0.0.1 /index.php?m=Admin&c=tongji&a=commentcount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined variable: starttime D:\xampp\htdocs\jianyinew\Application\Admin\Controller\TongjiController.class.php 第 254 行.
+NOTIC: [8] Undefined variable: endtime D:\xampp\htdocs\jianyinew\Application\Admin\Controller\TongjiController.class.php 第 257 行.
+SQL: SHOW COLUMNS FROM `ec_comment` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1511971200 and ec_comment.addtime<=1512057599  ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1511884800 and ec_comment.addtime<=1511971199  ) LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1511798400 and ec_comment.addtime<=1511884799  ) LIMIT 1   [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1511712000 and ec_comment.addtime<=1511798399  ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1511625600 and ec_comment.addtime<=1511711999  ) LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1511539200 and ec_comment.addtime<=1511625599  ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1511452800 and ec_comment.addtime<=1511539199  ) LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1511366400 and ec_comment.addtime<=1511452799  ) LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1511280000 and ec_comment.addtime<=1511366399  ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1511193600 and ec_comment.addtime<=1511279999  ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1511107200 and ec_comment.addtime<=1511193599  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1511020800 and ec_comment.addtime<=1511107199  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1510934400 and ec_comment.addtime<=1511020799  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1510848000 and ec_comment.addtime<=1510934399  ) LIMIT 1   [ RunTime:0.0120s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1510761600 and ec_comment.addtime<=1510847999  ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1510675200 and ec_comment.addtime<=1510761599  ) LIMIT 1   [ RunTime:0.0120s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1510588800 and ec_comment.addtime<=1510675199  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1510502400 and ec_comment.addtime<=1510588799  ) LIMIT 1   [ RunTime:0.0140s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1510416000 and ec_comment.addtime<=1510502399  ) LIMIT 1   [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1510329600 and ec_comment.addtime<=1510415999  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1510243200 and ec_comment.addtime<=1510329599  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1510156800 and ec_comment.addtime<=1510243199  ) LIMIT 1   [ RunTime:0.0120s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1510070400 and ec_comment.addtime<=1510156799  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1509984000 and ec_comment.addtime<=1510070399  ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1509897600 and ec_comment.addtime<=1509983999  ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1509811200 and ec_comment.addtime<=1509897599  ) LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1509724800 and ec_comment.addtime<=1509811199  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1509638400 and ec_comment.addtime<=1509724799  ) LIMIT 1   [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1509552000 and ec_comment.addtime<=1509638399  ) LIMIT 1   [ RunTime:0.0400s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1509465600 and ec_comment.addtime<=1509551999  ) LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1509379200 and ec_comment.addtime<=1509465599  ) LIMIT 1   [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: keyword D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\b24a46204bc1604bef8b226ebe383119.php 第 32 行.
+NOTIC: [8] Undefined variable: pageshow D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\b24a46204bc1604bef8b226ebe383119.php 第 72 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T16:50:54+08:00 ] 127.0.0.1 /index.php?m=Admin&c=tongji&a=courseplay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0190s ]
+SQL: SHOW COLUMNS FROM `ec_lesson` [ RunTime:0.0100s ]
+SQL: SELECT `lesson_name`,`lesson_play`,`lesson_addtime` FROM `ec_lesson` WHERE ( lesson_play>0 ) ORDER BY lesson_play desc,lesson_id desc LIMIT 30   [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pageshow D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\87b77bc970c3d81a1cbb177d3e23a7e4.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-30T16:50:55+08:00 ] 127.0.0.1 /index.php?m=Admin&c=tongji&a=commentcount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined variable: starttime D:\xampp\htdocs\jianyinew\Application\Admin\Controller\TongjiController.class.php 第 254 行.
+NOTIC: [8] Undefined variable: endtime D:\xampp\htdocs\jianyinew\Application\Admin\Controller\TongjiController.class.php 第 257 行.
+SQL: SHOW COLUMNS FROM `ec_comment` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1511971200 and ec_comment.addtime<=1512057599  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1511884800 and ec_comment.addtime<=1511971199  ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1511798400 and ec_comment.addtime<=1511884799  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1511712000 and ec_comment.addtime<=1511798399  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1511625600 and ec_comment.addtime<=1511711999  ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1511539200 and ec_comment.addtime<=1511625599  ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1511452800 and ec_comment.addtime<=1511539199  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1511366400 and ec_comment.addtime<=1511452799  ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1511280000 and ec_comment.addtime<=1511366399  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1511193600 and ec_comment.addtime<=1511279999  ) LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1511107200 and ec_comment.addtime<=1511193599  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1511020800 and ec_comment.addtime<=1511107199  ) LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1510934400 and ec_comment.addtime<=1511020799  ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1510848000 and ec_comment.addtime<=1510934399  ) LIMIT 1   [ RunTime:0.0110s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1510761600 and ec_comment.addtime<=1510847999  ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1510675200 and ec_comment.addtime<=1510761599  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1510588800 and ec_comment.addtime<=1510675199  ) LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1510502400 and ec_comment.addtime<=1510588799  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1510416000 and ec_comment.addtime<=1510502399  ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1510329600 and ec_comment.addtime<=1510415999  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1510243200 and ec_comment.addtime<=1510329599  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1510156800 and ec_comment.addtime<=1510243199  ) LIMIT 1   [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1510070400 and ec_comment.addtime<=1510156799  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1509984000 and ec_comment.addtime<=1510070399  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1509897600 and ec_comment.addtime<=1509983999  ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1509811200 and ec_comment.addtime<=1509897599  ) LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1509724800 and ec_comment.addtime<=1509811199  ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1509638400 and ec_comment.addtime<=1509724799  ) LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1509552000 and ec_comment.addtime<=1509638399  ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1509465600 and ec_comment.addtime<=1509551999  ) LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1509379200 and ec_comment.addtime<=1509465599  ) LIMIT 1   [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: keyword D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\b24a46204bc1604bef8b226ebe383119.php 第 32 行.
+NOTIC: [8] Undefined variable: pageshow D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\b24a46204bc1604bef8b226ebe383119.php 第 72 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T16:50:56+08:00 ] 127.0.0.1 /index.php?m=Admin&c=tongji&a=courseview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `ec_lesson` [ RunTime:0.0060s ]
+SQL: SELECT `lesson_name`,`lesson_view`,`lesson_addtime` FROM `ec_lesson` WHERE ( lesson_view>0 ) ORDER BY lesson_view desc,lesson_id desc LIMIT 30   [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pageshow D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\b9d1990744ff1d3b3e62522dc1718c6e.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-30T16:50:58+08:00 ] 127.0.0.1 /index.php?m=Admin&c=tongji&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: starttime D:\xampp\htdocs\jianyinew\Application\Admin\Controller\TongjiController.class.php 第 32 行.
+NOTIC: [8] Undefined variable: endtime D:\xampp\htdocs\jianyinew\Application\Admin\Controller\TongjiController.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( 1 and addtime>=1511971200 and addtime<=1512057599  ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( 1 and addtime>=1511884800 and addtime<=1511971199  ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( 1 and addtime>=1511798400 and addtime<=1511884799  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( 1 and addtime>=1511712000 and addtime<=1511798399  ) LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( 1 and addtime>=1511625600 and addtime<=1511711999  ) LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( 1 and addtime>=1511539200 and addtime<=1511625599  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( 1 and addtime>=1511452800 and addtime<=1511539199  ) LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( 1 and addtime>=1511366400 and addtime<=1511452799  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( 1 and addtime>=1511280000 and addtime<=1511366399  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( 1 and addtime>=1511193600 and addtime<=1511279999  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( 1 and addtime>=1511107200 and addtime<=1511193599  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( 1 and addtime>=1511020800 and addtime<=1511107199  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( 1 and addtime>=1510934400 and addtime<=1511020799  ) LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( 1 and addtime>=1510848000 and addtime<=1510934399  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( 1 and addtime>=1510761600 and addtime<=1510847999  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( 1 and addtime>=1510675200 and addtime<=1510761599  ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( 1 and addtime>=1510588800 and addtime<=1510675199  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( 1 and addtime>=1510502400 and addtime<=1510588799  ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( 1 and addtime>=1510416000 and addtime<=1510502399  ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( 1 and addtime>=1510329600 and addtime<=1510415999  ) LIMIT 1   [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( 1 and addtime>=1510243200 and addtime<=1510329599  ) LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( 1 and addtime>=1510156800 and addtime<=1510243199  ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( 1 and addtime>=1510070400 and addtime<=1510156799  ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( 1 and addtime>=1509984000 and addtime<=1510070399  ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( 1 and addtime>=1509897600 and addtime<=1509983999  ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( 1 and addtime>=1509811200 and addtime<=1509897599  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( 1 and addtime>=1509724800 and addtime<=1509811199  ) LIMIT 1   [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( 1 and addtime>=1509638400 and addtime<=1509724799  ) LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( 1 and addtime>=1509552000 and addtime<=1509638399  ) LIMIT 1   [ RunTime:0.0110s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( 1 and addtime>=1509465600 and addtime<=1509551999  ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( 1 and addtime>=1509379200 and addtime<=1509465599  ) LIMIT 1   [ RunTime:0.0140s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: keyword D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\a90ead15ebdf918f8562f8f339d2d915.php 第 32 行.
+NOTIC: [8] Undefined variable: pageshow D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\a90ead15ebdf918f8562f8f339d2d915.php 第 72 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T16:51:01+08:00 ] 127.0.0.1 /index.php?m=Admin&c=tongji&a=payinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined variable: starttime D:\xampp\htdocs\jianyinew\Application\Admin\Controller\TongjiController.class.php 第 93 行.
+NOTIC: [8] Undefined variable: endtime D:\xampp\htdocs\jianyinew\Application\Admin\Controller\TongjiController.class.php 第 96 行.
+SQL: SHOW COLUMNS FROM `ec_payinfo` [ RunTime:0.0060s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1511971200 and pay_addtime<=1512057599  ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1511884800 and pay_addtime<=1511971199  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1511798400 and pay_addtime<=1511884799  ) LIMIT 1   [ RunTime:0.0090s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1511712000 and pay_addtime<=1511798399  ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1511625600 and pay_addtime<=1511711999  ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1511539200 and pay_addtime<=1511625599  ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1511452800 and pay_addtime<=1511539199  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1511366400 and pay_addtime<=1511452799  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1511280000 and pay_addtime<=1511366399  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1511193600 and pay_addtime<=1511279999  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1511107200 and pay_addtime<=1511193599  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1511020800 and pay_addtime<=1511107199  ) LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1510934400 and pay_addtime<=1511020799  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1510848000 and pay_addtime<=1510934399  ) LIMIT 1   [ RunTime:0.0080s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1510761600 and pay_addtime<=1510847999  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1510675200 and pay_addtime<=1510761599  ) LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1510588800 and pay_addtime<=1510675199  ) LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1510502400 and pay_addtime<=1510588799  ) LIMIT 1   [ RunTime:0.0080s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1510416000 and pay_addtime<=1510502399  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1510329600 and pay_addtime<=1510415999  ) LIMIT 1   [ RunTime:0.0150s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1510243200 and pay_addtime<=1510329599  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1510156800 and pay_addtime<=1510243199  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1510070400 and pay_addtime<=1510156799  ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1509984000 and pay_addtime<=1510070399  ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1509897600 and pay_addtime<=1509983999  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1509811200 and pay_addtime<=1509897599  ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1509724800 and pay_addtime<=1509811199  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1509638400 and pay_addtime<=1509724799  ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1509552000 and pay_addtime<=1509638399  ) LIMIT 1   [ RunTime:0.0080s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1509465600 and pay_addtime<=1509551999  ) LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1509379200 and pay_addtime<=1509465599  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `ec_payinfo` [ RunTime:0.0080s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: keyword D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\e6c5697d3460b9f2ac1df1be5b452ec5.php 第 32 行.
+NOTIC: [8] Undefined variable: pay_type D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\e6c5697d3460b9f2ac1df1be5b452ec5.php 第 38 行.
+NOTIC: [8] Undefined variable: pay_type D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\e6c5697d3460b9f2ac1df1be5b452ec5.php 第 38 行.
+NOTIC: [8] Undefined variable: pay_type D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\e6c5697d3460b9f2ac1df1be5b452ec5.php 第 38 行.
+NOTIC: [8] Undefined variable: pay_flag D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\e6c5697d3460b9f2ac1df1be5b452ec5.php 第 45 行.
+NOTIC: [8] Undefined variable: pay_flag D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\e6c5697d3460b9f2ac1df1be5b452ec5.php 第 45 行.
+NOTIC: [8] Undefined variable: pageshow D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\e6c5697d3460b9f2ac1df1be5b452ec5.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-30T16:51:02+08:00 ] 127.0.0.1 /index.php?m=Admin&c=tongji&a=levelinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined variable: starttime D:\xampp\htdocs\jianyinew\Application\Admin\Controller\TongjiController.class.php 第 164 行.
+NOTIC: [8] Undefined variable: endtime D:\xampp\htdocs\jianyinew\Application\Admin\Controller\TongjiController.class.php 第 167 行.
+SQL: SHOW COLUMNS FROM `ec_userlevel` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ec_userlevel` ORDER BY level_id desc  [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( 1 and addtime>=1509379200 and addtime<=1512057599 and level=8  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( 1 and addtime>=1509379200 and addtime<=1512057599 and level=4  ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( 1 and addtime>=1509379200 and addtime<=1512057599 and level=3  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( 1 and addtime>=1509379200 and addtime<=1512057599 and level=2  ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( 1 and addtime>=1509379200 and addtime<=1512057599 and level=1  ) LIMIT 1   [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: keyword D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\d69abb0feeec42fcb3652e88d7c0d125.php 第 32 行.
+NOTIC: [8] Undefined variable: pageshow D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\d69abb0feeec42fcb3652e88d7c0d125.php 第 72 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-30T16:51:03+08:00 ] 127.0.0.1 /index.php?m=Admin&c=tongji&a=levelinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined variable: starttime D:\xampp\htdocs\jianyinew\Application\Admin\Controller\TongjiController.class.php 第 164 行.
+NOTIC: [8] Undefined variable: endtime D:\xampp\htdocs\jianyinew\Application\Admin\Controller\TongjiController.class.php 第 167 行.
+SQL: SHOW COLUMNS FROM `ec_userlevel` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ec_userlevel` ORDER BY level_id desc  [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( 1 and addtime>=1509379200 and addtime<=1512057599 and level=8  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( 1 and addtime>=1509379200 and addtime<=1512057599 and level=4  ) LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( 1 and addtime>=1509379200 and addtime<=1512057599 and level=3  ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( 1 and addtime>=1509379200 and addtime<=1512057599 and level=2  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( 1 and addtime>=1509379200 and addtime<=1512057599 and level=1  ) LIMIT 1   [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: keyword D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\d69abb0feeec42fcb3652e88d7c0d125.php 第 32 行.
+NOTIC: [8] Undefined variable: pageshow D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\d69abb0feeec42fcb3652e88d7c0d125.php 第 72 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T16:51:05+08:00 ] 127.0.0.1 /index.php?m=Admin&c=tongji&a=usercity
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined variable: starttime D:\xampp\htdocs\jianyinew\Application\Admin\Controller\TongjiController.class.php 第 63 行.
+NOTIC: [8] Undefined variable: endtime D:\xampp\htdocs\jianyinew\Application\Admin\Controller\TongjiController.class.php 第 66 行.
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0070s ]
+SQL: SELECT `city`,count(*) as counts FROM `ec_user` WHERE ( 1 and addtime>=1509379200 and addtime<=1512057599  ) GROUP BY city ORDER BY counts desc LIMIT 30   [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: keyword D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\d45bd11e16e87d2e26007191cd4d46f8.php 第 32 行.
+NOTIC: [8] Undefined variable: pageshow D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\d45bd11e16e87d2e26007191cd4d46f8.php 第 72 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-30T16:51:06+08:00 ] 127.0.0.1 /index.php?m=Admin&c=tongji&a=vipinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined variable: starttime D:\xampp\htdocs\jianyinew\Application\Admin\Controller\TongjiController.class.php 第 199 行.
+NOTIC: [8] Undefined variable: endtime D:\xampp\htdocs\jianyinew\Application\Admin\Controller\TongjiController.class.php 第 202 行.
+SQL: SHOW COLUMNS FROM `ec_viplevel` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ec_viplevel` ORDER BY vip_id desc  [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( 1 and addtime>=1509379200 and addtime<=1512057599 and vip=10  ) LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( 1 and addtime>=1509379200 and addtime<=1512057599 and vip=5  ) LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( 1 and addtime>=1509379200 and addtime<=1512057599 and vip=3  ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( 1 and addtime>=1509379200 and addtime<=1512057599 and vip=2  ) LIMIT 1   [ RunTime:0.0150s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( 1 and addtime>=1509379200 and addtime<=1512057599 and vip=1  ) LIMIT 1   [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: keyword D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\197cf8d5e58c73e8ff73008567eb08c1.php 第 32 行.
+NOTIC: [8] Undefined variable: pageshow D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\197cf8d5e58c73e8ff73008567eb08c1.php 第 72 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T16:51:06+08:00 ] 127.0.0.1 /index.php?m=Admin&c=tongji&a=levelinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0300s ]
+NOTIC: [8] Undefined variable: starttime D:\xampp\htdocs\jianyinew\Application\Admin\Controller\TongjiController.class.php 第 164 行.
+NOTIC: [8] Undefined variable: endtime D:\xampp\htdocs\jianyinew\Application\Admin\Controller\TongjiController.class.php 第 167 行.
+SQL: SHOW COLUMNS FROM `ec_userlevel` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `ec_userlevel` ORDER BY level_id desc  [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( 1 and addtime>=1509379200 and addtime<=1512057599 and level=8  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( 1 and addtime>=1509379200 and addtime<=1512057599 and level=4  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( 1 and addtime>=1509379200 and addtime<=1512057599 and level=3  ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( 1 and addtime>=1509379200 and addtime<=1512057599 and level=2  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( 1 and addtime>=1509379200 and addtime<=1512057599 and level=1  ) LIMIT 1   [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: keyword D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\d69abb0feeec42fcb3652e88d7c0d125.php 第 32 行.
+NOTIC: [8] Undefined variable: pageshow D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\d69abb0feeec42fcb3652e88d7c0d125.php 第 72 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T16:51:07+08:00 ] 127.0.0.1 /index.php?m=Admin&c=tongji&a=buyinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined variable: starttime D:\xampp\htdocs\jianyinew\Application\Admin\Controller\TongjiController.class.php 第 130 行.
+NOTIC: [8] Undefined variable: endtime D:\xampp\htdocs\jianyinew\Application\Admin\Controller\TongjiController.class.php 第 133 行.
+SQL: SHOW COLUMNS FROM `ec_buyinfo` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_buyinfo` left join ec_user on ec_user.user_id=ec_buyinfo.user_id  WHERE ( 1 and buy_addtime>=1511971200 and buy_addtime<=1512057599  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_buyinfo` left join ec_user on ec_user.user_id=ec_buyinfo.user_id  WHERE ( 1 and buy_addtime>=1511884800 and buy_addtime<=1511971199  ) LIMIT 1   [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_buyinfo` left join ec_user on ec_user.user_id=ec_buyinfo.user_id  WHERE ( 1 and buy_addtime>=1511798400 and buy_addtime<=1511884799  ) LIMIT 1   [ RunTime:0.0130s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_buyinfo` left join ec_user on ec_user.user_id=ec_buyinfo.user_id  WHERE ( 1 and buy_addtime>=1511712000 and buy_addtime<=1511798399  ) LIMIT 1   [ RunTime:0.0190s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_buyinfo` left join ec_user on ec_user.user_id=ec_buyinfo.user_id  WHERE ( 1 and buy_addtime>=1511625600 and buy_addtime<=1511711999  ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_buyinfo` left join ec_user on ec_user.user_id=ec_buyinfo.user_id  WHERE ( 1 and buy_addtime>=1511539200 and buy_addtime<=1511625599  ) LIMIT 1   [ RunTime:0.0180s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_buyinfo` left join ec_user on ec_user.user_id=ec_buyinfo.user_id  WHERE ( 1 and buy_addtime>=1511452800 and buy_addtime<=1511539199  ) LIMIT 1   [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_buyinfo` left join ec_user on ec_user.user_id=ec_buyinfo.user_id  WHERE ( 1 and buy_addtime>=1511366400 and buy_addtime<=1511452799  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_buyinfo` left join ec_user on ec_user.user_id=ec_buyinfo.user_id  WHERE ( 1 and buy_addtime>=1511280000 and buy_addtime<=1511366399  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_buyinfo` left join ec_user on ec_user.user_id=ec_buyinfo.user_id  WHERE ( 1 and buy_addtime>=1511193600 and buy_addtime<=1511279999  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_buyinfo` left join ec_user on ec_user.user_id=ec_buyinfo.user_id  WHERE ( 1 and buy_addtime>=1511107200 and buy_addtime<=1511193599  ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_buyinfo` left join ec_user on ec_user.user_id=ec_buyinfo.user_id  WHERE ( 1 and buy_addtime>=1511020800 and buy_addtime<=1511107199  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_buyinfo` left join ec_user on ec_user.user_id=ec_buyinfo.user_id  WHERE ( 1 and buy_addtime>=1510934400 and buy_addtime<=1511020799  ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_buyinfo` left join ec_user on ec_user.user_id=ec_buyinfo.user_id  WHERE ( 1 and buy_addtime>=1510848000 and buy_addtime<=1510934399  ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_buyinfo` left join ec_user on ec_user.user_id=ec_buyinfo.user_id  WHERE ( 1 and buy_addtime>=1510761600 and buy_addtime<=1510847999  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_buyinfo` left join ec_user on ec_user.user_id=ec_buyinfo.user_id  WHERE ( 1 and buy_addtime>=1510675200 and buy_addtime<=1510761599  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_buyinfo` left join ec_user on ec_user.user_id=ec_buyinfo.user_id  WHERE ( 1 and buy_addtime>=1510588800 and buy_addtime<=1510675199  ) LIMIT 1   [ RunTime:0.0120s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_buyinfo` left join ec_user on ec_user.user_id=ec_buyinfo.user_id  WHERE ( 1 and buy_addtime>=1510502400 and buy_addtime<=1510588799  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_buyinfo` left join ec_user on ec_user.user_id=ec_buyinfo.user_id  WHERE ( 1 and buy_addtime>=1510416000 and buy_addtime<=1510502399  ) LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_buyinfo` left join ec_user on ec_user.user_id=ec_buyinfo.user_id  WHERE ( 1 and buy_addtime>=1510329600 and buy_addtime<=1510415999  ) LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_buyinfo` left join ec_user on ec_user.user_id=ec_buyinfo.user_id  WHERE ( 1 and buy_addtime>=1510243200 and buy_addtime<=1510329599  ) LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_buyinfo` left join ec_user on ec_user.user_id=ec_buyinfo.user_id  WHERE ( 1 and buy_addtime>=1510156800 and buy_addtime<=1510243199  ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_buyinfo` left join ec_user on ec_user.user_id=ec_buyinfo.user_id  WHERE ( 1 and buy_addtime>=1510070400 and buy_addtime<=1510156799  ) LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_buyinfo` left join ec_user on ec_user.user_id=ec_buyinfo.user_id  WHERE ( 1 and buy_addtime>=1509984000 and buy_addtime<=1510070399  ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_buyinfo` left join ec_user on ec_user.user_id=ec_buyinfo.user_id  WHERE ( 1 and buy_addtime>=1509897600 and buy_addtime<=1509983999  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_buyinfo` left join ec_user on ec_user.user_id=ec_buyinfo.user_id  WHERE ( 1 and buy_addtime>=1509811200 and buy_addtime<=1509897599  ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_buyinfo` left join ec_user on ec_user.user_id=ec_buyinfo.user_id  WHERE ( 1 and buy_addtime>=1509724800 and buy_addtime<=1509811199  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_buyinfo` left join ec_user on ec_user.user_id=ec_buyinfo.user_id  WHERE ( 1 and buy_addtime>=1509638400 and buy_addtime<=1509724799  ) LIMIT 1   [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_buyinfo` left join ec_user on ec_user.user_id=ec_buyinfo.user_id  WHERE ( 1 and buy_addtime>=1509552000 and buy_addtime<=1509638399  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_buyinfo` left join ec_user on ec_user.user_id=ec_buyinfo.user_id  WHERE ( 1 and buy_addtime>=1509465600 and buy_addtime<=1509551999  ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_buyinfo` left join ec_user on ec_user.user_id=ec_buyinfo.user_id  WHERE ( 1 and buy_addtime>=1509379200 and buy_addtime<=1509465599  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `ec_buyinfo` [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: keyword D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\bdc6778e0407826264b8b80fb00ff6c9.php 第 32 行.
+NOTIC: [8] Undefined variable: buy_type D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\bdc6778e0407826264b8b80fb00ff6c9.php 第 38 行.
+NOTIC: [8] Undefined variable: buy_type D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\bdc6778e0407826264b8b80fb00ff6c9.php 第 38 行.
+NOTIC: [8] Undefined variable: buy_flag D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\bdc6778e0407826264b8b80fb00ff6c9.php 第 45 行.
+NOTIC: [8] Undefined variable: buy_flag D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\bdc6778e0407826264b8b80fb00ff6c9.php 第 45 行.
+NOTIC: [8] Undefined variable: pageshow D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\bdc6778e0407826264b8b80fb00ff6c9.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-30T16:51:12+08:00 ] 127.0.0.1 /index.php?m=Admin&c=tongji&a=coursebuy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0160s ]
+SQL: SHOW COLUMNS FROM `ec_course` [ RunTime:0.0070s ]
+SQL: SELECT `course_name`,`course_buy`,`course_retime`,`course_speaker` FROM `ec_course` WHERE ( course_buy>0 ) ORDER BY course_buy desc,course_id desc LIMIT 30   [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pageshow D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\a0d37fc8243a71f5682f0b747c10121c.php 第 53 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T16:51:13+08:00 ] 127.0.0.1 /index.php?m=Admin&c=tongji&a=courseview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `ec_lesson` [ RunTime:0.0100s ]
+SQL: SELECT `lesson_name`,`lesson_view`,`lesson_addtime` FROM `ec_lesson` WHERE ( lesson_view>0 ) ORDER BY lesson_view desc,lesson_id desc LIMIT 30   [ RunTime:0.0090s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pageshow D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\b9d1990744ff1d3b3e62522dc1718c6e.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T16:51:14+08:00 ] 127.0.0.1 /index.php?m=Admin&c=tongji&a=commentcount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined variable: starttime D:\xampp\htdocs\jianyinew\Application\Admin\Controller\TongjiController.class.php 第 254 行.
+NOTIC: [8] Undefined variable: endtime D:\xampp\htdocs\jianyinew\Application\Admin\Controller\TongjiController.class.php 第 257 行.
+SQL: SHOW COLUMNS FROM `ec_comment` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1511971200 and ec_comment.addtime<=1512057599  ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1511884800 and ec_comment.addtime<=1511971199  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1511798400 and ec_comment.addtime<=1511884799  ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1511712000 and ec_comment.addtime<=1511798399  ) LIMIT 1   [ RunTime:0.0140s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1511625600 and ec_comment.addtime<=1511711999  ) LIMIT 1   [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1511539200 and ec_comment.addtime<=1511625599  ) LIMIT 1   [ RunTime:0.0110s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1511452800 and ec_comment.addtime<=1511539199  ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1511366400 and ec_comment.addtime<=1511452799  ) LIMIT 1   [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1511280000 and ec_comment.addtime<=1511366399  ) LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1511193600 and ec_comment.addtime<=1511279999  ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1511107200 and ec_comment.addtime<=1511193599  ) LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1511020800 and ec_comment.addtime<=1511107199  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1510934400 and ec_comment.addtime<=1511020799  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1510848000 and ec_comment.addtime<=1510934399  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1510761600 and ec_comment.addtime<=1510847999  ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1510675200 and ec_comment.addtime<=1510761599  ) LIMIT 1   [ RunTime:0.0220s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1510588800 and ec_comment.addtime<=1510675199  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1510502400 and ec_comment.addtime<=1510588799  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1510416000 and ec_comment.addtime<=1510502399  ) LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1510329600 and ec_comment.addtime<=1510415999  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1510243200 and ec_comment.addtime<=1510329599  ) LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1510156800 and ec_comment.addtime<=1510243199  ) LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1510070400 and ec_comment.addtime<=1510156799  ) LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1509984000 and ec_comment.addtime<=1510070399  ) LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1509897600 and ec_comment.addtime<=1509983999  ) LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1509811200 and ec_comment.addtime<=1509897599  ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1509724800 and ec_comment.addtime<=1509811199  ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1509638400 and ec_comment.addtime<=1509724799  ) LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1509552000 and ec_comment.addtime<=1509638399  ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1509465600 and ec_comment.addtime<=1509551999  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1509379200 and ec_comment.addtime<=1509465599  ) LIMIT 1   [ RunTime:0.0200s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: keyword D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\b24a46204bc1604bef8b226ebe383119.php 第 32 行.
+NOTIC: [8] Undefined variable: pageshow D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\b24a46204bc1604bef8b226ebe383119.php 第 72 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T16:51:17+08:00 ] 127.0.0.1 /index.php?m=Admin&c=tongji&a=courseplay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `ec_lesson` [ RunTime:0.0060s ]
+SQL: SELECT `lesson_name`,`lesson_play`,`lesson_addtime` FROM `ec_lesson` WHERE ( lesson_play>0 ) ORDER BY lesson_play desc,lesson_id desc LIMIT 30   [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pageshow D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\87b77bc970c3d81a1cbb177d3e23a7e4.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-30T16:51:18+08:00 ] 127.0.0.1 /index.php?m=Admin&c=tongji&a=courseplay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `ec_lesson` [ RunTime:0.0060s ]
+SQL: SELECT `lesson_name`,`lesson_play`,`lesson_addtime` FROM `ec_lesson` WHERE ( lesson_play>0 ) ORDER BY lesson_play desc,lesson_id desc LIMIT 30   [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pageshow D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\87b77bc970c3d81a1cbb177d3e23a7e4.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T16:51:19+08:00 ] 127.0.0.1 /index.php?m=Admin&c=tongji&a=commentcount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: starttime D:\xampp\htdocs\jianyinew\Application\Admin\Controller\TongjiController.class.php 第 254 行.
+NOTIC: [8] Undefined variable: endtime D:\xampp\htdocs\jianyinew\Application\Admin\Controller\TongjiController.class.php 第 257 行.
+SQL: SHOW COLUMNS FROM `ec_comment` [ RunTime:0.0190s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1511971200 and ec_comment.addtime<=1512057599  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1511884800 and ec_comment.addtime<=1511971199  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1511798400 and ec_comment.addtime<=1511884799  ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1511712000 and ec_comment.addtime<=1511798399  ) LIMIT 1   [ RunTime:0.0230s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1511625600 and ec_comment.addtime<=1511711999  ) LIMIT 1   [ RunTime:0.0140s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1511539200 and ec_comment.addtime<=1511625599  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1511452800 and ec_comment.addtime<=1511539199  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1511366400 and ec_comment.addtime<=1511452799  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1511280000 and ec_comment.addtime<=1511366399  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1511193600 and ec_comment.addtime<=1511279999  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1511107200 and ec_comment.addtime<=1511193599  ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1511020800 and ec_comment.addtime<=1511107199  ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1510934400 and ec_comment.addtime<=1511020799  ) LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1510848000 and ec_comment.addtime<=1510934399  ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1510761600 and ec_comment.addtime<=1510847999  ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1510675200 and ec_comment.addtime<=1510761599  ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1510588800 and ec_comment.addtime<=1510675199  ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1510502400 and ec_comment.addtime<=1510588799  ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1510416000 and ec_comment.addtime<=1510502399  ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1510329600 and ec_comment.addtime<=1510415999  ) LIMIT 1   [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1510243200 and ec_comment.addtime<=1510329599  ) LIMIT 1   [ RunTime:0.0360s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1510156800 and ec_comment.addtime<=1510243199  ) LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1510070400 and ec_comment.addtime<=1510156799  ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1509984000 and ec_comment.addtime<=1510070399  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1509897600 and ec_comment.addtime<=1509983999  ) LIMIT 1   [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1509811200 and ec_comment.addtime<=1509897599  ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1509724800 and ec_comment.addtime<=1509811199  ) LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1509638400 and ec_comment.addtime<=1509724799  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1509552000 and ec_comment.addtime<=1509638399  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1509465600 and ec_comment.addtime<=1509551999  ) LIMIT 1   [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_comment` left join ec_user on ec_user.user_id=ec_comment.user_id left join ec_lesson on ec_lesson.lesson_id=ec_comment.lesson_id  WHERE ( 1 and ec_comment.addtime>=1509379200 and ec_comment.addtime<=1509465599  ) LIMIT 1   [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: keyword D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\b24a46204bc1604bef8b226ebe383119.php 第 32 行.
+NOTIC: [8] Undefined variable: pageshow D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\b24a46204bc1604bef8b226ebe383119.php 第 72 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-30T16:51:19+08:00 ] 127.0.0.1 /index.php?m=Admin&c=tongji&a=courseview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `ec_lesson` [ RunTime:0.0060s ]
+SQL: SELECT `lesson_name`,`lesson_view`,`lesson_addtime` FROM `ec_lesson` WHERE ( lesson_view>0 ) ORDER BY lesson_view desc,lesson_id desc LIMIT 30   [ RunTime:0.0080s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pageshow D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\b9d1990744ff1d3b3e62522dc1718c6e.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T16:51:19+08:00 ] 127.0.0.1 /index.php?m=Admin&c=tongji&a=coursebuy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `ec_course` [ RunTime:0.0060s ]
+SQL: SELECT `course_name`,`course_buy`,`course_retime`,`course_speaker` FROM `ec_course` WHERE ( course_buy>0 ) ORDER BY course_buy desc,course_id desc LIMIT 30   [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pageshow D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\a0d37fc8243a71f5682f0b747c10121c.php 第 53 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-30T16:51:21+08:00 ] 127.0.0.1 /index.php?m=Admin&c=tongji&a=payinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined variable: starttime D:\xampp\htdocs\jianyinew\Application\Admin\Controller\TongjiController.class.php 第 93 行.
+NOTIC: [8] Undefined variable: endtime D:\xampp\htdocs\jianyinew\Application\Admin\Controller\TongjiController.class.php 第 96 行.
+SQL: SHOW COLUMNS FROM `ec_payinfo` [ RunTime:0.0120s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1511971200 and pay_addtime<=1512057599  ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1511884800 and pay_addtime<=1511971199  ) LIMIT 1   [ RunTime:0.0080s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1511798400 and pay_addtime<=1511884799  ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1511712000 and pay_addtime<=1511798399  ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1511625600 and pay_addtime<=1511711999  ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1511539200 and pay_addtime<=1511625599  ) LIMIT 1   [ RunTime:0.0080s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1511452800 and pay_addtime<=1511539199  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1511366400 and pay_addtime<=1511452799  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1511280000 and pay_addtime<=1511366399  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1511193600 and pay_addtime<=1511279999  ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1511107200 and pay_addtime<=1511193599  ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1511020800 and pay_addtime<=1511107199  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1510934400 and pay_addtime<=1511020799  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1510848000 and pay_addtime<=1510934399  ) LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1510761600 and pay_addtime<=1510847999  ) LIMIT 1   [ RunTime:0.0090s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1510675200 and pay_addtime<=1510761599  ) LIMIT 1   [ RunTime:0.0090s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1510588800 and pay_addtime<=1510675199  ) LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1510502400 and pay_addtime<=1510588799  ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1510416000 and pay_addtime<=1510502399  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1510329600 and pay_addtime<=1510415999  ) LIMIT 1   [ RunTime:0.0120s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1510243200 and pay_addtime<=1510329599  ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1510156800 and pay_addtime<=1510243199  ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1510070400 and pay_addtime<=1510156799  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1509984000 and pay_addtime<=1510070399  ) LIMIT 1   [ RunTime:0.0130s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1509897600 and pay_addtime<=1509983999  ) LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1509811200 and pay_addtime<=1509897599  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1509724800 and pay_addtime<=1509811199  ) LIMIT 1   [ RunTime:0.0080s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1509638400 and pay_addtime<=1509724799  ) LIMIT 1   [ RunTime:0.0080s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1509552000 and pay_addtime<=1509638399  ) LIMIT 1   [ RunTime:0.0120s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1509465600 and pay_addtime<=1509551999  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1509379200 and pay_addtime<=1509465599  ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `ec_payinfo` [ RunTime:0.0110s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: keyword D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\e6c5697d3460b9f2ac1df1be5b452ec5.php 第 32 行.
+NOTIC: [8] Undefined variable: pay_type D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\e6c5697d3460b9f2ac1df1be5b452ec5.php 第 38 行.
+NOTIC: [8] Undefined variable: pay_type D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\e6c5697d3460b9f2ac1df1be5b452ec5.php 第 38 行.
+NOTIC: [8] Undefined variable: pay_type D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\e6c5697d3460b9f2ac1df1be5b452ec5.php 第 38 行.
+NOTIC: [8] Undefined variable: pay_flag D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\e6c5697d3460b9f2ac1df1be5b452ec5.php 第 45 行.
+NOTIC: [8] Undefined variable: pay_flag D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\e6c5697d3460b9f2ac1df1be5b452ec5.php 第 45 行.
+NOTIC: [8] Undefined variable: pageshow D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\e6c5697d3460b9f2ac1df1be5b452ec5.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-30T16:51:22+08:00 ] 127.0.0.1 /index.php?m=Admin&c=tongji&a=payinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined variable: starttime D:\xampp\htdocs\jianyinew\Application\Admin\Controller\TongjiController.class.php 第 93 行.
+NOTIC: [8] Undefined variable: endtime D:\xampp\htdocs\jianyinew\Application\Admin\Controller\TongjiController.class.php 第 96 行.
+SQL: SHOW COLUMNS FROM `ec_payinfo` [ RunTime:0.0060s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1511971200 and pay_addtime<=1512057599  ) LIMIT 1   [ RunTime:0.0210s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1511884800 and pay_addtime<=1511971199  ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1511798400 and pay_addtime<=1511884799  ) LIMIT 1   [ RunTime:0.0080s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1511712000 and pay_addtime<=1511798399  ) LIMIT 1   [ RunTime:0.0090s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1511625600 and pay_addtime<=1511711999  ) LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1511539200 and pay_addtime<=1511625599  ) LIMIT 1   [ RunTime:0.0090s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1511452800 and pay_addtime<=1511539199  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1511366400 and pay_addtime<=1511452799  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1511280000 and pay_addtime<=1511366399  ) LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1511193600 and pay_addtime<=1511279999  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1511107200 and pay_addtime<=1511193599  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1511020800 and pay_addtime<=1511107199  ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1510934400 and pay_addtime<=1511020799  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1510848000 and pay_addtime<=1510934399  ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1510761600 and pay_addtime<=1510847999  ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1510675200 and pay_addtime<=1510761599  ) LIMIT 1   [ RunTime:0.0090s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1510588800 and pay_addtime<=1510675199  ) LIMIT 1   [ RunTime:0.0080s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1510502400 and pay_addtime<=1510588799  ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1510416000 and pay_addtime<=1510502399  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1510329600 and pay_addtime<=1510415999  ) LIMIT 1   [ RunTime:0.0230s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1510243200 and pay_addtime<=1510329599  ) LIMIT 1   [ RunTime:0.0080s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1510156800 and pay_addtime<=1510243199  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1510070400 and pay_addtime<=1510156799  ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1509984000 and pay_addtime<=1510070399  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1509897600 and pay_addtime<=1509983999  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1509811200 and pay_addtime<=1509897599  ) LIMIT 1   [ RunTime:0.0090s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1509724800 and pay_addtime<=1509811199  ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1509638400 and pay_addtime<=1509724799  ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1509552000 and pay_addtime<=1509638399  ) LIMIT 1   [ RunTime:0.0120s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1509465600 and pay_addtime<=1509551999  ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` left join ec_user on ec_user.user_id=ec_payinfo.user_id  WHERE ( 1 and pay_addtime>=1509379200 and pay_addtime<=1509465599  ) LIMIT 1   [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `ec_payinfo` [ RunTime:0.0080s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: keyword D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\e6c5697d3460b9f2ac1df1be5b452ec5.php 第 32 行.
+NOTIC: [8] Undefined variable: pay_type D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\e6c5697d3460b9f2ac1df1be5b452ec5.php 第 38 行.
+NOTIC: [8] Undefined variable: pay_type D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\e6c5697d3460b9f2ac1df1be5b452ec5.php 第 38 行.
+NOTIC: [8] Undefined variable: pay_type D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\e6c5697d3460b9f2ac1df1be5b452ec5.php 第 38 行.
+NOTIC: [8] Undefined variable: pay_flag D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\e6c5697d3460b9f2ac1df1be5b452ec5.php 第 45 行.
+NOTIC: [8] Undefined variable: pay_flag D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\e6c5697d3460b9f2ac1df1be5b452ec5.php 第 45 行.
+NOTIC: [8] Undefined variable: pageshow D:\xampp\htdocs\jianyinew\Application\Runtime\Cache\Admin\e6c5697d3460b9f2ac1df1be5b452ec5.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

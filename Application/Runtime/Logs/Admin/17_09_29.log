@@ -1,0 +1,1104 @@
+[ 2017-09-29T10:34:57+08:00 ] 192.168.2.2 /index.php?m=admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'ENRQ6EU2VHADZMV' (using password: YES)
+
+[ 2017-09-29T10:34:59+08:00 ] 192.168.2.2 /index.php?m=admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'ENRQ6EU2VHADZMV' (using password: YES)
+
+[ 2017-09-29T10:35:30+08:00 ] 192.168.2.2 /index.php?m=admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-29T10:35:30+08:00 ] 192.168.2.2 /index.php?m=Admin&c=index&a=top
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-29T10:35:30+08:00 ] 192.168.2.2 /index.php?m=Admin&c=index&a=welcome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0140s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( vip!=0 ) LIMIT 1   [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `ec_buyinfo` [ RunTime:0.0040s ]
+SQL: SELECT SUM(buy_money) AS tp_sum FROM `ec_buyinfo` WHERE ( buy_flag=2 ) LIMIT 1   [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `ec_payinfo` [ RunTime:0.0040s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` WHERE ( pay_flag=2 ) LIMIT 1   [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `ec_moneyinfo` [ RunTime:0.0050s ]
+SQL: SELECT SUM(money_money) AS tp_sum FROM `ec_moneyinfo` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-29T10:35:31+08:00 ] 192.168.2.2 /index.php?m=Admin&c=index&a=left
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `ec_adminmenu` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ec_adminmenu` WHERE ( menu_fatherid=0 and menu_type=1 and menu_id in (1,34,36,53,37,38,17,18,20,30,32,33,57,65,66,7,8,9,10,60,61,63,64,2,3,22,24,43,44,46,48,51,52,55,45,49,50,54,62) ) ORDER BY sort desc,menu_id asc  [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ec_adminmenu` WHERE ( menu_fatherid=1 and menu_type=1  and menu_id in (1,34,36,53,37,38,17,18,20,30,32,33,57,65,66,7,8,9,10,60,61,63,64,2,3,22,24,43,44,46,48,51,52,55,45,49,50,54,62) ) ORDER BY sort desc,menu_id asc  [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ec_adminmenu` WHERE ( menu_fatherid=34 and menu_type=1  and menu_id in (1,34,36,53,37,38,17,18,20,30,32,33,57,65,66,7,8,9,10,60,61,63,64,2,3,22,24,43,44,46,48,51,52,55,45,49,50,54,62) ) ORDER BY sort desc,menu_id asc  [ RunTime:0.0170s ]
+SQL: SELECT * FROM `ec_adminmenu` WHERE ( menu_fatherid=17 and menu_type=1  and menu_id in (1,34,36,53,37,38,17,18,20,30,32,33,57,65,66,7,8,9,10,60,61,63,64,2,3,22,24,43,44,46,48,51,52,55,45,49,50,54,62) ) ORDER BY sort desc,menu_id asc  [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ec_adminmenu` WHERE ( menu_fatherid=7 and menu_type=1  and menu_id in (1,34,36,53,37,38,17,18,20,30,32,33,57,65,66,7,8,9,10,60,61,63,64,2,3,22,24,43,44,46,48,51,52,55,45,49,50,54,62) ) ORDER BY sort desc,menu_id asc  [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ec_adminmenu` WHERE ( menu_fatherid=2 and menu_type=1  and menu_id in (1,34,36,53,37,38,17,18,20,30,32,33,57,65,66,7,8,9,10,60,61,63,64,2,3,22,24,43,44,46,48,51,52,55,45,49,50,54,62) ) ORDER BY sort desc,menu_id asc  [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ec_adminmenu` WHERE ( menu_fatherid=43 and menu_type=1  and menu_id in (1,34,36,53,37,38,17,18,20,30,32,33,57,65,66,7,8,9,10,60,61,63,64,2,3,22,24,43,44,46,48,51,52,55,45,49,50,54,62) ) ORDER BY sort desc,menu_id asc  [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ec_adminmenu` WHERE ( menu_fatherid=44 and menu_type=1  and menu_id in (1,34,36,53,37,38,17,18,20,30,32,33,57,65,66,7,8,9,10,60,61,63,64,2,3,22,24,43,44,46,48,51,52,55,45,49,50,54,62) ) ORDER BY sort desc,menu_id asc  [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ec_adminmenu` WHERE ( menu_fatherid=45 and menu_type=1  and menu_id in (1,34,36,53,37,38,17,18,20,30,32,33,57,65,66,7,8,9,10,60,61,63,64,2,3,22,24,43,44,46,48,51,52,55,45,49,50,54,62) ) ORDER BY sort desc,menu_id asc  [ RunTime:0.0420s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-29T10:35:31+08:00 ] 192.168.2.2 /index.php?m=Admin&c=index&a=bottom
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-29T10:35:33+08:00 ] 192.168.2.2 /index.php?m=admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0150s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-29T10:35:33+08:00 ] 192.168.2.2 /index.php?m=Admin&c=index&a=left
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `ec_adminmenu` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ec_adminmenu` WHERE ( menu_fatherid=0 and menu_type=1 and menu_id in (1,34,36,53,37,38,17,18,20,30,32,33,57,65,66,7,8,9,10,60,61,63,64,2,3,22,24,43,44,46,48,51,52,55,45,49,50,54,62) ) ORDER BY sort desc,menu_id asc  [ RunTime:0.0240s ]
+SQL: SELECT * FROM `ec_adminmenu` WHERE ( menu_fatherid=1 and menu_type=1  and menu_id in (1,34,36,53,37,38,17,18,20,30,32,33,57,65,66,7,8,9,10,60,61,63,64,2,3,22,24,43,44,46,48,51,52,55,45,49,50,54,62) ) ORDER BY sort desc,menu_id asc  [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ec_adminmenu` WHERE ( menu_fatherid=34 and menu_type=1  and menu_id in (1,34,36,53,37,38,17,18,20,30,32,33,57,65,66,7,8,9,10,60,61,63,64,2,3,22,24,43,44,46,48,51,52,55,45,49,50,54,62) ) ORDER BY sort desc,menu_id asc  [ RunTime:0.0170s ]
+SQL: SELECT * FROM `ec_adminmenu` WHERE ( menu_fatherid=17 and menu_type=1  and menu_id in (1,34,36,53,37,38,17,18,20,30,32,33,57,65,66,7,8,9,10,60,61,63,64,2,3,22,24,43,44,46,48,51,52,55,45,49,50,54,62) ) ORDER BY sort desc,menu_id asc  [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ec_adminmenu` WHERE ( menu_fatherid=7 and menu_type=1  and menu_id in (1,34,36,53,37,38,17,18,20,30,32,33,57,65,66,7,8,9,10,60,61,63,64,2,3,22,24,43,44,46,48,51,52,55,45,49,50,54,62) ) ORDER BY sort desc,menu_id asc  [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ec_adminmenu` WHERE ( menu_fatherid=2 and menu_type=1  and menu_id in (1,34,36,53,37,38,17,18,20,30,32,33,57,65,66,7,8,9,10,60,61,63,64,2,3,22,24,43,44,46,48,51,52,55,45,49,50,54,62) ) ORDER BY sort desc,menu_id asc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ec_adminmenu` WHERE ( menu_fatherid=43 and menu_type=1  and menu_id in (1,34,36,53,37,38,17,18,20,30,32,33,57,65,66,7,8,9,10,60,61,63,64,2,3,22,24,43,44,46,48,51,52,55,45,49,50,54,62) ) ORDER BY sort desc,menu_id asc  [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ec_adminmenu` WHERE ( menu_fatherid=44 and menu_type=1  and menu_id in (1,34,36,53,37,38,17,18,20,30,32,33,57,65,66,7,8,9,10,60,61,63,64,2,3,22,24,43,44,46,48,51,52,55,45,49,50,54,62) ) ORDER BY sort desc,menu_id asc  [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ec_adminmenu` WHERE ( menu_fatherid=45 and menu_type=1  and menu_id in (1,34,36,53,37,38,17,18,20,30,32,33,57,65,66,7,8,9,10,60,61,63,64,2,3,22,24,43,44,46,48,51,52,55,45,49,50,54,62) ) ORDER BY sort desc,menu_id asc  [ RunTime:0.0110s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-29T10:35:33+08:00 ] 192.168.2.2 /index.php?m=Admin&c=index&a=top
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-29T10:35:34+08:00 ] 192.168.2.2 /index.php?m=Admin&c=index&a=welcome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0110s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( vip!=0 ) LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `ec_buyinfo` [ RunTime:0.0050s ]
+SQL: SELECT SUM(buy_money) AS tp_sum FROM `ec_buyinfo` WHERE ( buy_flag=2 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ec_payinfo` [ RunTime:0.0090s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` WHERE ( pay_flag=2 ) LIMIT 1   [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `ec_moneyinfo` [ RunTime:0.0420s ]
+SQL: SELECT SUM(money_money) AS tp_sum FROM `ec_moneyinfo` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-29T10:35:34+08:00 ] 192.168.2.2 /index.php?m=Admin&c=index&a=bottom
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-29T10:35:34+08:00 ] 192.168.2.2 /index.php?m=admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-29T10:35:34+08:00 ] 192.168.2.2 /index.php?m=Admin&c=index&a=left
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `ec_adminmenu` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ec_adminmenu` WHERE ( menu_fatherid=0 and menu_type=1 and menu_id in (1,34,36,53,37,38,17,18,20,30,32,33,57,65,66,7,8,9,10,60,61,63,64,2,3,22,24,43,44,46,48,51,52,55,45,49,50,54,62) ) ORDER BY sort desc,menu_id asc  [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ec_adminmenu` WHERE ( menu_fatherid=1 and menu_type=1  and menu_id in (1,34,36,53,37,38,17,18,20,30,32,33,57,65,66,7,8,9,10,60,61,63,64,2,3,22,24,43,44,46,48,51,52,55,45,49,50,54,62) ) ORDER BY sort desc,menu_id asc  [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ec_adminmenu` WHERE ( menu_fatherid=34 and menu_type=1  and menu_id in (1,34,36,53,37,38,17,18,20,30,32,33,57,65,66,7,8,9,10,60,61,63,64,2,3,22,24,43,44,46,48,51,52,55,45,49,50,54,62) ) ORDER BY sort desc,menu_id asc  [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ec_adminmenu` WHERE ( menu_fatherid=17 and menu_type=1  and menu_id in (1,34,36,53,37,38,17,18,20,30,32,33,57,65,66,7,8,9,10,60,61,63,64,2,3,22,24,43,44,46,48,51,52,55,45,49,50,54,62) ) ORDER BY sort desc,menu_id asc  [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ec_adminmenu` WHERE ( menu_fatherid=7 and menu_type=1  and menu_id in (1,34,36,53,37,38,17,18,20,30,32,33,57,65,66,7,8,9,10,60,61,63,64,2,3,22,24,43,44,46,48,51,52,55,45,49,50,54,62) ) ORDER BY sort desc,menu_id asc  [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ec_adminmenu` WHERE ( menu_fatherid=2 and menu_type=1  and menu_id in (1,34,36,53,37,38,17,18,20,30,32,33,57,65,66,7,8,9,10,60,61,63,64,2,3,22,24,43,44,46,48,51,52,55,45,49,50,54,62) ) ORDER BY sort desc,menu_id asc  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ec_adminmenu` WHERE ( menu_fatherid=43 and menu_type=1  and menu_id in (1,34,36,53,37,38,17,18,20,30,32,33,57,65,66,7,8,9,10,60,61,63,64,2,3,22,24,43,44,46,48,51,52,55,45,49,50,54,62) ) ORDER BY sort desc,menu_id asc  [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ec_adminmenu` WHERE ( menu_fatherid=44 and menu_type=1  and menu_id in (1,34,36,53,37,38,17,18,20,30,32,33,57,65,66,7,8,9,10,60,61,63,64,2,3,22,24,43,44,46,48,51,52,55,45,49,50,54,62) ) ORDER BY sort desc,menu_id asc  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ec_adminmenu` WHERE ( menu_fatherid=45 and menu_type=1  and menu_id in (1,34,36,53,37,38,17,18,20,30,32,33,57,65,66,7,8,9,10,60,61,63,64,2,3,22,24,43,44,46,48,51,52,55,45,49,50,54,62) ) ORDER BY sort desc,menu_id asc  [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-29T10:35:35+08:00 ] 192.168.2.2 /index.php?m=Admin&c=index&a=top
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-29T10:35:35+08:00 ] 192.168.2.2 /index.php?m=Admin&c=index&a=bottom
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-29T10:35:35+08:00 ] 192.168.2.2 /index.php?m=Admin&c=index&a=welcome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( vip!=0 ) LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `ec_buyinfo` [ RunTime:0.0040s ]
+SQL: SELECT SUM(buy_money) AS tp_sum FROM `ec_buyinfo` WHERE ( buy_flag=2 ) LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `ec_payinfo` [ RunTime:0.0040s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` WHERE ( pay_flag=2 ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `ec_moneyinfo` [ RunTime:0.0040s ]
+SQL: SELECT SUM(money_money) AS tp_sum FROM `ec_moneyinfo` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-29T10:35:46+08:00 ] 192.168.2.2 /index.php?m=admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-29T10:35:49+08:00 ] 192.168.2.2 /index.php?m=Admin&c=login&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-29T10:35:57+08:00 ] 192.168.2.2 /index.php?m=Admin&c=login&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-29T10:35:58+08:00 ] 192.168.2.2 /index.php?m=Admin&c=login&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-29T10:35:58+08:00 ] 192.168.2.2 /index.php?m=Admin&c=login&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-29T10:35:58+08:00 ] 192.168.2.2 /index.php?m=Admin&c=login&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-29T10:35:58+08:00 ] 192.168.2.2 /index.php?m=Admin&c=login&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-29T10:35:59+08:00 ] 192.168.2.2 /index.php?m=Admin&c=login&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-29T10:36:01+08:00 ] 192.168.2.2 /index.php?m=admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-29T10:36:04+08:00 ] 192.168.2.2 /index.php?m=Admin&c=login&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-29T10:36:10+08:00 ] 192.168.2.2 /index.php?m=Admin&c=login&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ec_admininfo` WHERE ( username='admin' and isable=1 ) LIMIT 1   [ RunTime:0.0156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-29T10:36:13+08:00 ] 192.168.2.2 /index.php?m=Admin&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-29T10:36:13+08:00 ] 192.168.2.2 /index.php?m=Admin&c=index&a=left
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ec_adminmenu` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `ec_adminmenu` WHERE ( menu_fatherid=0 and menu_type=1 and menu_id in (1,34,36,53,37,38,17,18,20,30,32,33,57,65,66,7,8,9,10,60,61,63,64,2,3,22,24,43,44,46,48,51,52,55,45,49,50,54,62) ) ORDER BY sort desc,menu_id asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ec_adminmenu` WHERE ( menu_fatherid=1 and menu_type=1  and menu_id in (1,34,36,53,37,38,17,18,20,30,32,33,57,65,66,7,8,9,10,60,61,63,64,2,3,22,24,43,44,46,48,51,52,55,45,49,50,54,62) ) ORDER BY sort desc,menu_id asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ec_adminmenu` WHERE ( menu_fatherid=34 and menu_type=1  and menu_id in (1,34,36,53,37,38,17,18,20,30,32,33,57,65,66,7,8,9,10,60,61,63,64,2,3,22,24,43,44,46,48,51,52,55,45,49,50,54,62) ) ORDER BY sort desc,menu_id asc  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `ec_adminmenu` WHERE ( menu_fatherid=17 and menu_type=1  and menu_id in (1,34,36,53,37,38,17,18,20,30,32,33,57,65,66,7,8,9,10,60,61,63,64,2,3,22,24,43,44,46,48,51,52,55,45,49,50,54,62) ) ORDER BY sort desc,menu_id asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ec_adminmenu` WHERE ( menu_fatherid=7 and menu_type=1  and menu_id in (1,34,36,53,37,38,17,18,20,30,32,33,57,65,66,7,8,9,10,60,61,63,64,2,3,22,24,43,44,46,48,51,52,55,45,49,50,54,62) ) ORDER BY sort desc,menu_id asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ec_adminmenu` WHERE ( menu_fatherid=2 and menu_type=1  and menu_id in (1,34,36,53,37,38,17,18,20,30,32,33,57,65,66,7,8,9,10,60,61,63,64,2,3,22,24,43,44,46,48,51,52,55,45,49,50,54,62) ) ORDER BY sort desc,menu_id asc  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `ec_adminmenu` WHERE ( menu_fatherid=43 and menu_type=1  and menu_id in (1,34,36,53,37,38,17,18,20,30,32,33,57,65,66,7,8,9,10,60,61,63,64,2,3,22,24,43,44,46,48,51,52,55,45,49,50,54,62) ) ORDER BY sort desc,menu_id asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ec_adminmenu` WHERE ( menu_fatherid=44 and menu_type=1  and menu_id in (1,34,36,53,37,38,17,18,20,30,32,33,57,65,66,7,8,9,10,60,61,63,64,2,3,22,24,43,44,46,48,51,52,55,45,49,50,54,62) ) ORDER BY sort desc,menu_id asc  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `ec_adminmenu` WHERE ( menu_fatherid=45 and menu_type=1  and menu_id in (1,34,36,53,37,38,17,18,20,30,32,33,57,65,66,7,8,9,10,60,61,63,64,2,3,22,24,43,44,46,48,51,52,55,45,49,50,54,62) ) ORDER BY sort desc,menu_id asc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-29T10:36:14+08:00 ] 192.168.2.2 /index.php?m=Admin&c=index&a=top
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-29T10:36:14+08:00 ] 192.168.2.2 /index.php?m=Admin&c=index&a=bottom
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-29T10:36:14+08:00 ] 192.168.2.2 /index.php?m=Admin&c=index&a=welcome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( vip!=0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ec_buyinfo` [ RunTime:0.0000s ]
+SQL: SELECT SUM(buy_money) AS tp_sum FROM `ec_buyinfo` WHERE ( buy_flag=2 ) LIMIT 1   [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `ec_payinfo` [ RunTime:0.0000s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` WHERE ( pay_flag=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ec_moneyinfo` [ RunTime:0.0000s ]
+SQL: SELECT SUM(money_money) AS tp_sum FROM `ec_moneyinfo` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-29T10:36:15+08:00 ] 192.168.2.2 /index.php?m=Admin&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-29T10:36:15+08:00 ] 192.168.2.2 /index.php?m=Admin&c=index&a=left
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ec_adminmenu` [ RunTime:0.0312s ]
+SQL: SELECT * FROM `ec_adminmenu` WHERE ( menu_fatherid=0 and menu_type=1 and menu_id in (1,34,36,53,37,38,17,18,20,30,32,33,57,65,66,7,8,9,10,60,61,63,64,2,3,22,24,43,44,46,48,51,52,55,45,49,50,54,62) ) ORDER BY sort desc,menu_id asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ec_adminmenu` WHERE ( menu_fatherid=1 and menu_type=1  and menu_id in (1,34,36,53,37,38,17,18,20,30,32,33,57,65,66,7,8,9,10,60,61,63,64,2,3,22,24,43,44,46,48,51,52,55,45,49,50,54,62) ) ORDER BY sort desc,menu_id asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ec_adminmenu` WHERE ( menu_fatherid=34 and menu_type=1  and menu_id in (1,34,36,53,37,38,17,18,20,30,32,33,57,65,66,7,8,9,10,60,61,63,64,2,3,22,24,43,44,46,48,51,52,55,45,49,50,54,62) ) ORDER BY sort desc,menu_id asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ec_adminmenu` WHERE ( menu_fatherid=17 and menu_type=1  and menu_id in (1,34,36,53,37,38,17,18,20,30,32,33,57,65,66,7,8,9,10,60,61,63,64,2,3,22,24,43,44,46,48,51,52,55,45,49,50,54,62) ) ORDER BY sort desc,menu_id asc  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `ec_adminmenu` WHERE ( menu_fatherid=7 and menu_type=1  and menu_id in (1,34,36,53,37,38,17,18,20,30,32,33,57,65,66,7,8,9,10,60,61,63,64,2,3,22,24,43,44,46,48,51,52,55,45,49,50,54,62) ) ORDER BY sort desc,menu_id asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ec_adminmenu` WHERE ( menu_fatherid=2 and menu_type=1  and menu_id in (1,34,36,53,37,38,17,18,20,30,32,33,57,65,66,7,8,9,10,60,61,63,64,2,3,22,24,43,44,46,48,51,52,55,45,49,50,54,62) ) ORDER BY sort desc,menu_id asc  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `ec_adminmenu` WHERE ( menu_fatherid=43 and menu_type=1  and menu_id in (1,34,36,53,37,38,17,18,20,30,32,33,57,65,66,7,8,9,10,60,61,63,64,2,3,22,24,43,44,46,48,51,52,55,45,49,50,54,62) ) ORDER BY sort desc,menu_id asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ec_adminmenu` WHERE ( menu_fatherid=44 and menu_type=1  and menu_id in (1,34,36,53,37,38,17,18,20,30,32,33,57,65,66,7,8,9,10,60,61,63,64,2,3,22,24,43,44,46,48,51,52,55,45,49,50,54,62) ) ORDER BY sort desc,menu_id asc  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `ec_adminmenu` WHERE ( menu_fatherid=45 and menu_type=1  and menu_id in (1,34,36,53,37,38,17,18,20,30,32,33,57,65,66,7,8,9,10,60,61,63,64,2,3,22,24,43,44,46,48,51,52,55,45,49,50,54,62) ) ORDER BY sort desc,menu_id asc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-29T10:36:15+08:00 ] 192.168.2.2 /index.php?m=Admin&c=index&a=bottom
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-29T10:36:15+08:00 ] 192.168.2.2 /index.php?m=Admin&c=index&a=top
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-29T10:36:15+08:00 ] 192.168.2.2 /index.php?m=Admin&c=index&a=welcome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( vip!=0 ) LIMIT 1   [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `ec_buyinfo` [ RunTime:0.0000s ]
+SQL: SELECT SUM(buy_money) AS tp_sum FROM `ec_buyinfo` WHERE ( buy_flag=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ec_payinfo` [ RunTime:0.0000s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` WHERE ( pay_flag=2 ) LIMIT 1   [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `ec_moneyinfo` [ RunTime:0.0000s ]
+SQL: SELECT SUM(money_money) AS tp_sum FROM `ec_moneyinfo` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-29T10:36:35+08:00 ] 192.168.2.2 /index.php?m=Admin&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-29T10:36:35+08:00 ] 192.168.2.2 /index.php?m=Admin&c=index&a=left
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `ec_adminmenu` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ec_adminmenu` WHERE ( menu_fatherid=0 and menu_type=1 and menu_id in (1,34,36,53,37,38,17,18,20,30,32,33,57,65,66,7,8,9,10,60,61,63,64,2,3,22,24,43,44,46,48,51,52,55,45,49,50,54,62) ) ORDER BY sort desc,menu_id asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ec_adminmenu` WHERE ( menu_fatherid=1 and menu_type=1  and menu_id in (1,34,36,53,37,38,17,18,20,30,32,33,57,65,66,7,8,9,10,60,61,63,64,2,3,22,24,43,44,46,48,51,52,55,45,49,50,54,62) ) ORDER BY sort desc,menu_id asc  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `ec_adminmenu` WHERE ( menu_fatherid=34 and menu_type=1  and menu_id in (1,34,36,53,37,38,17,18,20,30,32,33,57,65,66,7,8,9,10,60,61,63,64,2,3,22,24,43,44,46,48,51,52,55,45,49,50,54,62) ) ORDER BY sort desc,menu_id asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ec_adminmenu` WHERE ( menu_fatherid=17 and menu_type=1  and menu_id in (1,34,36,53,37,38,17,18,20,30,32,33,57,65,66,7,8,9,10,60,61,63,64,2,3,22,24,43,44,46,48,51,52,55,45,49,50,54,62) ) ORDER BY sort desc,menu_id asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ec_adminmenu` WHERE ( menu_fatherid=7 and menu_type=1  and menu_id in (1,34,36,53,37,38,17,18,20,30,32,33,57,65,66,7,8,9,10,60,61,63,64,2,3,22,24,43,44,46,48,51,52,55,45,49,50,54,62) ) ORDER BY sort desc,menu_id asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ec_adminmenu` WHERE ( menu_fatherid=2 and menu_type=1  and menu_id in (1,34,36,53,37,38,17,18,20,30,32,33,57,65,66,7,8,9,10,60,61,63,64,2,3,22,24,43,44,46,48,51,52,55,45,49,50,54,62) ) ORDER BY sort desc,menu_id asc  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `ec_adminmenu` WHERE ( menu_fatherid=43 and menu_type=1  and menu_id in (1,34,36,53,37,38,17,18,20,30,32,33,57,65,66,7,8,9,10,60,61,63,64,2,3,22,24,43,44,46,48,51,52,55,45,49,50,54,62) ) ORDER BY sort desc,menu_id asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ec_adminmenu` WHERE ( menu_fatherid=44 and menu_type=1  and menu_id in (1,34,36,53,37,38,17,18,20,30,32,33,57,65,66,7,8,9,10,60,61,63,64,2,3,22,24,43,44,46,48,51,52,55,45,49,50,54,62) ) ORDER BY sort desc,menu_id asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ec_adminmenu` WHERE ( menu_fatherid=45 and menu_type=1  and menu_id in (1,34,36,53,37,38,17,18,20,30,32,33,57,65,66,7,8,9,10,60,61,63,64,2,3,22,24,43,44,46,48,51,52,55,45,49,50,54,62) ) ORDER BY sort desc,menu_id asc  [ RunTime:0.0156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-29T10:36:36+08:00 ] 192.168.2.2 /index.php?m=Admin&c=index&a=top
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-29T10:36:36+08:00 ] 192.168.2.2 /index.php?m=Admin&c=index&a=welcome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( vip!=0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ec_buyinfo` [ RunTime:0.0000s ]
+SQL: SELECT SUM(buy_money) AS tp_sum FROM `ec_buyinfo` WHERE ( buy_flag=2 ) LIMIT 1   [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `ec_payinfo` [ RunTime:0.0000s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` WHERE ( pay_flag=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ec_moneyinfo` [ RunTime:0.0000s ]
+SQL: SELECT SUM(money_money) AS tp_sum FROM `ec_moneyinfo` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-29T10:36:36+08:00 ] 192.168.2.2 /index.php?m=Admin&c=index&a=bottom
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-29T10:36:37+08:00 ] 192.168.2.2 /index.php?m=Admin&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-29T10:36:37+08:00 ] 192.168.2.2 /index.php?m=Admin&c=index&a=top
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-29T10:36:37+08:00 ] 192.168.2.2 /index.php?m=Admin&c=index&a=left
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ec_adminmenu` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `ec_adminmenu` WHERE ( menu_fatherid=0 and menu_type=1 and menu_id in (1,34,36,53,37,38,17,18,20,30,32,33,57,65,66,7,8,9,10,60,61,63,64,2,3,22,24,43,44,46,48,51,52,55,45,49,50,54,62) ) ORDER BY sort desc,menu_id asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ec_adminmenu` WHERE ( menu_fatherid=1 and menu_type=1  and menu_id in (1,34,36,53,37,38,17,18,20,30,32,33,57,65,66,7,8,9,10,60,61,63,64,2,3,22,24,43,44,46,48,51,52,55,45,49,50,54,62) ) ORDER BY sort desc,menu_id asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ec_adminmenu` WHERE ( menu_fatherid=34 and menu_type=1  and menu_id in (1,34,36,53,37,38,17,18,20,30,32,33,57,65,66,7,8,9,10,60,61,63,64,2,3,22,24,43,44,46,48,51,52,55,45,49,50,54,62) ) ORDER BY sort desc,menu_id asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ec_adminmenu` WHERE ( menu_fatherid=17 and menu_type=1  and menu_id in (1,34,36,53,37,38,17,18,20,30,32,33,57,65,66,7,8,9,10,60,61,63,64,2,3,22,24,43,44,46,48,51,52,55,45,49,50,54,62) ) ORDER BY sort desc,menu_id asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ec_adminmenu` WHERE ( menu_fatherid=7 and menu_type=1  and menu_id in (1,34,36,53,37,38,17,18,20,30,32,33,57,65,66,7,8,9,10,60,61,63,64,2,3,22,24,43,44,46,48,51,52,55,45,49,50,54,62) ) ORDER BY sort desc,menu_id asc  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `ec_adminmenu` WHERE ( menu_fatherid=2 and menu_type=1  and menu_id in (1,34,36,53,37,38,17,18,20,30,32,33,57,65,66,7,8,9,10,60,61,63,64,2,3,22,24,43,44,46,48,51,52,55,45,49,50,54,62) ) ORDER BY sort desc,menu_id asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ec_adminmenu` WHERE ( menu_fatherid=43 and menu_type=1  and menu_id in (1,34,36,53,37,38,17,18,20,30,32,33,57,65,66,7,8,9,10,60,61,63,64,2,3,22,24,43,44,46,48,51,52,55,45,49,50,54,62) ) ORDER BY sort desc,menu_id asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ec_adminmenu` WHERE ( menu_fatherid=44 and menu_type=1  and menu_id in (1,34,36,53,37,38,17,18,20,30,32,33,57,65,66,7,8,9,10,60,61,63,64,2,3,22,24,43,44,46,48,51,52,55,45,49,50,54,62) ) ORDER BY sort desc,menu_id asc  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `ec_adminmenu` WHERE ( menu_fatherid=45 and menu_type=1  and menu_id in (1,34,36,53,37,38,17,18,20,30,32,33,57,65,66,7,8,9,10,60,61,63,64,2,3,22,24,43,44,46,48,51,52,55,45,49,50,54,62) ) ORDER BY sort desc,menu_id asc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2017-09-29T10:36:37+08:00 ] 192.168.2.2 /index.php?m=Admin&c=index&a=welcome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( vip!=0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ec_buyinfo` [ RunTime:0.0000s ]
+SQL: SELECT SUM(buy_money) AS tp_sum FROM `ec_buyinfo` WHERE ( buy_flag=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ec_payinfo` [ RunTime:0.0000s ]
+SQL: SELECT SUM(pay_money) AS tp_sum FROM `ec_payinfo` WHERE ( pay_flag=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ec_moneyinfo` [ RunTime:0.0156s ]
+SQL: SELECT SUM(money_money) AS tp_sum FROM `ec_moneyinfo` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-29T10:36:37+08:00 ] 192.168.2.2 /index.php?m=Admin&c=index&a=bottom
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ec_admininfo` [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

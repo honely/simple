@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>视频直播管理</title>
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/admin/css/html5.css"/>
+		<link rel="stylesheet" type="text/css"  href="__PUBLIC__/admin/font/iconfont.css">
+		<link rel="stylesheet" type="text/css"  href="__PUBLIC__/admin/font/css/font-awesome.css">
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/admin/css/index.css"/>
+		<script src="__PUBLIC__/admin/js/jquery-1.10.2.min.js" type="text/javascript" charset="utf-8"></script>
+
+	</head>
+	<body>
+		<div class="right_min">
+			<div class="crumbs_nav">
+				<i class="iconfont icon-shouye"></i>
+				<ul>
+				    <li><a href="{:U('index/welcome')}">首页</a></li>
+				    <li> > </li>
+					<li><a href="javascript:void(0);">其他设置</a></li>
+					<li> > </li>
+					<li><a href="javascript:void(0);">视频直播管理</a></li>
+				</ul>
+			</div>
+			<div class="min">
+				<!--查询-->
+				<!--添加角色-->
+						
+				<div class="query">
+					<form  name="seachform" id="seachform"  action="{:U('liveinfo/index')}"  method="post" class="form"  onsubmit="return checkkwd()">
+						<div class="form_input mg_trb">
+							<label class="text">快速检索</label>
+							<input type="text" name="info[keyword]" id="keyword" value="{$keyword}"  placeholder="请输入直播标题"  maxlength="40"/>
+						</div>	
+                        <div class="select mg_trb">
+							<span class="text">直播状态</span>
+							<select name="info[live_flag]">
+								<option value="">--请选择状态--</option>
+								<option value="2" <if condition="2 eq $liveflag ">selected</if>>开启</option>
+								<option value="1" <if condition="1 eq $liveflag ">selected</if>>关闭</option>
+                                <!--<option value="{$data.live_id}" <if condition="$data['live_id'] eq $live_flag ">selected</if>>{$data.vip_name}</option>-->
+								
+							</select>
+                        </div>						
+						<div class="button mg_trb">
+							<i class="fa fa-refresh ico"></i>
+							<input type="button" value="重置" class="but chongzhi" onclick="location.href='{:U('liveinfo/index')}'"/>
+						</div>
+						<div class="button mg_trb">
+							<i class="fa fa-search ico"></i>
+							<input type="submit" value="查询" class="but chaxun"  />
+						</div>
+					</form>
+				</div>
+				<div class="tianjia">
+					<a class="tianjia_but" href="{:U('liveinfo/addlive')}">
+						<i class="fa fa-plus"></i>
+						添加直播
+					</a>
+				</div>	
+				<div class="table_box">
+					<table class="table" border="" cellspacing="" cellpadding="">
+
+						<thead>
+							<tr>
+								<th>编号</th>
+								<th>直播标题</th>
+								<th>主讲</th>			
+								<th>直播时间</th>		                         									                         								
+								<th>预约人数</th>		                         								
+								<th>直播状态</th>		                         								
+								<th>操作</th>
+							</tr>
+						</thead>
+						<tbody>
+							<volist name="listinfo" id="v">
+							<tr>
+								<td>{$v.live_id}</td>
+								<td>{$v.live_title}</td>
+								<td>{$v.live_speaker}</td>			
+								<td>{$v.live_time}</td>
+								<td>{$v.live_num}</td>
+								<td>{$live_flag[$v['live_flag']]}</td>								
+								<td>
+								<a href="{:U('liveorder/index',array('live_id'=>$v['live_id']))}"  class="but chaxun">
+								<i class="fa fa-eye"></i>
+								查看预约学员</a>
+                                <a href="{:U('liveinfo/editlive',array('live_id'=>$v['live_id']))}"  class="but chaxun">
+								<i class="fa fa-edit"></i>
+								编辑</a>																
+								<if condition="$v['live_flag'] eq 1">
+								<a href="{:U('liveinfo/setlive',array('live_id'=>$v['live_id']))}" onclick="{if(confirm('确认开启?')){return true;}return false;}" class="but chaxun">
+								<i class="fa fa-toggle-on"></i>
+								开启</a>
+								<else/>
+								<a href="{:U('liveinfo/setliveclose',array('live_id'=>$v['live_id']))}" onclick="{if(confirm('确认关闭？')){return true;}return false;}" class="but chaxun">
+								<i class="fa fa-toggle-off" ></i>
+								关闭</a>
+								</if>
+								<a href="{:U('liveinfo/dellive',array('live_id'=>$v['live_id']))}" onclick="{if(confirm('确认删除?')){return true;}return false;}" class="but chongzhi">
+								<i class="fa fa-trash-o"></i>
+								删除</a>
+								<if condition="$v.showsendmsg eq 1">
+								<a href="{:U('liveinfo/sendmsg',array('live_id'=>$v['live_id']))}" class="but chaxun">
+								<i class="fa fa-paper-plane-o"></i>
+								发送短信通知</a>
+								</if>
+								</td>								
+							</tr>
+							</volist>
+						</tbody>
+					</table>
+				</div>				
+				{$Pageshow}
+			</div>
+		</div>
+	</body>
+</html>
+<script type="text/javascript">
+	$(function(){
+		$(".right_min").height($(window).height());
+	});
+	//搜索
+	function checkkwd(){
+		var keyword=$('#keyword').val();
+		/*
+		if(keyword==""){
+			alert("请输入要检索的关键词!");
+			return false;
+		}
+		*/
+	}
+</script>
+
+

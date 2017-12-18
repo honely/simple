@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>下载分类管理</title>
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/admin/css/html5.css"/>
+		<link rel="stylesheet" type="text/css"  href="__PUBLIC__/admin/font/iconfont.css">
+		<link rel="stylesheet" type="text/css"  href="__PUBLIC__/admin/font/css/font-awesome.css">
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/admin/css/index.css"/>
+		<script src="__PUBLIC__/admin/js/jquery-1.10.2.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="right_min">
+			<div class="crumbs_nav">
+				<i class="iconfont icon-shouye"></i>
+				<ul>
+					<li><a href="{:U('index/welcome')}">首页</a></li>
+					<li> > </li>
+					<li><a href="#">其他设置</a></li>
+					<li> > </li>
+					<li><a href="javascript:void(0);">下载分类管理</a></li>
+				</ul>
+			</div>
+			<div class="min">
+				<!--查询-->
+				<div class="query">
+					<form name="seachform" id="seachform" action="{:U('subtype/index')}"  method="post" class="form" >
+						<div class="form_input mg_trb">
+							<label class="text">分类名称</label>
+							<input type="text" name="info[downinfo]" id="keyword" value="{$downinfo}" placeholder="请输入分类名称" maxlength="15"/>							
+						</div>
+						<div class="select mg_trb">
+							<span class="text">工具类型</span>
+							<select name="info[down_type_]">
+								<option value="">--请选择--</option>
+								<volist name="down_type" id="data">
+									<option value="{$key}" <if condition="$key eq $down_type_">selected</if>>{$data}</option>
+								</volist>
+							</select>
+						</div>
+						<div class="button mg_trb" onclick="location.href='{:U('subtype/index')}'">
+							<i class="fa fa-refresh ico"></i>
+							<input type="button" value="重置" class="but chongzhi" />
+						</div>
+						<div class="button mg_trb">
+							<i class="fa fa-search ico"></i>
+							<input type="submit" value="查询" class="but chaxun"/>
+						</div>
+					</form>
+				</div>
+			
+				<div class="tianjia">
+					<a class="tianjia_but" href="{:U('subtype/add')}">
+						<i class="fa fa-plus"></i>
+						添加下载分类
+					</a>
+				</div>
+				<div class="table_box">
+					<table class="table" border="" cellspacing="" cellpadding="">
+		
+						<thead>
+							<tr>
+								<th>编号</th>
+								<th>分类名称</th>
+								<th>分类图片</th>
+								<th>所属大类</th>
+								<th>操作</th>
+							</tr>
+						</thead>
+						<tbody>
+						<volist name="listinfo" id="subtype">
+						<tr>
+							<td>{$subtype.subtype_id}</td>
+							<td>{$subtype.subtype_name}</td>
+							<td>
+							<img style="height: 30px;width:30px;" src="{$subtype.subtype_image}" />
+							</td>
+							<td>{$down_type[$subtype['type_id']]}</td>
+							<td>
+							<a href="{:U('subtype/edit',array('subtype_id'=>$subtype['subtype_id']))}" class="but chaxun">
+							<i class="fa fa-edit"></i>
+							编辑</a>
+							<a href="{:U('subtype/del',array('subtype_id'=>$subtype['subtype_id']))}" onclick="{if(confirm('确认删除?')){return true;}return false;}" class="but chongzhi">
+							<i class="fa fa-trash-o"></i>
+							删除</a>
+							</td>
+						</tr> 
+						</volist>
+						
+						</tbody>
+					</table>
+				</div>
+				{$pageshow}
+			</div>
+		</div>
+	</body>
+</html>
+<script type="text/javascript">
+	$(function(){
+		$(".right_min").height($(window).height());
+	});
+</script>
